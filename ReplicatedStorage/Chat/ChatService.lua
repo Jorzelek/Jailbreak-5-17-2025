@@ -1,0 +1,150 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgNYDnBsYXllclJlbW92aW5nBFRhZ3MLaXNNYWluV29ybGQTZG9lc1BsYXllck93bkNhY2hlZAxFbnVtR2FtZXBhc3MDVklQCUNoYXRDb2xvcgdUYWdUZXh0CFRhZ0NvbG9yBltWSVBdIAV0YWJsZQZpbnNlcnQMaXNUcmFkZVdvcmxkClRyYWRpbmdWSVANW1RyYWRpbmdWSVBdIAZVc2VySWQRc2V0UGxheWVyQ2hhdERhdGEDbmV3E09uQW55UGxheWVyQW55T3duZWQHQ29ubmVjdAhHaXZlVGFzawtwbGF5ZXJBZGRlZAhJbnN0YW5jZRlUZXh0Q2hhdE1lc3NhZ2VQcm9wZXJ0aWVzC1RleHRDaGFubmVsBnN0cmluZwRmaW5kBE5hbWUHUkJYVGVhbQpUZXh0U291cmNlCE1ldGFkYXRhE0JhZGltb1N5c3RlbU1lc3NhZ2URZG9lc1RleHRIYXZlQ29sb3IEVGV4dBRleHRyYWN0Q29sb3JGcm9tVGV4dA5hZGRDb2xvclRvVGV4dAhbU3lzdGVtXQpQcmVmaXhUZXh0A3N1YgpCcmlja0NvbG9yBUNvbG9yEUdldFBsYXllckJ5VXNlcklkCkNoYXRMb2FkZWQMR2V0QXR0cmlidXRlC0xvY2FsUGxheWVyBEVudW0VVGV4dENoYXRNZXNzYWdlU3RhdHVzHUludmFsaWRUZXh0Q2hhbm5lbFBlcm1pc3Npb25zBlN0YXR1cwZDb2xvcjMAB2Zyb21IU1YEbWF0aAZyYW5kb20Rb25NZXNzYWdlSW5jb21pbmcERmlyZRtCdWJibGVDaGF0TWVzc2FnZVByb3BlcnRpZXMQQmFja2dyb3VuZENvbG9yMxdDaGF0V2luZG93Q29uZmlndXJhdGlvbhVGaW5kRmlyc3RDaGlsZE9mQ2xhc3MWVGV4dFN0cm9rZVRyYW5zcGFyZW5jeQR3YXJuIUNoYXRXaW5kb3dDb25maWd1cmF0aW9uIG5vdCBmb3VuZApHZXRQbGF5ZXJzC1BsYXllckFkZGVkDlBsYXllclJlbW92aW5nEU9uSW5jb21pbmdNZXNzYWdlDU9uQnViYmxlQWRkZWQEaW5pdARnYW1lB1BsYXllcnMKR2V0U2VydmljZRFSZXBsaWNhdGVkU3RvcmFnZQdyZXF1aXJlA0FwcAhS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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("Players")
+local v2 = game:GetService("ReplicatedStorage")
+local v_u_3 = require(v2.App.RunUtils)
+local v_u_4 = game:GetService("TextChatService")
+local v_u_5 = require(v2.Game.Gamepass.GamepassSystem)
+local v_u_6 = require(v2.Game.Gamepass.GamepassUtils)
+local v_u_7 = require(v2.Std.Maid)
+local v_u_8 = require(v2.Std.RichTextUtils)
+local v9 = require(v2.Std.Signal)
+local v_u_10 = {}
+local v_u_11 = Color3.fromRGB(255, 192, 203)
+local v_u_12 = Color3.fromRGB(255, 191, 5)
+local v_u_13 = Color3.fromRGB(235, 88, 88)
+local v_u_14 = Color3.fromHex("f1da10")
+v_u_10.onMessageIncoming = v9.new()
+function v_u_10.init()
+	-- upvalues: (copy) v_u_4, (copy) v_u_7, (copy) v_u_3, (copy) v_u_5, (copy) v_u_6, (copy) v_u_12, (copy) v_u_11, (copy) v_u_13, (copy) v_u_1, (copy) v_u_14, (copy) v_u_8, (copy) v_u_10
+	local v15 = v_u_4:FindFirstChildOfClass("ChatWindowConfiguration")
+	if v15 then
+		v15.TextStrokeTransparency = 0.7
+	else
+		warn("ChatWindowConfiguration not found")
+	end
+	local v_u_16 = v_u_7.new()
+	local v_u_17 = {}
+	local function v_u_24(p18)
+		-- upvalues: (ref) v_u_3, (ref) v_u_5, (ref) v_u_6, (ref) v_u_12, (ref) v_u_11, (ref) v_u_13, (copy) v_u_17
+		local v19 = {
+			["Tags"] = {}
+		}
+		if v_u_3.isMainWorld() and v_u_5.doesPlayerOwnCached(p18, v_u_6.EnumGamepass.VIP) then
+			v19.ChatColor = v_u_12
+			local v20 = v19.Tags
+			local v21 = {
+				["TagText"] = "[VIP] ",
+				["TagColor"] = v_u_12
+			}
+			table.insert(v20, v21)
+		end
+		if v_u_3.isTradeWorld() and v_u_5.doesPlayerOwnCached(p18, v_u_6.EnumGamepass.TradingVIP) then
+			v19.ChatColor = v_u_11
+			local v22 = v19.Tags
+			local v23 = {
+				["TagText"] = "[TradingVIP] ",
+				["TagColor"] = v_u_11
+			}
+			table.insert(v22, v23)
+		end
+		if p18.UserId == 2025110 or (p18.UserId == 2837719 or p18.UserId == 2829005475) then
+			v19.ChatColor = v_u_13
+		end
+		v_u_17[p18] = v19
+	end
+	local function v28(p_u_25)
+		-- upvalues: (ref) v_u_7, (copy) v_u_16, (copy) v_u_24, (ref) v_u_5
+		local v26 = v_u_7.new()
+		v_u_16[p_u_25] = v26
+		v_u_24(p_u_25)
+		v26:GiveTask(v_u_5.OnAnyPlayerAnyOwned:Connect(function(p27, _)
+			-- upvalues: (copy) p_u_25, (ref) v_u_24
+			if p27 == p_u_25 then
+				v_u_24(p_u_25)
+			end
+		end))
+	end
+	local function v30(p29)
+		-- upvalues: (copy) v_u_16
+		v_u_16[p29] = nil
+	end
+	for _, v31 in v_u_1:GetPlayers() do
+		v28(v31)
+	end
+	v_u_1.PlayerAdded:Connect(v28)
+	v_u_1.PlayerRemoving:Connect(v30)
+	function v_u_4.OnIncomingMessage(p32)
+		-- upvalues: (ref) v_u_14, (ref) v_u_8, (ref) v_u_1, (copy) v_u_17, (ref) v_u_10
+		local v33 = Instance.new("TextChatMessageProperties")
+		local v34 = p32.TextChannel
+		local v35
+		if v34 then
+			v35 = string.find(v34.Name, "RBXTeam")
+		else
+			v35 = nil
+		end
+		if p32.TextSource == nil and p32.Metadata == "BadimoSystemMessage" then
+			local v36 = v_u_14
+			if v_u_8.doesTextHaveColor(p32.Text) then
+				v36 = v_u_8.extractColorFromText(p32.Text)
+			else
+				v33.Text = v_u_8.addColorToText(p32.Text, v_u_14)
+			end
+			v33.PrefixText = v_u_8.addColorToText("[System]", v36) .. p32.PrefixText
+		elseif v35 then
+			local v37 = v34.Name
+			local v38 = v35 + 7
+			local v39 = string.sub(v37, v38)
+			v33.Text = v_u_8.addColorToText(p32.Text, BrickColor.new(v39).Color)
+		elseif p32.TextSource then
+			local v40 = p32.TextSource.UserId
+			local v41 = v_u_1:GetPlayerByUserId(v40)
+			if not v41 then
+				return
+			end
+			if v41:GetAttribute("ChatLoaded") ~= true and v41 ~= v_u_1.LocalPlayer then
+				p32.Status = Enum.TextChatMessageStatus.InvalidTextChannelPermissions
+				return nil
+			end
+			local v42 = v_u_17[v41]
+			if not v42 then
+				return
+			end
+			local v43 = v42.Tags
+			local v44 = p32.PrefixText
+			for _, v45 in v43 do
+				local v46 = v45.TagColor or Color3.new(1, 1, 1)
+				local v47 = v45.TagText or ""
+				if #v47 > 0 then
+					v44 = v_u_8.addColorToText(v47, v46) .. v44
+				end
+			end
+			v33.PrefixText = v44
+			local v48 = p32.Text
+			local v49 = v42.ChatColor or Color3.new(1, 1, 1)
+			local v50
+			if v40 == 2829005475 then
+				v50 = v_u_8.addColorToText(v48, Color3.fromHSV(math.random(), 1, 1))
+			else
+				v50 = v_u_8.addColorToText(v48, v49)
+			end
+			v33.Text = v50
+		end
+		v_u_10.onMessageIncoming:Fire(p32, v33)
+		return v33
+	end
+	function v_u_4.OnBubbleAdded(p51, _)
+		if p51.TextSource then
+			local v52 = Instance.new("BubbleChatMessageProperties")
+			v52.BackgroundColor3 = Color3.new(0.1, 0.1, 0.1)
+			return v52
+		end
+	end
+end
+return v_u_10

@@ -1,0 +1,59 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v2 = require(v1.Module.UI)
+local v_u_3 = require(v1.Std.RxInstanceUtils)
+local v_u_4 = v2.CircleAction
+local v_u_5 = require(script.Parent.CartBinder)
+local v_u_6 = require(script.Parent.CartConsts)
+return {
+	["init"] = function()
+		-- upvalues: (copy) v_u_5, (copy) v_u_3, (copy) v_u_6, (copy) v_u_4
+		v_u_5:GetClassAddedSignal():Connect(function(p_u_7)
+			-- upvalues: (ref) v_u_3, (ref) v_u_6, (ref) v_u_4
+			local v_u_8 = p_u_7._obj
+			v_u_3.yieldForProperty(v_u_8, "PrimaryPart")
+			local function v10(_, p9)
+				-- upvalues: (copy) v_u_8, (ref) v_u_6
+				if p9 then
+					v_u_8:FindFirstChild(v_u_6.ATTEMPT_SIT_REMOTE_NAME):FireServer()
+					return true
+				end
+			end
+			local v_u_11 = v_u_8.PrimaryPart
+			v_u_4.Add({
+				["Part"] = v_u_11,
+				["ValidRoot"] = v_u_8,
+				["Name"] = "Sit",
+				["Timed"] = false,
+				["Dist"] = 16,
+				["PreUpdateFun"] = function(p12)
+					-- upvalues: (copy) p_u_7
+					p12.Enabled = p_u_7:GetOccupant() == nil
+				end,
+				["PreUpdatePeriod"] = 0.5,
+				["Callback"] = v10
+			}, v_u_11)
+			p_u_7._maid:GiveTask(function()
+				-- upvalues: (ref) v_u_4, (copy) v_u_11
+				v_u_4.Remove(v_u_11)
+			end)
+		end)
+		v_u_5:Start()
+	end,
+	["getCartForCharacter"] = function(p13)
+		-- upvalues: (copy) v_u_5
+		local v14 = workspace
+		assert(p13:IsDescendantOf(v14))
+		for _, v15 in ipairs(v_u_5:GetAll()) do
+			if v15:GetOccupant() == p13 then
+				return v15
+			end
+		end
+	end
+}

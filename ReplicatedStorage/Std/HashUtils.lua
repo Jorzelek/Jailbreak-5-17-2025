@@ -1,0 +1,19 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMGBnR5cGVvZgZzdHJpbmcSc3RyIG11c3QgYmUgc3RyaW5nBmFzc2VydARieXRlFXBvbHlub21pYWxSb2xsaW5nSGFzaAACCAEAAAAAILssAANSBAAApAMBAAAAAECfAwIC8AMCAAIAAACpAgABqQIBAIEBAgQDAAAAbwMDAKQBBQAAAEBAnwEDAYwBAACMBAEAHAIAAIwDAQCoAgsAnikABQQAAABSBgAAUgcEAKQFBwAAGCCAnwUDAlsHAQlDBgcFIQEGCIsC9f+CAQIACgMBBAAAAEADAgMDAwQEAABAQAMFBAAYIIACAACABGXNzUECAAAAAAAAP0AABQYBGAAAAAAAAAAAAAAAAAAAAAMBAAAAAQAAAAAAAAEAAP4EBgAAAAACAAABAgAHowAAAP8AAQAAAAAAwAEAADABANABAAAAggACAAIGAAMGAQABAAEYAAEAAwAADAEAAAAAAXb70GvjY005RD+6/5Hz+QbXjYW++/tOuOWqgYEEAOJq1LlIiFN6+Ks=
+
+-- Decompiled by Krnl
+
+return {
+	["polynomialRollingHash"] = function(p1)
+		local v2 = typeof(p1) == "string"
+		assert(v2, "str must be string")
+		local v3 = 0
+		for v4 = 1, #p1 do
+			local v5 = string.byte(p1, v4)
+			v3 = (v3 * 31 + v5) % 1000000009
+		end
+		return v3
+	end
+}

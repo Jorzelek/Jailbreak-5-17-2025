@@ -1,0 +1,257 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgNLEG1vdW50VmlydHVhbFRyZWULU3RyaW5nVmFsdWUGZXhwZWN0AnRvAmJlAm9rEnVubW91bnRWaXJ0dWFsVHJlZRF1cGRhdGVWaXJ0dWFsVHJlZQJpdBhzaG91bGQgbW91bnQgYW5kIHVubW91bnQhc2hvdWxkIG1vdW50LCB1cGRhdGUsIGFuZCB1bm1vdW50EG1vdW50VmlydHVhbE5vZGUEdGVzdAVlcXVhbBF1cGRhdGVWaXJ0dWFsTm9kZRxzaG91bGQgbW91bnQgYm9vbGVhbnMgYXMgbmlsO3Nob3VsZCB1bm1vdW50IG5vZGVzIGlmIHRoZXkgYXJlIHVwZGF0ZWQgdG8gYSBib29sZWFuIHZhbHVlBUhlbGxvCFNvbWUgS2V5BXRocm93PXNob3VsZCB0aHJvdyBlcnJvcnMgd2hlbiBhdHRlbXB0aW5nIHRvIG1vdW50IGludmFsaWQgZWxlbWVudHMNbW91bnRIb3N0Tm9kZQV2YWx1ZQJvZgtWaXJ0dWFsTm9kZQljYWxsQ291bnQKcmVjb25jaWxlcgRub2RlDWNhcHR1cmVWYWx1ZXMOdXBkYXRlSG9zdE5vZGUDS2V5Cm5ld0VsZW1lbnQPdW5tb3VudEhvc3ROb2RlEnVubW91bnRWaXJ0dWFsTm9kZS5zaG91bGQgaW52b2tlIHRoZSByZW5kZXJlciB0byBtb3VudCBob3N0IG5vZGVzL3Nob3VsZCBpbnZva2UgdGhlIHJlbmRlcmVyIHRvIHVwZGF0ZSBob3N0IG5vZGVzMHNob3VsZCBpbnZva2UgdGhlIHJlbmRlcmVyIHRvIHVubW91bnQgaG9zdCBub2Rlcwlzb21lVmFsdWUFQSBLZXkFcHJvcHMBYQV0YWJsZQFBAUIsc2hvdWxkIG1vdW50IGFuZCB1bm1vdW50IGZ1bmN0aW9uIGNvbXBvbmVudHMzc2hvdWxkIG1vdW50IHNpbmdsZSBjaGlsZHJlbiBvZiBmdW5jdGlvbiBjb21wb25lbnRzNnNob3VsZCBtb3VudCBmcmFnbWVudHMgcmV0dXJuZWQgYnkgZnVuY3Rpb24gY29tcG9uZW50cw5jdXJyZW50RWxlbWVudAhGcmFnbWVudARuZXh0CGNoaWxkcmVuBW5ldmVyA2tleQh0b3N0cmluZxZzaG91bGQg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
+
+-- Decompiled by Krnl
+
+return function()
+	local v_u_1 = require(script.Parent.assign)
+	local v_u_2 = require(script.Parent.createElement)
+	local v_u_3 = require(script.Parent.createFragment)
+	local v_u_4 = require(script.Parent.createSpy)
+	local v_u_5 = require(script.Parent.NoopRenderer)
+	local v_u_6 = require(script.Parent.Type)
+	local v_u_7 = require(script.Parent.ElementKind)
+	local v_u_8 = require(script.Parent.createReconciler)
+	local v_u_9 = v_u_8(v_u_5)
+	describe("tree operations", function()
+		-- upvalues: (copy) v_u_9, (copy) v_u_2
+		it("should mount and unmount", function()
+			-- upvalues: (ref) v_u_9, (ref) v_u_2
+			local v10 = v_u_9.mountVirtualTree(v_u_2("StringValue"))
+			expect(v10).to.be.ok()
+			v_u_9.unmountVirtualTree(v10)
+		end)
+		it("should mount, update, and unmount", function()
+			-- upvalues: (ref) v_u_9, (ref) v_u_2
+			local v11 = v_u_9.mountVirtualTree(v_u_2("StringValue"))
+			expect(v11).to.be.ok()
+			v_u_9.updateVirtualTree(v11, v_u_2("StringValue"))
+			v_u_9.unmountVirtualTree(v11)
+		end)
+	end)
+	describe("booleans", function()
+		-- upvalues: (copy) v_u_9, (copy) v_u_2
+		it("should mount booleans as nil", function()
+			-- upvalues: (ref) v_u_9
+			local v12 = v_u_9.mountVirtualNode(false, nil, "test")
+			expect(v12).to.equal(nil)
+		end)
+		it("should unmount nodes if they are updated to a boolean value", function()
+			-- upvalues: (ref) v_u_9, (ref) v_u_2
+			local v13 = v_u_9.mountVirtualNode(v_u_2("StringValue"), nil, "test")
+			expect(v13).to.be.ok()
+			local v14 = v_u_9.updateVirtualNode(v13, true)
+			expect(v14).to.equal(nil)
+		end)
+	end)
+	describe("invalid elements", function()
+		-- upvalues: (copy) v_u_9, (copy) v_u_2
+		it("should throw errors when attempting to mount invalid elements", function()
+			-- upvalues: (ref) v_u_9, (ref) v_u_2
+			local function v_u_15()
+				return "Hello"
+			end
+			local function v_u_16()
+				return 1
+			end
+			local function v_u_17()
+				return function() end
+			end
+			local function v_u_18()
+				return {}
+			end
+			expect(function()
+				-- upvalues: (ref) v_u_9, (ref) v_u_2, (copy) v_u_15
+				v_u_9.mountVirtualNode(v_u_2(v_u_15), nil, "Some Key")
+			end).to.throw()
+			expect(function()
+				-- upvalues: (ref) v_u_9, (ref) v_u_2, (copy) v_u_16
+				v_u_9.mountVirtualNode(v_u_2(v_u_16), nil, "Some Key")
+			end).to.throw()
+			expect(function()
+				-- upvalues: (ref) v_u_9, (ref) v_u_2, (copy) v_u_17
+				v_u_9.mountVirtualNode(v_u_2(v_u_17), nil, "Some Key")
+			end).to.throw()
+			expect(function()
+				-- upvalues: (ref) v_u_9, (ref) v_u_2, (copy) v_u_18
+				v_u_9.mountVirtualNode(v_u_2(v_u_18), nil, "Some Key")
+			end).to.throw()
+		end)
+	end)
+	describe("Host components", function()
+		-- upvalues: (copy) v_u_4, (copy) v_u_5, (copy) v_u_1, (copy) v_u_8, (copy) v_u_2, (copy) v_u_6
+		it("should invoke the renderer to mount host nodes", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_5, (ref) v_u_1, (ref) v_u_8, (ref) v_u_2, (ref) v_u_6
+			local v19 = v_u_4(v_u_5.mountHostNode)
+			local v20 = v_u_8((v_u_1({}, v_u_5, {
+				["mountHostNode"] = v19.value
+			})))
+			local v21 = v_u_2("StringValue")
+			local v22 = v20.mountVirtualNode(v21, nil, "Some Key")
+			expect(v_u_6.of(v22)).to.equal(v_u_6.VirtualNode)
+			expect(v19.callCount).to.equal(1)
+			local v23 = v19:captureValues("reconciler", "node")
+			expect(v23.reconciler).to.equal(v20)
+			expect(v23.node).to.equal(v22)
+		end)
+		it("should invoke the renderer to update host nodes", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_5, (ref) v_u_1, (ref) v_u_8, (ref) v_u_2, (ref) v_u_6
+			local v24 = v_u_4(v_u_5.updateHostNode)
+			local v25 = v_u_8((v_u_1({}, v_u_5, {
+				["mountHostNode"] = v_u_5.mountHostNode,
+				["updateHostNode"] = v24.value
+			})))
+			local v26 = v_u_2("StringValue")
+			local v27 = v25.mountVirtualNode(v26, nil, "Key")
+			expect(v_u_6.of(v27)).to.equal(v_u_6.VirtualNode)
+			local v28 = v_u_2("StringValue")
+			local v29 = v25.updateVirtualNode(v27, v28)
+			expect(v29).to.equal(v27)
+			expect(v24.callCount).to.equal(1)
+			local v30 = v24:captureValues("reconciler", "node", "newElement")
+			expect(v30.reconciler).to.equal(v25)
+			expect(v30.node).to.equal(v27)
+			expect(v30.newElement).to.equal(v28)
+		end)
+		it("should invoke the renderer to unmount host nodes", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_5, (ref) v_u_1, (ref) v_u_8, (ref) v_u_2, (ref) v_u_6
+			local v31 = v_u_4(v_u_5.unmountHostNode)
+			local v32 = v_u_8((v_u_1({}, v_u_5, {
+				["mountHostNode"] = v_u_5.mountHostNode,
+				["unmountHostNode"] = v31.value
+			})))
+			local v33 = v_u_2("StringValue")
+			local v34 = v32.mountVirtualNode(v33, nil, "Key")
+			expect(v_u_6.of(v34)).to.equal(v_u_6.VirtualNode)
+			v32.unmountVirtualNode(v34)
+			expect(v31.callCount).to.equal(1)
+			local v35 = v31:captureValues("reconciler", "node")
+			expect(v35.reconciler).to.equal(v32)
+			expect(v35.node).to.equal(v34)
+		end)
+	end)
+	describe("Function components", function()
+		-- upvalues: (copy) v_u_4, (copy) v_u_2, (copy) v_u_9, (copy) v_u_6, (copy) v_u_3
+		it("should mount and unmount function components", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_2, (ref) v_u_9, (ref) v_u_6
+			local v36 = v_u_4(function(_)
+				return nil
+			end)
+			local v37 = v_u_2(v36.value, {
+				["someValue"] = 5
+			})
+			local v38 = v_u_9.mountVirtualNode(v37, nil, "A Key")
+			expect(v_u_6.of(v38)).to.equal(v_u_6.VirtualNode)
+			expect(v36.callCount).to.equal(1)
+			local v39 = v36:captureValues("props")
+			expect(v39.props).to.be.a("table")
+			expect(v39.props.someValue).to.equal(5)
+			v_u_9.unmountVirtualNode(v38)
+			expect(v36.callCount).to.equal(1)
+		end)
+		it("should mount single children of function components", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_2, (ref) v_u_9, (ref) v_u_6
+			local v_u_40 = v_u_4(function(_)
+				return nil
+			end)
+			local v42 = v_u_4(function(p41)
+				-- upvalues: (ref) v_u_2, (copy) v_u_40
+				return v_u_2(v_u_40.value, {
+					["value"] = p41.value + 1
+				})
+			end)
+			local v43 = v_u_2(v42.value, {
+				["value"] = 13
+			})
+			local v44 = v_u_9.mountVirtualNode(v43, nil, "A Key")
+			expect(v_u_6.of(v44)).to.equal(v_u_6.VirtualNode)
+			expect(v42.callCount).to.equal(1)
+			expect(v_u_40.callCount).to.equal(1)
+			local v45 = v42:captureValues("props")
+			local v46 = v_u_40:captureValues("props")
+			expect(v45.props).to.be.a("table")
+			expect(v45.props.value).to.equal(13)
+			expect(v46.props).to.be.a("table")
+			expect(v46.props.value).to.equal(14)
+			v_u_9.unmountVirtualNode(v44)
+			expect(v42.callCount).to.equal(1)
+			expect(v_u_40.callCount).to.equal(1)
+		end)
+		it("should mount fragments returned by function components", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_3, (ref) v_u_2, (ref) v_u_9, (ref) v_u_6
+			local v_u_47 = v_u_4(function(_)
+				return nil
+			end)
+			local v_u_48 = v_u_4(function(_)
+				return nil
+			end)
+			local v52 = v_u_4(function(p49)
+				-- upvalues: (ref) v_u_3, (ref) v_u_2, (copy) v_u_47, (copy) v_u_48
+				local v50 = v_u_3
+				local v51 = {
+					["A"] = v_u_2(v_u_47.value, {
+						["value"] = p49.value + 1
+					}),
+					["B"] = v_u_2(v_u_48.value, {
+						["value"] = p49.value + 5
+					})
+				}
+				return v50(v51)
+			end)
+			local v53 = v_u_2(v52.value, {
+				["value"] = 17
+			})
+			local v54 = v_u_9.mountVirtualNode(v53, nil, "A Key")
+			expect(v_u_6.of(v54)).to.equal(v_u_6.VirtualNode)
+			expect(v52.callCount).to.equal(1)
+			expect(v_u_47.callCount).to.equal(1)
+			expect(v_u_48.callCount).to.equal(1)
+			local v55 = v52:captureValues("props")
+			local v56 = v_u_47:captureValues("props")
+			local v57 = v_u_48:captureValues("props")
+			expect(v55.props).to.be.a("table")
+			expect(v55.props.value).to.equal(17)
+			expect(v56.props).to.be.a("table")
+			expect(v56.props.value).to.equal(18)
+			expect(v57.props).to.be.a("table")
+			expect(v57.props.value).to.equal(22)
+			v_u_9.unmountVirtualNode(v54)
+			expect(v52.callCount).to.equal(1)
+			expect(v_u_47.callCount).to.equal(1)
+			expect(v_u_48.callCount).to.equal(1)
+		end)
+	end)
+	describe("Fragments", function()
+		-- upvalues: (copy) v_u_3, (copy) v_u_9, (copy) v_u_7, (copy) v_u_4, (copy) v_u_2
+		it("should mount fragments", function()
+			-- upvalues: (ref) v_u_3, (ref) v_u_9, (ref) v_u_7
+			local v58 = v_u_3({})
+			local v59 = v_u_9.mountVirtualNode(v58, nil, "test")
+			expect(v59).to.be.ok()
+			expect(v_u_7.of(v59.currentElement)).to.equal(v_u_7.Fragment)
+		end)
+		it("should mount an empty fragment", function()
+			-- upvalues: (ref) v_u_3, (ref) v_u_9
+			local v60 = v_u_3({})
+			local v61 = v_u_9.mountVirtualNode(v60, nil, "test")
+			expect(v61).to.be.ok()
+			expect(next(v61.children)).to.never.be.ok()
+		end)
+		it("should mount all fragment\'s children", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_2, (ref) v_u_3, (ref) v_u_9
+			local v62 = v_u_4(function(_)
+				return nil
+			end)
+			local v63 = {}
+			for v64 = 1, 5 do
+				v63["key" .. tostring(v64)] = v_u_2(v62.value, {})
+			end
+			local v65 = v_u_3(v63)
+			local v66 = v_u_9.mountVirtualNode(v65, nil, "test")
+			expect(v66).to.be.ok()
+			expect(v62.callCount).to.equal(5)
+		end)
+	end)
+end

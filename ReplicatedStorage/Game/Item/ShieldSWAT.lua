@@ -1,0 +1,41 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMWA25ldwxzZXRtZXRhdGFibGUKSW5wdXRCZWdhbgpJbnB1dEVuZGVkBnNjcmlwdAZQYXJlbnQHcmVxdWlyZQVCYXNpYwNIaXASUmlnaHRXcmlzdFJvdGF0aW9uEUxlZnRXcmlzdFJvdGF0aW9uB1NwcmluZ3MKSXRlbU9mZnNldAxJdGVtUm90YXRpb24MTmVja1JvdGF0aW9uDVdhaXN0Um90YXRpb24HVmVjdG9yMwZDRnJhbWUGTW90aW9uClNoaWVsZFNXQVQLX19DbGFzc05hbWUHX19pbmRleAAECAMDAAAAEPsEAABNAwTvAAAAAFIEAABSBQEA+wYBAFIHAgCfAwUC+wYCAJ49AwQGAAAAUgUDAKQEAgAAABBAnwQDAYIDAgADAwEDAgQAABBAABgBARgAAAAAAAAAAAEAAAAAAAACGQAAAAAEAQEBAAAIowEAAPsCAABNAQKCAAAAAFICAADdAwAAnwEAAYIAAQABAwMAHgMBGAABAAAAAAABHgAAAAABAQAAAAABggABAAAAIQQBGAAhAAAAAAcAAAECAFCjAAAApAEBAAAAAEBNAAEkAgAAAKQBBAAAADBATQIAywUAAACfAQIC/wIBAAAAAADiAwkA4gQLAOIFEABvBhEAMAYFgAwAAABMNgACpAYUAABMIIGfBgECMAYF5Q0AAABMNgACpAYUAABMIIGfBgECMAYFjQ4AAABMNgACpAYUAABMIIGfBgECMAYFXw8AAAAwBQSYCgAAADAEA70GAAAApAQWAABMUIGfBAECMAQDDgcAAACkBBYAAExQgZ8EAQIwBAOFCAAAADADApcXAAAA/wMEAAAAAABvBBgAMAQD5RkAAAAwAwNuGgAAAJ49AwUBAAAAUgUDAFIGAQCkBBwAAACwQZ8EAwHABB0AEgABABIAAgASAAMAMAQD7xMAAADABB4AEgABADAEA4IfAAAAwAQgADAEA68hAAAAggMCACIDBQQAAABAAwYDBwQAADBAAwgDCQMKAwsFAwYHCAMMBQEKAw0DDgMPAxAFBAwNDg8HAAAAAJqZGT8AAMC/AAAAAAMRAwEEAEwggQMSBABMUIEDEwMUAxUDFgMCBAAAsEEGAAYBAwMGAgMEAwABAgEAARgAAQAAAAEAAAAAAgABAQEBAAABAAAAAAABAAAAAAABAAAAAAD8AP8ACQAAAAABAAAAAPUADgABAAABAAEAAAAAAAABAAAAAAAGAAAAAwAAAgEAAAAAA4R+GJrFMNKLtrpyDt+NuCudS37jJ38fOMIV3u80S1jrcb/EUxL+S6s=
+
+-- Decompiled by Krnl
+
+local v1 = script.Parent
+local v_u_2 = require(v1.Basic)
+local v_u_3 = {}
+local v4 = {}
+local v5 = {
+	["Springs"] = {
+		["ItemOffset"] = Vector3.new(0, 0.6, -1.5),
+		["ItemRotation"] = Vector3.new(),
+		["NeckRotation"] = Vector3.new(),
+		["WaistRotation"] = Vector3.new()
+	}
+}
+v4.Hip = v5
+v4.RightWristRotation = CFrame.new()
+v4.LeftWristRotation = CFrame.new()
+v_u_3.Motion = v4
+local v_u_6 = {
+	["__ClassName"] = "ShieldSWAT"
+}
+v_u_6.__index = v_u_6
+setmetatable(v_u_6, v_u_2)
+function v_u_6.new(p7, p8, p9)
+	-- upvalues: (copy) v_u_2, (copy) v_u_3, (copy) v_u_6
+	local v10 = v_u_2.new(p7, p8, v_u_3, p9)
+	local v11 = v_u_6
+	setmetatable(v10, v11)
+	return v10
+end
+function v_u_6.InputBegan(p12, ...)
+	-- upvalues: (copy) v_u_2
+	v_u_2.InputBegan(p12, ...)
+end
+function v_u_6.InputEnded(_) end
+return v_u_6

@@ -1,0 +1,15 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMKBXZhbHVlDW1pc3NpbmcgdmFsdWUGYXNzZXJ0EnNldENyZXdMZWFkZXJib2FyZARnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQVSb2R1eA1jcmVhdGVSZWR1Y2VyAAIFAgAAAAAPTQQBzAAAAABHBAIAAAAAgKkDAAGpAwEAgQEDBAEAAABvBAEApAIDAAAAIECfAgMBTQIBzAAAAACCAgIABAMBAwIDAwQAACBAAAYEARgAAAAAAAAAAAAAAAABAAAHAAAAAAYAAAECABajAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAgCnBgAAAJ8BAgJNAgHWBwAAAP8DAAAAAAAA4gQJAMAFCgAwBQTkCAAAAJ8CAwCCAgAACwMFBAAAAEADBgMHAwgEAABAQAMJAwoDBAUBCAYAAQABAAEYAAEAAAAAAAEAAAAAAgAAAAABAAD/AAEAAAAAAVIlSFRchgmkYOEiwEuSjVumsjK0OAVgiLZaQKfRx5YcxxIT+hPz4Ek=
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Rodux).createReducer({}, {
+	["setCrewLeaderboard"] = function(_, p2)
+		local v3 = p2.value ~= nil
+		assert(v3, "missing value")
+		return p2.value
+	end
+})

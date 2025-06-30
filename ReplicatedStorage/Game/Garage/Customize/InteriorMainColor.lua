@@ -1,0 +1,40 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMdBU1vZGVsBE1ha2UFU2xvb3AGVmlzdWFsCVNhaWxGcm9udAV0YWJsZQZpbnNlcnQHUGh5c2ljcwhTYWlsQmFjawRTYWlsBmlwYWlycw5HZXREZXNjZW5kYW50cwROYW1lCEludGVyaW9yFUdldERlZmF1bHRWZWhpY2xlUGFydAhNYXRlcmlhbA9EZWZhdWx0TWF0ZXJpYWwLUmVmbGVjdGFuY2USRGVmYXVsdFJlZmxlY3RhbmNlBFBhcnQFQ29sb3IEZ2FtZRFSZXBsaWNhdGVkU3RvcmFnZQpHZXRTZXJ2aWNlB3JlcXVpcmUFUGFpbnQER2FtZQZHYXJhZ2UKUGFpbnRVdGlscwACDgIDAAAAYE0CATsAAAAA/wMAAAAAAABNBAGtAQAAAPAEGAACAACATQcC0AMAAABNBgdVBAAAAJ40AwQGAAAAUgUDAKQEBwAAGFCAnwQDAU0IAjMIAAAATQcIJAkAAABNBgciCgAAAJ40AwQGAAAAUgUDAKQEBwAAGFCAnwQDAWUAFACkBAwAAACwQLwFAkcNAAAAnwUCAJ8EAARRBAsATQkIug4AAADwCQgADwAAgJ40AwUIAAAAUgoDAFILCACkCQcAABhQgJ8JAwFuBPT/AgAAgKQEDAAAALBAUgUDAJ8EAgRRBCUA+woAAE0JCogQAAAAUgoIAJ8JAgL7CgEATQsJLREAAAAwCwrAEgAAAPsKAQBNCwliEwAAADALCsAUAAAADgAJAPsLAgBNCgtEFQAAAFILCABNDAC6DgAAAPsNAQCfCgQBZQAMAE0KCaQWAAAAMAoIpBYAAABNCgktEQAAADAKCC0RAAAATQoJYhMAAAAwCghiEwAAAG4E2v8CAACAggABABcDAQMCAwMDBAMFAwYDBwQAGFCAAwgDCQMKAwsEAACwQAMMAw0DDgMPAxADEQMSAxMDFAMVAAgAARgAAAIAAQAAAAEAAAAAAAAAAAABAAAAAAAAAAAAAAAAAgAAAAAAAAEAAAABAAAAAAAA/gAGAAAAAAEAAAAAAQAAAAABAAAAAAEBAAAAAAAAAAACAAAAAQAAAAEAAAD3AAwJAAAAAAYAAAECACCjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNBAC9BwAAAE0DBCgIAAAATQIDUQYAAACfAQICpAIFAAAAQEBNBQC9BwAAAE0EBSgIAAAATQMEeQkAAACfAgIC/wMCAAAAAADABAoAEgACABIAAwASAAEAggQCAAsDFgQAAABAAxcDGAMZBAAAQEADGgMbAxwDHQYAAQABAAEYAAEAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAIAAgAAAAABAAAAAAHu60bwQlXNxdwvLGQsLxp28H+a36Xx4BRofY3F18pPt8/6rixmOXYp
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Game.Garage.Paint)
+local v_u_3 = require(v1.Game.Garage.PaintUtils)
+local v_u_4 = {}
+return function(p5, p6)
+	-- upvalues: (copy) v_u_3, (copy) v_u_4, (copy) v_u_2
+	local v7 = p6.Model
+	local v8 = {}
+	if p6.Make == "Sloop" then
+		local v9 = v7.Visual.SailFront
+		table.insert(v8, v9)
+		local v10 = v7.Physics.SailBack.Sail
+		table.insert(v8, v10)
+	else
+		for _, v11 in ipairs(v7:GetDescendants()) do
+			if v11.Name == "Interior" then
+				table.insert(v8, v11)
+			end
+		end
+	end
+	for _, v12 in ipairs(v8) do
+		local v13 = v_u_3.GetDefaultVehiclePart(v12)
+		v_u_4.DefaultMaterial = v13.Material
+		v_u_4.DefaultReflectance = v13.Reflectance
+		if p5 then
+			v_u_2.Part(v12, p5.Name, v_u_4)
+		else
+			v12.Color = v13.Color
+			v12.Material = v13.Material
+			v12.Reflectance = v13.Reflectance
+		end
+	end
+end

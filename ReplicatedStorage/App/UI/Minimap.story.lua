@@ -1,0 +1,96 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgM+CHdheXBvaW50CHNldFN0YXRlDWNyZWF0ZUJpbmRpbmcNd29ybGRQb3NpdGlvbhN1cGRhdGVXb3JsZFBvc2l0aW9uBFVuaXQOd29ybGREaXJlY3Rpb24UdXBkYXRlV29ybGREaXJlY3Rpb24EbmFtZQRwYXJ0BWZsYXNoBWNvbG9yBWJhZGNjCXdvcmtzcGFjZQVUZWFtcw9Qb2xpY2VfTWlsaXRhcnkGQ29sb3IzA25ldwhwb3NpdGlvbgt3b3JsZFJhZGl1cwF4BnBvaW50cwRpbml0DW9uU2V0V2F5cG9pbnQNY3JlYXRlRWxlbWVudAptYXBJbWFnZUlkDW1hcFdvcmxkV2lkdGgObWFwV29ybGRIZWlnaHQPbWFwV29ybGRDZW50ZXJYD21hcFdvcmxkQ2VudGVyWQ1tYXBJbWFnZVdpZHRoDm1hcEltYWdlSGVpZ2h0CW51bVBvaW50cwZsYWJlbHMHY2lyY2xlcwVzdGF0ZQZyZW5kZXILd2lsbFVubW91bnQHdW5tb3VudAlDb21wb25lbnQDQXBwBmV4dGVuZAdyZXF1aXJlBXN0b3JlB01pbmltYXAGc2NyaXB0BlBhcmVudAV0aXRsZQRDSVRZB2ltYWdlSWQLbWFya2VyQ29sb3IEQmFuaxR3b3JsZFBvc2l0aW9uQmluZGluZxJ3b3JsZFJhZGl1c0JpbmRpbmcMdHJhbnNwYXJlbmN5DGJhdHRsZVJveWFsZQdmcm9tUkdCBW1vdW50BGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQVSb2FjdAAHBwEBAAAHAAABCAMUAkPiAwEAbwQCADAEAxQAAAAAvAEAKgMAAACfAQMB+wIAAE0BAjEEAAAAbwIFAJ8BAgMwAQCABgAAADACANYHAAAA+wIAAE0BAjEEAAAAbwMIAE0CAwcJAAAAnwECAzABAPUKAAAAMAIAwwsAAAD/AQAAAgAAAOICEABvAxEAMAMCWgwAAACkBRMAAAAgQU0EBXoUAAAATQMELBUAAAAwAwIkDQAAAKkDAAAwAwKnDgAAAKQDGAAAXGCBjAQBAIwFAACMBgAAnwMEAjADAkQPAAAA4gMbAG8EHAAwBANaDAAAAG8EAgAwBAPbGQAAAIwEoA8wBAPhGgAAAMUBAgMBAAAAMAEADR0AAACCAAEA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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v_u_1.Roact)
+local _ = v_u_2.createElement
+return function(p3)
+	-- upvalues: (copy) v_u_2, (copy) v_u_1
+	local v4 = v_u_2.Component:extend("App")
+	require(v_u_1.App.store)
+	local v_u_5 = require(script.Parent.Minimap)
+	function v4.init(p6)
+		-- upvalues: (ref) v_u_2
+		p6:setState({
+			["waypoint"] = Vector3.new(0, 0, 0)
+		})
+		local v7, v8 = v_u_2.createBinding(Vector3.new(567, 0, 89))
+		p6.worldPosition = v7
+		p6.updateWorldPosition = v8
+		local v9, v10 = v_u_2.createBinding((Vector3.new(1, 0, 1)).Unit)
+		p6.worldDirection = v9
+		p6.updateWorldDirection = v10
+		p6.points = {
+			{
+				["name"] = "badcc",
+				["part"] = workspace.Teams.Police_Military,
+				["flash"] = false,
+				["color"] = Color3.new(1, 0, 0)
+			},
+			{
+				["name"] = "x",
+				["position"] = Vector3.new(0, 0, 0),
+				["worldRadius"] = 4000
+			}
+		}
+	end
+	local v_u_11 = {
+		{
+			["title"] = "CITY",
+			["position"] = Vector3.new(20.82, 17.42, 1063.76)
+		},
+		{
+			["title"] = "Bank",
+			["imageId"] = 4643749317,
+			["position"] = Vector3.new(500, 0, -250),
+			["markerColor"] = Color3.new(1, 0, 0)
+		}
+	}
+	local v12, _ = v_u_2.createBinding(Vector3.new(900, 0, 900))
+	local v13, _ = v_u_2.createBinding(2048)
+	local v_u_14 = {
+		{
+			["name"] = "battleRoyale",
+			["worldPositionBinding"] = v12,
+			["worldRadiusBinding"] = v13,
+			["color"] = Color3.fromRGB(155, 31, 232),
+			["transparency"] = 0.3
+		}
+	}
+	function v4.render(p_u_15)
+		-- upvalues: (ref) v_u_2, (copy) v_u_5, (copy) v_u_11, (copy) v_u_14
+		return v_u_2.createElement(v_u_5, {
+			["mapImageId"] = 8795797298,
+			["mapWorldWidth"] = 7168,
+			["mapWorldHeight"] = 7168,
+			["mapWorldCenterX"] = -16,
+			["mapWorldCenterY"] = 1536,
+			["mapImageWidth"] = 1024,
+			["mapImageHeight"] = 1024,
+			["worldPosition"] = p_u_15.worldPosition,
+			["worldDirection"] = p_u_15.worldDirection,
+			["points"] = p_u_15.points,
+			["numPoints"] = #p_u_15.points,
+			["labels"] = v_u_11,
+			["circles"] = v_u_14,
+			["waypoint"] = p_u_15.state.waypoint,
+			["color"] = Color3.new(1, 0, 0),
+			["onSetWaypoint"] = function(p16)
+				-- upvalues: (copy) p_u_15
+				p_u_15:setState({
+					["waypoint"] = p16
+				})
+			end
+		})
+	end
+	function v4.willUnmount(_) end
+	local v_u_17 = v_u_2.mount(v_u_2.createElement(v4), p3)
+	return function()
+		-- upvalues: (ref) v_u_2, (copy) v_u_17
+		v_u_2.unmount(v_u_17)
+	end
+end

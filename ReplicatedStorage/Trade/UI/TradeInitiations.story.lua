@@ -1,0 +1,56 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMiBHR5cGUEbGlzdBN0cmFkZUluaXRpYXRpb25zU2V0BG5hbWUGdXNlcklkBWJhZGNjCWFzaW1vMzA4ORFUV0VOVFlNT1JFTUlOVVRFUwhkaXNwYXRjaARpbml0BXByaW50BmFjY2VwdAhvbkFjY2VwdAdkZWNsaW5lCW9uRGVjbGluZQ1jcmVhdGVFbGVtZW50DVN0b3JlUHJvdmlkZXIFc3RvcmUGcmVuZGVyC3dpbGxVbm1vdW50B3VubW91bnQJQ29tcG9uZW50A0FwcAZleHRlbmQHcmVxdWlyZRBUcmFkZUluaXRpYXRpb25zBnNjcmlwdAZQYXJlbnQFbW91bnQEZ2FtZRFSZXBsaWNhdGVkU3RvcmFnZQpHZXRTZXJ2aWNlBVJvYWN0ClJvYWN0Um9kdXgACAkBAQAAACT7AQAA4gMCAG8EAwAwBANxAAAAAP8EAAADAAAA4gUGAG8GBwAwBgVaBAAAAIwGAQAwBgWGBQAAAOIGBgBvBwgAMAcGWgQAAACMBwIAMAcGhgUAAADiBwYAbwgJADAIB1oEAAAAjAgDADAIB4YFAAAAxQQFBAEAAAAwBAMLAQAAALwBAUwKAAAAnwEDAYIAAQALAwEDAgUCAAEDAwMEAwUFAgQFAwYDBwMIAwkACgoBGAAAAQAAAQABAQAAAQAAAgEAAAEAAAIBAAABAAAAAPUA/gAAEQsAAAAABAEAAAAABqQBAQAAAABAbwICAFIDAACfAQMBggABAAMDCwQAAABAAwwAIg0BGAAAAAAAASMAAAAABAEAAAAABqQBAQAAAABAbwICAFIDAACfAQMBggABAAMDCwQAAABAAw4AJQ8BGAAAAAAAASYAAAAACQEEAAAAHPsCAABNAQLKAAAAAPsDAQBNAgO6AQAAAOIDAwD7BAIAMAQDfgIAAAD/BAAAAQAAAPsGAABNBQbKAAAAAPsGAwDiBwYAwAgHADAIByoEAAAAwAgIADAIBy0FAAAAnwUDAMUEBQABAAAAnwEEAIIBAAAJAxADEQMSBQECAw0DDwUCBAUGAQYCAgECHRMBGAAAAAAAAAABAAABAAEAAAAAAQAAAwAA/AAA/QAeAAAAAAEBAAAAAAGCAAEAAAArFAEYACsAAAAAAgACAAAABvsBAABNAAESAAAAAPsBAQCfAAIBggABAAEDFQAuAAEYAAAAAAABLwAAAAAHAQMAAAA0+wIAAE0BAogAAAAAbwMBALwBAZwCAAAAnwEDAqQCBAAAADBApAUHAAAAYEBNBAUkCAAAAE0DBHUFAAAAnwICAqQDBAAAADBA+wYBAE0FBsEBAAAATQQFfgkAAACfAwIC2QQAABIAAwAwBAETCgAAANkEAQASAgAAEgICABIAAwASAAIAMAQBgAsAAADABAwAMAQBNA0AAAD7BQAATQQF5A4AAAD7BgAATQUGyg8AAABSBgEAnwUCAlIGAACfBAMC2QUDABICAAASAAQAggUCABADFgMXAxgDGQQAADBAAxoDGwQAAGBAAxwDEgMKAxMGBAMUAx0DEAQAAwQFBgABGAAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAEAAAATAAAAAAAADgAAAgAAAAAAAAAAAAEAAAAHAAAAAAQAAAECABajAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAgAhBgAAAJ8BAgKkAgUAAABAQE0DAC0HAAAAnwICAsADCAASAAEAEgAAABIAAgCCAwIACQMeBAAAAEADHwMgAxkEAABAQAMhAyIGBgEGAQABGAABAAAAAAABAAAAAAEAAAAAAgAAAAABAAAAAAcZPeq3/7JRzCv5gCPe0WLcX/LH4C0gyPJ7t4HtTMADxUt2d4ye8FHb
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v_u_1.Roact)
+local v_u_3 = require(v_u_1.RoactRodux)
+return function(p4)
+	-- upvalues: (copy) v_u_2, (copy) v_u_1, (copy) v_u_3
+	local v5 = v_u_2.Component:extend("App")
+	local v_u_6 = require(script.Parent.TradeInitiations)
+	local v_u_7 = require(v_u_1.App.store)
+	function v5.init(_)
+		-- upvalues: (copy) v_u_7
+		local v8 = {
+			["type"] = "tradeInitiationsSet",
+			["list"] = {
+				{
+					["name"] = "badcc",
+					["userId"] = 1
+				},
+				{
+					["name"] = "asimo3089",
+					["userId"] = 2
+				},
+				{
+					["name"] = "TWENTYMOREMINUTES",
+					["userId"] = 3
+				}
+			}
+		}
+		v_u_7:dispatch(v8)
+	end
+	function v5.render(_)
+		-- upvalues: (ref) v_u_2, (ref) v_u_3, (copy) v_u_7, (copy) v_u_6
+		return v_u_2.createElement(v_u_3.StoreProvider, {
+			["store"] = v_u_7
+		}, { v_u_2.createElement(v_u_6, {
+				["onAccept"] = function(p9)
+					print("accept", p9)
+				end,
+				["onDecline"] = function(p10)
+					print("decline", p10)
+				end
+			}) })
+	end
+	function v5.willUnmount(_) end
+	local v_u_11 = v_u_2.mount(v_u_2.createElement(v5), p4)
+	return function()
+		-- upvalues: (ref) v_u_2, (copy) v_u_11
+		v_u_2.unmount(v_u_11)
+	end
+end

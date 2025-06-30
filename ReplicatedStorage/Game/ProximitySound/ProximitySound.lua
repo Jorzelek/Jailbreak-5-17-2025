@@ -1,0 +1,122 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMxEUVOQUJMRURfQVRUUl9OQU1FDEdldEF0dHJpYnV0ZQZMaXN0ZW4FX21haWQFX3N0b3ANdXBkYXRlRW5hYmxlZAxzZXRtZXRhdGFibGUDbmV3DFNldEF0dHJpYnV0ZRBSQURJVVNfQVRUUl9OQU1FFE1BWF9WT0xVTUVfQVRUUl9OQU1FB190YXJnZXQIX2N1cnJlbnQZR2V0QXR0cmlidXRlQ2hhbmdlZFNpZ25hbAdDb25uZWN0CEdpdmVUYXNrB0Rlc3Ryb3kLZ2V0Um9vdFBhcnQJd29ya3NwYWNlDklzRGVzY2VuZGFudE9mCFBvc2l0aW9uCU1hZ25pdHVkZQZjYW5jZWwLT2JqZWN0TG9jYWwMSURfQVRUUl9OQU1FBkxvb3BlZAZWb2x1bWUSUm9sbE9mZk1heERpc3RhbmNlElJvbGxPZmZNaW5EaXN0YW5jZQ1wcm9taXNlRmFkZVRvB2FuZFRoZW4LX2xpc3Rlbkxvb3AFZXZlcnkEZ2FtZQdQbGF5ZXJzCkdldFNlcnZpY2ULTG9jYWxQbGF5ZXIRUmVwbGljYXRlZFN0b3JhZ2UHcmVxdWlyZQNTdGQETWFpZAVBdWRpbwtQbGF5ZXJVdGlscwRHYW1lCEludGVydmFsFFByb3hpbWl0eVNvdW5kQ29uc3RzBnNjcmlwdAZQYXJlbnQHX19pbmRleAALBAADAAAAFfsAAAD7AwEATQIDpwAAAAC8AAASAQAAAJ8AAwIOAAYA+wECAPsDAAC8AQGnAgAAAJ8BAwGCAAEA+wICAE0BAsEDAAAAxgIAADACAQoEAAAAggABAAUDAQMCAwMDBAMFACMGARgAAAAAAAAAAQEAAAAAAAIAAAAAAAIkAAAAAAkBAwAAAGT/AQMAAAAAAPsEAACePQEEBAAAAFIDAQCkAgEAAAAAQJ8CAwH7AwEATQID7wIAAACfAgECMAIBwQMAAAD7BQIATQQFpwQAAAC8AgASBQAAAJ8CAwIrAgcA+wUCAE0EBacEAAAAqQUAALwCAC4GAAAAnwIEAfsFAgBNBAWJBwAAALwCABIFAAAAnwIDAisCBwD7BQIATQQFiQcAAACMBSAAvAIALgYAAACfAgQB+wUCAE0EBWEIAAAAvAIAEgUAAACfAgMCKwIHAPsFAgBNBAVhCAAAAIwFAQC8AgAuBgAAAJ8CBAGM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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("Players").LocalPlayer
+local v2 = game:GetService("ReplicatedStorage")
+local v_u_3 = require(v2.Std.Maid)
+local v_u_4 = require(v2.Std.Audio)
+local v_u_5 = require(v2.Game.PlayerUtils)
+local v_u_6 = require(v2.Std.Interval)
+local v_u_7 = require(script.Parent.ProximitySoundConsts)
+local v_u_8 = {}
+v_u_8.__index = v_u_8
+function v_u_8.new(p_u_9)
+	-- upvalues: (copy) v_u_8, (copy) v_u_3, (copy) v_u_7
+	local v_u_10 = {}
+	local v11 = v_u_8
+	setmetatable(v_u_10, v11)
+	v_u_10._maid = v_u_3.new()
+	if not p_u_9:GetAttribute(v_u_7.ENABLED_ATTR_NAME) then
+		p_u_9:SetAttribute(v_u_7.ENABLED_ATTR_NAME, false)
+	end
+	if not p_u_9:GetAttribute(v_u_7.RADIUS_ATTR_NAME) then
+		p_u_9:SetAttribute(v_u_7.RADIUS_ATTR_NAME, 32)
+	end
+	if not p_u_9:GetAttribute(v_u_7.MAX_VOLUME_ATTR_NAME) then
+		p_u_9:SetAttribute(v_u_7.MAX_VOLUME_ATTR_NAME, 1)
+	end
+	v_u_10._target = 0
+	v_u_10._current = 0
+	local function v12()
+		-- upvalues: (copy) p_u_9, (ref) v_u_7, (copy) v_u_10
+		if p_u_9:GetAttribute(v_u_7.ENABLED_ATTR_NAME) then
+			v_u_10:Listen(p_u_9)
+		else
+			v_u_10._maid._stop = nil
+		end
+	end
+	v_u_10._maid:GiveTask(p_u_9:GetAttributeChangedSignal(v_u_7.ENABLED_ATTR_NAME):Connect(v12))
+	if p_u_9:GetAttribute(v_u_7.ENABLED_ATTR_NAME) then
+		v_u_10:Listen(p_u_9)
+		return v_u_10
+	else
+		v_u_10._maid._stop = nil
+		return v_u_10
+	end
+end
+function v_u_8.Listen(p13, p_u_14)
+	-- upvalues: (copy) v_u_6, (copy) v_u_5, (copy) v_u_1, (copy) v_u_7, (copy) v_u_4
+	local v_u_15 = nil
+	local v_u_16 = false
+	local v_u_17 = nil
+	local v_u_18 = p13._maid
+	v_u_18._listenLoop = v_u_6.every(0.5):Connect(function()
+		-- upvalues: (ref) v_u_5, (ref) v_u_1, (copy) p_u_14, (ref) v_u_7, (ref) v_u_16, (ref) v_u_17, (ref) v_u_15, (ref) v_u_4
+		local v19 = v_u_5.getRootPart(v_u_1)
+		if v19 and v19:IsDescendantOf(workspace) then
+			local v20 = (v19.Position - p_u_14.Position).Magnitude
+			local v21 = p_u_14:GetAttribute(v_u_7.RADIUS_ATTR_NAME)
+			if v20 / v21 <= 1 then
+				if not v_u_16 then
+					if v_u_17 then
+						v_u_17:cancel()
+						v_u_17 = nil
+					end
+					if not v_u_15 then
+						v_u_15 = v_u_4.ObjectLocal(p_u_14, p_u_14:GetAttribute(v_u_7.ID_ATTR_NAME), {
+							["Looped"] = true,
+							["Volume"] = 0,
+							["RollOffMaxDistance"] = v21 + 64,
+							["RollOffMinDistance"] = v21 * 0.1
+						})
+					end
+					v_u_16 = true
+					v_u_17 = v_u_4.promiseFadeTo(v_u_15, 1, 1):andThen(function()
+						-- upvalues: (ref) v_u_17
+						v_u_17 = nil
+					end)
+					return
+				end
+			elseif v_u_16 then
+				if v_u_17 then
+					v_u_17:cancel()
+					v_u_17 = nil
+				end
+				v_u_16 = false
+				v_u_17 = v_u_4.promiseFadeTo(v_u_15, 0, 1):andThen(function()
+					-- upvalues: (ref) v_u_15
+					v_u_15:Destroy()
+					v_u_15 = nil
+				end):andThen(function()
+					-- upvalues: (ref) v_u_17
+					v_u_17 = nil
+				end)
+			end
+		end
+	end)
+	function v_u_18._stop()
+		-- upvalues: (copy) v_u_18, (ref) v_u_17, (ref) v_u_15, (ref) v_u_4
+		v_u_18._listenLoop = nil
+		if v_u_17 then
+			v_u_17:cancel()
+			v_u_17 = nil
+		end
+		if v_u_15 then
+			v_u_4.promiseFadeTo(v_u_15, 0, 1):andThen(function()
+				-- upvalues: (ref) v_u_15
+				v_u_15:Destroy()
+				v_u_15 = nil
+			end)
+		end
+	end
+end
+function v_u_8.Destroy(p22)
+	local v23 = p22._maid
+	p22._maid = nil
+	v23:Destroy()
+end
+return v_u_8

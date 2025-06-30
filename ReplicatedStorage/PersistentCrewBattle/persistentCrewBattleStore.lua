@@ -1,0 +1,13 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMOBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlBVJvZHV4BVN0b3JlA25ldw9jb21iaW5lUmVkdWNlcnMPbGVhZGVyYm9hcmRJbmZvGGNyZXdzSW5TZXJ2ZXJEaXNwbGF5SW5mbxRQZXJzaXN0ZW50Q3Jld0JhdHRsZQdSZWR1Y2VyFmxlYWRlcmJvYXJkSW5mb1JlZHVjZXIfY3Jld3NJblNlcnZlckRpc3BsYXlJbmZvUmVkdWNlcgABCQAAAQIALKMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0CAKcGAAAAnwECAk0DAV4HAAAATQID7wgAAABNAwHjCQAAAOIEDACkBQUAAABAQE0IAFgNAAAATQcIKA4AAABNBgcdDwAAAJ8FAgIwBQTLCgAAAKQFBQAAAEBATQgAWA0AAABNBwgoDgAAAE0GB5MQAAAAnwUCAjAFBF8LAAAAnwMCAJ8CAACCAgAAEQMBBAAAAEADAgMDAwQEAABAQAMFAwYDBwMIAwkDCgUCCgsDCwMMAw0DDgABAAEYAAEAAAAAAAEAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAD+AAABAAAAAACC7pUarT/BHbAq/442m+4+REmUfVt6pDJzknEh3cb8QupM/Lk4wi2g
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v2 = require(v1.Rodux)
+return v2.Store.new(v2.combineReducers({
+	["leaderboardInfo"] = require(v1.PersistentCrewBattle.Reducer.leaderboardInfoReducer),
+	["crewsInServerDisplayInfo"] = require(v1.PersistentCrewBattle.Reducer.crewsInServerDisplayInfoReducer)
+}))

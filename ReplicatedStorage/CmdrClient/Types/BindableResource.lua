@@ -1,0 +1,10 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMHEGJpbmRhYmxlUmVzb3VyY2UEQ21kcgRVdGlsDE1ha2VFbnVtVHlwZRBCaW5kYWJsZVJlc291cmNlBENoYXQMUmVnaXN0ZXJUeXBlAAIIAQAAAAASbwMAAE0GAJ4BAAAATQUGngIAAABNBAWyAwAAAG8FBAD/BgAAAQAAAG8HBQDFBgcCAQAAAJ8EAwC8AQDdBgAAAJ8BAAGCAAEABwMBAwIDAwMEAwUDBgMHAAEAARgAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAEAAAECAAOjAAAAwAAAAIIAAgABBgABAAEAARgAAAABAAAAAAF/yC7j+Jzv7E0MRHdJrSIAqR7dwVR2fOaspS2jl4RLkrX1PB+WhgMa
+
+-- Decompiled by Krnl
+
+return function(p1)
+	p1:RegisterType("bindableResource", p1.Cmdr.Util.MakeEnumType("BindableResource", { "Chat" }))
+end

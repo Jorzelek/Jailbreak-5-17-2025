@@ -1,0 +1,28 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMQD01ha2VGdXp6eUZpbmRlcg9HZXRDb21tYW5kTmFtZXMJVHJhbnNmb3JtKU5vIGNvbW1hbmQgd2l0aCB0aGF0IG5hbWUgY291bGQgYmUgZm91bmQuCFZhbGlkYXRlDEF1dG9jb21wbGV0ZQVQYXJzZQdjb21tYW5kDFJlZ2lzdGVyVHlwZQhjb21tYW5kcxBNYWtlTGlzdGFibGVUeXBlB3JlcXVpcmUGc2NyaXB0BlBhcmVudAZTaGFyZWQEVXRpbAAGBAECAAAADPsCAABNAQI9AAAAAPsCAQC8AgLaAQAAAJ8CAgCfAQACUgIBAFIDAACfAgIAggIAAAIDAQMCAAUDARgAAAAAAAAAAAIAAAAGAAAAAAQBAAAAAAgcAgAAjAMAALcDAgACAAAAqQEAAakBAQBvAgAAggEDAAEDBAALBQEYAAAAAAAAAAAMAAAAAAEBAAAAAAGCAAIAAAAPBgEYABAAAAAAAgEAAAAAAhMBAACCAQIAAAATBwEYAAAUAAAAAAcBAQAAAB7iAQQA2QIAABICAAASAAAAMAIBIQAAAADAAgUAMAIBdgEAAADAAgYAMAIBqwIAAADAAgcAMAIBmwMAAABvBAgAUgUBALwCAN0JAAAAnwIEAW8ECgD7BgAATQUGJAsAAABSBgEAnwUCALwCAN0JAAAAnwIAAYIAAQAMAwMDBQMGAwcFBAABAgMGAQYCBgMDCAMJAwoDCwQAAQIDAwABGAABAAAAAAYAAAQAAAQAAAUAAAAAAQAAAAAAAAAAAQQAAAAABgAAAQIAEaMAAACkAAEAAAAAQKQFAwAAACBATQQFJAQAAABNAwQkBAAAAE0CAxIFAAAATQECngYAAACfAAICwAEHABIAAACCAQIACAMMBAAAAEADDQQAACBAAw4DDwMQBgQBBAEAARgAAAAAAAAAAAAAAAAAAAIAAAEAAAAABS7FeZM+a0n/HAETB3dyR74JXgyo4GACofrwhdnB+a1d7e/AHG2Gr6I=
+
+-- Decompiled by Krnl
+
+local v_u_1 = require(script.Parent.Parent.Shared.Util)
+return function(p_u_2)
+	-- upvalues: (copy) v_u_1
+	local v7 = {
+		["Transform"] = function(p3)
+			-- upvalues: (ref) v_u_1, (copy) p_u_2
+			return v_u_1.MakeFuzzyFinder(p_u_2:GetCommandNames())(p3)
+		end,
+		["Validate"] = function(p4)
+			return #p4 > 0, "No command with that name could be found."
+		end,
+		["Autocomplete"] = function(p5)
+			return p5
+		end,
+		["Parse"] = function(p6)
+			return p6[1]
+		end
+	}
+	p_u_2:RegisterType("command", v7)
+	p_u_2:RegisterType("commands", v_u_1.MakeListableType(v7))
+end

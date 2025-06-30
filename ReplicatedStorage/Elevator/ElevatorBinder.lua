@@ -1,0 +1,64 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("RunService")
+local v_u_2 = game:GetService("Players")
+local v3 = game:GetService("ReplicatedStorage")
+local v_u_4 = require(v3.Std.BaseObject)
+local v5 = require(v3.ManifestBinder)
+local v_u_6 = require(v3.Std.Interval)
+local v_u_7 = require(v3.Std.CharacterUtils)
+require(v3.Door2.DoorBinder)
+local v_u_8 = {}
+v_u_8.__index = v_u_8
+setmetatable(v_u_8, v_u_4)
+function v_u_8.new(p9, p10)
+	-- upvalues: (copy) v_u_4, (copy) v_u_8, (copy) v_u_6
+	local v_u_11 = v_u_4.new(p9)
+	local v12 = v_u_8
+	setmetatable(v_u_11, v12)
+	v_u_11.manifest = p10
+	v_u_11.maid:GiveTask(v_u_6.every(0.5):Connect(function()
+		-- upvalues: (copy) v_u_11
+		if v_u_11:_isLocalColliding() then
+			if not v_u_11.maid.running then
+				v_u_11:_hook()
+				return
+			end
+		elseif v_u_11.maid.running then
+			v_u_11.maid.running = nil
+		end
+	end))
+	return v_u_11
+end
+function v_u_8._isLocalColliding(p13)
+	-- upvalues: (copy) v_u_7, (copy) v_u_2
+	local v14 = v_u_7.getRootPart(v_u_2.LocalPlayer.Character)
+	local v15 = RaycastParams.new()
+	v15.FilterType = Enum.RaycastFilterType.Whitelist
+	v15.FilterDescendantsInstances = { p13.manifest.floor }
+	if v14 then
+		return workspace:Raycast(v14.Position, Vector3.new(0, -20, 0), v15) ~= nil
+	else
+		return false
+	end
+end
+function v_u_8._hook(p16)
+	-- upvalues: (copy) v_u_1, (copy) v_u_7, (copy) v_u_2
+	local v_u_17 = p16.manifest.floor
+	local v_u_18 = v_u_17.CFrame
+	p16.maid.running = v_u_1.Heartbeat:Connect(function()
+		-- upvalues: (ref) v_u_7, (ref) v_u_2, (copy) v_u_17, (ref) v_u_18
+		local v19 = v_u_7.getRootPart(v_u_2.LocalPlayer.Character)
+		local v20 = v_u_17.CFrame
+		v19.CFrame = v20 * v_u_18:Inverse() * v19.CFrame
+		v_u_18 = v20
+	end)
+end
+return v5.new("Elevator", {
+	["floor"] = "Car/InnerModel/Floor"
+}, v_u_8)

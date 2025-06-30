@@ -1,0 +1,15 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMKB3ByZW1pdW0VbWlzc2luZyBwcmVtaXVtIHZhbHVlBmFzc2VydApzZXRQcmVtaXVtBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlBVJvZHV4DWNyZWF0ZVJlZHVjZXIAAgUCAAAAAA9NBAGMAAAAAEcEAgAAAACAqQMAAakDAQCBAQMEAQAAAG8EAQCkAgMAAAAgQJ8CAwFNAgGMAAAAAIICAgAEAwEDAgMDBAAAIEAABgQBGAAAAAAAAAAAAAAAAAEAAAcAAAAABgAAAQIAFaMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0CAKcGAAAAnwECAk0CAdYHAAAAqQMAAOIECQDABQoAMAUE8wgAAACfAgMAggIAAAsDBQQAAABAAwYDBwMIBAAAQEADCQMKAwQFAQgGAAEAAQABGAABAAAAAAABAAAAAAIAAAABAAD/AAEAAAAAAX5I0fshd7FXTIy7bxu25E/muRsZ46GufJLtmXlRYWPiSh5XW9NcXss=
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Rodux).createReducer(false, {
+	["setPremium"] = function(_, p2)
+		local v3 = p2.premium ~= nil
+		assert(v3, "missing premium value")
+		return p2.premium
+	end
+})

@@ -1,0 +1,82 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v_u_1 = {}
+v_u_1.__index = v_u_1
+function v_u_1.new()
+	-- upvalues: (copy) v_u_1
+	local v2 = {}
+	local v3 = v_u_1
+	setmetatable(v2, v3)
+	v2._data = {}
+	v2._observe = {}
+	return v2
+end
+function v_u_1.AcquireFor(p_u_4, p_u_5, p6)
+	if p_u_4._data[p_u_5] then
+		return false
+	end
+	p_u_4._data[p_u_5] = {
+		["thread"] = task.delay(p6, function()
+			-- upvalues: (copy) p_u_4, (copy) p_u_5
+			p_u_4._data[p_u_5] = nil
+			p_u_4:_fireKeyChangedCallbacks(p_u_5)
+		end)
+	}
+	p_u_4:_fireKeyChangedCallbacks(p_u_5)
+	return true
+end
+function v_u_1.ReleaseFor(p7, p8)
+	local v9 = p7._data[p8]
+	if v9 then
+		task.cancel(v9.thread)
+		p7._data[p8] = nil
+		p7:_fireKeyChangedCallbacks(p8)
+	end
+	return v9 ~= nil
+end
+function v_u_1._fireKeyChangedCallbacks(p10, p11)
+	local v12 = p10._data[p11] ~= nil
+	if p10._observe[p11] then
+		for _, v13 in p10._observe[p11] do
+			v13(v12)
+		end
+	end
+end
+function v_u_1.AddKeyChangedCallback(p_u_14, p_u_15, p_u_16)
+	if not p_u_14._observe[p_u_15] then
+		p_u_14._observe[p_u_15] = {}
+	end
+	local v17 = p_u_14._observe[p_u_15]
+	table.insert(v17, p_u_16)
+	return function()
+		-- upvalues: (copy) p_u_14, (copy) p_u_15, (copy) p_u_16
+		if not p_u_14._observe[p_u_15] then
+			return false
+		end
+		local v18 = table.find(p_u_14._observe[p_u_15], p_u_16)
+		if not v18 then
+			return false
+		end
+		table.remove(p_u_14._observe[p_u_15], v18)
+		if #p_u_14._observe[p_u_15] == 0 then
+			p_u_14._observe[p_u_15] = nil
+		end
+		return true
+	end
+end
+function v_u_1.ObserveKey(p19, p20, p21)
+	p21(p19._data[p20] ~= nil)
+	return p19:AddKeyChangedCallback(p20, p21)
+end
+function v_u_1.Destroy(p22)
+	for v23 in p22._data do
+		p22:ReleaseFor(v23)
+	end
+	setmetatable(p22, nil)
+end
+return v_u_1

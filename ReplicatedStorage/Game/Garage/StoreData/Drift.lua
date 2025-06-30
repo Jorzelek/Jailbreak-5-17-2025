@@ -1,0 +1,137 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMzCFJlc291cmNlDkRyaWZ0UGFydGljbGVzDkZpbmRGaXJzdENoaWxkBE5hbWUFQ2xvbmUPUGFydGljbGVFbWl0dGVyFUZpbmRGaXJzdENoaWxkT2ZDbGFzcwZDRnJhbWUDbmV3BFNpemUJTWFnbml0dWRlC0dldEluc3RhbmNlAm9zBWNsb2NrBkFuZ2xlcwRtYXRoA3NpbgZVcGRhdGUEZ2FtZRFSZXBsaWNhdGVkU3RvcmFnZQpHZXRTZXJ2aWNlBkhpZGRlbgVMZXZlbAZTZWFzb24MU2Vhc29uSWNvbklkCkp1bmdsZVZpbmUHQmFuYW5hcwZUb3BQY3QJUGl4ZWxDb2luCEljZVNwaWtlBVN5bnRoDFNob290aW5nU3RhcgZPR0Z1ZWwFU3BhcmsGQXVyb3JhBVByaWNlBkNvc21pYwdDbGFzc2ljC1BlcmZvcm1hbmNlB0NhcnRvb24FUGl4ZWwJTGlnaHRuaW5nC01hZ2ljUHVycGxlDEZsYW1ldGhyb3dlcgZNZWxvbnMKQnViYmxlV2FuZAdOb1RyYWRlCEJsdWVGaXJlDUdyYWRpZW50UGl4ZWwIQnJpY2tzZXQFSXRlbXMAAwcBAQAAACT7AgAATQECYgAAAABvAwEAvAEBAwIAAACfAQMCTQMAugMAAAC8AQEDAgAAAJ8BAwK8AgE6BAAAAJ8CAgJSAQIAbwQFALwCAbgGAAAAnwIDAqQDCQAAIHCAnwMBAjADAYUHAAAATQMBLwoAAABNBgEvCgAAAE0FBqoMAAAA2AQLBQkDAwQwAwEvCgAAAIIBAgANAwEDAgMDAwQDBQMGAwcDCAMJBAAgcIADCgLNzMzMzMwUQAMLAHUMARgAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAAAAgAAAAAAAAAAAAJ2AAAAAA0CAAAAACKkAgIAAAQAgJ8CAQI+AwIDIQQDBKQHBwAAGFCAjAgAAFIJBACMCgAAnwcEAqQIBwAAGFCAuxgDA1IMAwCkCwwAACyggJ8LAgJbCgsJeAkKCIwKAACMCwAAnwgEAgkGBwikBw4AADRQgIwIAACMCQAAjAoFAJ8HBAIJBQYHMAUAhQUAAACCAAEADwMNAw4EAAQAgAIAAAAAAAAAQAIYLURU+yEZQAMIAw8EABhQgAIzMzMzMzPTPwIAAAAAAADQPwMQAxEEACyggAMJBAA0UIAAgQESARgAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABggAAAAATAAABAgD6AaMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwL/AQAAFgAAAOICCQCpAwAAMAMCtgQAAACMAwUAMAMCbQUAAABvAwoAMAMCugYAAACMAxoAMAMChgcAAABvAwsAMAMCoQgAAADiAwwAqQQAADAEA7YEAAAAbwQNADAEA7oGAAAA4gQPAG8FEAAwBQS6BgAAAIwFGQAwBQSGBwAAAIwFAgAwBQQ8DgAAAG8FEQAwBQShCAAAAOIFCQCpBgAAMAYFtgQAAACMBgcAMAYFbQUAAABvBhIAMAYFugYAAACMBhgAMAYFhgcAAABvBhMAMAYFoQgAAADiBgkAqQcAADAHBrYEAAAAjAcCADAHBm0FAAAAbwcUADAHBroGAAAAjAcXADAHBoYHAAAAbwcVADAHBqEIAAAA4gcWAKkIAAAwCAe2BAAAAG8IFwAwCAe6BgAAAIwIFgAwCAeGBwAAAG8IGAAwCAehCAAAAIwIAgAwCAc8DgAAAOIIGQCMCRUAMAkIhgcAAACMCQIAMAkIPA4AAABvCRoAMAkIugYAAABvCRsAMAkIoQgAAADiCQkAqQoAADAKCbYEAAAAjAoHADAKCW0FAAAAbwocADAKCboGAAAAjAoUADAKCYYHAAAAbwodADAKCaEIAAAA4goeAKkLAAAwCwq2BAAAAG8LHwAwCwq6BgAAAIwLAgAwCwo8DgAAAIwLEwAwCwqGBwAAAG8LIAAwCwqhCAAAAOILIgBvDCMAMAwLugYAAABvDCQAMAwLJCEAAADiDCIAbw0lADANDLoGAAAAjA0AADANDCQhAAAA4g0iAG8OJgAwDg26BgAAAIwOqGEwDg0kIQAAAOIOIgBvDycAMA8OugYAAABvDygAMA8OJCEAAADiDyIAbxApADAQD7oGAAAAbxAqADAQDyQhAAAA4hAiAG8RKwAwERC6BgAAAG8RLAAwERAkIQAAAOIRIgBvEi0AMBIRugYAAABvEi4AMBIRJCEAAADFAQIRAQAAAOICIgBvAy8AMAMCugYAAABvAzAAMAMCJCEAAADiAyIAbwQxADAEA7oGAAAAjASoYTAEAyQhAAAA4gQiAG8FMgAwBQS6BgAAAG8FMwAwBQQkIQAAAOIFNQBvBjYAMAYFugYAAACpBgEAMAYFtgQAAACpBgEAMAYFlTQAAADiBjUAbwc3ADAHBroGAAAAqQcBADAHBrYEAAAAqQcBADAHBpU0AAAA4gc4AG8SOQAwEge6BgAAAKkSAQAwEge2BAAAAMUBAgcRAAAAwAI6ABIAAADAAzsA4gQ/ADABBDg8AAAAMAIEUT0AAAAwAwQmPgAAAIIEAgBAAxMEAAAAQAMUAxUDFgMXAwQDGAMZBQUEBQYHCAMaAgCzaux0ztZCBQIEBgMbAxwFBAYHDggDHQKAVneHxFDUQgMeAkBF7jYY59hCAx8CAJ+hZpIb10IFBQQGBwgOAyACAADYeBniEEIFBAcOBggDIQIAALDPoeUPQgMiAgAAWLSEIQ5CBQUEBg4HCAMjAgAAWMhpGg1CAyQFAgYhAyUCAAAAAABM/UADJgMnAygCAAAAAAAX4UADKQIAAAAAgE/yQAMqAgAAAAAAahhBAysCAAAAAABq+EADLAIAAAAAgE8SQQMtAy4CAAAAAAD55UADLwUDBgQ0AzADMQUCBgQDMgYABgEDMwMMAxIFAzw9PgIAAQEAARgAAAAAAAAAAQACAQAAAQAAAQAAAQAAAQAAAgEAAAEAAAIBAAABAAABAAABAAACAQAAAQAAAQAAAQAAAQAAAgEAAAEAAAEAAAEAAAEAAAIBAAABAAABAAABAAABAAACAQAAAQAAAQAAAQAAAgEAAAEAAAEAAAEAAAEAAAIBAAABAAABAAABAAABAAACAQAAAQAAAgEAAAEAAAIBAAABAAACAQAAAQAAAgEAAAEAAAIBAAABAAACAQAAAQAAAgAAAQAAAQAAAgEAAAEAAAIBAAABAAACAQAAAQAAAQAAAgEAAAEAAAEAAAIBAAABAAAAAAMADAYBAAEAAQAAAQAAAAACREXIlnD1yoV2gaICZZDhE8Te1AZuLI9nhlEKrPrJ3BDTLDlpN/dbDw==
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("ReplicatedStorage")
+return {
+	["Items"] = {
+		{
+			["Hidden"] = false,
+			["Level"] = 5,
+			["Name"] = "JungleVine",
+			["Season"] = 26,
+			["SeasonIconId"] = 100303922899660
+		},
+		{
+			["Hidden"] = false,
+			["Name"] = "Bananas"
+		},
+		{
+			["Name"] = "PixelCoin",
+			["Season"] = 25,
+			["TopPct"] = 2,
+			["SeasonIconId"] = 89348508605786
+		},
+		{
+			["Hidden"] = false,
+			["Level"] = 7,
+			["Name"] = "IceSpike",
+			["Season"] = 24,
+			["SeasonIconId"] = 109523291060501
+		},
+		{
+			["Hidden"] = false,
+			["Level"] = 2,
+			["Name"] = "Synth",
+			["Season"] = 23,
+			["SeasonIconId"] = 101628751021692
+		},
+		{
+			["Hidden"] = false,
+			["Name"] = "ShootingStar",
+			["Season"] = 22,
+			["SeasonIconId"] = 18128199222,
+			["TopPct"] = 2
+		},
+		{
+			["Season"] = 21,
+			["TopPct"] = 2,
+			["Name"] = "OGFuel",
+			["SeasonIconId"] = 17124571638
+		},
+		{
+			["Hidden"] = false,
+			["Level"] = 7,
+			["Name"] = "Spark",
+			["Season"] = 20,
+			["SeasonIconId"] = 16176420491
+		},
+		{
+			["Hidden"] = false,
+			["Name"] = "Aurora",
+			["TopPct"] = 2,
+			["Season"] = 19,
+			["SeasonIconId"] = 15624648971
+		},
+		{
+			["Name"] = "Cosmic",
+			["Price"] = 120000
+		},
+		{
+			["Name"] = "Classic",
+			["Price"] = 0
+		},
+		{
+			["Name"] = "Performance",
+			["Price"] = 25000
+		},
+		{
+			["Name"] = "Cartoon",
+			["Price"] = 35000
+		},
+		{
+			["Name"] = "Pixel",
+			["Price"] = 75000
+		},
+		{
+			["Name"] = "Lightning",
+			["Price"] = 400000
+		},
+		{
+			["Name"] = "MagicPurple",
+			["Price"] = 100000
+		},
+		{
+			["Name"] = "Flamethrower",
+			["Price"] = 300000
+		},
+		{
+			["Name"] = "Melons",
+			["Price"] = 25000
+		},
+		{
+			["Name"] = "BubbleWand",
+			["Price"] = 45000
+		},
+		{
+			["Name"] = "BlueFire",
+			["Hidden"] = true,
+			["NoTrade"] = true
+		},
+		{
+			["Name"] = "GradientPixel",
+			["Hidden"] = true,
+			["NoTrade"] = true
+		},
+		{
+			["Name"] = "Brickset",
+			["Hidden"] = true
+		}
+	},
+	["GetInstance"] = function(p2)
+		-- upvalues: (copy) v_u_1
+		local v3 = v_u_1.Resource:FindFirstChild("DriftParticles"):FindFirstChild(p2.Name):Clone()
+		v3:FindFirstChildOfClass("ParticleEmitter")
+		v3.CFrame = CFrame.new()
+		v3.Size = v3.Size * (5.2 / v3.Size.Magnitude)
+		return v3
+	end,
+	["Update"] = function(p4, _)
+		local v5 = os.clock() / 2
+		local v6 = v5 % 6.283185307179586
+		p4.CFrame = CFrame.Angles(0, v6, 0) * CFrame.Angles(math.sin(v5) * 0.25 - 0.3, 0, 0) * CFrame.new(0, 0, 5)
+	end
+}

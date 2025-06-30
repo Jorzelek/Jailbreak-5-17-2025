@@ -1,0 +1,15 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMKCWluVmVoaWNsZRdtaXNzaW5nIGluVmVoaWNsZSB2YWx1ZQZhc3NlcnQMc2V0SW5WZWhpY2xlBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlBVJvZHV4DWNyZWF0ZVJlZHVjZXIAAgUCAAAAAA9NBAHLAAAAAEcEAgAAAACAqQMAAakDAQCBAQMEAQAAAG8EAQCkAgMAAAAgQJ8CAwFNAgHLAAAAAIICAgAEAwEDAgMDBAAAIEAABgQBGAAAAAAAAAAAAAAAAAEAAAcAAAAABgAAAQIAFaMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0CAKcGAAAAnwECAk0CAdYHAAAAqQMAAOIECQDABQoAMAUEMwgAAACfAgMAggIAAAsDBQQAAABAAwYDBwMIBAAAQEADCQMKAwQFAQgGAAEAAQABGAABAAAAAAABAAAAAAIAAAABAAD/AAEAAAAAAaYFWjCLp5B1lMEwpIIkVmeWlLmyfZcE/Anr8oNNQOjf+3n44zQw0XQ=
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Rodux).createReducer(false, {
+	["setInVehicle"] = function(_, p2)
+		local v3 = p2.inVehicle ~= nil
+		assert(v3, "missing inVehicle value")
+		return p2.inVehicle
+	end
+})

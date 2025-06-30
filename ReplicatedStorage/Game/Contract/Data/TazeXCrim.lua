@@ -1,0 +1,16 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMPElRhemUgJWQgY3JpbWluYWxzLgdHZXRHb2FsBmZvcm1hdARnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQhTZXR0aW5ncwhSZXNvdXJjZQhFbnVtVGVhbQZQb2xpY2UGdGVhbUlkB21lc3NhZ2UEZ29hbAlyZXdhcmRFeHAAAgUBAAAABwAAAQMBBAIIbwEAALwDABUBAAAAnwMCALwBAY0CAAAAnwEAAIIBAAADAwEDAgMDAAcAARgAAAAAAAAAAAgAAAAABQAAAQIAIKMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0DAGIHAAAATQIDygYAAACfAQIC/wIDAAAAAABNBAFMCAAAAE0DBLIJAAAAMAMCbwoAAADAAwsAMAMCmAwAAACMAwYAMAMCCg0AAACMAx4AMAMCAw4AAACCAgIADwMEBAAAAEADBQMGAwcEAABAQAMIAwkDCgMLAwwGAAMNAw4DDwEAAQABGAABAAAAAAABAAAAAAAAAgABAAAAAAABAAADAAABAAABAQAAAAABxRiRWefRX/z33PvNR3o746VIwuETNxOW6nszT/TGevAuRVDsmhSdIQ==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return {
+	["teamId"] = require(v1.Resource.Settings).EnumTeam.Police,
+	["message"] = function(p2)
+		return ("Taze %d criminals."):format(p2:GetGoal())
+	end,
+	["goal"] = 6,
+	["rewardExp"] = 30
+}

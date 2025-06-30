@@ -1,0 +1,9 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMIBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlA1N0ZAZFbnVtZXIIQ2hlY2tib3gGU2xpZGVyAAEGAAABAgAXowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBBQAAAEBATQMAoQYAAABNAgNXBwAAAJ8BAgJSAgEA/wMAAAIAAABvBAgAbwUJAMUDBAMBAAAAnwICAIICAAAKAwEEAAAAQAMCAwMDBAQAAEBAAwUDBgMHAwgAAQABGAABAAAAAAABAAAAAAAAAQAAAQEAAP4AAQAAAAAAud9DzUV0e+qLGylZoApoPC6Bu0IqhSL2LMLkiILy0sWCwCdVxzJANg==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Std.Enumer)({ "Checkbox", "Slider" })

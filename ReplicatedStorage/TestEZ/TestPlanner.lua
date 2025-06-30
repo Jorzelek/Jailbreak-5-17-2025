@@ -1,0 +1,21 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMNFHBhdGhTdHJpbmdGb3JTb3J0aW5nA25ldwV0YWJsZQRzb3J0BmlwYWlycwRwYXRoBm1ldGhvZAdhZGRSb290CmNyZWF0ZVBsYW4HcmVxdWlyZQZzY3JpcHQGUGFyZW50CFRlc3RQbGFuAAMFAgAAAAAJTQMAdwAAAABNBAF3AAAAALcDAgAEAAAAqQIAAakCAQCCAgIAAQMBAB0AARgAAAAAAAAAAAAeAAAAAA0DAQAAABr7BAAATQME7wAAAABSBAEAUgUCAJ8DAwKkBAMAAAgQgFIFAADABgQAnwQDAaQEBgAAAFBAUgUAAJ8EAgRRBAcATQsIYQcAAABNDAjyCAAAALwJA2wJAAAAnwkEAW4E+P8CAACAggMCAAoDAgMDAwQEAAgQgAYAAwUEAABQQAMGAwcDCAEAGgkBGAAAAAAAAAIAAAAABAAAAAABAAAAAAAA/wAEGwAAAAAEAAABAgARowAAAKQAAQAAAABApAMDAAAAIEBNAgMkBAAAAE0BAvsFAAAAnwACAv8BAQAAAAAAwAIGABIAAAAwAgEQBwAAAIIBAgAIAwoEAAAAQAMLBAAAIEADDAMNBgEDCQEBAQABGAAFAAAAAAAAAAACABIAAAAOAQAAAAACQu5mTU/a16dwKgzZNpeaSNSEwvb3g2t1XsKXRjlkkUGgHtMbh1UN1A==
+
+-- Decompiled by Krnl
+
+local v_u_1 = require(script.Parent.TestPlan)
+return {
+	["createPlan"] = function(p2, p3, p4)
+		-- upvalues: (copy) v_u_1
+		local v5 = v_u_1.new(p3, p4)
+		table.sort(p2, function(p6, p7)
+			return p6.pathStringForSorting < p7.pathStringForSorting
+		end)
+		for _, v8 in ipairs(p2) do
+			v5:addRoot(v8.path, v8.method)
+		end
+		return v5
+	end
+}

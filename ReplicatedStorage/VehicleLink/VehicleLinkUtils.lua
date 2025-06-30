@@ -1,0 +1,36 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMSC0JvdW5kaW5nQm94DkZpbmRGaXJzdENoaWxkC1ByaW1hcnlQYXJ0DmdldFByaW1hcnlQYXJ0DU1heExpbmtMZW5ndGgMU2V0QXR0cmlidXRlEHNldE1heExpbmtMZW5ndGgMR2V0QXR0cmlidXRlEGdldE1heExpbmtMZW5ndGgISXNMaW5rZWQLc2V0SXNMaW5rZWQLZ2V0SXNMaW5rZWQZR2V0QXR0cmlidXRlQ2hhbmdlZFNpZ25hbBhnZXRJc0xpbmtlZENoYW5nZWRTaWduYWwMTGlua0Rpc2FibGVkC3NldERpc2FibGVkC2dldERpc2FibGVkGGdldERpc2FibGVkQ2hhbmdlZFNpZ25hbAAKBAEAAAAACG8DAAC8AQADAQAAAJ8BAwIrAQIATQEAmwIAAACCAQIAAwMBAwIDAwADBAEYAAAAAAAAAAAEAAAAAAYCAAAAAAZvBAAAUgUBALwCAC4BAAAAnwIEAYIAAQACAwUDBgAGBwEYAAAAAAABBwAAAAAEAQAAAAAFbwMAALwBABIBAAAAnwEDAIIBAAACAwUDCAAJCQEYAAAAAAAKAAAAAAYCAAAAAAZvBAAAUgUBALwCAC4BAAAAnwIEAYIAAQACAwoDBgAMCwEYAAAAAAABDQAAAAAEAQAAAAAFbwMAALwBABIBAAAAnwEDAIIBAAACAwoDCAAPDAEYAAAAAAAQAAAAAAQBAAAAAAVvAwAAvAEAFgEAAACfAQMAggEAAAIDCgMNABIOARgAAAAAABMAAAAABgIAAAAABm8EAABSBQEAvAIALgEAAACfAgQBggABAAIDDwMGABUQARgAAAAAAAEWAAAAAAQBAAAAAAVvAwAAvAEAEgEAAACfAQMAggEAAAIDDwMIABgRARgAAAAAABkAAAAABAEAAAAABW8DAAC8AQAWAQAAAJ8BAwCCAQAAAgMPAw0AGxIBGAAAAAAAHAAAAAACAAABAgAfowAAAP8ABQAAAAAAwAEAADABAGgBAAAAwAECADABAAoDAAAAwAEEADABAAYFAAAAwAEGADABAJkHAAAAwAEIADABAK0JAAAAwAEKADABAHcLAAAAwAEMADABAKkNAAAAwAEOADABAN0PAAAAwAEQADABAOERAAAAggACABIGAAMEBgEDBwYCAwkGAwMLBgQDDAYFAw4GBgMQBgcDEQYIAxIJAAECAwQFBgcIAQABGAABAAEAAAMAAAMAAAMAAAMAAAMAAAMAAAMAAAMAAAMBAAAAAAnYZDwiEXO8/uqgVrYEh3O6ItcXok82juy7BuBB5ZF2ppwH6rVzoTLZ
+
+-- Decompiled by Krnl
+
+return {
+	["getPrimaryPart"] = function(p1)
+		return p1:FindFirstChild("BoundingBox") or p1.PrimaryPart
+	end,
+	["setMaxLinkLength"] = function(p2, p3)
+		p2:SetAttribute("MaxLinkLength", p3)
+	end,
+	["getMaxLinkLength"] = function(p4)
+		return p4:GetAttribute("MaxLinkLength")
+	end,
+	["setIsLinked"] = function(p5, p6)
+		p5:SetAttribute("IsLinked", p6)
+	end,
+	["getIsLinked"] = function(p7)
+		return p7:GetAttribute("IsLinked")
+	end,
+	["getIsLinkedChangedSignal"] = function(p8)
+		return p8:GetAttributeChangedSignal("IsLinked")
+	end,
+	["setDisabled"] = function(p9, p10)
+		p9:SetAttribute("LinkDisabled", p10)
+	end,
+	["getDisabled"] = function(p11)
+		return p11:GetAttribute("LinkDisabled")
+	end,
+	["getDisabledChangedSignal"] = function(p12)
+		return p12:GetAttributeChangedSignal("LinkDisabled")
+	end
+}

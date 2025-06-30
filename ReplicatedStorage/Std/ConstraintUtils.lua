@@ -1,0 +1,77 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v_u_23 = {
+	["customWeld"] = function(p1, p2, p3, p4)
+		local v5 = Instance.new("Weld")
+		v5.Name = ("%s->%s"):format(p1.Name, p2.Name)
+		v5.Part0 = p1
+		v5.Part1 = p2
+		if p3 then
+			v5.C0 = p3
+		end
+		if p4 then
+			v5.C1 = p4
+		end
+		v5.Parent = p1
+		return v5
+	end,
+	["blankWeld"] = function(p6, p7)
+		-- upvalues: (copy) v_u_23
+		return v_u_23.customWeld(p6, p7, nil, nil)
+	end,
+	["weld"] = function(p8, p9)
+		-- upvalues: (copy) v_u_23
+		return v_u_23.customWeld(p8, p9, p8.CFrame:ToObjectSpace(p9.CFrame), nil)
+	end,
+	["weldModel"] = function(p10, p11)
+		-- upvalues: (copy) v_u_23
+		local v12 = p10.PrimaryPart
+		if v12 == nil then
+			error("Missing `PrimaryPart` of root model.")
+		end
+		for _, v13 in ipairs(p10:GetChildren()) do
+			if v13:IsA("BasePart") then
+				if v13 ~= v12 then
+					v_u_23.weld(v13, v12)
+					v13.Anchored = false
+				end
+			elseif v13:IsA("Model") and not p11 then
+				if v13.PrimaryPart then
+					v_u_23.weldModel(v13)
+					v_u_23.weld(v13.PrimaryPart, v12)
+				else
+					warn(("Skipping %s, no primary part"):format(v13.Name))
+				end
+			end
+		end
+		v12.Anchored = false
+	end,
+	["customMotor"] = function(p14, p15, p16, p17)
+		local v18 = Instance.new("Motor")
+		v18.Name = ("%s->%s"):format(p14.Name, p15.Name)
+		v18.Part0 = p14
+		v18.Part1 = p15
+		if p16 then
+			v18.C0 = p16
+		end
+		if p17 then
+			v18.C1 = p17
+		end
+		v18.Parent = p14
+		return v18
+	end,
+	["blankMotor"] = function(p19, p20)
+		-- upvalues: (copy) v_u_23
+		return v_u_23.customMotor(p19, p20, nil, nil)
+	end,
+	["motor"] = function(p21, p22)
+		-- upvalues: (copy) v_u_23
+		return v_u_23.customMotor(p21, p22, p21.CFrame:ToObjectSpace(p22.CFrame), nil)
+	end
+}
+return v_u_23

@@ -1,0 +1,143 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgNDBkNGcmFtZQ13b3JsZFBvc2l0aW9uElBvaW50VG9PYmplY3RTcGFjZQF4AXoEbWF0aAVhdGFuMghnZXRBbmdsZQZib3JuQXQOc2hvcnRBbmdsZURpc3QLdXBkYXRlQW5nbGUIc3RyZW5ndGgBcBJ1cGRhdGVUcmFuc3BhcmVuY3kCb3MFY2xvY2sIbGlmZXRpbWUBdAFhAXYGdXBkYXRlCkRpc2Nvbm5lY3QFdGFibGUEZmluZARsaXN0BnJlbW92ZQ1vbkZvcmNlVXBkYXRlBEZpcmUDa2V5BnJhbmRvbQh0b3N0cmluZxBkYW1hZ2VJbmRpY2F0b3JfF3N0cmVuZ3RoIG11c3QgYmUgKDAsIDFdBmFzc2VydAVjb2xvcgZDb2xvcjMDbmV3DWNyZWF0ZUJpbmRpbmcFYW5nbGUMdHJhbnNwYXJlbmN5Bmluc2VydAVydGltZQlIZWFydGJlYXQHQ29ubmVjdARuYW1lBWZsYXNoC3VwZGF0ZUNvbG9yA2FkZA1PbkNsaWVudEV2ZW50FURhbWFnZUluZGljYXRvclJlbW90ZQdhbmRUaGVuBGluaXQEZ2FtZQpSdW5TZXJ2aWNlCkdldFNlcnZpY2URUmVwbGljYXRlZFN0b3JhZ2UHcmVxdWlyZQVSb2FjdANTdGQKQWNjZWxUd2VlbglHZW9tVXRpbHMGU2lnbmFsDHdhaXRGb3JDaGlsZAl3b3Jrc3BhY2UNQ3VycmVudENhbWVyYQNBcHAOTWluaW1hcFNlcnZpY2UACAUAAgAAABX7AQAATQABhQAAAAD7AwEATQIDgAEAAAC8AADGAgAAAJ8AAwJNAwCZAwAAADkCAwBNBACbBAAAADkDBACeBQIDAwAAAKQBBwAAGFCAnwEDAoIBAgAIAwEDAgMDAwQDBQMGAwcEABhQgAA8CAEYAAAAAAAAAAAAAQAAAAAAAAAAAAAAPQAAAAAJAAcAAABv+wEAAE0AAZQAAAAA+wMBAE0CA4UBAAAA+wUAAE0EBYACAAAAvAICxgMAAACfAgMCTQUCmQQAAAA5BAUATQYCmwUAAAA5BQYAngUEAwUAAACkAwgAABxggJ8DAwJSAQMA+wICAPsFAwBNBAWpCgAAAPsFAgBSBgEAnwQDAj4DBAlDAgID3gICAPsDAABNAgPyCwAAAPsEAgD1AwwEnwICAfsEAABNAwT2DgAAAPUCDQP7BAQATQMEkQ8AAAD7BQAATQQFUxAAAAD1Bw0DCQYCB4wIAQAJBwgDQwUGB58EAgGkBBMAAEgQgZ8EAQImBQQA+wgAAE0HCOsUAAAA+wgFACYGBwhgBhMABQAAAPsGBABNBQaVFQAAAA0FHwANAAAA+wUEAIwGCgAwBgWAFgAAAPsFBACMBgAAMAYFlxcAAAD7BQQAjAYBADAGBZUVAAAAZQARAPsGBABNBQaVFQAAAA0FDQAYAAAA+wUEAIwG9AEwBgWAFgAAAPsFBACMBgAAMAYFlxcAAAD7BQQAjAYAADAGBZUVAAAAJgUEAPsHAABNBgfrFAAAAGAGAwAFAAAA+wUGAJ8FAQGCAAEAGQMJAwEDAgMDAwQDBQMGAwcEABxggAIAAAAAAAAUQAMKAwsCGC1EVPsh+b8CAAAAAAAA8D8DDAMNAw4DDwMQBABIEIEDEQMSAxMDFAIAAAAAAAAAAABBFQEYBQAA+wAAAAAAAAAAAQAAAAAAAAAAAAAABwAAAAAAAAAAAAEAAAAAAAIAAAACAAABAAAAAAAAAAACAAABAAAAAAAAAAEAAAAAAQAAAAEAAAABAAAAAAMAAAAAAQAAAAEAAAABAAAAAwAAAAAAAQACPQAAAAAEAAUAAAAk+wAAAA4AAgCpAAAAggACAKkAAQDeAAAA+wABALwAABoAAAAAnwACAcYAAADeAAEA+wACAJ8AAQGkAAMAAAgQgPsCAwBNAQILBAAAAPsCBACfAAMCpAEGAAAUEID7AwMATQIDCwQAAABSAwAAnwEDAfsCAwBNAQI2BwAAALwBAd0IAAAAnwECAakBAQCCAQIACQMWAxcDGAQACBCAAxkDGgQAFBCAAxsDHABtGgEYAAABAAIAAQAAAAEAAgACAAAAAAAAAQAAAAAAAAEAAAAAAAEAbgAAAAAPAQcAAADyAU0BAEoAAAAAKwEIAKQDBAAADCCAnwMBAlsCAwG7PwICpAEGAAAAUECfAQICMAEASgAAAABvAgcATQMASgAAAABzAQIDMAEASgAAAACkAQoAACSAgJ8BAQIwAQCUCwAAAE0CAPYNAAAAkAECDDABAPYNAAAAqQIAAE0DAPYNAAAAjAQAAGAECAADAAAATQMA9g0AAACMBAEA1AMCAAQAAACpAgABqQIBAIEBAgQOAAAAbwMOAKQBEAAAAPBAnwEDAU0CAOsRAAAAkAECDDABAOsRAAAATQEARBIAAAArAQYApAEVAABQMIGMAgEAjAMAAIwEAACfAQQCMAEARBIAAADGAQAAjAQBAPsGAABNBQYLFgAAABwCBQCMAwEAqAINAPsHAABNBgcLFgAAAIcFBgRNBgVKAAAAAE0HAEoAAAAAmgYDAAcAAABSAQUAZQABAIsC8/8OAREATQIAlAsAAAAwAgGUCwAAAE0CAOsRAAAAMAIB6xEAAABNAgD2DQAAADACAfYNAAAATQIAgBcAAAAwAgGAFwAAAIIAAQD7AwEATQIDMRgAAACMAwAAnwICAzACAM0ZAAAAMAMA8hoAAAD7AwEATQIDMRgAAACMAwAAnwICAzACADkbAAAAMAMAUxwAAAD7BAAATQMECxYAAACeNAMEAAAAAFIEAACkAh8AAHjQgZ8CAwH7AwIATQID7xQAAACfAgECjAMKADADAoAgAAAAjAMAADADApEhAAAAjAMBADADApUiAAAATQMCZyMAAACMBPQBMAQCgCAAAACMBAEAMAQCkSEAAACMBAAAMAQClSIAAADGBAAA2QUAABICAwASAAAA+wgDAE0HCIUkAAAATQkAgBcAAAC8BwfGJQAAAJ8HAwJNCgeZJgAAADkJCgBNCwebJwAAADkKCwCeBQkDCgAAAKQIKQAAoCCAnwgDAlIGCADZBwEAEgAAABICAwASAQb/EgIEABIAAgASAAMAEgEE/1IIBwCfCAEB+wkFAE0ICf0qAAAAUgoHALwICMcrAAAAnwgDAvsKAABNCQo2LAAAALwJCd0tAAAAnwkCAf8JBAAAAAAATQoASgAAAAAwCglaLgAAAE0KAIAXAAAAMAoJgBcAAACpCgAAMAoJpy8AAAD7CwEATQoLMRgAAACkCxUAAFAwgYwMAQCMDQAAjA4AAJ8LBACfCgADMAoJRBIAAAAwCwkuMAAAAPsLBgBNCgu/MQAAAFILCQCfCgICqQsAANkEAgASAQv/EgEI/xIACgASAgAAEgAAAMEEAACCBAIAMgMdAgAAAAAAiMNAAwYDHgQADCCAAx8EAABQQAMgAw8DEAQAJICAAwkCAAAAAAAA8D8DDAMhAyIEAADwQAMRAyMDJAMlBABQMIEDGQMCAyYDJwMLAygDDgMXAykEAHjQgQMTAw0DEgMqAwEDAwMEAwUDBwQAoCCAAysDLAMbAxwDLQMuAy8DMAMAAQIQMAEYAAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAAAgAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAABAAAAAAAAAAAAAAIBAAAAAAAAAQAAAAEAAAAAAAEB/AcBAAAAAQAAAAEAAAABAAAAAQIAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAQAAAACAAABAAABAAABAAIAAAEAAAEAAAICAAABAAAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAHgABAAAAAAAAAgAAAAAAAgABAAAAAQAAAAEAAAEAAAAAAAAAAAAAAAAAAQAAAAADAQAAAAAADwARAAAAAAMBAQAAAAb7AgAATQECvwAAAABSAgAAnwECAYIAAQABAzAAgAEAARgAAAAAAAGBAAAAAAQBAQAAAAhNAQCMAAAAAMADAQASAgAAvAEBxwIAAACfAQMBggABAAMDMQYEAywBBH8AARgAAAAAAAAAA4AAAAAAAwADAAAACvsAAAD7AQEAbwIAAJ8AAwLAAgEAEgICALwAALUCAAAAnwADAYIAAQADAzIGBQMzAQV+NAEYAAAAAAAAAAAABX8AAAAACwAAAQIAVaMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQEAAAAAQG8DBAC8AQEWAwAAAJ8BAwKkAgYAAABQQE0DASEHAAAAnwICAqQDBgAAAFBATQUBoQgAAABNBAX7CQAAAJ8DAgKkBAYAAABQQE0GAaEIAAAATQUGPAoAAACfBAICpAUGAAAAUEBNBwGhCAAAAE0GBx8LAAAAnwUCAqQGBgAAAFBATQgBoQgAAABNBwjzDAAAAJ8GAgKkCA4AAADQQE0HCEgPAAAApAgGAAAAUEBNCgHBEAAAAE0JCl0RAAAAnwgCAv8JAwAAAAAA/woAAAAAAAAwCgkLEgAAAE0KBe8TAAAAnwoBAjAKCTYUAAAAwAoVABIACQASAAIAEgADABIABwASAAQAEgAAABIACAAwCgm/FgAAAMAKFwASAAYAEgABABIACQAwCgkTGAAAAIIJAgAZAzUEAAAAQAM2AzcDOAM5BAAAUEADOgM7AzwDPQM+Az8DQAQAANBAA0EDQgNDAxkDJQMbBgMDMAYGAzQCAwYBAAEYAAEAAAAAAAEAAAAAAAEAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAACAAAAAAAAAgABAAAAAQAAAAABAAAAAAAAAAAAbgAAAAAABwEAAAAAByzyX9qCD5Q3HjY1Tuvh9GLTByBFoefLhAI3ttjuk47eRl2sk1QVe94=
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("RunService")
+local v_u_2 = game:GetService("ReplicatedStorage")
+local v_u_3 = require(v_u_2.Roact)
+local v_u_4 = require(v_u_2.Std.AccelTween)
+local v_u_5 = require(v_u_2.Std.GeomUtils)
+local v6 = require(v_u_2.Std.Signal)
+local v_u_7 = require(v_u_2.Std.waitForChild)
+local v_u_8 = workspace.CurrentCamera
+local v_u_9 = require(v_u_2.App.MinimapService)
+local v_u_47 = {
+	["list"] = {},
+	["onForceUpdate"] = v6.new(),
+	["add"] = function(p_u_10)
+		-- upvalues: (copy) v_u_47, (copy) v_u_3, (copy) v_u_4, (copy) v_u_8, (copy) v_u_5, (copy) v_u_1, (copy) v_u_9
+		local v11 = p_u_10.key
+		if not v11 then
+			local v12 = math.random() * 10000
+			v11 = tostring(v12)
+		end
+		p_u_10.key = v11
+		p_u_10.key = "damageIndicator_" .. p_u_10.key
+		p_u_10.bornAt = os.clock()
+		p_u_10.strength = p_u_10.strength or 1
+		local v13
+		if p_u_10.strength > 0 then
+			v13 = p_u_10.strength <= 1
+		else
+			v13 = false
+		end
+		assert(v13, "strength must be (0, 1]")
+		p_u_10.lifetime = p_u_10.lifetime or 1
+		p_u_10.color = p_u_10.color or Color3.new(1, 0, 0)
+		local v14 = nil
+		for v15 = 1, #v_u_47.list do
+			local v16 = v_u_47.list[v15]
+			if v16.key == p_u_10.key then
+				v14 = v16
+				break
+			end
+		end
+		if not v14 then
+			local v17, v18 = v_u_3.createBinding(0)
+			p_u_10.angle = v17
+			p_u_10.updateAngle = v18
+			local v19, v20 = v_u_3.createBinding(0)
+			p_u_10.transparency = v19
+			p_u_10.updateTransparency = v20
+			local v21 = v_u_47.list
+			table.insert(v21, p_u_10)
+			local v_u_22 = v_u_4.new()
+			v_u_22.a = 10
+			v_u_22.p = 0
+			v_u_22.t = 1
+			local v_u_23 = v_u_22.rtime
+			v_u_22.a = 500
+			v_u_22.p = 1
+			v_u_22.t = 0
+			local v_u_24 = nil
+			local v25 = v_u_8.CFrame:PointToObjectSpace(p_u_10.worldPosition)
+			local v26 = -v25.x
+			local v27 = -v25.z
+			local v_u_28 = math.atan2(v26, v27)
+			local function v37()
+				-- upvalues: (copy) p_u_10, (ref) v_u_8, (ref) v_u_28, (ref) v_u_5, (copy) v_u_22, (copy) v_u_23, (ref) v_u_24
+				local v29 = p_u_10.bornAt
+				local v30 = v_u_8.CFrame:PointToObjectSpace(p_u_10.worldPosition)
+				local v31 = -v30.x
+				local v32 = -v30.z
+				local v33 = math.atan2(v31, v32)
+				v_u_28 = v_u_28 + v_u_5.shortAngleDist(v_u_28, v33) / 5
+				p_u_10.updateAngle(-1.5707963267948966 - v_u_28)
+				local v34 = 1 - p_u_10.strength
+				local v35 = v_u_22.p
+				p_u_10.updateTransparency(v34 * (1 - v35) + 1 * v35)
+				local v36 = os.clock()
+				if v36 - v29 > p_u_10.lifetime - v_u_23 then
+					if v_u_22.t ~= 1 then
+						v_u_22.a = 10
+						v_u_22.v = 0
+						v_u_22.t = 1
+					end
+				elseif v_u_22.t ~= 0 then
+					v_u_22.a = 500
+					v_u_22.v = 0
+					v_u_22.t = 0
+				end
+				if v36 - v29 > p_u_10.lifetime then
+					v_u_24()
+				end
+			end
+			v37()
+			local v_u_38 = v_u_1.Heartbeat:Connect(v37)
+			v_u_47.onForceUpdate:Fire()
+			local v39 = {
+				["name"] = p_u_10.key,
+				["worldPosition"] = p_u_10.worldPosition,
+				["flash"] = false
+			}
+			local v40, v41 = v_u_3.createBinding(Color3.new(1, 0, 0))
+			v39.color = v40
+			v39.updateColor = v41
+			local v_u_42 = v_u_9.add(v39)
+			local v_u_43 = false
+			v_u_24 = function()
+				-- upvalues: (ref) v_u_43, (ref) v_u_38, (copy) v_u_42, (ref) v_u_47, (copy) p_u_10
+				if v_u_43 then
+					return false
+				end
+				v_u_43 = true
+				v_u_38:Disconnect()
+				v_u_38 = nil
+				v_u_42()
+				local v44 = table.find(v_u_47.list, p_u_10)
+				table.remove(v_u_47.list, v44)
+				v_u_47.onForceUpdate:Fire()
+				return true
+			end
+			return v_u_24
+		end
+		v14.bornAt = p_u_10.bornAt
+		v14.lifetime = p_u_10.lifetime
+		v14.strength = p_u_10.strength
+		v14.worldPosition = p_u_10.worldPosition
+	end,
+	["init"] = function()
+		-- upvalues: (copy) v_u_7, (copy) v_u_2, (copy) v_u_47
+		v_u_7(v_u_2, "DamageIndicatorRemote"):andThen(function(p45)
+			-- upvalues: (ref) v_u_47
+			p45.OnClientEvent:Connect(function(p46)
+				-- upvalues: (ref) v_u_47
+				v_u_47.add(p46)
+			end)
+		end)
+	end
+}
+return v_u_47

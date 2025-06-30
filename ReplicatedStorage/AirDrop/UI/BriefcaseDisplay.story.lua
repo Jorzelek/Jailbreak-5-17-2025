@@ -1,0 +1,36 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMYDWNyZWF0ZUVsZW1lbnQFcHJvYnMGQ29tbW9uBFJhcmUJVWx0cmFSYXJlBEVwaWMJTGVnZW5kYXJ5BnJlbmRlcgt3aWxsVW5tb3VudAd1bm1vdW50CUNvbXBvbmVudANBcHAGZXh0ZW5kB3JlcXVpcmUQQnJpZWZjYXNlRGlzcGxheQZzY3JpcHQGUGFyZW50BW1vdW50BGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQVSb2FjdA1SZXdhcmRTcGlubmVyCkVudW1SYXJpdHkABQcBAwAAACT7AgAATQECygAAAAD7AgEA4gMCAP8EBAAAAAAA+wYCAE0FBnMDAAAAjAZLAGoGBAX7BgIATQUGpwQAAACMBhQAagYEBfsGAgBNBQbhBQAAAIwGBQBqBgQF+wYCAE0FBrwGAAAAjAYAAGoGBAX7BgIATQUGuQcAAACMBgAAagYEBTAEA/wBAAAAnwEDAIIBAAAIAwEDAgUBAQMDAwQDBQMGAwcACQgBGAAAAAAAAQABAAAAAAEAAAAAAQAAAAABAAAAAAEAAAAA+wD/AAoAAAAAAQEAAAAAAYIAAQAAABQJARgAFAAAAAACAAIAAAAG+wEAAE0AARIAAAAA+wEBAJ8AAgGCAAEAAQMKABcAARgAAAAAAAEYAAAAAAYBAgAAACf7AgAATQECiAAAAABvAwEAvAEBnAIAAACfAQMCpAIEAAAAMECkBQcAAABgQE0EBSQIAAAATQMEQAUAAACfAgIC2QMAABICAAASAAIAEgIBADADAYAJAAAAwAMKADADATQLAAAA+wQAAE0DBOQMAAAA+wUAAE0EBcoNAAAAUgUBAJ8EAgJSBQAAnwMDAtkEAgASAgAAEgADAIIEAgAOAwsDDAMNAw4EAAAwQAMPAxAEAABgQAMRAwgGAQMJAxIDAQMAAQIGAAEYAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAsAAAIAAAAAAAAAAAABAAAABwAAAAAFAAABAgAXowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBBQAAAEBATQIAIQYAAACfAQICpAIFAAAAQEBNBAC3BwAAAE0DBEoIAAAAnwICAsADCQASAAEAEgACAIIDAgAKAxMEAAAAQAMUAxUDDgQAAEBAAxYDFwMYBgMBAwEAARgAAQAAAAAAAQAAAAABAAAAAAAAAgAAAAEAAAAABLOCoGDd81vfgUbK9Lrsfg8HTJaEk1Vas8P7bX6Wb+M78m3YIMt50FE=
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Roact)
+local v_u_3 = require(v1.RewardSpinner.EnumRarity)
+return function(p4)
+	-- upvalues: (copy) v_u_2, (copy) v_u_3
+	local v5 = v_u_2.Component:extend("App")
+	local v_u_6 = require(script.Parent.BriefcaseDisplay)
+	function v5.render(_)
+		-- upvalues: (ref) v_u_2, (copy) v_u_6, (ref) v_u_3
+		local v7 = v_u_2.createElement
+		local v8 = v_u_6
+		local v9 = {
+			["probs"] = {
+				[v_u_3.Common] = 75,
+				[v_u_3.Rare] = 20,
+				[v_u_3.UltraRare] = 5,
+				[v_u_3.Epic] = 0,
+				[v_u_3.Legendary] = 0
+			}
+		}
+		return v7(v8, v9)
+	end
+	function v5.willUnmount(_) end
+	local v_u_10 = v_u_2.mount(v_u_2.createElement(v5), p4)
+	return function()
+		-- upvalues: (ref) v_u_2, (copy) v_u_10
+		v_u_2.unmount(v_u_10)
+	end
+end

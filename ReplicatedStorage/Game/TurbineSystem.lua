@@ -1,0 +1,38 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMcAm9zBWNsb2NrB0ludmVyc2UGQ0ZyYW1lBkFuZ2xlcwJDMQRtYXRoBnJhbmRvbQlIZWFydGJlYXQHQ29ubmVjdAhHaXZlVGFzaxRvYnNlcnZlT25lQ2hpbGROYW1lZAtCbGFkZS0+QmFzZQNuZXcPb2JzZXJ2ZVByb3BlcnR5C1ByaW1hcnlQYXJ0B1R1cmJpbmUFU3RhcnQEaW5pdARnYW1lClJ1blNlcnZpY2UKR2V0U2VydmljZRFSZXBsaWNhdGVkU3RvcmFnZQdyZXF1aXJlA1N0ZAZCaW5kZXIETWFpZA9SeEluc3RhbmNlVXRpbHMABgwABAAAABmkAAIAAAQAgJ8AAQL7AgAAJgEAAvsCAQD7BQIAvAUF2gMAAACfBQICpAYGAAAUQICMBwAAjAgAAG8LBwAJCgsB+wsDAEMJCgufBgQCCQQFBvsFAgAJAwQFMAMCzAgAAACCAAEACQMBAwIEAAQAgAMDAwQDBQQAFECAAjMzMzMzM9O/AwYAFgABGAAAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAEXAAAAAAkCAgAAABekBAQAAAwggJ8EAQJbAwQBWwIDAKQDBwAAGFCAnwMBAvsHAABNBgf9CAAAANkIAAASAAMAEgAAABICAQASAAIAvAYGxwkAAACfBgMAvAQB/QoAAACfBAABggABAAsCAAAAAAAAAEACGC1EVPshCUADBwMIBAAMIIADAQMCBAAYUIADCQMKAwsBABMAARgAAAAAAAEAAAEAAAAAAAAAAAAAAAAABRQAAAAACAIDAAAADysAAQCCAAEA+wUAAE0EBeoAAAAAUgUAAG8GAQDZBwAAEgIBABICAgCfBAQAvAIB/QIAAACfAgABggABAAMDDAMNAwsBAQ4AARgAAQMAAAAAAAAAAP8AAAsPAAAAAAgBBAAAABL7AgAATQEC7wAAAACfAQEC+wUBAE0EBUgBAAAAUgUAAG8GAgDZBwAAEgIBABICAgASAgMAnwQEALwCAf0DAAAAnwIAAYIBAgAEAw4DDwMQAwsBAgwAARgAAAAAAQAAAAAAAAAAAAAAABENAAAAAA0ABAAAAB2kAAIAAAQAgG8BAwBvAgQAbwMFAIwEAQCMBQAAjAYAAIwHAACMCAEAjAkAAIwKAACMCwAAjAwBAJ8ADQL7AgAATQEC7wEAAABvAgYA2QMAABICAQASAgIAEgIDABIAAACfAQMCvAIBHAcAAACfAgIBggABAAgDBAMOBAAEAIACUJ8XAEC00j8C+MPPf48XUcACL2UJAMjME0ADEQMSAQMJEwEYAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAABUAAAEKAAAAAAcAAAECACyjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEBAAAAAEBvAwQAvAEBFgMAAACfAQMCpAIGAAAAUEBNBAGhBwAAAE0DBH8IAAAAnwICAqQDBgAAAFBATQUBoQcAAABNBAV2CQAAAJ8DAgKkBAYAAABQQE0GAaEHAAAATQUGUgoAAACfBAIC/wUBAAAAAADABgsAEgACABIAAwASAAQAEgAAADAGBRMMAAAAggUCAA0DFAQAAABAAxUDFgMXAxgEAABQQAMZAxoDGwMcBgQDEwEEAQABGAABAAAAAAABAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAACAAEAAAAAAAAaAQAAAAAFdtYjsrcOtExEEkkmPj0tFX19OxodX6XDW+fFJ9bKw4o9pMWWUKV9dw==
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("RunService")
+local v2 = game:GetService("ReplicatedStorage")
+local v_u_3 = require(v2.Std.Binder)
+local v_u_4 = require(v2.Std.Maid)
+local v_u_5 = require(v2.Std.RxInstanceUtils)
+return {
+	["init"] = function()
+		-- upvalues: (copy) v_u_3, (copy) v_u_4, (copy) v_u_5, (copy) v_u_1
+		local v_u_6 = CFrame.new(0.292251587, -68.3681335, 4.94998169, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+		v_u_3.new("Turbine", function(p7)
+			-- upvalues: (ref) v_u_4, (ref) v_u_5, (ref) v_u_1, (copy) v_u_6
+			local v8 = v_u_4.new()
+			v8:GiveTask(v_u_5.observeProperty(p7, "PrimaryPart", function(p9, p10)
+				-- upvalues: (ref) v_u_5, (ref) v_u_1, (ref) v_u_6
+				if p9 then
+					p10:GiveTask(v_u_5.observeOneChildNamed(p9, "Blade->Base", function(p_u_11, p12)
+						-- upvalues: (ref) v_u_1, (ref) v_u_6
+						local v_u_13 = math.random() * 3.141592653589793 * 2
+						local v_u_14 = os.clock()
+						p12:GiveTask(v_u_1.Heartbeat:Connect(function()
+							-- upvalues: (copy) v_u_14, (copy) p_u_11, (ref) v_u_6, (copy) v_u_13
+							local v15 = os.clock() - v_u_14
+							p_u_11.C1 = v_u_6:Inverse() * CFrame.Angles(0, 0, -0.3 * v15 + v_u_13) * v_u_6
+						end))
+					end))
+				end
+			end))
+			return v8
+		end):Start()
+	end
+}

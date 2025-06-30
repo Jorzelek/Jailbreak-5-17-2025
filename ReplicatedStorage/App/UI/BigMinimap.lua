@@ -1,0 +1,298 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgOoAQljcmVhdGVSZWYNaG9yaXpvbnRhbFJlZgt2ZXJ0aWNhbFJlZgNuZXcEbWFpZAVwcm9wcw1jb250YWluZXJTaXplE3VwZGF0ZUNvbnRhaW5lclNpemUNY3JlYXRlQmluZGluZwdWZWN0b3IyDGNvbnRhaW5lclJlZhBjcm9zc0hhaXJFbmFibGVkCWlucHV0VHlwZQRFbnVtDVVzZXJJbnB1dFR5cGUIS2V5Ym9hcmQIc2V0U3RhdGUBeAF5BGluaXQJd2F5cG9pbnRzBXN0YXRlCEdhbWVwYWQxDlNlbGVjdGVkT2JqZWN0CGdldFZhbHVlDEFic29sdXRlU2l6ZQFYAVkGX3NldFhZDW9uU2V0V2F5cG9pbnQHdmlzaWJsZQVtZXJnZRFjb250YWluZXJDaGlsZHJlbg5MaW5lSG9yaXpvbnRhbAxMaW5lVmVydGljYWwFRnJhbWUWQmFja2dyb3VuZFRyYW5zcGFyZW5jeQVVRGltMgRTaXplC0FuY2hvclBvaW50BkNvbG9yMxBCYWNrZ3JvdW5kQ29sb3IzD0JvcmRlclNpemVQaXhlbAxCb3JkZXJDb2xvcjMGWkluZGV4B1Zpc2libGUDUmVmB0J1dHRvbnMIUG9zaXRpb24KTGlzdExheW91dAhXYXlwb2ludAxVSUxpc3RMYXlvdXQTSG9yaXpvbnRhbEFsaWdubWVudBFWZXJ0aWNhbEFsaWdubWVudAlTb3J0T3JkZXINRmlsbERpcmVjdGlvbgdQYWRkaW5nBExlZnQGQ2VudGVyC0xheW91dE9yZGVyCkhvcml6b250YWwEVURpbQpUZXh0QnV0dG9uBWNvbG9yAARUZXh0ClNlbGVjdGFibGUFRXZlbnQJQWN0aXZhdGVkBVRpdGxlC0FzcGVjdFJhdGlvCFVJQ29ybmVyCVRleHRMYWJlbARGb250CkxpbmVIZWlnaHQKVGV4dFNjYWxlZA5UZXh0WEFsaWdubWVudA5UZXh0WUFsaWdubWVudApUZXh0Q29sb3IzDEFkZCBXYXlwb2ludA9SZW1vdmUgV2F5cG9pbnQLTHVja2llc3RHdXkHZnJvbVJHQhdVSUFzcGVjdFJhdGlvQ29uc3RyYWludAxDb3JuZXJSYWRpdXMGcmVuZGVyBG1hdGgFY2xhbXAQR2V0TW91c2VMb2NhdGlvbhBBYnNvbHV0ZVBvc2l0aW9uDE1vdXNlQnV0dG9uMQVUb3VjaAdLZXlDb2RlB0J1dHRvbkEOY29tcHV0ZVdvcmxkWFkNd29ybGRQb3NpdGlvbg1tYXBXb3JsZFdpZHRoDm1hcFdvcmxkSGVpZ2h0D21hcFdvcmxkQ2VudGVyWA9tYXBXb3JsZENlbnRlclkNbWFwSW1hZ2VXaWR0aA5tYXBJbWFnZUhlaWdodAhtYXBTY2FsZQdWZWN0b3IzCG9uVG9nZ2xlC3Zpc2libGVNYWlkC0dldEd1aUluc2V0CUhlYXJ0YmVhdAdDb25uZWN0CEdpdmVUYXNrCklucHV0QmVnYW4MX2hvb2tWaXNpYmxlEEdldExhc3RJbnB1dFR5cGUPdXBkYXRlSW5wdXRUeXBlFExhc3RJbnB1dFR5cGVDaGFuZ2VkCGRpZE1vdW50DF9ob29rR2FtZXBhZAlkaWRVcGRhdGUTQ29udGV4dEFjdGlvblJlc3VsdARTaW5rC1RodW1ic3RpY2sxA2FicwpzaW5rVGh1bWIxFUNvbnRleHRBY3Rpb25Qcmlvcml0eQRIaWdoBVZhbHVlFEJpbmRBY3Rpb25BdFByaW9yaXR5CHNpbmtKdW1wDElucHV0Q2hhbmdlZBNzZWxlY3Rpb25EcmFnTGlzdGVuDWRyYWdIZWFydGJlYXQMVW5iaW5kQWN0aW9uCkRvQ2xlYW5pbmcLd2lsbFVubW91bnQGbGFiZWxzDW1pbmltYXBMYWJlbHMQbWluaW1hcFdheXBvaW50cwR0eXBlCHBvc2l0aW9uBG5hbWUIcHJpb3JpdHkLYWRkV2F5cG9pbnQEVVNFUhVyZW1vdmVXYXlwb2ludEN1cnJlbnQEZ2FtZRRDb250ZXh0QWN0aW9uU2VydmljZQpHZXRTZXJ2aWNlCkd1aVNlcnZpY2UQVXNlcklucHV0U2VydmljZQpSdW5TZXJ2aWNlEVJlcGxpY2F0ZWRTdG9yYWdlB3JlcXVpcmUDU3RkBE1haWQERXpVaQpEaWN0aW9uYXJ5BVJvYWN0ClJvYWN0Um9kdXgNY3JlYXRlRWxlbWVudAZzY3JpcHQGUGFyZW50DE1pbmltYXBVdGlscwdNaW5pbWFwDVB1cmVDb21wb25lbnQKQmlnTWluaW1hcAZleHRlbmQMZGVmYXVsdFByb3BzB2Nvbm5lY3QAFAUBAgAAAFX7AgAATQEC0AAAAACfAQECMAEA/QEAAAD7AgAATQEC0AAAAACfAQECMAEA1QIAAAD7AgEATQEC7wMAAACfAQECMAEAFgQAAABNAgAHBQAAAE0BAs0GAAAADgENAE0CAAcFAAAATQECzQYAAABNAwAHBQAAAE0CA5kHAAAAMAEAzQYAAAAwAgCZBwAAAGUADQD7AgAATQECMQgAAACkAgoAAAyQgIwDAAKMBAACnwIDAJ8BAAMwAQDNBgAAADACAJkHAAAATQIABwUAAABNAQKWCwAAAA4BBwBNAgAHBQAAAE0BApYLAAAAMAEAlgsAAABlAAYA+wIAAE0BAtAAAAAAnwEBAjABAJYLAAAA4gMOAKkEAAAwBAMODAAAAKQEEgARQPDAMAQD6g0AAAC8AQAqEwAAAJ8BAwGMAQAAjAIAADABAJkUAAAAMAIAmBUAAACCAAEAFgMBAwIDAwMEAwUDBgMHAwgDCQMKBAAMkIADCwMMAw0FAgwNAw4DDwMQBBFA8MADEQMSAxMAFhQBGAAAAAAAAAEAAAAAAAEAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAEAAAAAAAACAAAAAAACAQAAAQAAAP4AAAQAAAAAAAEXAAAAAAcAAgAAADj7AwAATQIDBwAAAABNAQI7AQAAABwAAQANACkAAgAAgPsAAADiAgQAqQMBADADAg4DAAAAvAAAKgUAAACfAAMB+wIAAE0BAhgGAAAATQAB6gcAAACkAQsACiSAwJoAHwABAAAA+wABAMYBAAAwAQAeDAAAAPsBAABNAAGWDQAAALwAANMOAAAAnwACAk0BAHEPAAAA+wIAAE0FAXkRAAAAWwQFEE0GAXgSAAAAWwUGELwCAscTAAAAnwIEAYIAAQD7AgAATQECBwAAAABNAAFPFAAAAMYBAACfAAIBggABABUDBgMVAgAAAAAAAAAAAwwFAQMDEQMWAw0DDgMPAxcECiSAwAMYAwsDGQMaAgAAAAAAAOA/AxsDHAMdAx4AYgABGAAAAAAAAAAAAQABAAD/AAADAAAAAAAAAAABAAAAAQAAAAAAAQABAAAAAAAAAAAAAAMAAAAAAAACYwAAAAAVAQUAAADiAk0CAAcAAAAATQECoAEAAAArAQEAggABAPsBAAD7AgEA+wQCAE0DBB8CAAAATQQABwAAAADiBQcATQYAzQMAAAAwBgXNAwAAAE0GAJkEAAAAMAYFmQQAAABNBgCWBQAAADAGBZYFAAAA4gYKAPsHAABvCAsA/wkFAAAAAACMCgAAMAoJOgwAAACkCg8AADjQgIwLAQCMDAAAjA0AAIwOAgCfCgUCMAoJLxAAAACkChIAADgQgYwLAABvDBMAnwoDAjAKCegUAAAApAoWAAA4UIGMCwEAjAwBAIwNAQCfCgQCMAoJnxcAAACMCgEAMAoJjhgAAACkChYAADhQgW8LGQBvDBkAbw0ZAJ8KBAIwCgk0GgAAAIwKBAAwCgkNGwAAAE0LABgcAAAATQoLDh0AAAAwCgmAHgAAAPsLAwBNCgvdHwAAAE0LAP0gAAAAagsJCp8HAwIwBwZVCAAAAPsHAABvCAsA/wkFAAAAAACMCgAAMAoJOgwAAACkCg8AADjQgIwLAACMDAIAjA0BAIwOAACfCgUCMAoJLxAAAACkChIAADgQgW8LEwCMDAAAnwoDAjAKCegUAAAApAoWAAA4UIGMCwEAjAwBAIwNAQCfCgQCMAoJnxcAAACMCgEAMAoJjhgAAACkChYAADhQgW8LGQBvDBkAbw0ZAJ8KBAIwCgk0GgAAAIwKBAAwCgkNGwAAAE0LABgcAAAATQoLDh0AAAAwCgmAHgAAAPsLAwBNCgvdHwAAAE0LANUhAAAAagsJCp8HAwIwBwYrCQAAADAGBXoGAAAAnwMDAuIEIwD7BQAAbwYLAOIHJQCMCAEAMAgHOgwAAACMCAAAMAgHjhgAAACkCA8AADjQgIwJAQCMCgAAbwsmAIwMAACfCAUCMAgHLxAAAACkCA8AADjQgIwJAACMCgAAjAsBAIwMBACfCAUCMAgHOyQAAADiCCkA+wkAAG8KKgDiCzAApAwzADKsEMMwDAtiKwAAAKQMNQA0sBDDMAwLeCwAAACkDDcANrQQwzAMC7ktAAAApAw5ADi4EMMwDAtRLgAAAKQMOwAAOKCDjA0AAIwOBACfDAMCMAwL3S8AAACfCQMCMAkILicAAAD7CQAAbwo8AP8LBAAAAAAATQ0ABwAAAABNDA1EPQAAADAMC58XAAAApAwPAAA40ICMDQEAjA4AAIwPAQCMEAAAnwwFAjAMCy8QAAAAbww+ADAMC/U/AAAAjAwBADAMCwA2AAAAqQwBADAMCyRAAAAA+w4DAE0NDjZBAAAATQwNHkIAAADZDQAAEgAAABICBABqDQsM4gxGAPsNAABvDkcA4g9OAIwQAQAwEA86DAAAAIwQAAAwEA+OGAAAAKQQDwAAONCAbxFPAIwSAABvE08AjBQAAJ8QBQIwEA8vEAAAAKQQDwAAONCAbxETAIwSAABvExMAjBQAAJ8QBQIwEA87JAAAAKQQEgAAOBCBbxETAG8SEwCfEAMCMBAP6BQAAABNEwAHAAAAAE0SEztQAAAAHBESAA0RAwBRAACAbxBSAGUAAQBvEFMAMBAP9T8AAACkEFUAVCARwzAQDzlIAAAAbxBWADAQD4JJAAAAqRABADAQD95KAAAApBBXADQsEcMwEA97SwAAAKQQWAA0MBHDMBAPHUwAAACkEFoAAGRRgYwR/wCMEv8AjBP/AJ8QBAIwEA9zTQAAAIwQCgAwEA8NGwAAAJ8NAwIwDQy6QwAAAPsNAABvDlsA4g9cAIwQCAAwEA9pRAAAAJ8NAwIwDQxpRAAAAPsNAABvDkUA4g9eAKQQOwAAOKCDbxFfAIwSAACfEAMCMBAPT10AAACfDQMCMA0M9EUAAACfCQQCMAkINCgAAACfBQQCMAUE0yIAAACfAQQAggEAAGADBgMfAyADBwMIAwsDIQUEAwQFBgMiAyMFAggJAyQDJQMmAwQEADjQgAMnAwoEADgQgQIAAAAAAADgPwMoAykEADhQgQMqAysCmpmZmZmZ2T8DLAMtAxYDDAMuAy8DAgMDAzAFASIDMQUEDBgQJAKamZmZmZmpPwMyAzMFAicoAzQDNQM2AzcDOAM5BQUrLC0uLwMOAzoEMqwQwwM7BDSwEMMDPAQ2tBDDAz0EOLgQwwM+BAA4oIMDPwNAA0EDQgNDA0QDRQNGA0cDSAUDQ0RFA0kDSgNLA0wDTQNOA08FDQwYECQUP0hJSktMTRsCzczMzMzM7D8DFQIAAAAAAAAAAANQA1EDUgRUIBHDAmZmZmZmZuY/BDQsEcMENDARwwNTBABkUYEDVAUBRANVBQFdAgAAAAAAANA/AQEqVgEYAAAAAAABAwEBAAAAAAABAAAAAQAAAAEAAAABAQAAAAEAAAEAAAAAAAAAAAEAAAAAAAABAAAAAAAAAAEAAAEAAAAAAAAAAQAAAQAAAAAAAQAAAAAA9wAACwAAAAEAAAEAAAAAAAAAAAEAAAAAAAABAAAAAAAAAAEAAAEAAAAAAAAAAQAAAQAAAAAAAQAAAAAA9wAA9AD8HQEAAAEAAAEAAAEAAAAAAAAAAAEAAAAAAAAAAAEBAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAPsAAAcAAAABAAAAAAABAAAAAAAAAAABAAABAAABAAABAAAAAAAAAAAPAQAAAQAAAQAAAQAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAEAAAABAAABAAABAAAAAQAAAAEAAAAAAAAAAQAA8wAADwAAAQAA/wAAAwAAAQAAAAAAAP8AANgAAPMAAOAAKwAAAAAMAwAAAABBTQMAlgAAAAC8AwPTAQAAAJ8DAgJNBANxAgAAAIwHAABNCAR5AwAAADQuAQQHCAAAUgYBAKQFBgAAFECAnwUEAjAFAJkHAAAAjAcAAE0IBHgIAAAANC4CBAcIAABSBgIApAUGAAAUQICfBQQCMAUAmAkAAABNBQD9CgAAALwFBdMBAAAAnwUCAk0GANULAAAAvAYG0wEAAACfBgICTQgAGAwAAABNBwgODQAAAA4HFACkBxAAADzggIwIAACMCQAAjAoAAE0LAJgJAAAAnwcFAjAHBTsRAAAApAcQAAA84ICMCAAATQkAmQcAAACMCgAAjAsAAJ8HBQIwBwY7EQAAAIIAAQASAwsDGQMaAxsDVwNYBAAUQIADEgMcAxMDAgMDAxYDDAMmAwQEADzggAMxAIwBHQEYAAAAAAABAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAEAAAAAAgAAAAABAAAAAAAAAAAAAQAAAAAAAAAAAAKNAAAAAAkAAwAAACj7AQAATQABlgAAAAC8AADTAQAAAJ8AAgL7AwAATQIDGAIAAABNAQLqAwAAAKQCBwAGFEDAmgEZAAIAAAD7AgEAvAICBggAAACfAgIC+wMCACYBAgNNAgB1CQAAAE0FAXkKAAAATQYCeQoAAAAmAwUGTQUBeAsAAABNBgJ4CwAAACYEBQb7BQAAUgcDAFIIBAC8BQXHDAAAAJ8FBAGCAAEADQMLAxkDFgMNAw4DDwMQBAYUQMADWQNaAxsDHAMdAKEBAAEYAAAAAAAAAQAAAAAAAAAAAQAAAAAAAQACAAAAAAAAAAAACgAAAAAAAqIAAAAAEwECAAAAuQH7AwAATQIDGAAAAABNAQIOAQAAACsBAQCCAAEATQEAwgIAAACkAgUABAgwwPEBEwACAAAATQEAwgIAAACkAgcABggwwPEBDQACAAAATQEAwgIAAACkAgkACAgwwJoBoAACAAAATQEAswoAAACkAgwACygwwJoBmgACAAAA+wIAAE0BApYNAAAAvAEB0w4AAACfAQICTQIBcQ8AAABNAwDCAgAAAKQEBwAGCDDAmgMXAAQAAABNAwF1EAAAAPsEAABNBwA7EQAAAE0GB3kSAAAATQcDeRIAAAAmBQYHMAUEmRMAAAD7BAAATQcAOxEAAABNBgd4FAAAAE0HA3gUAAAAJgUGBzAFBJgVAAAA+wQAAE0DBJkTAAAA+wUAAE0EBZgVAAAAjAUAALcDDAAFAAAAjAUAALcECQAFAAAATQUCeRIAAAC3BQUAAwAAAE0FAngUAAAAYAUCAAQAAACCAAEA+wYBAE0FBl4WAAAAUgYDAFIHBAD7CgAATQkKBxcAAABNCAmAGAAAALwICNMOAAAAnwgCAvsKAABNCQrNGQAAALwJCdMOAAAAnwkCAvsMAABNCwwHFwAAAE0KC1MaAAAA+w0AAE0MDQcXAAAATQsMHhsAAAD7DgAATQ0OBxcAAABNDA0rHAAAAPsPAABNDg8HFwAAAE0NDmQdAAAA+xAAAE0PEAcXAAAATQ4PWx4AAAD7EQAATRARBxcAAABNDxAjHwAAAPsSAABNERIHFwAAAE0QEaAgAAAAnwUMA/sJAABNCAkHFwAAAE0HCE8hAAAADgcOAPsJAABNCAkHFwAAAE0HCE8hAAAAjAoyADQ2BQUKBgAAUgkFAFILBgCkCCQAAIwggp8IBAKfBwIB+wkAAE0ICQcXAAAATQcIvCUAAAAOBwcA+wkAAE0ICQcXAAAATQcIvCUAAACpCAAAnwcCAfsHAADiCSYAqQoAADAKCQ4BAAAAvAcHKicAAACfBwMBggABACgDFgMMAw8DDgNbBAQIMMADXAQGCDDAAxcECAgwwANdA14ECygwwAMLAxkDGgNaAzEDGwMSAxwDEwNfAwYDYAMHA2EDYgNjA2QDZQNmA2cDHgNoAwQEAIwgggNpBQEBAxEAtAEAARgAAAAAAAABAwAAAAAAAQAAAAAAAgAAAAAAAQAAAAAABAAAAAAAAQABAAAAAAABAAEAAAAAAAAAAAABAAAAAAAAAAAAAgAAAQAAAgAAAAAAAAAAAAAAAAABAwAAAQEBAAAAAAAAAAEAAAAAAAEAAAAAAQAAAAABAAAAAAEAAAAAAQAAAAABAAAAAAEAAAAA9Q0AAAAAAAEAAAAAAAAAAAAAAAAAAwAAAAAAAQAAAAAAAAIAAQAA/wAABLUAAAAACQIFAAAALQ4BJgD7AwAATQID7wAAAACfAgECTQMAFgEAAAAwAgO2AgAAAPsDAQC8AwNXAwAAAJ8DAgL7BwIATQYH/QQAAADZCAAAEgAAABICAwASAAMAvAYGxwUAAACfBgMAvAQC/QYAAACfBAAB+wcDAE0GB4IHAAAA2QgBABIAAAASAgQAvAYGxwUAAACfBgMAvAQC/QYAAACfBAABggABAE0CABYBAAAAxgMAADADArYCAAAAggABAAgDBAMFA2oDawNsA20DbgNvAgQFmgFwARgAAQAAAAEAAAACAAAAAgAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAAA1AAAAAAKbAAAAAAQAAgAAAB/7AAAAvAAAbwAAAACfAAICpAEEAAMIEMDxAAkAAQAAAKQBBgAFCBDA8QAFAAEAAACkAQgABwgQwJoADwABAAAA+wMBAE0CAxgJAAAATQEC6goAAADxAQgAAAAAAPsBAQDiAwsAMAAD6goAAAC8AQEqDAAAAJ8BAwGCAAEADQNxAw4DDwMXBAMIEMADEAQFCBDAA1wEBwgQwAMWAw0FAQoDEQDtAXIBGAAAAAACAAAAAQAAAAEAAAACAAAAAAAAAQABAP8AAAXuAAAAAAcBAQAAABLZAQAAEgIAABIAAABSAgEAnwIBAU0CABYAAAAA+wUAAE0EBYsBAAAAUgYBALwEBMcCAAAAnwQDALwCAv0DAAAAnwIAAYIAAQAEAwUDcwNtA24BB+wBdAEYAAAADgABAAAAAAAAAAAAAAAB7QAAAAAHAwAAAAAfTQQAGAAAAABNAwQOAQAAAE0EAg4BAAAA8QMIAAQAAABNBgAYAAAAAE0FBg4BAAAAvAMAuQIAAACfAwMBTQQABwMAAABNAwSgBAAAAE0EAaAEAAAA8QMIAAQAAABNBgAHAwAAAE0FBqAEAAAAvAMAGAUAAACfAwMBggABAAYDFgMMA3UDBgMfA3AA/gF2ARgAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAEAAAAAAAAC/wAAAAABAAAAAAADpAADAAIEAMCCAAIABAMOA3cDeAQCBADAAIgCAAEYAAAACQEAAAABAAAAAAADpAADAAIEAMCCAAIABAMOA3cDeAQCBADAAIsCAAEYAAAADAEAAAADAQEAAAAOTQEAwgAAAACkAgMAAgAQwJoBCAACAAAATQEAswQAAACkAgYABRAQwJoBAgACAAAA3gAAAIIAAQAHAw8DDgMXBAIAEMADXQN5BAUQEMAAkAIAARgAAAAAAAABAAAAAAABAxEBAAAACQECAAAALPsBAAAOASkA+wMAAE0CAzsAAAAATQECeQEAAAD7BAAATQMEOwAAAABNAgN4AgAAALsCAQNSBAEApAMFAAAQMICfAwICbwQGALcECQADAAAAuwICA1IEAgCkAwUAABAwgJ8DAgJvBAYAYAQQAAMAAAD7AwEA+wcBAE0GB5kHAAAAWwcBCEMFBgf7CAEATQcImAkAAABbCAIIJgYHCKkHAQC8AwPHCgAAAJ8DBQGCAAEACwMxAxsDHANXA3oEABAwgAKamZmZmZm5PwMSAgAAAAAAACRAAxMDHQCYAgABGAAAAQAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAADGQEAAAAJAgMAAABMDgE2APsCAABvBAAAwAUBAKkGAACkCAUABAwgwE0HCOwGAAAApAgJAAgcIMC8AgKBCgAAAJ8CBwH7AgAAbwQLAMAFDACpBgAApAgFAAQMIMBNBwjsBgAAAKQIDgANHCDAvAICgQoAAACfAgcBxgIAAE0DABYPAAAA+wUBAE0EBdkQAAAA2QYCABIBAv+8BATHEQAAAJ8EAwIwBAPyEgAAAE0DABYPAAAA+wUCAE0EBf0TAAAA2QYDABIBAv8SAAAAvAQExxEAAACfBAMCMAQDyBQAAADBAgAAggABAPsCAABvBAAAvAICFhUAAACfAgMB+wIAAG8ECwC8AgIWFQAAAJ8CAwFNAgAWDwAAAMYDAAAwAwLyEgAAAE0CABYPAAAAxgMAADADAsgUAAAAggABABYDewYKAw4DfAN9BAQMIMADfgNdA3kECBwgwAN/A4ABBgsDXgQNHCDAAwUDgQEDbQOCAQNsA4MBA4QBBAoLDA2GAnUBGAABAAACAAAAAAAA/gAAAwAAAgAAAAAAAP4AAAQBAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAALAAAAAAEAAAAAAQAAAAABAAAAAAIHAQAAAAQBAAAAAAqpAwAAvAEAuQAAAACfAQMBTQEAFgEAAAC8AQFRAgAAAJ8BAgGCAAEAAwN1AwUDhQEAqQKGAQEYAAAAAAEAAAAAASoBAAAABAIAAAAACuICAgBNAwDQAwAAADADAj8AAAAATQMAOgQAAAAwAwI7AQAAAIICAgAFA4cBAxUFAgABA4gBA4kBAK4CAAEYAAEAAAABAAAAAC8BAAAABAEBAAAAFw4ADwD7AQAA4gIEAG8DBQAwAwJxAAAAADAAAtsBAAAAbwMGADADAloCAAAAjANkADADAu0DAAAAnwECAYIAAQD7AQAA4gIHAG8DCAAwAwJxAAAAAJ8BAgGCAAEACQOKAQOLAQOMAQONAQUEAAECAwOOAQOPAQUBAAOQAQC1Ah4BGAABAAEAAAEAAQAAAQAA/AAHAAEAAP8ENgEAAAADAQAAAAAG4gEBANkCAAASAAAAMAIBTwAAAACCAQIAAgMeBQEAARGzAgABGAABAAAAADQBAAAAEAAAAQIAigGjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEBAAAAAEBvAwQAvAEBFgMAAACfAQMCpAIBAAAAAEBvBAUAvAICFgMAAACfAgMCpAMBAAAAAEBvBQYAvAMDFgMAAACfAwMCpAQBAAAAAEBvBgcAvAQEFgMAAACfBAMCpAUJAAAAgEBNBwShCgAAAE0GB3YLAAAAnwUCAqQGCQAAAIBATQgELQwAAABNBwipDQAAAJ8GAgKkBwkAAACAQE0IBCEOAAAAnwcCAqQICQAAAIBATQkELQ8AAACfCAICTQkHyhAAAACkCgkAAACAQKQNEgAAABBBTQwNJBMAAABNCwxBFAAAAJ8KAgKkCwkAAACAQKQOEgAAABBBTQ0OJBMAAABNDA0HFQAAAJ8LAgJNDAf4FgAAAG8OFwC8DAycGAAAAJ8MAwLiDRsAqQ4BADAODaAZAAAAjA4BADAODaAaAAAAMA0MkhwAAADADR0AEgAHABIABQAwDQwTHgAAAMANHwASAAkAEgALABIABgASAAcAEgABADANDIAgAAAAwA0hADANDMciAAAAwA0jABIABQASAAEAEgADABIAAgASAAoAMA0MGCQAAADADSUAEgACADANDGomAAAAwA0nADANDI4oAAAAwA0pABIAAAASAAIAEgADADANDLkqAAAAwA0rADANDDQsAAAATQ0I5y0AAADADi4AwA8vAJ8NAwJSDgwAnw0CAIINAAAwA5EBBAAAAEADkgEDkwEDlAEDlQEDlgEDlwEDmAEEAACAQAOZAQOaAQObAQOcAQOdAQOeAQOfAQOgAQQAABBBA6EBA6IBA6MBA6QBA6UBA6YBAx8DZwUCGRoDpwEGAAMUBgIDVgYDAx0GBgNwBggDdAYJA3YGDgN1Bg8DhgEDqAEGEAYSCgACAwYICQ4PEBIBAAEFAAEAAAAAAAEAAAAAAAEAAAAAAAEAAAAAAAEAAAAAAAH6AAAAAAABAAAAAAAAAQAAAAABAAAAAAEAAgAAAAAAAPoAAgAAAAAAAAAAAgAAAAAAAQEAAAEAAP4ABAAAAAAU4wAAAAAAAGIAAA4AAAAAAAAAUgAAABIAAAgAAAAAACMBAAUAAAX7FgAAAQAAAAYAAAAGAAAAHQAAAP8AAAAAE+vdZxo0ojyS2RkNjvyUMyaIKXqWkSRyFjMDqrkMUOFGUyYbPLNhTMo=
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("ContextActionService")
+local v_u_2 = game:GetService("GuiService")
+local v_u_3 = game:GetService("UserInputService")
+local v_u_4 = game:GetService("RunService")
+local v5 = game:GetService("ReplicatedStorage")
+local v_u_6 = require(v5.Std.Maid)
+local v_u_7 = require(v5.EzUi.Dictionary)
+local v_u_8 = require(v5.Roact)
+local v9 = require(v5.RoactRodux)
+local v_u_10 = v_u_8.createElement
+local v_u_11 = require(script.Parent.MinimapUtils)
+local v_u_12 = require(script.Parent.Minimap)
+local v13 = v_u_8.PureComponent:extend("BigMinimap")
+v13.defaultProps = {
+	["visible"] = true,
+	["mapScale"] = 1
+}
+function v13.init(p14)
+	-- upvalues: (copy) v_u_8, (copy) v_u_6
+	p14.horizontalRef = v_u_8.createRef()
+	p14.verticalRef = v_u_8.createRef()
+	p14.maid = v_u_6.new()
+	if p14.props.containerSize then
+		local v15 = p14.props.containerSize
+		local v16 = p14.props.updateContainerSize
+		p14.containerSize = v15
+		p14.updateContainerSize = v16
+	else
+		local v17, v18 = v_u_8.createBinding(Vector2.new(512, 512))
+		p14.containerSize = v17
+		p14.updateContainerSize = v18
+	end
+	if p14.props.containerRef then
+		p14.containerRef = p14.props.containerRef
+	else
+		p14.containerRef = v_u_8.createRef()
+	end
+	p14:setState({
+		["crossHairEnabled"] = false,
+		["inputType"] = Enum.UserInputType.Keyboard
+	})
+	p14.x = 0
+	p14.y = 0
+end
+function v13.render(p_u_19)
+	-- upvalues: (copy) v_u_10, (copy) v_u_12, (copy) v_u_7, (copy) v_u_8, (copy) v_u_2
+	if p_u_19.props.visible then
+		local v20 = v_u_10
+		local v21 = v_u_12
+		local v22 = v_u_7.merge(p_u_19.props, {
+			["containerSize"] = p_u_19.containerSize,
+			["updateContainerSize"] = p_u_19.updateContainerSize,
+			["containerRef"] = p_u_19.containerRef,
+			["containerChildren"] = {
+				["LineHorizontal"] = v_u_10("Frame", {
+					["BackgroundTransparency"] = 0,
+					["Size"] = UDim2.new(1, 0, 0, 2),
+					["AnchorPoint"] = Vector2.new(0, 0.5),
+					["BackgroundColor3"] = Color3.new(1, 1, 1),
+					["BorderSizePixel"] = 1,
+					["BorderColor3"] = Color3.new(0.4, 0.4, 0.4),
+					["ZIndex"] = 4,
+					["Visible"] = p_u_19.state.crossHairEnabled,
+					[v_u_8.Ref] = p_u_19.horizontalRef
+				}),
+				["LineVertical"] = v_u_10("Frame", {
+					["BackgroundTransparency"] = 0,
+					["Size"] = UDim2.new(0, 2, 1, 0),
+					["AnchorPoint"] = Vector2.new(0.5, 0),
+					["BackgroundColor3"] = Color3.new(1, 1, 1),
+					["BorderSizePixel"] = 1,
+					["BorderColor3"] = Color3.new(0.4, 0.4, 0.4),
+					["ZIndex"] = 4,
+					["Visible"] = p_u_19.state.crossHairEnabled,
+					[v_u_8.Ref] = p_u_19.verticalRef
+				})
+			}
+		})
+		local v23 = {}
+		local v24 = v_u_10
+		local v25 = {
+			["BackgroundTransparency"] = 1,
+			["BorderSizePixel"] = 0,
+			["Size"] = UDim2.new(1, 0, 0.05, 0),
+			["Position"] = UDim2.new(0, 0, 1, 4)
+		}
+		local v26 = {
+			["ListLayout"] = v_u_10("UIListLayout", {
+				["HorizontalAlignment"] = Enum.HorizontalAlignment.Left,
+				["VerticalAlignment"] = Enum.VerticalAlignment.Center,
+				["SortOrder"] = Enum.SortOrder.LayoutOrder,
+				["FillDirection"] = Enum.FillDirection.Horizontal,
+				["Padding"] = UDim.new(0, 4)
+			})
+		}
+		local v27 = v_u_10
+		local v29 = {
+			["BackgroundColor3"] = p_u_19.props.color,
+			["Size"] = UDim2.new(1, 0, 1, 0),
+			["Text"] = "",
+			["LayoutOrder"] = 1,
+			["Selectable"] = true,
+			[v_u_8.Event.Activated] = function()
+				-- upvalues: (copy) p_u_19, (ref) v_u_2
+				if #p_u_19.props.waypoints == 0 then
+					p_u_19:setState({
+						["crossHairEnabled"] = true
+					})
+					if p_u_19.state.inputType == Enum.UserInputType.Gamepad1 then
+						v_u_2.SelectedObject = nil
+						local v28 = p_u_19.containerRef:getValue().AbsoluteSize
+						p_u_19:_setXY(v28.X * 0.5, v28.Y * 0.5)
+						return
+					end
+				else
+					p_u_19.props.onSetWaypoint(nil)
+				end
+			end
+		}
+		local v30 = {
+			["Title"] = v_u_10("TextLabel", {
+				["BackgroundTransparency"] = 1,
+				["BorderSizePixel"] = 0,
+				["Size"] = UDim2.new(0.9, 0, 0.9, 0),
+				["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+				["AnchorPoint"] = Vector2.new(0.5, 0.5),
+				["Text"] = #p_u_19.props.waypoints == 0 and "Add Waypoint" or "Remove Waypoint",
+				["Font"] = Enum.Font.LuckiestGuy,
+				["LineHeight"] = 0.7,
+				["TextScaled"] = true,
+				["TextXAlignment"] = Enum.TextXAlignment.Center,
+				["TextYAlignment"] = Enum.TextYAlignment.Center,
+				["TextColor3"] = Color3.fromRGB(255, 255, 255),
+				["ZIndex"] = 10
+			}),
+			["AspectRatio"] = v_u_10("UIAspectRatioConstraint", {
+				["AspectRatio"] = 8
+			}),
+			["UICorner"] = v_u_10("UICorner", {
+				["CornerRadius"] = UDim.new(0.25, 0)
+			})
+		}
+		v26.Waypoint = v27("TextButton", v29, v30)
+		v23.Buttons = v24("Frame", v25, v26)
+		return v20(v21, v22, v23)
+	end
+end
+function v13._setXY(p31, p32, p33)
+	local v34 = p31.containerRef:getValue().AbsoluteSize
+	local v35 = v34.X
+	p31.x = math.clamp(p32, 0, v35)
+	local v36 = v34.Y
+	p31.y = math.clamp(p33, 0, v36)
+	local v37 = p31.horizontalRef:getValue()
+	local v38 = p31.verticalRef:getValue()
+	if p31.state.crossHairEnabled then
+		v37.Position = UDim2.new(0, 0, 0, p31.y)
+		v38.Position = UDim2.new(0, p31.x, 0, 0)
+	end
+end
+function v13._hookVisible(p_u_39, p40)
+	-- upvalues: (copy) v_u_6, (copy) v_u_2, (copy) v_u_4, (copy) v_u_3, (copy) v_u_11
+	if p40 then
+		local v41 = v_u_6.new()
+		p_u_39.maid.visibleMaid = v41
+		local v_u_42 = v_u_2:GetGuiInset()
+		v41:GiveTask(v_u_4.Heartbeat:Connect(function()
+			-- upvalues: (copy) p_u_39, (ref) v_u_3, (copy) v_u_42
+			local v43 = p_u_39.containerRef:getValue()
+			if p_u_39.state.inputType == Enum.UserInputType.Keyboard then
+				local v44 = v_u_3:GetMouseLocation() - v_u_42
+				local v45 = v43.AbsolutePosition
+				p_u_39:_setXY(v44.X - v45.X, v44.Y - v45.Y)
+			end
+		end))
+		v41:GiveTask(v_u_3.InputBegan:Connect(function(p46)
+			-- upvalues: (copy) p_u_39, (ref) v_u_11
+			if p_u_39.state.crossHairEnabled then
+				if p46.UserInputType == Enum.UserInputType.MouseButton1 or (p46.UserInputType == Enum.UserInputType.Touch or p46.UserInputType == Enum.UserInputType.Gamepad1 and p46.KeyCode == Enum.KeyCode.ButtonA) then
+					local v47 = p_u_39.containerRef:getValue()
+					local v48 = v47.AbsoluteSize
+					if p46.UserInputType == Enum.UserInputType.Touch then
+						local v49 = v47.AbsolutePosition
+						p_u_39.x = p46.Position.X - v49.X
+						p_u_39.y = p46.Position.Y - v49.Y
+					end
+					local v50 = p_u_39.x
+					local v51 = p_u_39.y
+					if v50 < 0 or (v51 < 0 or (v48.X < v50 or v48.Y < v51)) then
+						return
+					end
+					local v52, v53 = v_u_11.computeWorldXY(v50, v51, p_u_39.props.worldPosition:getValue(), p_u_39.containerSize:getValue(), p_u_39.props.mapWorldWidth, p_u_39.props.mapWorldHeight, p_u_39.props.mapWorldCenterX, p_u_39.props.mapWorldCenterY, p_u_39.props.mapImageWidth, p_u_39.props.mapImageHeight, p_u_39.props.mapScale)
+					if p_u_39.props.onSetWaypoint then
+						p_u_39.props.onSetWaypoint((Vector3.new(v52, 50, v53)))
+					end
+					if p_u_39.props.onToggle then
+						p_u_39.props.onToggle(false)
+					end
+					p_u_39:setState({
+						["crossHairEnabled"] = false
+					})
+				end
+			end
+		end))
+	else
+		p_u_39.maid.visibleMaid = nil
+	end
+end
+function v13.didMount(p_u_54)
+	-- upvalues: (copy) v_u_3
+	local function v56()
+		-- upvalues: (ref) v_u_3, (copy) p_u_54
+		local v55 = v_u_3:GetLastInputType()
+		if (v55 == Enum.UserInputType.Gamepad1 or (v55 == Enum.UserInputType.Keyboard or v55 == Enum.UserInputType.Touch)) and p_u_54.state.inputType ~= v55 then
+			p_u_54:setState({
+				["inputType"] = v55
+			})
+		end
+	end
+	v56()
+	p_u_54.maid:GiveTask(v_u_3.LastInputTypeChanged:Connect(v56))
+end
+function v13.didUpdate(p57, p58, p59)
+	if p57.state.crossHairEnabled ~= p59.crossHairEnabled then
+		p57:_hookGamepad(p57.state.crossHairEnabled)
+	end
+	if p57.props.visible ~= p58.visible then
+		p57:_hookVisible(p57.props.visible)
+	end
+end
+function v13._hookGamepad(p_u_60, p61)
+	-- upvalues: (copy) v_u_1, (copy) v_u_3, (copy) v_u_4
+	if p61 then
+		v_u_1:BindActionAtPriority("sinkThumb1", function()
+			return Enum.ContextActionResult.Sink
+		end, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.Thumbstick1)
+		v_u_1:BindActionAtPriority("sinkJump", function()
+			return Enum.ContextActionResult.Sink
+		end, false, Enum.ContextActionPriority.High.Value, Enum.KeyCode.ButtonA)
+		local v_u_62 = nil
+		p_u_60.maid.selectionDragListen = v_u_3.InputChanged:Connect(function(p63)
+			-- upvalues: (ref) v_u_62
+			if p63.UserInputType == Enum.UserInputType.Gamepad1 and p63.KeyCode == Enum.KeyCode.Thumbstick1 then
+				v_u_62 = p63
+			end
+		end)
+		p_u_60.maid.dragHeartbeat = v_u_4.Heartbeat:Connect(function(_)
+			-- upvalues: (ref) v_u_62, (copy) p_u_60
+			if v_u_62 then
+				local v64 = v_u_62.Position.X
+				local v65 = v_u_62.Position.Y
+				if math.abs(v64) > 0.1 or math.abs(v65) > 0.1 then
+					p_u_60:_setXY(p_u_60.x + v64 * 10, p_u_60.y - v65 * 10, true)
+				end
+			end
+		end)
+	else
+		v_u_1:UnbindAction("sinkThumb1")
+		v_u_1:UnbindAction("sinkJump")
+		p_u_60.maid.selectionDragListen = nil
+		p_u_60.maid.dragHeartbeat = nil
+	end
+end
+function v13.willUnmount(p66)
+	p66:_hookGamepad(false)
+	p66.maid:DoCleaning()
+end
+return v9.connect(function(p67, _)
+	return {
+		["labels"] = p67.minimapLabels,
+		["waypoints"] = p67.minimapWaypoints
+	}
+end, function(p_u_68)
+	return {
+		["onSetWaypoint"] = function(p69)
+			-- upvalues: (copy) p_u_68
+			if p69 then
+				p_u_68({
+					["type"] = "addWaypoint",
+					["position"] = p69,
+					["name"] = "USER",
+					["priority"] = 100
+				})
+			else
+				p_u_68({
+					["type"] = "removeWaypointCurrent"
+				})
+			end
+		end
+	}
+end)(v13)

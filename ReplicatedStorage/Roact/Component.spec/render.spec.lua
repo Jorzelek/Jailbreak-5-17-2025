@@ -1,0 +1,120 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMuEG1vdW50VmlydHVhbE5vZGUEVGVzdAtNeUNvbXBvbmVudAZleHRlbmQFcGNhbGwGZXhwZWN0AnRvBWVxdWFsBW1hdGNoAmJlAm9rBnJlbmRlcgVwcm9wcwVzdGF0ZQNGb28FdmFsdWUIRm9vIFRlc3QJY2FsbENvdW50BHNlbGYNY2FwdHVyZVZhbHVlcwJvZhlTdGF0ZWZ1bENvbXBvbmVudEluc3RhbmNlAWERdXBkYXRlVmlydHVhbE5vZGUFbmV2ZXIIc2V0U3RhdGUEaW5pdAdyZXF1aXJlBnNjcmlwdAZQYXJlbnQPYXNzZXJ0RGVlcEVxdWFsDWNyZWF0ZUVsZW1lbnQQY3JlYXRlUmVjb25jaWxlcgljcmVhdGVTcHkMTm9vcFJlbmRlcmVyBFR5cGUJQ29tcG9uZW50Aml0J3Nob3VsZCB0aHJvdyBvbiBtb3VudCBpZiBub3Qgb3ZlcnJpZGRlbi1zaG91bGQgYmUgaW52b2tlZCB3aGVuIGEgY29tcG9uZW50IGlzIG1vdW50ZWQ3c2hvdWxkIGJlIGludm9rZWQgd2hlbiBhIGNvbXBvbmVudCBpcyB1cGRhdGVkIHZpYSBwcm9wczdzaG91bGQgYmUgaW52b2tlZCB3aGVuIGEgY29tcG9uZW50IGlzIHVwZGF0ZWQgdmlhIHN0YXRlBml0U0tJUCNUZXN0IGRlZmF1bHRQcm9wcyBvbiBpbml0aWFsIHJlbmRlciBUZXN0IGRlZmF1bHRQcm9wcyBvbiBwcm9wIHVwZGF0ZSFUZXN0IGRlZmF1bHRQcm9wcyBvbiBzdGF0ZSB1cGRhdGUADwQAAgAAAAj7AQAATQABvgAAAAD7AQEAxgIAAG8DAQCfAAQBggABAAIDAQMCABQAARgAAAAAAAAAARUAAAAACwADAAAANfsAAABvAgAAvAAAnAEAAACfAAMC+wEBAFICAACfAQICpAIDAAAAIEDZAwAAEgICABIAAQCfAgIDpAYFAAAAQEBSBwIAnwYCAk0FBpIGAAAATQQFewcAAACpBQAAnwQCAaQHBQAAAEBAbwoAALwIA+cIAAAAnwgDAJ8HAAJNBgeSBgAAAE0FBswJAAAATQQFEAoAAACfBAEBpAcFAAAAQEBvCgsAvAgD5wgAAACfCAMAnwcAAk0GB5IGAAAATQUGzAkAAABN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
+
+-- Decompiled by Krnl
+
+return function()
+	local v_u_1 = require(script.Parent.Parent.assertDeepEqual)
+	local v_u_2 = require(script.Parent.Parent.createElement)
+	local v3 = require(script.Parent.Parent.createReconciler)
+	local v_u_4 = require(script.Parent.Parent.createSpy)
+	local v5 = require(script.Parent.Parent.NoopRenderer)
+	local v_u_6 = require(script.Parent.Parent.Type)
+	local v_u_7 = require(script.Parent.Parent.Component)
+	local v_u_8 = v3(v5)
+	it("should throw on mount if not overridden", function()
+		-- upvalues: (copy) v_u_7, (copy) v_u_2, (copy) v_u_8
+		local v_u_9 = v_u_2((v_u_7:extend("MyComponent")))
+		local v10, v11 = pcall(function()
+			-- upvalues: (ref) v_u_8, (copy) v_u_9
+			v_u_8.mountVirtualNode(v_u_9, nil, "Test")
+		end)
+		expect(v10).to.equal(false)
+		expect(v11:match("MyComponent")).to.be.ok()
+		expect(v11:match("render")).to.be.ok()
+	end)
+	it("should be invoked when a component is mounted", function()
+		-- upvalues: (copy) v_u_7, (copy) v_u_4, (copy) v_u_2, (copy) v_u_8, (copy) v_u_6, (copy) v_u_1
+		local v12 = v_u_7:extend("Foo")
+		local v_u_13 = nil
+		local v_u_14 = nil
+		local v16 = v_u_4(function(p15)
+			-- upvalues: (ref) v_u_13, (ref) v_u_14
+			v_u_13 = p15.props
+			v_u_14 = p15.state
+		end)
+		v12.render = v16.value
+		local v17 = v_u_2(v12)
+		v_u_8.mountVirtualNode(v17, nil, "Foo Test")
+		expect(v16.callCount).to.equal(1)
+		local v18 = v16:captureValues("self")
+		expect(v_u_6.of(v18.self)).to.equal(v_u_6.StatefulComponentInstance)
+		v_u_1(v_u_13, {})
+		v_u_1(v_u_14, {})
+	end)
+	it("should be invoked when a component is updated via props", function()
+		-- upvalues: (copy) v_u_7, (copy) v_u_4, (copy) v_u_2, (copy) v_u_8, (copy) v_u_6, (copy) v_u_1
+		local v19 = v_u_7:extend("Foo")
+		local v_u_20 = nil
+		local v_u_21 = nil
+		local v23 = v_u_4(function(p22)
+			-- upvalues: (ref) v_u_20, (ref) v_u_21
+			v_u_20 = p22.props
+			v_u_21 = p22.state
+		end)
+		v19.render = v23.value
+		local v24 = {
+			["a"] = 2
+		}
+		local v25 = v_u_2(v19, v24)
+		local v26 = v_u_8.mountVirtualNode(v25, nil, "Foo Test")
+		expect(v23.callCount).to.equal(1)
+		local v27 = v23:captureValues("self")
+		local v28 = v_u_20
+		local v29 = v_u_21
+		expect(v_u_6.of(v27.self)).to.equal(v_u_6.StatefulComponentInstance)
+		v_u_1(v28, v24)
+		v_u_1(v29, {})
+		local v30 = {
+			["a"] = 3
+		}
+		local v31 = v_u_2(v19, v30)
+		v_u_8.updateVirtualNode(v26, v31)
+		expect(v23.callCount).to.equal(2)
+		local v32 = v23:captureValues("self")
+		local v33 = v_u_20
+		local v34 = v_u_21
+		expect(v_u_6.of(v32.self)).to.equal(v_u_6.StatefulComponentInstance)
+		expect(v33).never.to.equal(v28)
+		v_u_1(v33, v30)
+		expect(v34).to.equal(v29)
+	end)
+	it("should be invoked when a component is updated via state", function()
+		-- upvalues: (copy) v_u_7, (copy) v_u_4, (copy) v_u_2, (copy) v_u_8, (copy) v_u_6
+		local v35 = v_u_7:extend("Foo")
+		local v_u_36 = nil
+		function v35.init(p_u_37)
+			-- upvalues: (ref) v_u_36
+			v_u_36 = function(...)
+				-- upvalues: (copy) p_u_37
+				return p_u_37:setState(...)
+			end
+		end
+		local v_u_38 = nil
+		local v_u_39 = nil
+		local v41 = v_u_4(function(p40)
+			-- upvalues: (ref) v_u_38, (ref) v_u_39
+			v_u_38 = p40.props
+			v_u_39 = p40.state
+		end)
+		v35.render = v41.value
+		local v42 = v_u_2(v35)
+		v_u_8.mountVirtualNode(v42, nil, "Foo Test")
+		expect(v41.callCount).to.equal(1)
+		local v43 = v41:captureValues("self")
+		local v44 = v_u_38
+		local v45 = v_u_39
+		expect(v_u_6.of(v43.self)).to.equal(v_u_6.StatefulComponentInstance)
+		v_u_36({})
+		expect(v41.callCount).to.equal(2)
+		local v46 = v41:captureValues("self")
+		expect(v_u_6.of(v46.self)).to.equal(v_u_6.StatefulComponentInstance)
+		expect(v_u_38).to.equal(v44)
+		expect(v_u_39).never.to.equal(v45)
+	end)
+	itSKIP("Test defaultProps on initial render", function() end)
+	itSKIP("Test defaultProps on prop update", function() end)
+	itSKIP("Test defaultProps on state update", function() end)
+end

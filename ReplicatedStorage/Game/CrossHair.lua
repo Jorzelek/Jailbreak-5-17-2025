@@ -1,0 +1,98 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("UserInputService")
+local v_u_2 = game:GetService("ReplicatedStorage")
+local v_u_3 = require(v_u_2.Module.Logic)
+local function v_u_10(p4, p5)
+	-- upvalues: (copy) v_u_1
+	local v6 = p4.Spring:Update()
+	local v7 = p4.Gui.CrossHair
+	local v8 = p5 or v_u_1:GetMouseLocation()
+	local v9 = v7.AbsoluteSize
+	v7.Position = UDim2.new(0, v8.X - v9.X * 0.5, 0, v8.Y - v9.Y * 0.5)
+	v7.VerticalTop.Position = UDim2.new(0.5, 0, 0, -v6)
+	v7.VerticalBottom.Position = UDim2.new(0.5, 0, 0.5, v6)
+	v7.HorizontalLeft.Position = UDim2.new(0, -v6, 0.5, -1)
+	v7.HorizontalRight.Position = UDim2.new(0.5, v6, 0.5, -1)
+end
+local v_u_11 = Color3.new(1, 0, 0)
+local v_u_12 = Color3.new(1, 1, 1)
+local function v_u_21(p_u_13)
+	-- upvalues: (copy) v_u_11, (copy) v_u_12
+	local v_u_14 = p_u_13.Int + 1
+	p_u_13.Int = v_u_14
+	local v15 = p_u_13.Gui
+	if not v15 then
+		return false
+	end
+	local v16 = v15.CrossHair
+	local v_u_17 = v16.VerticalTop
+	local v_u_18 = v16.VerticalBottom
+	local v_u_19 = v16.HorizontalLeft
+	local v_u_20 = v16.HorizontalRight
+	v_u_17.BackgroundColor3 = v_u_11
+	v_u_18.BackgroundColor3 = v_u_11
+	v_u_19.BackgroundColor3 = v_u_11
+	v_u_20.BackgroundColor3 = v_u_11
+	delay(0.1, function()
+		-- upvalues: (copy) p_u_13, (copy) v_u_14, (copy) v_u_17, (ref) v_u_12, (copy) v_u_18, (copy) v_u_19, (copy) v_u_20
+		if p_u_13.Int == v_u_14 then
+			v_u_17.BackgroundColor3 = v_u_12
+			v_u_18.BackgroundColor3 = v_u_12
+			v_u_19.BackgroundColor3 = v_u_12
+			v_u_20.BackgroundColor3 = v_u_12
+		end
+	end)
+end
+local function v_u_24(p22, p23)
+	p22.Spring:SetTarget(p23 and 2 or 5)
+end
+local function v_u_26(p25)
+	-- upvalues: (copy) v_u_1
+	v_u_1.MouseIconEnabled = false
+	p25.Gui.Enabled = true
+end
+local function v_u_28(p27)
+	-- upvalues: (copy) v_u_1
+	v_u_1.MouseIconEnabled = true
+	p27.Gui.Enabled = false
+end
+local function v_u_30(p29)
+	-- upvalues: (copy) v_u_1
+	v_u_1.MouseIconEnabled = true
+	p29.Gui.Enabled = false
+	p29.Gui:Destroy()
+	p29.Gui = nil
+end
+return {
+	["Make"] = function()
+		-- upvalues: (copy) v_u_3, (copy) v_u_2, (copy) v_u_10, (copy) v_u_30, (copy) v_u_24, (copy) v_u_21, (copy) v_u_26, (copy) v_u_28, (copy) v_u_1
+		local v31 = v_u_3.MakeSpring()
+		v31.p = 0
+		v31.v = 0
+		v31.Target = 5
+		v31.Freq = 20
+		v31.Damp = 0.7
+		local v32 = v_u_2.Resource.CrossHairGui:Clone()
+		v32.Enabled = false
+		local v33 = {
+			["Gui"] = v32,
+			["Spring"] = v31,
+			["Update"] = v_u_10,
+			["Destroy"] = v_u_30,
+			["ADS"] = v_u_24,
+			["Flare"] = v_u_21,
+			["Int"] = 1,
+			["Enable"] = v_u_26,
+			["Disable"] = v_u_28
+		}
+		v_u_1.MouseIconEnabled = false
+		v33.Gui.Enabled = true
+		return v33
+	end
+}

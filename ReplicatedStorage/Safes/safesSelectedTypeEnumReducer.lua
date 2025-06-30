@@ -1,0 +1,15 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMKCHR5cGVFbnVtEG1pc3NpbmcgdHlwZUVudW0GYXNzZXJ0HHNldFNhZmVzU2VsZWN0ZWRTYWZlVHlwZUVudW0EZ2FtZRFSZXBsaWNhdGVkU3RvcmFnZQpHZXRTZXJ2aWNlB3JlcXVpcmUFUm9kdXgNY3JlYXRlUmVkdWNlcgACBQIAAAAAD00EAWoAAAAARwQCAAAAAICpAwABqQMBAIEBAwQBAAAAbwQBAKQCAwAAACBAnwIDAU0CAWoAAAAAggICAAQDAQMCAwMEAAAgQAAGBAEYAAAAAAAAAAAAAAAAAQAABwAAAAAGAAABAgAVowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBBQAAAEBATQIApwYAAACfAQICTQIB1gcAAACMAwEA4gQJAMAFCgAwBQRaCAAAAJ8CAwCCAgAACwMFBAAAAEADBgMHAwgEAABAQAMJAwoDBAUBCAYAAQABAAEYAAEAAAAAAAEAAAAAAgAAAAEAAP8AAQAAAAABF245G4qr0X0lqlOPsefhz1bHL+2TUHUmACE1x0No2nb9DZiVUpIcIQ==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Rodux).createReducer(1, {
+	["setSafesSelectedSafeTypeEnum"] = function(_, p2)
+		local v3 = p2.typeEnum ~= nil
+		assert(v3, "missing typeEnum")
+		return p2.typeEnum
+	end
+})

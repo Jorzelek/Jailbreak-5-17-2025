@@ -1,0 +1,37 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMUB3JlcXVpcmUQSG90YmFySXRlbVN5c3RlbQZzY3JpcHQGUGFyZW50BGluaXQDZ3VpBmlwYWlycwlDb250YWluZXILR2V0Q2hpbGRyZW4LcHJlc2V0RnJhbWUJQ2xhc3NOYW1lA0lzQQtJbWFnZUNvbG9yMwVJbmRleApUZXh0Q29sb3IzCHNldENvbG9yB0VuYWJsZWQEc2hvdwRoaWRlDUhvdGJhckl0ZW1SZXMABQUAAAAAAA2kAQEAAAAAQKQEBAAAADBATQMEJAUAAABNAgMnAgAAAJ8BAgJNAAETBgAAAJ8AAQGCAAEABwMBBAAAAEADAgMDBAAAMEADBAMFAAUFARgAAAAAAAAAAAAAAAABBgAAAAAMAQEAAAAe+wIAAE0BAn8AAAAApAICAAAAEEBNAwFvAwAAALwDA2gEAAAAnwMCAJ8CAARRAg8A+wsAAE0KC/EFAAAATQkK2wYAAAC8Bwb+BwAAAJ8HAwIOBwYAMAAGAAgAAABNBwbiCQAAADAAB3MKAAAAbgLw/wIAAICCAAEACwMGAwcEAAAQQAMIAwkDCgMLAwwDDQMOAw8ACBABGAAAAAEAAAAAAAAAAAEAAAAAAAAAAAEAAQAAAP0ABgkAAAAAAgABAAAACPsBAABNAAF/AAAAAA4AAwCpAQEAMAEA8AEAAACCAAEAAgMGAxEAERIBGAAAAAEBAAACEgAAAAACAAEAAAAI+wEAAE0AAX8AAAAADgADAKkBAAAwAQDwAQAAAIIAAQACAwYDEQAXEwEYAAAAAQEAAAIYAAAAAAQAAAECAByjAAAApAABAAAAAECkAwQAAAAwQE0CAyQFAAAATQECeAIAAACfAAIC/wEDAAAAAADAAgYAMAIBEwcAAADAAggAEgAAADACAd8JAAAAwAIKABIAAAAwAgG4CwAAAMACDAASAAAAMAIB7w0AAACCAQIADgMBBAAAAEADFAMDBAAAMEADBAYAAwUGAQMQBgIDEgYDAxMEAAECAwEAARgAAQAAAAAAAAAAAgABAAADAAAACQAAAAYAAAAGAQAAAAAEydWj//hiDV77Eclr/Lq8S/ZbSuxYRSswVMJgJ9YdtKDdvBlSd0oOpw==
+
+-- Decompiled by Krnl
+
+local v_u_1 = require(script.Parent.HotbarItemRes)
+return {
+	["init"] = function()
+		require(script.Parent.HotbarItemSystem).init()
+	end,
+	["setColor"] = function(p2)
+		-- upvalues: (copy) v_u_1
+		local v3 = v_u_1.gui
+		for _, v4 in ipairs(v3.Container:GetChildren()) do
+			if v4:IsA(v_u_1.presetFrame.ClassName) then
+				v4.ImageColor3 = p2
+				v4.Index.TextColor3 = p2
+			end
+		end
+	end,
+	["show"] = function()
+		-- upvalues: (copy) v_u_1
+		local v5 = v_u_1.gui
+		if v5 then
+			v5.Enabled = true
+		end
+	end,
+	["hide"] = function()
+		-- upvalues: (copy) v_u_1
+		local v6 = v_u_1.gui
+		if v6 then
+			v6.Enabled = false
+		end
+	end
+}

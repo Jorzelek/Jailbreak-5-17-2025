@@ -1,0 +1,34 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMaCml0ZW1zT3duZWQSbWlzc2luZyBpdGVtc093bmVkBmFzc2VydAJJZAptaXNzaW5nIElkCFR5cGVFbnVtFG1pc3Npbmcgc2FmZVRpZXJEYXRhBG5hbWUIdHlwZUVudW0HaW1hZ2VJZAtpdGVtT3duZWRJZAUlc18lcwZmb3JtYXQHSW1hZ2VJZAV0YWJsZQZpbnNlcnQWc2V0U2FmZXNJbnZlbnRvcnlJdGVtcwRnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQVSb2R1eAVTYWZlcwtTYWZlc0NvbnN0cwlTQUZFX0RBVEENY3JlYXRlUmVkdWNlcgACEQIBAAAHAAABAw0tAkVNBAGlAAAAAEcEAgAAAACAqQMAAakDAQCBAQMEAQAAAG8EAQCkAgMAAAAgQJ8CAwH/AgAAAAAAAE0DAaUAAAAAxgQAAMYFAABkAy8ATQkHlAQAAACBAQkEBQAAAG8KBQCkCAMAAAAgQJ8IAwFNCAeKBgAAAPsKAACHCQoIRwkCAAAAAICpCwABqQsBAIEBCwQHAAAAbwwHAKQKAwAAACBAnwoDAeIMDABvDQ0AUg8IAFIQBgC8DQ2NDgAAAJ8NBAIwDQxaCAAAADAIDGoJAAAATQ0Jlg8AAAAwDQy2CgAAAE0NB5QEAAAAMA0MtQsAAACeNAIEDAAAAFILAgCkChIAAEQAgZ8KAwFuA9D/AgAAAIICAgATAwEDAgMDBAAAIEADBAMFAwYDBwMIAwkDCgMLBQQICQoLAwwDDQMOAw8DEAQARACBAAkRARgAAAAAAAAAAAAAAAABAAEAAAAAAQAAAAAAAAABAAEAAQAAAAAAAAAAAAECAAAAAAAAAAEAAQAAAAEAAAAAAAD7AAD7AA0KAAAAAAgAAAECACCjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAgCnBgAAAJ8BAgKkAgUAAABAQE0EACIHAAAATQMEcwgAAACfAgICTQMCHQkAAABNBAHWCgAAAP8FAAAAAAAA4gYMAMAHDQASAAMAMAcGMgsAAACfBAMAggQAAA4DEgQAAABAAxMDFAMVBAAAQEADFgMXAxgDGQMaAxEFAQsGAAEAAQABGAABAAAAAAABAAAAAAIAAAAAAAABAAIAAAAAAQAAAP8AAQAAAAABOmR0ek7UVXAIoB7u5QansKE31vQUExQoqz8xIHTTrzxJirgyJpbGVA==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v2 = require(v1.Rodux)
+local v_u_3 = require(v1.Safes.SafesConsts).SAFE_DATA
+return v2.createReducer({}, {
+	["setSafesInventoryItems"] = function(_, p4)
+		-- upvalues: (copy) v_u_3
+		local v5 = p4.itemsOwned ~= nil
+		assert(v5, "missing itemsOwned")
+		local v6 = {}
+		for v7, v8 in p4.itemsOwned do
+			local v9 = v8.Id
+			assert(v9, "missing Id")
+			local v10 = v8.TypeEnum
+			local v11 = v_u_3[v10]
+			local v12 = v11 ~= nil
+			assert(v12, "missing safeTierData")
+			local v13 = {
+				["name"] = ("%s_%s"):format(v10, v7),
+				["typeEnum"] = v10,
+				["imageId"] = v11.ImageId,
+				["itemOwnedId"] = v8.Id
+			}
+			table.insert(v6, v13)
+		end
+		return v6
+	end
+})

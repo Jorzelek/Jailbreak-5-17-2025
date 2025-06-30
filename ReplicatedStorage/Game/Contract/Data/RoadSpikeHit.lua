@@ -1,0 +1,16 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMPIFVzZSByb2FkIHNwaWtlcyB0byBwb3AgJWQgdGlyZXMuB0dldEdvYWwGZm9ybWF0BGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlCFNldHRpbmdzCFJlc291cmNlCEVudW1UZWFtBlBvbGljZQZ0ZWFtSWQHbWVzc2FnZQRnb2FsCXJld2FyZEV4cAACBQEAAAAHAAABAwEEAghvAQAAvAMAFQEAAACfAwIAvAEBjQIAAACfAQAAggEAAAMDAQMCAwMABwABGAAAAAAAAAAACAAAAAAFAAABAgAgowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBBQAAAEBATQMAYgcAAABNAgPKBgAAAJ8BAgL/AgMAAAAAAE0EAUwIAAAATQMEsgkAAAAwAwJvCgAAAMADCwAwAwKYDAAAAIwDAwAwAwIKDQAAAIwDMgAwAwIDDgAAAIICAgAPAwQEAAAAQAMFAwYDBwQAAEBAAwgDCQMKAwsDDAYAAw0DDgMPAQABAAEYAAEAAAAAAAEAAAAAAAACAAEAAAAAAAEAAAMAAAEAAAEBAAAAAAF3+u32jMR8IUU+h2L/zcUpNimp7zSag4RfxKfWPm1n550VO2CdITRX
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return {
+	["teamId"] = require(v1.Resource.Settings).EnumTeam.Police,
+	["message"] = function(p2)
+		return ("Use road spikes to pop %d tires."):format(p2:GetGoal())
+	end,
+	["goal"] = 3,
+	["rewardExp"] = 50
+}

@@ -1,0 +1,101 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgNDB0VuYWJsZWQKV2luZG93T3BlbgtXaW5kb3dDbG9zZQZSZW1vdmUKUmVtb3ZlZEZ1bgZJc09wZW4McHJlVXBkYXRlRnVuBmFjdGlvbgRQYXJ0BE5hbWUFVGltZWQERGlzdAhDYWxsYmFjawlWYWxpZFJvb3QMUHJlVXBkYXRlRnVuD1ByZVVwZGF0ZVBlcmlvZAhPcGVuIEFUTQZQYXJlbnQDQWRkCEFkZGVkRnVuDUNvZGVDb250YWluZXIKQmFja2dyb3VuZARDb2RlBFRleHQAAXEFdm4xZTgDc3ViB3JldmVyc2UGd2V0aWE0CWoxNGNlbXJtMgFvCkZpcmVTZXJ2ZXIGU3VibWl0ClN0YXJ0ZXJHdWkIQ29kZXNHdWkORmluZEZpcnN0Q2hpbGQJUGxheWVyR3VpD01haW5XaW5kb3dHcm91cAVFdmVudApNYWtlV2luZG93B09wZW5GdW4IQ2xvc2VGdW4OV2luZG93R3JvdXBBZGQFQ2xvc2UQTW91c2VCdXR0b24xRG93bgdDb25uZWN0BlJlZGVlbQlGb2N1c0xvc3QEbmV4dANBVE0JR2V0VGFnZ2VkFkdldEluc3RhbmNlQWRkZWRTaWduYWwYR2V0SW5zdGFuY2VSZW1vdmVkU2lnbmFsBEluaXQEZ2FtZQpSdW5TZXJ2aWNlCkdldFNlcnZpY2URUmVwbGljYXRlZFN0b3JhZ2UHcmVxdWlyZQZBbGV4V00GTW9kdWxlEUNvbGxlY3Rpb25TZXJ2aWNlB1BsYXllcnMLTG9jYWxQbGF5ZXICVUkMQ2lyY2xlQWN0aW9uAAsCAAEAAAAF+wAAAKkBAQAwAQDwAAAAAIIAAQABAwEAEwIBGAAAAAABFAAAAAACAAEAAAAF+wAAAKkBAAAwAQDwAAAAAIIAAQABAwEAFgMBGAAAAAABFwAAAAADAQEAAAAH+wIAAE0BAmkAAAAAUgIAAJ8BAgGpAQEAggECAAEDBAAZBQEYAAAAAAABABoAAAAAAgACAAAABvsBAABNAAFNAAAAAPsBAQCfAAIBggABAAEDAwAiAAEYAAAAAAABIwAAAAAEAQEAAAAH+wMAAE0CAzEAAAAAVgECADABAPABAAAAggABAAIDBgMBACUHARgAAAAAAAABJgAAAAAFAgIAAAANDgELAPsDAABNAgNYAAAAAPsD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
+
+-- Decompiled by Krnl
+
+game:GetService("RunService")
+local v_u_1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v_u_1.Module.AlexWM)
+local v_u_3 = game:GetService("CollectionService")
+local v_u_4 = game:GetService("Players").LocalPlayer
+local v_u_5 = require(v_u_1.Module.UI).CircleAction
+return {
+	["Init"] = function(p6)
+		-- upvalues: (copy) v_u_1, (copy) v_u_4, (copy) v_u_5, (copy) v_u_2, (copy) v_u_3
+		local v_u_7 = v_u_1.StarterGui:FindFirstChild("CodesGui")
+		v_u_7.Parent = v_u_4.PlayerGui
+		local v8 = p6.MainWindowGroup
+		local v_u_9 = p6.Event
+		local function v11(p10)
+			-- upvalues: (ref) v_u_5
+			v_u_5.Remove(p10)
+			return true
+		end
+		local v_u_12 = v_u_2.MakeWindow()
+		function v_u_12.OpenFun()
+			-- upvalues: (copy) v_u_7
+			v_u_7.Enabled = true
+		end
+		function v_u_12.CloseFun()
+			-- upvalues: (copy) v_u_7
+			v_u_7.Enabled = false
+		end
+		v_u_2.WindowGroupAdd(v8, v_u_12)
+		v_u_7.CodeContainer.Close.MouseButton1Down:Connect(function()
+			-- upvalues: (ref) v_u_2, (copy) v_u_12
+			v_u_2.WindowClose(v_u_12)
+		end)
+		local function v_u_14(p13)
+			-- upvalues: (copy) v_u_12
+			p13.Enabled = not v_u_12.IsOpen
+		end
+		local function v_u_17(p15, p16)
+			-- upvalues: (ref) v_u_2, (copy) v_u_12
+			if p16 then
+				v_u_2.WindowOpen(v_u_12)
+				p15.Enabled = not v_u_12.IsOpen
+			end
+		end
+		local function v20(p18)
+			-- upvalues: (copy) v_u_17, (copy) v_u_14, (ref) v_u_5
+			local v19 = {
+				["Part"] = p18,
+				["Name"] = "Open ATM",
+				["Timed"] = false,
+				["Dist"] = 7,
+				["Callback"] = v_u_17,
+				["ValidRoot"] = p18.Parent,
+				["PreUpdateFun"] = v_u_14,
+				["PreUpdatePeriod"] = 0.5
+			}
+			v_u_5.Add(v19, p18)
+			return true
+		end
+		local function v_u_22()
+			-- upvalues: (copy) v_u_7, (copy) v_u_9, (ref) v_u_2, (copy) v_u_12
+			local v21 = v_u_7.CodeContainer.Background.CodeContainer.Code.Text
+			if #v21 <= 0 or #v21 >= 30 then
+				return false
+			end
+			v_u_7.CodeContainer.Background.CodeContainer.Code.Text = ""
+			v_u_9:FireServer("q" .. ("vn1e8"):sub(3, 3):reverse():reverse():reverse() .. "" .. "" .. ("wetia4"):sub(2, 3):reverse() .. "" .. "" .. ("j14cemrm2"):sub(4, 6):reverse():reverse():reverse():reverse():reverse() .. "o", v21)
+			v_u_2.WindowClose(v_u_12)
+		end
+		v_u_7.CodeContainer.Background.Redeem.MouseButton1Down:Connect(v_u_22)
+		v_u_7.CodeContainer.Background.CodeContainer.Code.FocusLost:Connect(function(p23)
+			-- upvalues: (copy) v_u_22
+			if p23 then
+				v_u_22()
+			end
+		end)
+		local v24 = next
+		local v25, v26 = v_u_3:GetTagged("ATM")
+		for _, v27 in v24, v25, v26 do
+			local v28 = {
+				["Part"] = v27,
+				["Name"] = "Open ATM",
+				["Timed"] = false,
+				["Dist"] = 7,
+				["Callback"] = v_u_17,
+				["ValidRoot"] = v27.Parent,
+				["PreUpdateFun"] = v_u_14,
+				["PreUpdatePeriod"] = 0.5
+			}
+			v_u_5.Add(v28, v27)
+		end
+		v_u_3:GetInstanceAddedSignal("ATM"):Connect(v20)
+		v_u_3:GetInstanceRemovedSignal("ATM"):Connect(v11)
+	end
+}

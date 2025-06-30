@@ -1,0 +1,87 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgM+BWhvdmVyCHNldFN0YXRlBGluaXQFcHJvcHMJbWFpblJhdGlvDHBhZGRpbmdSYXRpbwtjb3JuZXJQaXhlbApUZXh0QnV0dG9uBXN0YXRlCHNlbGVjdGVkFkJhY2tncm91bmRUcmFuc3BhcmVuY3kPQXV0b0J1dHRvbkNvbG9yAARUZXh0BkNvbG9yMwdmcm9tUkdCA25ldxBCYWNrZ3JvdW5kQ29sb3IzD0JvcmRlclNpemVQaXhlbAVVRGltMgRTaXplC2xheW91dE9yZGVyC0xheW91dE9yZGVyClNlbGVjdGFibGUFRXZlbnQKTW91c2VFbnRlcgpNb3VzZUxlYXZlD1NlbGVjdGlvbkdhaW5lZA1TZWxlY3Rpb25Mb3N0CUFjdGl2YXRlZAhvblNlbGVjdAtBc3BlY3RSYXRpbwhVSUNvcm5lcgVUaXRsZRdVSUFzcGVjdFJhdGlvQ29uc3RyYWludAxDb3JuZXJSYWRpdXMEVURpbQlUZXh0TGFiZWwIUG9zaXRpb24LQW5jaG9yUG9pbnQERm9udApMaW5lSGVpZ2h0ClRleHRTY2FsZWQKVGV4dENvbG9yMw5UZXh0WEFsaWdubWVudA5UZXh0WUFsaWdubWVudAdWZWN0b3IyBXRpdGxlBEVudW0LTHVja2llc3RHdXkFUmlnaHQGQ2VudGVyBnJlbmRlcgRnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQVSb2FjdA1jcmVhdGVFbGVtZW50DVB1cmVDb21wb25lbnQMQ2F0ZWdvcnlJdGVtBmV4dGVuZAAHBQEAAAAACOIDAQCpBAAAMAQDsAAAAAC8AQAqAgAAAJ8BAwGCAAEAAwMBBQEAAwIABwMBGAABAAD/AAADCAAAAAAEAAEAAAAJ+wAAAOICAQCpAwEAMAMCsAAAAAC8AAAqAgAAAJ8AAwGCAAEAAwMBBQEAAwIAGwABGAAAAQAA/wAAAxwAAAAABAABAAAACfsAAADiAgEAqQMAADADArAAAAAAvAAAKgIAAACfAAMBggABAAMDAQUBAAMCACAAARgAAAEAAP8AAAMhAAAAAAQAAQAAAAn7AAAA4gIBAKkDAQAwAwKwAAAAALwAACoCAAAAnwADAYIAAQADAwEFAQADAgAlAAEYAAABAAD/AAADJgAA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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Roact)
+local v_u_3 = v_u_2.createElement
+local v4 = v_u_2.PureComponent:extend("CategoryItem")
+function v4.init(p5)
+	p5:setState({
+		["hover"] = false
+	})
+end
+function v4.render(p_u_6)
+	-- upvalues: (copy) v_u_3, (copy) v_u_2
+	local v7 = p_u_6.props.mainRatio
+	local _ = p_u_6.props.paddingRatio
+	local v8 = p_u_6.props.cornerPixel
+	local v9 = v_u_3
+	local v10 = "TextButton"
+	local v11 = {
+		["BackgroundTransparency"] = (p_u_6.state.hover or p_u_6.props.selected) and 0 or 1,
+		["AutoButtonColor"] = false,
+		["Text"] = ""
+	}
+	local v12
+	if p_u_6.props.selected then
+		v12 = Color3.fromRGB(98, 222, 253)
+	else
+		v12 = Color3.new(0.2, 0.2, 0.2)
+	end
+	v11.BackgroundColor3 = v12
+	v11.BorderSizePixel = 0
+	v11.Size = UDim2.new(1, 0, 1, 0)
+	v11.LayoutOrder = p_u_6.props.layoutOrder
+	v11.Selectable = true
+	v11[v_u_2.Event.MouseEnter] = function()
+		-- upvalues: (copy) p_u_6
+		p_u_6:setState({
+			["hover"] = true
+		})
+	end
+	v11[v_u_2.Event.MouseLeave] = function()
+		-- upvalues: (copy) p_u_6
+		p_u_6:setState({
+			["hover"] = false
+		})
+	end
+	v11[v_u_2.Event.SelectionGained] = function()
+		-- upvalues: (copy) p_u_6
+		p_u_6:setState({
+			["hover"] = true
+		})
+	end
+	v11[v_u_2.Event.SelectionLost] = function()
+		-- upvalues: (copy) p_u_6
+		p_u_6:setState({
+			["hover"] = false
+		})
+	end
+	v11[v_u_2.Event.Activated] = p_u_6.props.onSelect
+	return v9(v10, v11, {
+		["AspectRatio"] = v_u_3("UIAspectRatioConstraint", {
+			["AspectRatio"] = v7
+		}),
+		["UICorner"] = v_u_3("UICorner", {
+			["CornerRadius"] = UDim.new(0, v8)
+		}),
+		["Title"] = v_u_3("TextLabel", {
+			["BackgroundTransparency"] = 1,
+			["Size"] = UDim2.new(1 - 0.6 / v7, 0, 0.4, 0),
+			["Position"] = UDim2.new(1 - 0.3 / v7, 0, 0.3, 0),
+			["AnchorPoint"] = Vector2.new(1, 0),
+			["Text"] = p_u_6.props.title,
+			["Font"] = Enum.Font.LuckiestGuy,
+			["LineHeight"] = 0.7,
+			["TextScaled"] = true,
+			["TextColor3"] = p_u_6.props.selected and Color3.new(0, 0, 0) or Color3.new(1, 1, 1),
+			["TextXAlignment"] = Enum.TextXAlignment.Right,
+			["TextYAlignment"] = Enum.TextYAlignment.Center
+		})
+	})
+end
+return v4

@@ -1,0 +1,17 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMNBmNsYW5JZA5taXNzaW5nIGNsYW5JZAZhc3NlcnQFdGFibGUFY2xvbmUFdmFsdWULc2V0VGltZVRvb2sEZ2FtZRFSZXBsaWNhdGVkU3RvcmFnZQpHZXRTZXJ2aWNlB3JlcXVpcmUFUm9kdXgNY3JlYXRlUmVkdWNlcgACBQIAAAAAFk0EARsAAAAARwQCAAAAAICpAwABqQMBAIEBAwQBAAAAbwQBAKQCAwAAACBAnwIDAaQCBgAAFECAUgMAAJ8CAgJNAwEbAAAAAE0EAcwHAAAAagQCA4ICAgAIAwEDAgMDBAAAIEADBAMFBAAUQIADBgAGBwEYAAAAAAAAAAAAAAAAAQAAAAEAAAAAAQcAAAAABgAAAQIAFqMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0CAKcGAAAAnwECAk0CAdYHAAAA/wMAAAAAAADiBAkAwAUKADAFBHwIAAAAnwIDAIICAAALAwgEAAAAQAMJAwoDCwQAAEBAAwwDDQMHBQEIBgABAAEAARgAAQAAAAAAAQAAAAACAAAAAAEAAP8AAQAAAAABX9nuv8HxKf1tHYQr/+PqQn0cxzLTqh7/gTzQK3Xw72SXbyY0UckYlQ==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Rodux).createReducer({}, {
+	["setTimeTook"] = function(p2, p3)
+		local v4 = p3.clanId ~= nil
+		assert(v4, "missing clanId")
+		local v5 = table.clone(p2)
+		v5[p3.clanId] = p3.value
+		return v5
+	end
+})

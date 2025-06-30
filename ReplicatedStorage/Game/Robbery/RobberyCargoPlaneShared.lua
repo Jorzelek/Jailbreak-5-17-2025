@@ -1,0 +1,77 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Game.BezierPath)
+local v_u_3 = {}
+local v_u_4 = {}
+local v_u_5 = nil
+local v_u_6 = false
+local function v_u_17()
+	-- upvalues: (ref) v_u_6, (copy) v_u_3, (copy) v_u_4, (ref) v_u_5
+	if not v_u_6 then
+		v_u_6 = true
+		local v7 = workspace:WaitForChild("NodesLanding")
+		if v7 then
+			for v8 = 1, #v7:GetChildren() do
+				local v9 = assert(v7:FindFirstChild(("Node%d"):format(v8)))
+				v9.CanCollide = false
+				v9.Transparency = 1
+				local v10 = v_u_3
+				local v11 = v9.Position
+				table.insert(v10, v11)
+			end
+		end
+		local v12 = workspace:WaitForChild("NodesTakeoff")
+		if v12 then
+			for v13 = 1, #v12:GetChildren() do
+				local v14 = assert(v12:FindFirstChild(("Node%d"):format(v13)))
+				v14.CanCollide = false
+				v14.Transparency = 1
+				local v15 = v_u_4
+				local v16 = v14.Position
+				table.insert(v15, v16)
+				if v14:FindFirstChild("CloseRobbery") then
+					v_u_5 = v13
+				end
+			end
+		end
+	end
+end
+return {
+	["GetFlightData"] = function()
+		-- upvalues: (ref) v_u_6, (copy) v_u_17, (copy) v_u_4, (copy) v_u_3, (copy) v_u_2, (ref) v_u_5
+		if not v_u_6 then
+			v_u_17()
+		end
+		local v18 = #v_u_4 > 0
+		assert(v18, "Missing PointsLeave")
+		local v19 = #v_u_3 > 0
+		assert(v19, "Missing PointsEnter")
+		local v20 = {}
+		local v21 = v_u_2.new()
+		v21:SetPoints(v_u_3)
+		v21:SetNodeOffset(0, 2)
+		v20.PathEnter = v21
+		local v22 = v21:ApproximateLength(1000) / 120
+		local v23 = v_u_2.new()
+		v23:SetPoints(v_u_4)
+		v23:SetNodeOffset(1, 1)
+		v20.PathLeave = v23
+		v20.SeqsLayout = {
+			{ "SeqEnter", v22 },
+			{ "SeqNone", 2 },
+			{ "SeqCargoOpen", 3 },
+			{ "SeqLoadCrates", 10 },
+			{ "SeqNone", 10 },
+			{ "SeqCargoClose", 3 },
+			{ "SeqLeave", v23:ApproximateLength(1000) / 120 }
+		}
+		v20.CloseRobberyIndex = v_u_5
+		return v20
+	end
+}

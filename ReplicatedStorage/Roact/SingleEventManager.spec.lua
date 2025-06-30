@@ -1,0 +1,202 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgM6A25ldwZleHBlY3QCdG8CYmUCb2sCaXQic2hvdWxkIGNyZWF0ZSBhIFNpbmdsZUV2ZW50TWFuYWdlcghJbnN0YW5jZQ1CaW5kYWJsZUV2ZW50BUV2ZW50BXZhbHVlDGNvbm5lY3RFdmVudAZyZXN1bWUDZm9vBEZpcmUJY2FsbENvdW50BWVxdWFsEGFzc2VydENhbGxlZFdpdGgDYmFyA2JhegdzdXNwZW5kBXRhYmxlBmluc2VydAljb3JvdXRpbmUFeWllbGQGY3JlYXRlBmFzc2VydAZzdGF0dXMEZGVhZAVlcnJvciJFcnJvciBmcm9tIFNpbmdsZUV2ZW50TWFuYWdlciB0ZXN0B2NhcHR1cmUGZXJyb3JzCHdhcm5pbmdzBWluZm9zBGZpbmQYc2hvdWxkIGNvbm5lY3QgdG8gZXZlbnRzKnNob3VsZCBkcm9wIGV2ZW50cyB1bnRpbCByZXN1bWVkIGluaXRpYWxseStzaG91bGQgaW52b2tlIHN1c3BlbmRlZCBldmVudHMgd2hlbiByZXN1bWVkRXNob3VsZCBpbnZva2UgZXZlbnRzIHRyaWdnZXJlZCBkdXJpbmcgcmVzdW1wdGlvbiBpbiB0aGUgY29ycmVjdCBvcmRlclNzaG91bGQgbm90IGludm9rZSBldmVudHMgZmlyZWQgZHVyaW5nIHN1c3BlbnNpb24gYnV0IGRpc2Nvbm5lY3RlZCBiZWZvcmUgcmVzdW1wdGlvbkRzaG91bGQgbm90IHlpZWxkIGV2ZW50cyB0aHJvdWdoIHRoZSBTaW5nbGVFdmVudE1hbmFnZXIgd2hlbiByZXN1bWluZ0BzaG91bGQgbm90IHRocm93IGVycm9ycyB0aHJvdWdoIFNpbmdsZUV2ZW50TWFuYWdlciB3aGVuIHJlc3VtaW5nXnNob3VsZCBub3Qgb3ZlcmZsb3cgd2l0aCBldmVudHMgaWYgbWFuYWdlcjpyZXN1bWUoKSBpcyBpbnZva2VkIHdoZW4gcmVzdW1pbmcgYSBzdXNwZW5kZWQgZXZlbnQGRm9sZGVyBE5hbWUVY29ubmVjdFByb3BlcnR5Q2hhbmdlBXRocm93InNob3VsZCBjb25uZWN0IHRvIHByb3BlcnR5IGNoYW5nZXMwc2hvdWxkIHRocm93IGFuIGVycm9yIGlm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
+
+-- Decompiled by Krnl
+
+return function()
+	local v_u_1 = require(script.Parent.assertDeepEqual)
+	local v_u_2 = require(script.Parent.createSpy)
+	local v_u_3 = require(script.Parent.Logging)
+	local v_u_4 = require(script.Parent.SingleEventManager)
+	describe("new", function()
+		-- upvalues: (copy) v_u_4
+		it("should create a SingleEventManager", function()
+			-- upvalues: (ref) v_u_4
+			local v5 = v_u_4.new()
+			expect(v5).to.be.ok()
+		end)
+	end)
+	describe("connectEvent", function()
+		-- upvalues: (copy) v_u_4, (copy) v_u_2, (copy) v_u_1, (copy) v_u_3
+		it("should connect to events", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_2
+			local v6 = Instance.new("BindableEvent")
+			local v7 = v_u_4.new(v6)
+			local v8 = v_u_2()
+			v7:connectEvent("Event", v8.value)
+			v7:resume()
+			v6:Fire("foo")
+			expect(v8.callCount).to.equal(1)
+			v8:assertCalledWith(v6, "foo")
+			v6:Fire("bar")
+			expect(v8.callCount).to.equal(2)
+			v8:assertCalledWith(v6, "bar")
+			v7:connectEvent("Event", nil)
+			v6:Fire("baz")
+			expect(v8.callCount).to.equal(2)
+		end)
+		it("should drop events until resumed initially", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_2
+			local v9 = Instance.new("BindableEvent")
+			local v10 = v_u_4.new(v9)
+			local v11 = v_u_2()
+			v10:connectEvent("Event", v11.value)
+			v9:Fire("foo")
+			expect(v11.callCount).to.equal(0)
+			v10:resume()
+			v9:Fire("bar")
+			expect(v11.callCount).to.equal(1)
+			v11:assertCalledWith(v9, "bar")
+		end)
+		it("should invoke suspended events when resumed", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_2
+			local v12 = Instance.new("BindableEvent")
+			local v13 = v_u_4.new(v12)
+			local v14 = v_u_2()
+			v13:connectEvent("Event", v14.value)
+			v13:resume()
+			v12:Fire("foo")
+			expect(v14.callCount).to.equal(1)
+			v14:assertCalledWith(v12, "foo")
+			v13:suspend()
+			v12:Fire("bar")
+			expect(v14.callCount).to.equal(1)
+			v13:resume()
+			expect(v14.callCount).to.equal(2)
+			v14:assertCalledWith(v12, "bar")
+		end)
+		it("should invoke events triggered during resumption in the correct order", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_2, (ref) v_u_1
+			local v_u_15 = Instance.new("BindableEvent")
+			local v16 = v_u_4.new(v_u_15)
+			local v_u_17 = {}
+			local v20 = v_u_2(function(_, p18)
+				-- upvalues: (copy) v_u_17, (copy) v_u_15
+				local v19 = v_u_17
+				table.insert(v19, p18)
+				if p18 == 2 then
+					v_u_15:Fire(3)
+				elseif p18 == 3 then
+					v_u_15:Fire(4)
+				end
+			end)
+			v16:connectEvent("Event", v20.value)
+			v16:suspend()
+			v_u_15:Fire(1)
+			v_u_15:Fire(2)
+			v16:resume()
+			expect(v20.callCount).to.equal(4)
+			v_u_1(v_u_17, {
+				1,
+				2,
+				3,
+				4
+			})
+		end)
+		it("should not invoke events fired during suspension but disconnected before resumption", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_2
+			local v21 = Instance.new("BindableEvent")
+			local v22 = v_u_4.new(v21)
+			local v23 = v_u_2()
+			v22:connectEvent("Event", v23.value)
+			v22:suspend()
+			v21:Fire(1)
+			v22:connectEvent("Event", nil)
+			v22:resume()
+			expect(v23.callCount).to.equal(0)
+		end)
+		it("should not yield events through the SingleEventManager when resuming", function()
+			-- upvalues: (ref) v_u_4
+			local v_u_24 = Instance.new("BindableEvent")
+			local v_u_25 = v_u_4.new(v_u_24)
+			v_u_25:connectEvent("Event", function()
+				coroutine.yield()
+			end)
+			v_u_25:resume()
+			local v26 = coroutine.create(function()
+				-- upvalues: (copy) v_u_24
+				v_u_24:Fire(5)
+			end)
+			local v27 = coroutine.resume
+			assert(v27(v26))
+			expect(coroutine.status(v26)).to.equal("dead")
+			v_u_25:suspend()
+			v_u_24:Fire(5)
+			local v28 = coroutine.create(function()
+				-- upvalues: (copy) v_u_25
+				v_u_25:resume()
+			end)
+			local v29 = coroutine.resume
+			assert(v29(v28))
+			expect(coroutine.status(v28)).to.equal("dead")
+		end)
+		it("should not throw errors through SingleEventManager when resuming", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_3
+			local v30 = Instance.new("BindableEvent")
+			local v_u_31 = v_u_4.new(v30)
+			v_u_31:connectEvent("Event", function()
+				error("Error from SingleEventManager test")
+			end)
+			v_u_31:resume()
+			v_u_31:suspend()
+			v30:Fire(5)
+			local v32 = v_u_3.capture(function()
+				-- upvalues: (copy) v_u_31
+				v_u_31:resume()
+			end)
+			expect(#v32.errors).to.equal(0)
+			expect(#v32.warnings).to.equal(1)
+			expect(#v32.infos).to.equal(0)
+			expect(v32.warnings[1]:find("Error from SingleEventManager test")).to.be.ok()
+		end)
+		it("should not overflow with events if manager:resume() is invoked when resuming a suspended event", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_2
+			local v_u_33 = Instance.new("BindableEvent")
+			local v_u_34 = v_u_4.new(v_u_33)
+			local v36 = v_u_2(function(_, p35)
+				-- upvalues: (copy) v_u_34, (copy) v_u_33
+				if p35 == 1 then
+					v_u_34:suspend()
+					v_u_33:Fire(2)
+					v_u_34:resume()
+				end
+			end)
+			v_u_34:connectEvent("Event", v36.value)
+			v_u_34:suspend()
+			v_u_33:Fire(1)
+			v_u_34:resume()
+			expect(v36.callCount).to.equal(2)
+		end)
+	end)
+	describe("connectPropertyChange", function()
+		-- upvalues: (copy) v_u_4, (copy) v_u_2
+		it("should connect to property changes", function()
+			-- upvalues: (ref) v_u_4, (ref) v_u_2
+			local v37 = Instance.new("Folder")
+			local v38 = v_u_4.new(v37)
+			local v39 = v_u_2()
+			v38:connectPropertyChange("Name", v39.value)
+			v38:resume()
+			v37.Name = "foo"
+			expect(v39.callCount).to.equal(1)
+			v39:assertCalledWith(v37)
+			v37.Name = "bar"
+			expect(v39.callCount).to.equal(2)
+			v39:assertCalledWith(v37)
+			v38:connectPropertyChange("Name")
+			v37.Name = "baz"
+			expect(v39.callCount).to.equal(2)
+		end)
+		it("should throw an error if the property is invalid", function()
+			-- upvalues: (ref) v_u_4
+			local v40 = Instance.new("Folder")
+			local v_u_41 = v_u_4.new(v40)
+			expect(function()
+				-- upvalues: (copy) v_u_41
+				v_u_41:connectPropertyChange("foo", function() end)
+			end).to.throw()
+		end)
+	end)
+end

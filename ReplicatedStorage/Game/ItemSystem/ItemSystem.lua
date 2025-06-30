@@ -1,0 +1,483 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgO7AQtHZXRFcXVpcHBlZA1Vc2VySW5wdXRUeXBlB0tleUNvZGUKSW5wdXRCZWdhbgh4YTFkeDV0OApJbnB1dEVuZGVkCGFvMGEzNnkzCklzQ3Jhd2xpbmcMSXNSYWdkb2xsaW5nCElzRmx5aW5nC2dldEh1bWFub2lkBkhlYWx0aBVHZXRMb2NhbFZlaGljbGVQYWNrZXQEdGljaw9MYXN0VmVoaWNsZUV4aXQEU2VhdARMZWFuDkZpbmRGaXJzdENoaWxkBUl0ZW1zBU1vZGVsBlBhcmVudAx1cGRhdGVQYXJlbnQIR2V0T3duZXIIX3VuZXF1aXAEd2FybjpBbiBpdGVtIHdhcyBhbHJlYWR5IGVxdWlwcGVkLCBjaG9vc2luZyBuZXdlciBzZXJ2ZXIgc3RhdGUuBl9lcXVpcANvYmoKU2V0TGVhbmluZwZFbmdpbmUGQ0ZyYW1lCFBvc2l0aW9uElBvaW50VG9PYmplY3RTcGFjZQFYCUNoYXJhY3RlcgVfbWFpZA9BbmNlc3RyeUNoYW5nZWQHQ29ubmVjdAxsaXN0ZW5QYXJlbnQJZ2V0TG9ja2VkC09iamVjdExvY2FsCFJvb3RQYXJ0BlZvbHVtZQ5oYW5kbGVFcXVpcHBlZARtYWlkF29uSW52ZW50b3J5SXRlbUVxdWlwcGVkCEdpdmVUYXNrC2dldEVxdWlwcGVkD3VwZGF0ZUNoYXJhY3RlcgZ0eXBlb2YFdGFibGUMZ2V0bWV0YXRhYmxlDkdldENvbnN0cnVjdG9yE19vbkNoYXJhY3RlckNoYW5nZWQEdGFzawVkZWxheQlJc0xlYW5pbmcTaGFuZGxlVW5lcXVpcHBlZFJhdwtQcmltYXJ5UGFydAl3b3Jrc3BhY2UOSXNEZXNjZW5kYW50T2YSY2xlYXJVbmtub3duT3duZXJzB2dldE5hbWULX19DbGFzc05hbWUQaGFuZGxlVW5lcXVpcHBlZARFbnVtDE1vdXNlQnV0dG9uMQlvblByZXNzZWQKb25SZWxlYXNlZAhLZXlib2FyZAFSDE1vdXNlQnV0dG9uMgtnZXRSb290UGFydAtMb2NhbFBsYXllcg9HdW5Ta2luVUlSZWdpb24JR2V0VGFnZ2VkDWlzUG9pbnRJblBhcnQPRmxhZ1RvZ2dsZVNraW5zFGNoZWNrRmxhZ1RvZ2dsZVNraW5zEXNldEJ1dHRvblByaW9yaXR5C2NyYXdsQnV0dG9uDHNwcmludEJ1dHRvbhBzZXRCdXR0b25FbmFibGVkC3JhZGlvQnV0dG9uBE1haWQKU2hvb3RCZWdpbhdTaG9vdEFjdGlvbkJ1dHRvbkNvbmZpZwNhZGQHcHJpbWFyeQhwcmlvcml0eQpzYXR1cmF0ZVRvBm5vU2luawVpbWFnZRdyYnhhc3NldGlkOi8vNDkzOTczNjM5MwZSZWxvYWQIa2V5Q29kZXMXcmJ4YXNzZXRpZDovLzQ5Mzk3Mzc0MjQKU2NvcGVCZWdpbghmdW5jdGlvbg10b3VjaElzVG9nZ2xlF3JieGFzc2V0aWQ6Ly80OTM5NzM2NzIwAVEIQnV0dG9uTDIJQXBwbHlTa2luBWV2ZXJ5CVBhc3NlbmdlcgFwAAdwMDVtbWdvA3N1YgdyZXZlcnNlCHFlMndsYXlqAjVhCkZpcmVTZXJ2ZXILcHVuY2hCdXR0b24OdXBkYXRlRXF1aXBwZWQNb25BdHRlbXB0RHJvcBFHZXRFcXVpcHBlZFNpZ25hbAVFdmVudAJlbRFhZGRFcXVpcENvbmRpdGlvbgZHZXRBbGwTR2V0Q2xhc3NBZGRlZFNpZ25hbBlvbkludmVudG9yeUl0ZW1VbmVxdWlwcGVkE09uTG9jYWxJdGVtRXF1aXBwZWQESW5pdAZhc3NlcnQIUmVnaXN0ZXIJZ2V0Q29uZmlnCUdldENvbmZpZxBHZXRMb2NhbEVxdWlwcGVkAXgHYTFkeDV0OBNCcm9hZGNhc3RJbnB1dEJlZ2FuAWEHaHZhMG9lZwQzNnkzE0Jyb2FkY2FzdElucHV0RW5kZWQObWlzc2luZyBwbGF5ZXIabWlzc2luZyBpbnZlbnRvcnlJdGVtVmFsdWUFZXJyb3IWTm8gbW9kdWxlIGZvciBpdGVtOiAlcwZmb3JtYXQDbmV3BUxvY2FsDFRvdWNoU3RhcnRlZAdjb25uZWN0ClRvdWNoRW5kZWQGaXBhaXJzDkdldEtleXNQcmVzc2VkFkdldE1vdXNlQnV0dG9uc1ByZXNzZWQERmlyZQ5vbkl0ZW1FcXVpcHBlZAdEZXN0cm95FU9uTG9jYWxJdGVtVW5lcXVpcHBlZARnYW1lEUNvbGxlY3Rpb25TZXJ2aWNlCkdldFNlcnZp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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAQAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAACkvocS2e6FSBx1lriL2e2sF8OJxAAT6r1Innk4RWlIF/9EVt7o+p88J
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("CollectionService")
+local v_u_2 = game:GetService("UserInputService")
+local v_u_3 = game:GetService("Players")
+local v_u_4 = v_u_3.LocalPlayer
+local v5 = game:GetService("ReplicatedStorage")
+local v_u_6 = require(v5.ActionButton.ActionButtonService)
+local v_u_7 = require(v5.Game.DefaultActions)
+local v_u_8 = require(v5.Game.PlayerUtils)
+local v9 = require(v5.Std.Signal)
+local v_u_10 = require(v5.Std.Interval)
+local v_u_11 = require(v5.Std.Audio)
+local v_u_12 = require(v5.Game.JetPack.JetPack)
+local v_u_13 = require(v5.Game.CharacterUtil)
+local v_u_14 = require(v5.Game.Falling)
+local v_u_15 = require(v5.Vehicle.VehicleUtils)
+local v_u_16 = require(v5.App.CharacterBinder)
+local v_u_17 = require(v5.App.ItemDataUtils)
+local v_u_18 = require(v5.Inventory.InventoryItemOwnerBinder)
+local v_u_19 = require(v5.Inventory.InventoryItemUtils)
+local v_u_20 = require(v5.Inventory.InventoryItemSystem)
+local v_u_21 = require(v5.Inventory.InventoryItemBinder)
+local v_u_22 = require(v5.Std.CharacterUtils)
+local v_u_23 = require(v5.Std.Region.RegionUtils)
+local v_u_24 = nil
+local v_u_25 = {}
+local v_u_26 = {}
+local v_u_27 = {}
+local v_u_114 = {
+	["OnLocalItemEquipped"] = v9.new(),
+	["OnLocalItemUnequipped"] = v9.new(),
+	["onItemEquipped"] = v9.new(),
+	["Init"] = function(p28)
+		-- upvalues: (ref) v_u_24, (copy) v_u_114, (copy) v_u_20, (copy) v_u_26, (copy) v_u_4, (copy) v_u_13, (copy) v_u_14, (copy) v_u_12, (copy) v_u_8, (copy) v_u_15, (copy) v_u_19, (copy) v_u_11, (copy) v_u_16, (copy) v_u_18, (copy) v_u_27, (copy) v_u_10, (copy) v_u_7, (copy) v_u_6, (copy) v_u_22, (copy) v_u_3, (copy) v_u_1, (copy) v_u_23, (copy) v_u_21
+		v_u_24 = p28.Event
+		local v29 = p28.em
+		function v29.xa1dx5t8(p30, p31, p32)
+			-- upvalues: (ref) v_u_114
+			local v33 = v_u_114.GetEquipped(p30)
+			if v33 ~= nil then
+				v33:InputBegan({
+					["UserInputType"] = p31,
+					["KeyCode"] = p32
+				}, false)
+			end
+		end
+		function v29.ao0a36y3(p34, p35, p36)
+			-- upvalues: (ref) v_u_114
+			local v37 = v_u_114.GetEquipped(p34)
+			if v37 ~= nil then
+				v37:InputEnded({
+					["UserInputType"] = p35,
+					["KeyCode"] = p36
+				}, false)
+			end
+		end
+		v_u_20.addEquipCondition(function()
+			-- upvalues: (ref) v_u_26, (ref) v_u_4
+			return not v_u_26[v_u_4]
+		end)
+		v_u_20.addEquipCondition(function()
+			-- upvalues: (ref) v_u_13, (ref) v_u_14, (ref) v_u_12, (ref) v_u_8, (ref) v_u_4
+			if v_u_13.IsCrawling then
+				return false
+			elseif v_u_14.IsRagdolling() then
+				return false
+			elseif v_u_12.IsFlying() then
+				return false
+			else
+				local v38 = v_u_8.getHumanoid(v_u_4)
+				if v38 then
+					return v38.Health > 0.001
+				else
+					return false
+				end
+			end
+		end)
+		v_u_20.addEquipCondition(function()
+			-- upvalues: (ref) v_u_15
+			local v39 = v_u_15.GetLocalVehiclePacket()
+			local v40 = tick()
+			if v39 then
+				local v41 = false
+				if v40 - v_u_15.LastVehicleExit > 0.1 then
+					local v42 = v39.Seat
+					v41 = (v42:FindFirstChild("Lean") or v42:FindFirstChild("Items")) and true or v41
+				end
+				if not v41 then
+					return false
+				end
+			end
+			return true
+		end)
+		local function v_u_50(p43)
+			-- upvalues: (ref) v_u_26, (ref) v_u_114, (ref) v_u_15, (ref) v_u_19, (ref) v_u_11
+			if v_u_26[p43:GetOwner()] then
+				v_u_114._unequip(p43:GetOwner())
+				warn("An item was already equipped, choosing newer server state.")
+			end
+			local v_u_44 = v_u_114._equip(p43:GetOwner(), p43.obj)
+			local v45 = v_u_44.SetLeaning and v_u_15.GetLocalVehiclePacket()
+			if v45 then
+				local v46 = v45.Seat
+				if v46:FindFirstChild("Lean") then
+					v_u_44:SetLeaning(true, v45.Model:FindFirstChild("Engine").CFrame:PointToObjectSpace(v46.Position).X > 0)
+				end
+			end
+			if v_u_44.Model then
+				local v_u_47 = p43:GetOwner().Character
+				local v_u_48 = v_u_44.Model.Parent
+				local function v49()
+					-- upvalues: (copy) v_u_44, (copy) v_u_47, (copy) v_u_48
+					if v_u_44.Model then
+						if v_u_47.Parent then
+							v_u_44.Model.Parent = v_u_48
+						else
+							v_u_44.Model.Parent = nil
+						end
+					else
+						return
+					end
+				end
+				if v_u_44.Model then
+					if v_u_47.Parent then
+						v_u_44.Model.Parent = v_u_48
+					else
+						v_u_44.Model.Parent = nil
+					end
+				end
+				p43._maid.listenParent = v_u_47.AncestryChanged:Connect(v49)
+			end
+			if not v_u_19.getLocked(p43.obj) then
+				v_u_11.ObjectLocal(v_u_44.RootPart, 690572276, {
+					["Volume"] = 0.8
+				})
+			end
+		end
+		local function v56(p51)
+			-- upvalues: (ref) v_u_20, (copy) v_u_50
+			local v52 = p51.maid
+			local v_u_53 = p51.obj
+			v52:GiveTask(v_u_20.onInventoryItemEquipped:Connect(function(p54)
+				-- upvalues: (copy) v_u_53, (ref) v_u_50
+				if p54:GetOwner().Character == v_u_53 then
+					v_u_50(p54)
+				end
+			end))
+			for _, v55 in v_u_20.getEquipped() do
+				if v55:GetOwner().Character == v_u_53 then
+					v_u_50(v55)
+				end
+			end
+		end
+		for _, v57 in v_u_16:GetAll() do
+			v56(v57)
+		end
+		v_u_16:GetClassAddedSignal():Connect(v56)
+		v_u_20.onInventoryItemEquipped:Connect(function(p_u_58)
+			-- upvalues: (ref) v_u_18, (copy) v_u_50
+			local v_u_59 = p_u_58:GetOwner()
+			if typeof(v_u_59) == "table" and getmetatable(v_u_59) == v_u_18:GetConstructor() then
+				if v_u_59.Character then
+					v_u_50(p_u_58)
+				end
+				p_u_58._maid:GiveTask(v_u_59._onCharacterChanged:Connect(function()
+					-- upvalues: (copy) v_u_59, (ref) v_u_50, (copy) p_u_58
+					if v_u_59.Character then
+						v_u_50(p_u_58)
+					end
+				end))
+			end
+		end)
+		local function v_u_62(p_u_60, p_u_61)
+			-- upvalues: (ref) v_u_27, (ref) v_u_114
+			v_u_27[p_u_60] = p_u_61
+			task.delay(1, function()
+				-- upvalues: (ref) v_u_27, (copy) p_u_60, (copy) p_u_61
+				if v_u_27[p_u_60] == p_u_61 then
+					v_u_27[p_u_60] = nil
+				end
+			end)
+			if p_u_61.IsLeaning then
+				p_u_61:SetLeaning(false)
+			end
+			v_u_114._unequip(p_u_60)
+		end
+		local function v_u_66()
+			-- upvalues: (ref) v_u_26, (copy) v_u_62
+			for v63, v64 in v_u_26 do
+				local v65 = v63.Character
+				if not (v65 and (v65.PrimaryPart and v65.PrimaryPart:IsDescendantOf(workspace))) then
+					v_u_62(v63, v64)
+				end
+			end
+		end
+		v_u_10.every(1):Connect(v_u_66)
+		local function v71(p67)
+			-- upvalues: (ref) v_u_19, (ref) v_u_114, (copy) v_u_62, (copy) v_u_66
+			local v68 = v_u_19.getName(p67.obj)
+			local v69 = p67:GetOwner()
+			if v69 then
+				local v70 = v_u_114.GetEquipped(v69)
+				if v70 and v70.__ClassName == v68 then
+					v_u_62(v69, v70)
+					return
+				end
+			else
+				v_u_66()
+			end
+		end
+		v_u_20.onInventoryItemUnequipped:Connect(v71)
+		local v_u_72 = v_u_7.crawlButton.priority
+		local v_u_73 = v_u_7.sprintButton.priority
+		v_u_114.OnLocalItemEquipped:Connect(function(p_u_74)
+			-- upvalues: (ref) v_u_6, (ref) v_u_22, (ref) v_u_3, (ref) v_u_1, (ref) v_u_23, (ref) v_u_10, (ref) v_u_7, (copy) v_u_72, (copy) v_u_73, (ref) v_u_15
+			local v75 = p_u_74.Maid
+			if p_u_74.ShootBegin then
+				local v76 = p_u_74.ShootActionButtonConfig or {}
+				v75:GiveTask(v_u_6.add({
+					["primary"] = v76.primary == nil and true or v76.primary,
+					["priority"] = v76.priority == nil and 1050 or v76.priority,
+					["saturateTo"] = v76.saturateTo == nil and 0 or v76.saturateTo,
+					["noSink"] = true,
+					["image"] = "rbxassetid://4939736393",
+					["onPressed"] = function()
+						-- upvalues: (copy) p_u_74
+						p_u_74:InputBegan({
+							["UserInputType"] = Enum.UserInputType.MouseButton1
+						})
+					end,
+					["onReleased"] = function()
+						-- upvalues: (copy) p_u_74
+						if p_u_74.InputEnded then
+							p_u_74:InputEnded({
+								["UserInputType"] = Enum.UserInputType.MouseButton1
+							})
+						end
+					end
+				}))
+			end
+			if p_u_74.Reload then
+				v75:GiveTask(v_u_6.add({
+					["priority"] = 750,
+					["image"] = "rbxassetid://4939737424",
+					["keyCodes"] = { Enum.KeyCode.R },
+					["onPressed"] = function()
+						-- upvalues: (copy) p_u_74
+						p_u_74:InputBegan({
+							["UserInputType"] = Enum.UserInputType.Keyboard,
+							["KeyCode"] = Enum.KeyCode.R
+						})
+					end
+				}))
+			end
+			local v77 = p_u_74.ScopeBegin
+			if v77 then
+				local v78 = p_u_74.ScopeBegin
+				v77 = typeof(v78) == "function"
+			end
+			if v77 then
+				v75:GiveTask(v_u_6.add({
+					["priority"] = 975,
+					["image"] = "rbxassetid://4939736720",
+					["touchIsToggle"] = true,
+					["keyCodes"] = { Enum.KeyCode.Q, Enum.KeyCode.ButtonL2 },
+					["noSink"] = true,
+					["onPressed"] = function()
+						-- upvalues: (copy) p_u_74
+						p_u_74:InputBegan({
+							["UserInputType"] = Enum.UserInputType.MouseButton2
+						})
+					end,
+					["onReleased"] = function()
+						-- upvalues: (copy) p_u_74
+						if p_u_74.InputEnded then
+							p_u_74:InputEnded({
+								["UserInputType"] = Enum.UserInputType.MouseButton2
+							})
+						end
+					end
+				}))
+			end
+			if p_u_74.ApplySkin then
+				local v79 = p_u_74.ApplySkin
+				if typeof(v79) == "function" then
+					local v_u_80 = false
+					local function v_u_84()
+						-- upvalues: (ref) v_u_22, (ref) v_u_3, (ref) v_u_1, (ref) v_u_23, (ref) v_u_80, (copy) p_u_74
+						local v81 = v_u_22.getRootPart(v_u_3.LocalPlayer.Character)
+						if not v81 then
+							return
+						end
+						local v82 = false
+						for _, v83 in v_u_1:GetTagged("GunSkinUIRegion") do
+							if v_u_23.isPointInPart(v83, v81.Position) then
+								v82 = true
+								break
+							end
+						end
+						if v82 ~= v_u_80 then
+							p_u_74:InputBegan({
+								["FlagToggleSkins"] = v82
+							})
+							v_u_80 = v82
+						end
+					end
+					v75:GiveTask(v_u_10.every(0.1):Connect(function()
+						-- upvalues: (copy) v_u_84
+						v_u_84()
+					end))
+					v_u_84()
+				end
+			end
+			if not v77 then
+				v_u_6.setButtonPriority(v_u_7.crawlButton, 900)
+				v_u_6.setButtonPriority(v_u_7.sprintButton, 950)
+				v75:GiveTask(function()
+					-- upvalues: (ref) v_u_6, (ref) v_u_7, (ref) v_u_72, (ref) v_u_73
+					v_u_6.setButtonPriority(v_u_7.crawlButton, v_u_72)
+					v_u_6.setButtonPriority(v_u_7.sprintButton, v_u_73)
+				end)
+			end
+			local v85 = v_u_15.GetLocalVehiclePacket()
+			if v85 == nil or v85.Passenger then
+				v_u_6.setButtonEnabled(v_u_7.radioButton, false)
+				v75:GiveTask(function()
+					-- upvalues: (ref) v_u_6, (ref) v_u_7
+					v_u_6.setButtonEnabled(v_u_7.radioButton, true)
+				end)
+			end
+		end)
+		v_u_21:GetClassAddedSignal():Connect(function(p_u_86)
+			-- upvalues: (ref) v_u_3, (ref) v_u_24, (ref) v_u_6, (ref) v_u_7
+			p_u_86._maid:GiveTask(p_u_86.onAttemptDrop:Connect(function()
+				-- upvalues: (copy) p_u_86, (ref) v_u_3, (ref) v_u_24
+				if p_u_86:GetOwner() == v_u_3.LocalPlayer then
+					v_u_24:FireServer("p" .. "" .. ("p05mmgo"):sub(4, 6):reverse() .. "" .. "" .. ("qe2wlayj"):sub(3, 4):reverse():reverse():reverse() .. "5a")
+				end
+			end))
+			local function v88()
+				-- upvalues: (copy) p_u_86, (ref) v_u_3, (ref) v_u_6, (ref) v_u_7
+				if p_u_86:GetOwner() == v_u_3.LocalPlayer then
+					local v87 = p_u_86.GetEquipped
+					if v87 then
+						v87 = p_u_86:GetEquipped()
+					end
+					if v87 then
+						v_u_6.setButtonEnabled(v_u_7.punchButton, false)
+					else
+						v_u_6.setButtonEnabled(v_u_7.punchButton, true)
+					end
+				else
+					return
+				end
+			end
+			if p_u_86:GetOwner() == v_u_3.LocalPlayer then
+				local v89 = p_u_86.GetEquipped
+				if v89 then
+					v89 = p_u_86:GetEquipped()
+				end
+				if v89 then
+					v_u_6.setButtonEnabled(v_u_7.punchButton, false)
+				else
+					v_u_6.setButtonEnabled(v_u_7.punchButton, true)
+				end
+			end
+			p_u_86._maid:GiveTask(p_u_86:GetEquippedSignal():Connect(v88))
+			p_u_86._maid:GiveTask(v88)
+		end)
+	end,
+	["Register"] = function(p90)
+		-- upvalues: (copy) v_u_25
+		local v91 = p90.__ClassName
+		assert(v91)
+		local v92 = v_u_25[p90.__ClassName] == nil
+		assert(v92)
+		v_u_25[p90.__ClassName] = p90
+	end,
+	["GetConfig"] = function(p93)
+		-- upvalues: (copy) v_u_17
+		return v_u_17.getConfig(p93)
+	end,
+	["GetEquipped"] = function(p94)
+		-- upvalues: (copy) v_u_26
+		return v_u_26[p94]
+	end,
+	["GetLocalEquipped"] = function()
+		-- upvalues: (copy) v_u_114, (copy) v_u_4
+		return v_u_114.GetEquipped(v_u_4)
+	end,
+	["_equip"] = function(p95, p96)
+		-- upvalues: (copy) v_u_19, (copy) v_u_25, (copy) v_u_27, (copy) v_u_2, (ref) v_u_24, (copy) v_u_26, (copy) v_u_114
+		assert(p95, "missing player")
+		assert(p96, "missing inventoryItemValue")
+		local v97 = v_u_19.getName(p96)
+		local v98 = v_u_25[v97]
+		if not v98 then
+			error(("No module for item: %s"):format(v97))
+		end
+		local v_u_99 = v98.new(p95, p96, v_u_27[p95])
+		if v_u_99.Local then
+			v_u_99.Maid:GiveTask(v_u_2.InputBegan:Connect(function(p100, p101)
+				-- upvalues: (copy) v_u_99
+				v_u_99:InputBegan(p100, p101)
+			end))
+			v_u_99.Maid:GiveTask(v_u_2.InputEnded:Connect(function(...)
+				-- upvalues: (copy) v_u_99
+				v_u_99:InputEnded(...)
+			end))
+			if v_u_99.ShootBegin == nil then
+				v_u_99.Maid:GiveTask(v_u_2.TouchStarted:connect(function(p102, p103)
+					-- upvalues: (copy) v_u_99
+					if p103 then
+						return false
+					end
+					v_u_99:InputBegan({
+						["UserInputType"] = Enum.UserInputType.MouseButton1,
+						["Position"] = p102.Position
+					})
+				end))
+				v_u_99.Maid:GiveTask(v_u_2.TouchEnded:connect(function(p104, p105)
+					-- upvalues: (copy) v_u_99
+					if p105 then
+						return false
+					end
+					v_u_99:InputEnded({
+						["UserInputType"] = Enum.UserInputType.MouseButton1,
+						["Position"] = p104.Position
+					})
+				end))
+			end
+			function v_u_99.BroadcastInputBegan(_, p106)
+				-- upvalues: (ref) v_u_24
+				local v107 = p106 ~= nil
+				assert(v107)
+				v_u_24:FireServer("xa1dx5t8", p106.UserInputType, p106.KeyCode)
+			end
+			function v_u_99.BroadcastInputEnded(_, p108)
+				-- upvalues: (ref) v_u_24
+				local v109 = p108 ~= nil
+				assert(v109)
+				v_u_24:FireServer("a" .. ("hva0oeg"):sub(3, 5):reverse():reverse():reverse():reverse():reverse() .. "36y3", p108.UserInputType, p108.KeyCode)
+			end
+		end
+		v_u_26[p95] = v_u_99
+		if v_u_99.Local then
+			for _, v110 in ipairs(v_u_2:GetKeysPressed()) do
+				v_u_99:InputBegan(v110)
+			end
+			for _, v111 in ipairs(v_u_2:GetMouseButtonsPressed()) do
+				if v111.UserInputType ~= Enum.UserInputType.MouseButton1 then
+					v_u_99:InputBegan(v111)
+				end
+			end
+		end
+		if v_u_99.Local then
+			v_u_114.OnLocalItemEquipped:Fire(v_u_99)
+		end
+		v_u_114.onItemEquipped:Fire(v_u_99)
+		return v_u_99
+	end,
+	["_unequip"] = function(p112)
+		-- upvalues: (copy) v_u_26, (copy) v_u_114
+		assert(p112, "missing player")
+		local v113 = v_u_26[p112]
+		if not v113 then
+			return false
+		end
+		v113:Destroy()
+		v_u_26[p112] = nil
+		if v113.Local then
+			v_u_114.OnLocalItemUnequipped:Fire()
+		end
+		return true
+	end
+}
+return v_u_114

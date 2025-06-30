@@ -1,0 +1,465 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgOUARVHZXRMb2NhbFZlaGljbGVQYWNrZXQEVHlwZQRNYWtlB0NoYXNzaXMGQ2FtYXJvBU1vZGVsBE5vbmULR2V0SW5zdGFuY2UCb3MFY2xvY2sGQ0ZyYW1lBkFuZ2xlcwRtYXRoA3NpbgNuZXcOR2V0RXh0ZW50c1NpemUJTWFnbml0dWRlBlVwZGF0ZQdUaW55VG95BE5hbWUOSXNWYWxpZEZvck1ha2UEZ2FtZRFSZXBsaWNhdGVkU3RvcmFnZQpHZXRTZXJ2aWNlB3JlcXVpcmULVGV4dHVyZURhdGEER2FtZQZHYXJhZ2UHVmVoaWNsZQxWZWhpY2xlVXRpbHMHVGV4dHVyZQlDdXN0b21pemUSU3BlY2lhbFRleHR1cmVEYXRhCFNldHRpbmdzCFJlc291cmNlFmdldERlZmF1bHRWZWhpY2xlTW9kZWwFUHJpY2UMU2Vhc29uSWNvbklkBlNlYXNvbgVMZXZlbAlTbmFrZXNraW4GSGlkZGVuC1ByZWhpc3RvcmljDkJsdWVQaXhlbFJhY2VyC0FscGluZVJhY2VyCVJldHJvd2F2ZQpFbGVjdHJvbmljBU1ha2VzBFRhZ3MHTm9UcmFkZQxTV0FUR3JhZmZpdGkHU1dBVFZhbgVFdmVudAxDb21pY0NvbnZpY3QMU3RhclNwYW5nbGVkCE9ncmUyMDE3CUNhbW9TaGFyawdTdHJpa2VyClJvYWRIYXphcmQGQXVyb3JhB0JhbmRhbmEITGVFY2xhaXIOQmVybGluR3JhZmZpdGkHQXF1YXRpYwxEcmFnb25TY2FsZXMKV2F0ZXJtZWxvbgxOdWNsZWFyV2FzdGUPRGVlcFB1cnBsZUZsYW1lC1BhdGNoeUplYW5zCkRlc2VydENhbW8GU2hvZ3VuBU1hbmdhCk5BU0NBUjc1dGgMTkFTQ0FSSGF1bGVyBFNlbWkJVG91Y2hkb3duBExhdmEJQ2Ftb1JhZGFyCkNhcmJvbkZpcmUJV29vZGVuVG95C1JvYWRXYXJyaW9yC1doaXRlTWFyYmxlBlRvcFBjdAlTdXBlcnN0YXIJRGlydFJhbGx5BU1DTDM2CU1DTDM2RlJFRQxDaXJjdWl0Qm9hcmQHSWNlQ2FtbwhCbGFja0ljZQdOQVNDQVIxB05BU0NBUjIER3VsZgdGbGFtaW5nBERyaXAMQ3JpbXNvblJhY2VyCkVhcnRocXVha2UPRGlnaXRhbENvbmZldHRpDkdhbGFjdGljQ2FyYm9uCVNub3dzdG9ybQRGaXJlCkdhbGF4eVdhdmUEQmFsbAdSYWluYm93BUJhY29uBUZyb3N0BU1vbmV5BFdhdnkGR2FsYXh5BVRpZ2VyBUZpZWxkBlNjb3JjaAVMaW5lcwZIb3Rkb2cIVHdvU2lkZWQHVm9sY2Fubw1HbG93aW5nWWVsbG93BEZyaXQLT3JhbmdlUGl4ZWwDSWNlBlBvbGljZQVQYWludARDYW1vB0xhZHlidWcHRGlhbW9uZARUYXhpCUJsdWVQaXhlbAlXaXJlZnJhbWUFUmFjZXIDQ293BUVhcnRoCUxpZ2h0bmluZwlDYW5keUNhbmUFRG9udXQFU3dpcmwFWmVicmEFUGVhY2gLQ2xhc3NpY1ZhcjMLQ2xhc3NpY1ZhcjILQ2xhc3NpY1ZhcjEFQXJtb3IEQ29kZQVTcGVlZARWb2x0BVBpeGVsBEJldGEHQ2hlY2tlcgVJdGVtcwAEBwEDAAAAK/sCAABNAQKHAAAAAJ8BAQIrAQgA4gIDAG8DBAAwAwIRAQAAAG8DBQAwAwKtAgAAAFIBAgD7AgEATQMBrQIAAABNBAERAQAAAJ8CAwLiAwcAMAIDOwYAAABNBAGtAgAAADAEA60CAAAATQQBEQEAAAAwBAMRAQAAAE0EAD8IAAAADgQFAPsEAgDGBQAAUgYDAJ8EAwGCAgIA+wQCAFIFAABSBgMAnwQDAYICAgAJAwEDAgMDBQIBAgMEAwUDBgUDBgIBAwcACQgBGAAAAAADAQEAAAEAAAADAAAAAAABAAAAAAAAAAAAAAEAAAEAAAAAAgAAAAIKAAAAAA4CAAAAACekAgIAAAQAgJ8CAQI+AwIDIQQDBKQHBwAAGFCAjAgAAFIJBACMCgAAnwcEAqQIBwAAGFCAuxgDA1IMAwCkCwwAACyggJ8LAgJbCgsJeAkKCIwKAACMCwAAnwgEAgkGBwikBw4AADRQgIwIAACMCQAAvAwBpRAAAACfDAICTQsMqhEAAABbCgsPnwcEAgkFBgcwBQCFBQAAAIIAAQASAwkDCgQABACAAgAAAAAAAABAAhgtRFT7IRlAAwsDDAQAGFCAAjMzMzMzM9M/AgAAAAAAANA/Aw0DDgQALKCAAw8EADRQgAIzMzMzMzPjPwMQAxEAHRIBGAAAAAEBAQAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAP4AAx4AAAAABwEDAAAAIPsCAABNAQKHAAAAAJ8BAQJNAgGtAQAAAPACAgACAACAbwIDAPsFAQBNBgC6BAAAAIcEBQYOBAYA+wUBAE0GALoEAAAAhwQFBocDBAIrAwsA+wQCAE0FALoEAAAAhwMEBSsDBgBNBAC6BAAAAPAEAgAFAAAAqQMAAakDAQCCAwIABgMBAwMDEwMFAxQDBwAlFQEYAAAAAAEAAQABAgAAAAAAAAAAAAABAAAAAAEAAAAAAAAmAAAAAB0AAAECAMwIowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBBQAAAEBATQQAvQcAAABNAwQoCAAAAE0CAwUGAAAAnwECAqQCBQAAAEBATQQAjQkAAABNAwRtCgAAAJ8CAgKkAwUAAABAQE0HAL0HAAAATQYHKAgAAABNBQY7DAAAAE0EBU8LAAAAnwMCAqQEBQAAAEBATQcAvQcAAABNBgcoCAAAAE0FBucNAAAAnwQCAqQFBQAAAEBATQcAYg8AAABNBgfKDgAAAJ8FAgKkBgUAAABAQE0IAL0HAAAATQcIdhAAAACfBgICwAcRABIAAgASAAYAEgADAMAIEgDACRMAEgACABIAAQASAAQA/woAAGEAAADiCxcAbwwVADAMC7oUAAAAqQwBADAMCz8VAAAAjAwAADAMCyQWAAAA4gwbAG8NHAAwDQy6FAAAAG8NHQAwDQyhGAAAAIwNGgAwDQyGGQAAAIwNCAAwDQxtGgAAAOINHwBvDiAAMA4NuhQAAACpDgEAMA4Nth4AAADiDiEAbw8iADAPDroUAAAAjA8IADAPDm0aAAAAjA8ZADAPDoYZAAAAbw8jADAPDqEYAAAA4g8hAG8QJAAwEA+6FAAAAIwQBgAwEA9tGgAAAIwQGAAwEA+GGQAAAG8QJQAwEA+hGAAAAOIQIQBvESYAMBEQuhQAAACMEQgAMBEQbRoAAACMERcAMBEQhhkAAABvEScAMBEQoRgAAADiER8AbxIoADASEboUAAAAqRIBADASEbYeAAAA4hIsAG8TLQAwExK6FAAAAKkTAQAwExK2HgAAAP8TAQAAAAAAqRQBADAUE2cuAAAAMBMSFCkAAAD/EwAAAQAAAG8ULwDFExQCAQAAADATEhMqAAAAqRMBADATEpUrAAAA4hMfAG8UMAAwFBO6FAAAAKkUAQAwFBO2HgAAAOIUIQBvFTEAMBUUuhQAAACMFQgAMBUUbRoAAACMFRYAMBUUhhkAAABvFTIAMBUUoRgAAADiFSEAbxYzADAWFboUAAAAjBYIADAWFW0aAAAAjBYVADAWFYYZAAAAbxY0ADAWFaEYAAAA4hY1AG8XNgAwFxa6FAAAAOIXNwBvGDgAMBgXuhQAAACpGAEAMBgXth4AAACpGAEAMBgXlSsAAAD/GAEAAAAAAKkZAQAwGRiYOAAAADAYFxQpAAAA4hg5AG8ZOgAwGRi6FAAAAIwZFAAwGRiGGQAAAIwZCAAwGRhtGgAAAG8ZOwAwGRihGAAAAOIZOQBvGjwAMBoZuhQAAACMGhMAMBoZhhkAAACMGggAMBoZbRoAAABvGj0AMBoZoRgAAADiGjkAbxs+ADAbGroUAAAAjBsSADAbGoYZAAAAjBsIADAbGm0aAAAAbxs/ADAbGqEYAAAAxQoLEQEAAADiC0AAbwxBADAMC7oUAAAAjAwIUjAMCyQWAAAA4gw5AG8NQgAwDQy6FAAAAIwNEQAwDQyGGQAAAIwNCAAwDQxtGgAAAG8NQwAwDQyhGAAAAOINOQBvDkQAMA4NuhQAAACMDhAAMA4NhhkAAACMDgYAMA4NbRoAAABvDkUAMA4NoRgAAADiDkAAbw9GADAPDroUAAAAbw9HADAPDiQWAAAA4g9AAG8QSAAwEA+6FAAAAG8QSQAwEA8kFgAAAOIQQABvEUoAMBEQuhQAAABvEUkAMBEQJBYAAADiEUAAbxJLADASEboUAAAAbxJMADASESQWAAAA4hJAAG8TTQAwExK6FAAAAIwTMHUwExIkFgAAAOITQABvFE4AMBQTuhQAAABvFE8AMBQTJBYAAADiFDcAbxVQADAVFLoUAAAAqRUBADAVFLYeAAAAqRUBADAVFJUrAAAA/xUBAAAAAACpFgEAMBYVwFAAAAAwFRQUKQAAAOIVOQBvFlEAMBYVuhQAAACMFg8AMBYVhhkAAACMFggAMBYVbRoAAABvFlIAMBYVoRgAAADiFjcAbxdTADAXFroUAAAAqRcBADAXFrYeAAAAqRcBADAXFpUrAAAA/xcBAAAAAACpGAEAMBgX+VMAAAAwFxYUKQAAAOIXNwBvGFQAMBgXuhQAAACpGAEAMBgXth4AAACpGAEAMBgXlSsAAAD/GAEAAAAAAKkZAQAwGRijVQAAADAYFxQpAAAA4hg5AG8ZVgAwGRi6FAAAAIwZDgAwGRiGGQAAAIwZBAAwGRhtGgAAAG8ZVwAwGRihGAAAAOIZOQBvGlgAMBoZuhQAAACMGg0AMBoZhhkAAACMGggAMBoZbRoAAABvGlkAMBoZoRgAAADiGjkAbxtaADAbGroUAAAAjBsMADAbGoYZAAAAjBsIADAbGm0aAAAAbxtbADAbGqEYAAAAxQoLEREAAADiC0AAbwxcADAMC7oUAAAAbwxdADAMCyQWAAAA4gw5AG8NXgAwDQy6FAAAAIwNCwAwDQyGGQAAAIwNBgAwDQxtGgAAAG8NXwAwDQyhGAAAAOINQABvDmAAMA4NuhQAAABvDkcAMA4NJBYAAADiDmEAbw9iADAPDroUAAAAjA8KADAPDoYZAAAAjA8IADAPDm0aAAAA4g9kAG8QZQAwEA+6FAAAAIwQCgAwEA+GGQAAAIwQAgAwEA88YwAAAOIQYQBvEWYAMBEQuhQAAACMEQkAMBEQhhkAAACMEQoAMBEQbRoAAADiESwAbxJnADASEboUAAAAqRIBADASEbYeAAAA/xICAAAAAACpEwEAMBMSImcAAACpEwEAMBMSsmgAAAAwEhEUKQAAAP8SAAABAAAAbxMvAMUSEwIBAAAAMBIREyoAAACpEgEAMBIRlSsAAADiEmEAbxNpADATEroUAAAAjBMIADATEoYZAAAAjBMIADATEm0aAAAA4hNqAG8UawAwFBO6FAAAAKkUAQAwFBO2HgAAAIwUBwAwFBOGGQAAAIwUAQAwFBM8YwAAAOIUYQBvFWwAMBUUuhQAAACMFQcAMBUUhhkAAACMFQgAMBUUbRoAAADiFSwAbxZtADAWFboUAAAAqRYBADAWFbYeAAAA/xYBAAAAAACpFwEAMBcW/20AAAAwFhUUKQAAAP8WAAABAAAAbxcvAMUWFwIBAAAAMBYVEyoAAACpFgEAMBYVlSsAAADiFiwAbxduADAXFroUAAAAqRcBADAXFrYeAAAA/xcBAAAAAACpGAEAMBgXq24AAAAwFxYUKQAAAP8XAAABAAAAbxgvAMUXGAIBAAAAMBcWEyoAAACpFwEAMBcWlSsAAADiF2oAbxhvADAYF7oUAAAAqRgBADAYF7YeAAAAjBgGADAYF4YZAAAAjBgKADAYFzxjAAAA4hhqAG8ZcAAwGRi6FAAAAKkZAQAwGRi2HgAAAIwZBgAwGRiGGQAAAIwZBQAwGRg8YwAAAOIZYQBvGnEAMBoZuhQAAACMGgUAMBoZhhkAAACMGggAMBoZbRoAAADiGmEAbxtyADAbGroUAAAAjBsGADAbGoYZAAAAjBsIADAbGm0aAAAAxQoLESEAAADiC2EAbwxzADAMC7oUAAAAjAwEADAMC4YZAAAAjAwFADAMC20aAAAA4gx0AG8NdQAwDQy6FAAAAKkNAQAwDQy2HgAAAIwNAwAwDQyGGQAAAIwNBAAwDQxtGgAAAOINYQBvDnYAMA4NuhQAAACMDgIAMA4NhhkAAACMDggAMA4NbRoAAADiDmEAbw93ADAPDroUAAAAjA8BADAPDoYZAAAAjA8FADAPDm0aAAAA4g9hAG8QeAAwEA+6FAAAAIwQAQAwEA+GGQAAAIwQCAAwEA9tGgAAAOIQQABvEXkAMBEQuhQAAACMESBOMBEQJBYAAADiEUAAbxJ6ADASEboUAAAAjBIgTjASESQWAAAA4hJAAG8TewAwExK6FAAAAIwToA8wExIkFgAAAOITfACMFIgTMBQTJBYAAABvFH0AMBQTuhQAAACpFAEAMBQTth4AAADiFEAAbxV+ADAVFLoUAAAAjBUQJzAVFCQWAAAA4hV8AIwWiBMwFhUkFgAAAG8WfwAwFhW6FAAAAKkWAQAwFhW2HgAAAOIWfACMF4gTMBcWJBYAAABvF4AAMBcWuhQAAACpFwEAMBcWth4AAADiF0AAbxiBADAYF7oUAAAAbxiCADAYFyQWAAAA4hh8AIwZiBMwGRgkFgAAAG8ZgwAwGRi6FAAAAKkZAQAwGRi2HgAAAOIZhABvGoUAMBoZuhQAAACMGiBOMBoZJBYAAACpGgEAMBoZth4AAADiGkAAbxuGADAbGroUAAAAbxuCADAbGiQWAAAAxQoLETEAAADiC0AAbwyHADAMC7oUAAAAbwyIADAMCyQWAAAA4gx8AIwNiBMwDQwkFgAAAG8NiQAwDQy6FAAAAKkNAQAwDQy2HgAAAOINQABvDooAMA4NuhQAAACMDiBOMA4NJBYAAADiDkAAbw+LADAPDroUAAAAbw+MADAPDiQWAAAA4g98AIwQiBMwEA8kFgAAAG8QjQAwEA+6FAAAAKkQAQAwEA+2HgAAAOIQQABvEY4AMBEQuhQAAACMESBOMBEQJBYAAADiEXwAjBKIEzASESQWAAAAbxKPADASEboUAAAAqRIBADASEbYeAAAA4hJAAG8TkAAwExK6FAAAAIwTIE4wExIkFgAAAOITQABvFJEAMBQTuhQAAACMFNAHMBQTJBYAAADiFEAAbxWSADAVFLoUAAAAjBUQJzAVFCQWAAAA4hVAAG8WkwAwFhW6FAAAAG8WSQAwFhUkFgAAAOIWhABvF5QAMBcWuhQAAACMFxAnMBcWJBYAAACpFwEAMBcWth4AAADiF0AAbxiVADAYF7oUAAAAbxiCADAYFyQWAAAA4hhAAG8ZlgAwGRi6FAAAAIwZIE4wGRgkFgAAAOIZfACMGogTMBoZJBYAAABvGpcAMBoZuhQAAACpGgEAMBoZth4AAADiGkAAbxuYADAbGroUAAAAbxuZADAbGiQWAAAAxQoLEUEAAADiC0AAbwyaADAMC7oUAAAAjAwQJzAMCyQWAAAA4gxAAG8NmwAwDQy6FAAAAIwNoA8wDQwkFgAAAOINfACMDogTMA4NJBYAAABvDpwAMA4NuhQAAACpDgEAMA4Nth4AAADiDnwAjA+IEzAPDiQWAAAAbw+dADAPDroUAAAAqQ8BADAPDrYeAAAA4g9AAG8QngAwEA+6FAAAAG8QggAwEA8kFgAAAOIQQABvEZ8AMBEQuhQAAABvEYIAMBEQJBYAAADiEUAAbxKgADASEboUAAAAjBIgTjASESQWAAAA4hJAAG8ToQAwExK6FAAAAG8TggAwExIkFgAAAOIThABvFKIAMBQTuhQAAACMFBAnMBQTJBYAAACpFAEAMBQTth4AAADiFIQAbxWjADAVFLoUAAAAjBUQJzAVFCQWAAAAqRUBADAVFLYeAAAA4hVAAG8WpAAwFhW6FAAAAIwWoA8wFhUkFgAAAOIWhABvF6UAMBcWuhQAAACMF6APMBcWJBYAAACpFwEAMBcWth4AAADiF6YAbxinADAYF7oUAAAAqRgBADAYF7YeAAAA/xgAAAEAAABvGagAxRgZAgEAAAAwGBcTKgAAAOIYHwBvGakAMBkYuhQAAACpGQEAMBkYth4AAADiGaoAbxqIADAaGSQWAAAAbxqrADAaGboUAAAA4hqsAIwb6AMwGxokFgAAAG8brQAwGxq6FAAAAKkbAQAwGxq2HgAAAP8bAAABAAAAbxyuAMUbHAIBAAAAMBsaEyoAAADFCgsRUQAAAOILfACMG+gDMBsLJBYAAABvG68AMBsLuhQAAACpGwEAMBsLth4AAADFCgsCYQAAAOILtAAwCgs4sAAAADAHC1GxAAAAMAgLJrIAAAAwCQuAswAAAIILAgC1AQMWBAAAAEADFwMYAxkEAABAQAMaAxsDHAMdAx4DHwMgAyEDIgMjAyQGAAYBBgIDFAMHAyUFAxQVFgMmAycDKAUEFBgZGgMpAgAk+PhZPN5CAyoFAhQeAysFBBQaGRgDLAIA51/HdYLdQgMtAsAKQAjVQtRCAy4CwL9Tjcin30IDLwMwAzEDMgUFFB4pKisDMwM0AzUDNgM3AgAA1GIZ4hBCAzgCAABY/aHlD0IFARQDOQUEFB4rKQM6BQQUGRoYAzsCAACg0IQhDkIDPAIAAHiSaRoNQgM9AgAAGOoH2gtCBQIUFgM+Az8CAAD4TuuYCkIDQAIAACBoI34JQgNBAgAAAAAAavhAA0ICAAAAAABq6EADQwNEAgAAAAAATP1AA0UDRgIAAAAAAIjzQANHA0gCAABoINA0CEIDSQNKA0sDTAIAANDRsiQHQgNNAgAAwKjz/wVCA04CAACQHMnUBEIDTwIAAAAAINYTQQNQAgAAqF/NnANCA1EFAxQZGgNSA1MFAxQZYwNUA1UDVgNXA1gFBBQeGWMDWQNaA1sDXANdA14DXwNgA2EFBBQeGRoDYgNjA2QDZQNmA2cDaAUDFhQeA2kDagNrA2wDbQIAAAAAAIjjQANuBQMUFh4DbwNwA3ECAAAAAAAX4UADcgNzA3QCAAAAAAAL40ADdQN2A3cDeAN5A3oDewN8A30DfgN/A4ABAgAAAAAA+eVAA4EBA4IBA4MBA4QBA4UBA4YBA4cBA4gBA4kBA4oBA4sBA4wBBQMUHioDjQEDjgEDjwEFAhYUA5ABBQQWFB4qA5EBA5IBA5MBA5QBAwgDEgMVBQSwAbEBsgGzAQMAAQIBAAEIAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAABAAAAAAAAAgAAABQIAAAACgABAQAAAQAAAQAAAwEAAAEAAAEAAAEAAAIBAAABAAACAQAAAQAAAQAAAQAAAgEAAAEAAAEAAAEAAAIBAAABAAABAAABAAACAQAAAQAABwEAAAEAAAEAAQAA/wADAAAAAAAAAQAAAgEAAAEAAAIBAAABAAABAAABAAACAQAAAQAAAQAAAQAAAgEAAAIBAAABAAABAAABAAEAAP8ABAEAAAEAAAEAAAEAAAIBAAABAAABAAABAAACAQAAAQAAAXMAAQAAAgAAAQAAAQAAAgEAAAEAAAEAAAEAAAIBAAABAAABAAABAAACAQAAAQAAAgEAAAEAAAIBAAABAAACAQAAAQAAAgEAAAEAAAIBAAABAAACAQAAAQAAAQAAAQABAAD/AAQBAAABAAABAAABAAACAQAAAQAAAQAAAQABAAD/AAQBAAABAAABAAABAAEAAP8ABAEAAAEAAAEAAAEAAAIBAAABAAABAAABAAACAQAAAQAAAQAAAQAAAgAAAQAAAQAAAgEAAAEAAAEAAAEAAAIBAAABAAACAQAAAQAAAQAAAgEAAAEAAAEAAAIBAAABAAABAAACAQAAAQAAAQABAACGAAD+AAQAAAAAAAABAAACAQAAAQAAAQAAAgIAAAEAAAEAAAEAAAIBAAABAAABAAACAQAAAQAAAQABAAD/AAMAAAAAAAABAAACAQAAAQAAAQABAAD/AAMAAAAAAAABAAACAgAAAQAAAQAAAQAAAgIAAAEAAAEAAAEAAAIBAAABAAABAAACAQAAAQAAAQAAAgAAAQAAAQAAAQAAAgEAAAEAAAEAAAEAAAIBAAABAAABAAACAQAAAQAAAQAAAgEAAAEAAAEAAAIBAAABAAACAQAAAQAAAgEAAAEAAAIBAAABAAABAAACAQAAAQAAAgEAAAEAAAEAAAIBAAABAAABAAAChQAAAQAAAgEAAAEAAAEAAAIBAAABAAABAAACAQAAAQAAAgAAAQAAAQAAAgEAAAEAAAEAAAIBAAABAAACAQAAAQAAAgEAAAEAAAEAAAIBAAABAAACAQAAAQAAAQAAAgEAAAEAAAIBAAABAAACAQAAAQAAAgEAAAEAAAIBAAABAAABAAACAQAAAQAAAgEAAAEAAAIBAAABAAABAAACAQAAAQAAAgAAAQAAAQAAAgEAAAEAAAIBAAABAAABAAACAQAAAQAAAQAAAgEAAAEAAAIBAAABAAACAQAAAQAAAgEAAAEAAAIBAAABAAABAAACAQAAAQAAAQAAAgEAAAEAAAIBAHkBAAABAAACAQAAAQAAAQAAAAAAAAIBAAABAAACAQAAAQAAAgEAAAEAAAEAAAEAAAAAAAACAAABAAABAAABAAAAAAMBAAEAAQABAAABAAAAjQAAAHsAAAB8AAAAhwAAAAADVWAt3OPpcdJnpEdIqzR9o3eEZzq7hdotGtsLL5xRqPNbca5PxNqv/w==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Game.Garage.TextureData)
+local v_u_3 = require(v1.Vehicle.VehicleUtils)
+local v_u_4 = require(v1.Game.Garage.Customize.Texture)
+local v_u_5 = require(v1.Game.Garage.SpecialTextureData)
+require(v1.Resource.Settings)
+local v_u_6 = require(v1.Game.getDefaultVehicleModel)
+local v7 = {}
+local v8 = {
+	["Name"] = "SWATGraffiti",
+	["Hidden"] = true,
+	["Makes"] = {
+		["SWATVan"] = true
+	},
+	["Tags"] = { "Event" },
+	["NoTrade"] = true
+}
+local v9 = {
+	["Name"] = "Striker",
+	["Hidden"] = true,
+	["NoTrade"] = true,
+	["Makes"] = {
+		["Striker"] = true
+	}
+}
+__set_list(v7, 1, {{
+	["Name"] = "None",
+	["None"] = true,
+	["Price"] = 0
+}, {
+	["Name"] = "Snakeskin",
+	["SeasonIconId"] = 132978225438864,
+	["Season"] = 26,
+	["Level"] = 8
+}, {
+	["Name"] = "Prehistoric",
+	["Hidden"] = true
+}, {
+	["Name"] = "BluePixelRacer",
+	["Level"] = 8,
+	["Season"] = 25,
+	["SeasonIconId"] = 129784635817884
+}, {
+	["Name"] = "AlpineRacer",
+	["Level"] = 6,
+	["Season"] = 24,
+	["SeasonIconId"] = 89109097938987
+}, {
+	["Name"] = "Retrowave",
+	["Level"] = 8,
+	["Season"] = 23,
+	["SeasonIconId"] = 139221938818815
+}, {
+	["Name"] = "Electronic",
+	["Hidden"] = true
+}, v8, {
+	["Name"] = "ComicConvict",
+	["Hidden"] = true
+}, {
+	["Name"] = "StarSpangled",
+	["Level"] = 8,
+	["Season"] = 22,
+	["SeasonIconId"] = 18128197813
+}, {
+	["Name"] = "Ogre2017",
+	["Level"] = 8,
+	["Season"] = 21,
+	["SeasonIconId"] = 17124573099
+}, {
+	["Name"] = "CamoShark"
+}, v9, {
+	["Name"] = "RoadHazard",
+	["Season"] = 20,
+	["Level"] = 8,
+	["SeasonIconId"] = 16176421396
+}, {
+	["Name"] = "Aurora",
+	["Season"] = 19,
+	["Level"] = 8,
+	["SeasonIconId"] = 15624647247
+}, {
+	["Name"] = "Bandana",
+	["Season"] = 18,
+	["Level"] = 8,
+	["SeasonIconId"] = 14952758595
+}})
+local v10 = {
+	["Name"] = "Shogun",
+	["Hidden"] = true,
+	["NoTrade"] = true,
+	["Makes"] = {
+		["Shogun"] = true
+	}
+}
+local v11 = {
+	["Name"] = "NASCAR75th",
+	["Hidden"] = true,
+	["NoTrade"] = true,
+	["Makes"] = {
+		["NASCAR75th"] = true
+	}
+}
+local v12 = {
+	["Name"] = "NASCARHauler",
+	["Hidden"] = true,
+	["NoTrade"] = true,
+	["Makes"] = {
+		["Semi"] = true
+	}
+}
+__set_list(v7, 17, {{
+	["Name"] = "LeEclair",
+	["Price"] = 21000
+}, {
+	["Name"] = "BerlinGraffiti",
+	["Season"] = 17,
+	["Level"] = 8,
+	["SeasonIconId"] = 14279338463
+}, {
+	["Name"] = "Aquatic",
+	["Season"] = 16,
+	["Level"] = 6,
+	["SeasonIconId"] = 13686304004
+}, {
+	["Name"] = "DragonScales",
+	["Price"] = 100000
+}, {
+	["Name"] = "Watermelon",
+	["Price"] = 50000
+}, {
+	["Name"] = "NuclearWaste",
+	["Price"] = 50000
+}, {
+	["Name"] = "DeepPurpleFlame",
+	["Price"] = 120000
+}, {
+	["Name"] = "PatchyJeans",
+	["Price"] = 30000
+}, {
+	["Name"] = "DesertCamo",
+	["Price"] = 80000
+}, v10, {
+	["Name"] = "Manga",
+	["Season"] = 15,
+	["Level"] = 8,
+	["SeasonIconId"] = 12995658765
+}, v11, v12, {
+	["Name"] = "Touchdown",
+	["Season"] = 14,
+	["Level"] = 4,
+	["SeasonIconId"] = 12424993338
+}, {
+	["Name"] = "Lava",
+	["Season"] = 13,
+	["Level"] = 8,
+	["SeasonIconId"] = 11811058968
+}, {
+	["Name"] = "CamoRadar",
+	["Season"] = 12,
+	["Level"] = 8,
+	["SeasonIconId"] = 11183661970
+}})
+local v13 = {
+	["Name"] = "MCL36",
+	["Hidden"] = true,
+	["Makes"] = {
+		["MCL36"] = true,
+		["MCL36FREE"] = true
+	},
+	["Tags"] = { "Event" },
+	["NoTrade"] = true
+}
+local v14 = {
+	["Name"] = "NASCAR1",
+	["Hidden"] = true,
+	["Makes"] = {
+		["NASCAR1"] = true
+	},
+	["Tags"] = { "Event" },
+	["NoTrade"] = true
+}
+local v15 = {
+	["Name"] = "NASCAR2",
+	["Hidden"] = true,
+	["Makes"] = {
+		["NASCAR2"] = true
+	},
+	["Tags"] = { "Event" },
+	["NoTrade"] = true
+}
+__set_list(v7, 33, {{
+	["Name"] = "CarbonFire",
+	["Price"] = 325000
+}, {
+	["Name"] = "WoodenToy",
+	["Season"] = 11,
+	["Level"] = 6,
+	["SeasonIconId"] = 10529385461
+}, {
+	["Name"] = "RoadWarrior",
+	["Price"] = 100000
+}, {
+	["Name"] = "WhiteMarble",
+	["Season"] = 10,
+	["Level"] = 8
+}, {
+	["Name"] = "Superstar",
+	["Season"] = 10,
+	["TopPct"] = 2
+}, {
+	["Name"] = "DirtRally",
+	["Season"] = 9,
+	["Level"] = 10
+}, v13, {
+	["Name"] = "CircuitBoard",
+	["Season"] = 8,
+	["Level"] = 8
+}, {
+	["Name"] = "IceCamo",
+	["Hidden"] = true,
+	["Season"] = 7,
+	["TopPct"] = 1
+}, {
+	["Name"] = "BlackIce",
+	["Season"] = 7,
+	["Level"] = 8
+}, v14, v15, {
+	["Name"] = "Gulf",
+	["Hidden"] = true,
+	["Season"] = 6,
+	["TopPct"] = 10
+}, {
+	["Name"] = "Flaming",
+	["Hidden"] = true,
+	["Season"] = 6,
+	["TopPct"] = 5
+}, {
+	["Name"] = "Drip",
+	["Season"] = 5,
+	["Level"] = 8
+}, {
+	["Name"] = "CrimsonRacer",
+	["Season"] = 6,
+	["Level"] = 8
+}})
+__set_list(v7, 49, {{
+	["Name"] = "Earthquake",
+	["Season"] = 4,
+	["Level"] = 5
+}, {
+	["Name"] = "DigitalConfetti",
+	["Hidden"] = true,
+	["Season"] = 3,
+	["Level"] = 4
+}, {
+	["Name"] = "GalacticCarbon",
+	["Season"] = 2,
+	["Level"] = 8
+}, {
+	["Name"] = "Snowstorm",
+	["Season"] = 1,
+	["Level"] = 5
+}, {
+	["Name"] = "Fire",
+	["Season"] = 1,
+	["Level"] = 8
+}, {
+	["Name"] = "GalaxyWave",
+	["Price"] = 20000
+}, {
+	["Name"] = "Ball",
+	["Price"] = 20000
+}, {
+	["Name"] = "Rainbow",
+	["Price"] = 4000
+}, {
+	["Price"] = 5000,
+	["Name"] = "Bacon",
+	["Hidden"] = true
+}, {
+	["Name"] = "Frost",
+	["Price"] = 10000
+}, {
+	["Price"] = 5000,
+	["Name"] = "Money",
+	["Hidden"] = true
+}, {
+	["Price"] = 5000,
+	["Name"] = "Wavy",
+	["Hidden"] = true
+}, {
+	["Name"] = "Galaxy",
+	["Price"] = 40000
+}, {
+	["Price"] = 5000,
+	["Name"] = "Tiger",
+	["Hidden"] = true
+}, {
+	["Name"] = "Field",
+	["Price"] = 20000,
+	["Hidden"] = true
+}, {
+	["Name"] = "Scorch",
+	["Price"] = 40000
+}})
+__set_list(v7, 65, {{
+	["Name"] = "Lines",
+	["Price"] = 35000
+}, {
+	["Price"] = 5000,
+	["Name"] = "Hotdog",
+	["Hidden"] = true
+}, {
+	["Name"] = "TwoSided",
+	["Price"] = 20000
+}, {
+	["Name"] = "Volcano",
+	["Price"] = 39000
+}, {
+	["Price"] = 5000,
+	["Name"] = "GlowingYellow",
+	["Hidden"] = true
+}, {
+	["Name"] = "Frit",
+	["Price"] = 20000
+}, {
+	["Price"] = 5000,
+	["Name"] = "OrangePixel",
+	["Hidden"] = true
+}, {
+	["Name"] = "Ice",
+	["Price"] = 20000
+}, {
+	["Name"] = "Police",
+	["Price"] = 2000
+}, {
+	["Name"] = "Paint",
+	["Price"] = 10000
+}, {
+	["Name"] = "Camo",
+	["Price"] = 50000
+}, {
+	["Name"] = "Ladybug",
+	["Price"] = 10000,
+	["Hidden"] = true
+}, {
+	["Name"] = "Diamond",
+	["Price"] = 40000
+}, {
+	["Name"] = "Taxi",
+	["Price"] = 20000
+}, {
+	["Price"] = 5000,
+	["Name"] = "BluePixel",
+	["Hidden"] = true
+}, {
+	["Name"] = "Wireframe",
+	["Price"] = 45000
+}})
+__set_list(v7, 81, {{
+	["Name"] = "Racer",
+	["Price"] = 10000
+}, {
+	["Name"] = "Cow",
+	["Price"] = 4000
+}, {
+	["Price"] = 5000,
+	["Name"] = "Earth",
+	["Hidden"] = true
+}, {
+	["Price"] = 5000,
+	["Name"] = "Lightning",
+	["Hidden"] = true
+}, {
+	["Name"] = "CandyCane",
+	["Price"] = 40000
+}, {
+	["Name"] = "Donut",
+	["Price"] = 40000
+}, {
+	["Name"] = "Swirl",
+	["Price"] = 20000
+}, {
+	["Name"] = "Zebra",
+	["Price"] = 40000
+}, {
+	["Name"] = "Peach",
+	["Price"] = 10000,
+	["Hidden"] = true
+}, {
+	["Name"] = "ClassicVar3",
+	["Price"] = 10000,
+	["Hidden"] = true
+}, {
+	["Name"] = "ClassicVar2",
+	["Price"] = 4000
+}, {
+	["Name"] = "ClassicVar1",
+	["Price"] = 4000,
+	["Hidden"] = true
+}, {
+	["Name"] = "Armor",
+	["Hidden"] = true,
+	["Tags"] = { "Code" }
+}, {
+	["Name"] = "Speed",
+	["Hidden"] = true
+}, {
+	["Price"] = 35000,
+	["Name"] = "Volt"
+}, {
+	["Price"] = 1000,
+	["Name"] = "Pixel",
+	["Hidden"] = true,
+	["Tags"] = { "Beta" }
+}})
+__set_list(v7, 97, {{
+	["Price"] = 1000,
+	["Name"] = "Checker",
+	["Hidden"] = true
+}})
+return {
+	["Items"] = v7,
+	["GetInstance"] = function(p16)
+		-- upvalues: (copy) v_u_3, (copy) v_u_6, (copy) v_u_4
+		local v17 = v_u_3.GetLocalVehiclePacket()
+		if not v17 then
+			v17 = {
+				["Type"] = "Chassis",
+				["Make"] = "Camaro"
+			}
+		end
+		local v18 = v_u_6(v17.Make, v17.Type)
+		local v19 = {
+			["Model"] = v18,
+			["Make"] = v17.Make,
+			["Type"] = v17.Type
+		}
+		if p16.None then
+			v_u_4(nil, v19)
+			return v18
+		else
+			v_u_4(p16, v19)
+			return v18
+		end
+	end,
+	["Update"] = function(p20, p21)
+		local v22 = os.clock() / 2
+		local v23 = v22 % 6.283185307179586
+		p20.CFrame = CFrame.Angles(0, v23, 0) * CFrame.Angles(math.sin(v22) * 0.25 - 0.3, 0, 0) * CFrame.new(0, 0, p21:GetExtentsSize().Magnitude * 0.6)
+	end,
+	["IsValidForMake"] = function(p24)
+		-- upvalues: (copy) v_u_3, (copy) v_u_2, (copy) v_u_5
+		local v25 = v_u_3.GetLocalVehiclePacket().Make
+		local v26 = v25 == "TinyToy" and "Camaro" or v25
+		return v_u_2[p24.Name] and v_u_2[p24.Name][v26] or (v_u_5[p24.Name] or p24.Name == "None")
+	end
+}

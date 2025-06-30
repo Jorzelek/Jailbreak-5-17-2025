@@ -1,0 +1,388 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgOKAQVwcm9wcwVjbG9zZRpDT0xMRUNUX1JFV0FSRF9SRU1PVEVfTkFNRQ5GaW5kRmlyc3RDaGlsZAZjb25maWcFdG9waWMKRmlyZVNlcnZlcghvcGVuTWFpZAR0YXNrBWRlbGF5CEdpdmVUYXNrC0xvY2FsUGxheWVyC09iamVjdExvY2FsCVBsYXllckd1aQNuZXcEbWFpZA1jcmVhdGVCaW5kaW5nCmNvbHNQZXJSb3cEbWF0aARjZWlsBWluZGV4C3VwZGF0ZUluZGV4BnRpY2tlZAx1cGRhdGVUaWNrZWQKb25GaW5pc2hlZAhwbGF5VGljawRpbml0BVVEaW0yCWdldFNjYWxlWAxwcmltYXJ5Q29sb3ILYXNwZWN0UmF0aW8FaXRlbXMJY29tcG9uZW50FHZlcnRpY2FsUGFkZGluZ1JhdGlvC3Jvd3NQZXJQYWdlDWluZkhvcml6b250YWwFRnJhbWUPQm9yZGVyU2l6ZVBpeGVsFkJhY2tncm91bmRUcmFuc3BhcmVuY3kQQmFja2dyb3VuZENvbG9yMwRTaXplCFBvc2l0aW9uC0FuY2hvclBvaW50BkNvbG9yMwRzaXplCHBvc2l0aW9uC2FuY2hvclBvaW50C0FzcGVjdFJhdGlvCFVJQ29ybmVyA1RvcARCb2R5BkJvdHRvbRdVSUFzcGVjdFJhdGlvQ29uc3RyYWludAxDb3JuZXJSYWRpdXMEVURpbQtjb3JuZXJQaXhlbARJY29uBVRpdGxlBkNpcmNsZQlmcm9tU2NhbGUHVmVjdG9yMgVJbWFnZQpJbWFnZUxhYmVsC2ljb25JbWFnZUlkDXJieGFzc2V0aWQ6Ly8IdG9zdHJpbmcJQ29udGFpbmVyBFRleHQJVGV4dExhYmVsDlRleHRYQWxpZ25tZW50BEZvbnQKTGluZUhlaWdodApUZXh0U2NhbGVkClRleHRDb2xvcjMFdGl0bGUERW51bQRMZWZ0B0JhbmdlcnMJSW5uZXJCb2R5CEFycm93VG9wC0Fycm93Qm90dG9tBlpJbmRleBBDbGlwc0Rlc2NlbmRhbnRzBlNsaWRlcgNtYXAER3JpZAtJbWFnZUNvbG9yMwhSb3RhdGlvbhhyYnhhc3NldGlkOi8vMTAwNjU3MDQyMDcJZXh0cmFUZXh0ASAFUmlnaHQGcmVuZGVy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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("Players")
+local v_u_2 = game:GetService("RunService")
+local v_u_3 = game:GetService("ReplicatedStorage")
+local v_u_4 = require(v_u_3.Std.Maid)
+local v_u_5 = require(v_u_3.Std.Audio)
+local v_u_6 = require(v_u_3.Roact)
+local v7 = require(v_u_3.RoactRodux)
+local v_u_8 = v_u_6.createElement
+local v_u_9 = require(v_u_3.EzUi.Grid)
+local v_u_10 = require(v_u_3.EzUi.GridUtils)
+local v_u_11 = require(script.Parent.rewardCardComponent)
+local v_u_12 = require(v_u_3.RewardSpinner.RewardSpinnerConsts)
+local v13 = v_u_6.PureComponent:extend("RewardSpinner")
+v13.defaultProps = {
+	["size"] = UDim2.new(1, 0, 1, 0),
+	["position"] = UDim2.new(0.5, 0, 0.5, 0),
+	["anchorPoint"] = Vector2.new(0.5, 0.5),
+	["aspectRatio"] = 2.75,
+	["cornerPixel"] = 4,
+	["colsPerRow"] = 5.5,
+	["primaryColor"] = Color3.fromRGB(215, 131, 255)
+}
+function v13.init(p_u_14)
+	-- upvalues: (copy) v_u_4, (copy) v_u_6, (copy) v_u_3, (copy) v_u_12, (copy) v_u_1, (copy) v_u_5
+	p_u_14.maid = v_u_4.new()
+	p_u_14.openMaid = v_u_4.new()
+	local v15 = v_u_6.createBinding
+	local v16 = p_u_14.props.colsPerRow * 0.5 + 0.5
+	local v17, v18 = v15((math.ceil(v16)))
+	p_u_14.index = v17
+	p_u_14.updateIndex = v18
+	local v19, v20 = v_u_6.createBinding(false)
+	p_u_14.ticked = v19
+	p_u_14.updateTicked = v20
+	function p_u_14.onFinished()
+		-- upvalues: (ref) v_u_3, (ref) v_u_12, (copy) p_u_14
+		local v21 = v_u_3:FindFirstChild(v_u_12.COLLECT_REWARD_REMOTE_NAME)
+		if v21 then
+			v21:FireServer(p_u_14.props.config.topic)
+		end
+		p_u_14.openMaid:GiveTask(task.delay(1, function()
+			-- upvalues: (ref) p_u_14
+			p_u_14.props.close()
+		end))
+	end
+	function p_u_14.playTick()
+		-- upvalues: (ref) v_u_1, (ref) v_u_5
+		if v_u_1.LocalPlayer then
+			v_u_5.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 156286438)
+		end
+	end
+end
+function v13.render(p22)
+	-- upvalues: (copy) v_u_11, (copy) v_u_8, (copy) v_u_10, (copy) v_u_9
+	if p22.props.config then
+		local v23 = p22.props.config.primaryColor or p22.props.primaryColor
+		local v24 = p22.props.aspectRatio
+		local v25 = 1 - 0.03125 / v24
+		local v26 = v25 / 0.1515625 * v24
+		local v27 = 1 - 1 / v26 - 0.10309278350515465 / v26
+		local v28 = v27 / 1 * v26
+		local v29 = 1 - 0.03125 / v24
+		local v30 = v29 / 0.8015625 * v24
+		local v31 = 1 - 0.038986354775828465 / v30
+		local v32 = 1.138568129330254 * (v31 / 0.9610136452241715 * v30)
+		local v_u_33 = p22.props.colsPerRow
+		local v_u_34 = 64 * v32 * 0.8015625 * 0.9610136452241715 * 0.8782961460446247
+		local v_u_35 = {
+			["aspectRatio"] = v32,
+			["items"] = p22.props.config.items,
+			["component"] = v_u_11,
+			["verticalPaddingRatio"] = v_u_34 / v32,
+			["rowsPerPage"] = 1,
+			["colsPerRow"] = v_u_33,
+			["infHorizontal"] = true
+		}
+		local v36 = v_u_8
+		local v37 = "Frame"
+		local v38 = {
+			["BorderSizePixel"] = 0,
+			["BackgroundTransparency"] = 0.8,
+			["BackgroundColor3"] = Color3.new(0, 0, 0),
+			["Size"] = p22.props.size,
+			["Position"] = p22.props.position,
+			["AnchorPoint"] = p22.props.anchorPoint
+		}
+		local v39 = {
+			["AspectRatio"] = v_u_8("UIAspectRatioConstraint", {
+				["AspectRatio"] = p22.props.aspectRatio
+			}),
+			["UICorner"] = v_u_8("UICorner", {
+				["CornerRadius"] = UDim.new(0, p22.props.cornerPixel)
+			})
+		}
+		local v40 = v_u_8
+		local v41 = "Frame"
+		local v42 = {
+			["BorderSizePixel"] = 0,
+			["BackgroundTransparency"] = 1,
+			["Position"] = UDim2.new(0.015625 / v24, 0, 0.015625, 0),
+			["Size"] = UDim2.new(v25, 0, 0.1515625, 0)
+		}
+		local v43 = {}
+		local v44 = v_u_8
+		local v45 = "Frame"
+		local v46 = {
+			["BackgroundColor3"] = Color3.new(0, 0, 0),
+			["BorderSizePixel"] = 0,
+			["Size"] = UDim2.new(1 / v26, 0, 1, 0)
+		}
+		local v47 = {
+			["UICorner"] = v_u_8("UICorner", {
+				["CornerRadius"] = UDim.new(0, p22.props.cornerPixel)
+			})
+		}
+		local v48 = v_u_8
+		local v49 = "Frame"
+		local v50 = {
+			["Size"] = UDim2.new(0.9, 0, 0.9, 0),
+			["Position"] = UDim2.fromScale(0.5, 0.5),
+			["AnchorPoint"] = Vector2.new(0.5, 0.5),
+			["BackgroundColor3"] = v23
+		}
+		local v51 = {
+			["UICorner"] = v_u_8("UICorner", {
+				["CornerRadius"] = UDim.new(1, 0)
+			})
+		}
+		local v52 = v_u_8
+		local v53 = "ImageLabel"
+		local v54 = {
+			["BackgroundTransparency"] = 1,
+			["Size"] = UDim2.new(1, 0, 1, 0)
+		}
+		local v55
+		if p22.props.config.iconImageId then
+			local v56 = p22.props.config.iconImageId
+			v55 = "rbxassetid://" .. tostring(v56) or nil
+		else
+			v55 = nil
+		end
+		v54.Image = v55
+		v51.Image = v52(v53, v54)
+		v47.Circle = v48(v49, v50, v51)
+		v43.Icon = v44(v45, v46, v47)
+		v43.Title = v_u_8("Frame", {
+			["BorderSizePixel"] = 0,
+			["BackgroundColor3"] = Color3.new(0, 0, 0),
+			["Size"] = UDim2.new(v27, 0, 1, 0),
+			["Position"] = UDim2.new(1 / v26 + 0.10309278350515465 / v26, 0, 0, 0)
+		}, {
+			["UICorner"] = v_u_8("UICorner", {
+				["CornerRadius"] = UDim.new(0, p22.props.cornerPixel)
+			}),
+			["Container"] = v_u_8("Frame", {
+				["BorderSizePixel"] = 0,
+				["BackgroundTransparency"] = 1,
+				["BackgroundColor3"] = Color3.new(1, 1, 1),
+				["Size"] = UDim2.new(0.5 - 0.10309278350515465 / v28, 0, 1, 0),
+				["Position"] = UDim2.new(0.10309278350515465 / v28, 0, 0, 0)
+			}, {
+				["Text"] = v_u_8("TextLabel", {
+					["BackgroundTransparency"] = 1,
+					["Size"] = UDim2.new(1, 0, 1, 0),
+					["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+					["AnchorPoint"] = Vector2.new(0.5, 0.5),
+					["Text"] = p22.props.config.title,
+					["TextXAlignment"] = Enum.TextXAlignment.Left,
+					["Font"] = Enum.Font.Bangers,
+					["LineHeight"] = 1,
+					["TextScaled"] = true,
+					["TextColor3"] = v23
+				})
+			})
+		})
+		v39.Top = v40(v41, v42, v43)
+		local v57 = v_u_8
+		local v58 = {
+			["BorderSizePixel"] = 0,
+			["BackgroundColor3"] = Color3.new(0, 0, 0),
+			["BackgroundTransparency"] = 0,
+			["Position"] = UDim2.new(0.015625 / v24, 0, 0.1828125, 0),
+			["Size"] = UDim2.new(v29, 0, 0.8015625, 0)
+		}
+		local v60 = {
+			["UICorner"] = v_u_8("UICorner", {
+				["CornerRadius"] = UDim.new(0, p22.props.cornerPixel)
+			}),
+			["InnerBody"] = v_u_8("Frame", {
+				["BackgroundTransparency"] = 1,
+				["BorderSizePixel"] = 0,
+				["Position"] = UDim2.new(0.019493177387914232 / v30, 0, 0.019493177387914232, 0),
+				["Size"] = UDim2.new(v31, 0, 0.9610136452241715, 0),
+				["ZIndex"] = 0
+			}, {
+				["Container"] = v_u_8("Frame", {
+					["BackgroundColor3"] = Color3.new(0.4, 0.4, 0.4),
+					["BackgroundTransparency"] = 0,
+					["BorderSizePixel"] = 0,
+					["ClipsDescendants"] = true,
+					["Size"] = UDim2.new(1, 0, 1, 0)
+				}, {
+					["UICorner"] = v_u_8("UICorner", {
+						["CornerRadius"] = UDim.new(0, p22.props.cornerPixel)
+					}),
+					["Slider"] = v_u_8("Frame", {
+						["BorderSizePixel"] = 0,
+						["BackgroundTransparency"] = 1,
+						["BackgroundColor3"] = Color3.new(1, 0, 0),
+						["Size"] = UDim2.new(1, 0, 0.8782961460446247, 0),
+						["AnchorPoint"] = Vector2.new(0, 0.5),
+						["Position"] = p22.index:map(function(p59)
+							-- upvalues: (copy) v_u_33, (ref) v_u_10, (copy) v_u_35, (copy) v_u_34
+							return UDim2.new(-(p59 - v_u_33 * 0.5 - 0.5) * v_u_10.getScaleX(v_u_35) - (p59 - v_u_33 * 0.5 - 0.5) / v_u_34, 0, 0.5, 0)
+						end)
+					}, {
+						["Grid"] = v_u_8(v_u_9, v_u_35)
+					})
+				})
+			}),
+			["ArrowTop"] = v_u_8("Frame", {
+				["BackgroundTransparency"] = 1,
+				["Size"] = UDim2.new(0.125 / v30, 0, 0.0625, 0),
+				["AnchorPoint"] = Vector2.new(0.5, 0.5),
+				["Position"] = UDim2.new(0.5, 0, 0.019493177387914232, 0),
+				["ZIndex"] = 3
+			}, {
+				["Icon"] = v_u_8("ImageLabel", {
+					["BackgroundTransparency"] = 1,
+					["Image"] = "rbxassetid://10065704207",
+					["ImageColor3"] = Color3.new(0, 0, 0),
+					["Size"] = UDim2.new(1, 0, 1, 0),
+					["Position"] = UDim2.new(0, 0, 0.5, 0),
+					["Rotation"] = 180
+				})
+			}),
+			["ArrowBottom"] = v_u_8("Frame", {
+				["BackgroundTransparency"] = 1,
+				["Size"] = UDim2.new(0.125 / v30, 0, 0.0625, 0),
+				["AnchorPoint"] = Vector2.new(0.5, 0.5),
+				["Position"] = UDim2.new(0.5, 0, 0.9805068226120858, 0),
+				["ZIndex"] = 3
+			}, {
+				["Icon"] = v_u_8("ImageLabel", {
+					["BackgroundTransparency"] = 1,
+					["Image"] = "rbxassetid://10065704207",
+					["ImageColor3"] = Color3.new(0, 0, 0),
+					["Size"] = UDim2.new(1, 0, 1, 0),
+					["Position"] = UDim2.new(0, 0, -0.5, 0),
+					["Rotation"] = 0
+				})
+			})
+		}
+		v39.Body = v57("Frame", v58, v60)
+		local v61 = v_u_8
+		local v62 = "Frame"
+		local v63 = {
+			["BorderSizePixel"] = 0,
+			["BackgroundTransparency"] = 1,
+			["Position"] = UDim2.new(0.005, 0, 1, 0),
+			["Size"] = UDim2.new(v25, 0, 0.1515625, 0)
+		}
+		local v64 = {}
+		local v65
+		if p22.props.config.extraText then
+			v65 = v_u_8("Frame", {
+				["BorderSizePixel"] = 0,
+				["BackgroundColor3"] = Color3.new(0, 0, 0),
+				["Size"] = UDim2.new(1, 0, 1, 0),
+				["Position"] = UDim2.new(0, 0, 0, 0)
+			}, {
+				["UICorner"] = v_u_8("UICorner", {
+					["CornerRadius"] = UDim.new(0, 10)
+				}),
+				["Container"] = v_u_8("Frame", {
+					["BorderSizePixel"] = 0,
+					["BackgroundTransparency"] = 1,
+					["BackgroundColor3"] = Color3.new(1, 1, 1),
+					["Size"] = UDim2.new(1, 0, 1, 0),
+					["Position"] = UDim2.new(0, 0, 0, 0)
+				}, {
+					["Text"] = v_u_8("TextLabel", {
+						["BackgroundTransparency"] = 1,
+						["Size"] = UDim2.new(1, 0, 1, 0),
+						["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+						["AnchorPoint"] = Vector2.new(0.5, 0.5),
+						["Text"] = p22.props.config.extraText .. " ",
+						["TextXAlignment"] = Enum.TextXAlignment.Right,
+						["Font"] = Enum.Font.Bangers,
+						["LineHeight"] = 1,
+						["TextScaled"] = true,
+						["TextColor3"] = v23
+					})
+				})
+			}) or nil
+		else
+			v65 = nil
+		end
+		v64.Title = v65
+		v39.Bottom = v61(v62, v63, v64)
+		return v36(v37, v38, v39)
+	end
+end
+function v13._spin(p_u_66)
+	-- upvalues: (copy) v_u_2
+	local v_u_67 = 0
+	local v_u_68 = p_u_66.props.config.duration
+	local v_u_69 = os.clock()
+	local v_u_70 = false
+	local v71 = p_u_66.props.colsPerRow * 0.5 + 0.5
+	local v_u_72 = math.ceil(v71)
+	local v73 = #p_u_66.props.config.items
+	local v74 = p_u_66.props.colsPerRow * 0.5 + 0.5
+	local v75 = v73 - math.floor(v74)
+	local v76 = p_u_66.props.config.winIndex
+	if v75 < v76 then
+		warn("winIndex is > maxVisibleIndex, player will see empty space")
+	end
+	local v77 = math.random() - 0.5
+	local v_u_78 = v76 + math.clamp(v77, -0.48, 0.48)
+	p_u_66.maid.spinHeartbeat = v_u_2.Heartbeat:Connect(function()
+		-- upvalues: (copy) v_u_69, (copy) v_u_68, (ref) v_u_70, (copy) p_u_66, (copy) v_u_72, (ref) v_u_78, (ref) v_u_67
+		local v79 = (os.clock() - v_u_69) / v_u_68
+		if v79 >= 1 then
+			v79 = 1
+			if not v_u_70 then
+				v_u_70 = true
+				p_u_66.onFinished()
+				if p_u_66.props.onFinished then
+					p_u_66.props.onFinished()
+				end
+				p_u_66.maid.spinHeartbeat = nil
+			end
+		else
+			v_u_70 = false
+		end
+		local v80 = v_u_72
+		local v81 = v_u_78 - v_u_72
+		local v82 = 1 - v79
+		local v83 = v80 + v81 * (1 - math.pow(v82, 2))
+		local v84 = v83 % 1
+		local v85 = v_u_67 % 1
+		local v86 = v83 - v_u_67 > 0
+		if v86 and (v84 > 0.5 and v85 < 0.5) or not v86 and (v84 < 0.5 and v85 > 0.5) then
+			p_u_66.playTick()
+		end
+		v_u_67 = v83
+		p_u_66.updateIndex(v83)
+	end)
+end
+function v13.didMount(p87)
+	if p87.props.config then
+		p87:_spin()
+	end
+end
+function v13.didUpdate(p88, p89, _)
+	if p88.props.config ~= p89.config then
+		p88.openMaid:DoCleaning()
+		if p88.props.config then
+			p88:_spin()
+		end
+	end
+end
+function v13.willUnmount(p90)
+	p90.maid:DoCleaning()
+end
+return v7.connect(function(p91, _)
+	return {
+		["config"] = p91.rewardSpinnerConfig
+	}
+end, function(p_u_92)
+	return {
+		["close"] = function()
+			-- upvalues: (copy) p_u_92
+			p_u_92({
+				["type"] = "setRewardSpinnerConfig",
+				["items"] = nil
+			})
+		end
+	}
+end)(v13)

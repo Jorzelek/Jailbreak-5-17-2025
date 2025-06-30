@@ -1,0 +1,53 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Roact).createElement
+return function(p3)
+	-- upvalues: (copy) v_u_2
+	local v4 = v_u_2
+	local v5 = {
+		["Size"] = UDim2.new(1, 0, 0.1, 0),
+		["BackgroundTransparency"] = 1,
+		["ZIndex"] = 3
+	}
+	local v6 = {
+		["UICorner"] = v_u_2("UICorner", {
+			["CornerRadius"] = UDim.new(0, 4)
+		})
+	}
+	local v7 = v_u_2
+	local v8 = {
+		["BorderSizePixel"] = 0,
+		["BackgroundTransparency"] = 1,
+		["BackgroundColor3"] = Color3.new(1, 0, 0),
+		["Size"] = UDim2.new(1 - 2 / p3.verticalPaddingRatio / p3.aspectRatio, 0, 0.8 - 2 / p3.verticalPaddingRatio / 0.1, 0),
+		["Position"] = UDim2.new(1 / p3.verticalPaddingRatio / p3.aspectRatio, 0, 0.1 + 1 / p3.verticalPaddingRatio / 0.1, 0)
+	}
+	local v9 = {
+		["Text"] = v_u_2("TextLabel", {
+			["BackgroundTransparency"] = 1,
+			["Size"] = UDim2.new(1, 0, 1.25, 0),
+			["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+			["AnchorPoint"] = Vector2.new(0.5, 0.5),
+			["Text"] = "Win one of these items:",
+			["TextXAlignment"] = Enum.TextXAlignment.Left,
+			["Font"] = Enum.Font.Bangers,
+			["LineHeight"] = 1,
+			["TextScaled"] = true,
+			["TextColor3"] = Color3.new(1, 1, 1)
+		})
+	}
+	v6.Title = v7("Frame", v8, v9)
+	v6.Line = v_u_2("Frame", {
+		["Size"] = UDim2.new(1, 0, 0, 1),
+		["Position"] = UDim2.new(0, 0, 1, -1),
+		["BackgroundColor3"] = Color3.new(0.1, 0.1, 0.1),
+		["BorderSizePixel"] = 0
+	})
+	return v4("Frame", v5, v6)
+end

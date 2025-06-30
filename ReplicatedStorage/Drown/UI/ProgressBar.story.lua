@@ -1,0 +1,25 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMRBGluaXQNY3JlYXRlRWxlbWVudAZyZW5kZXILd2lsbFVubW91bnQHdW5tb3VudAlDb21wb25lbnQDQXBwBmV4dGVuZAVtb3VudARnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQZzY3JpcHQGUGFyZW50C1Byb2dyZXNzQmFyBVJvYWN0AAYBAQAAAAABggABAAAACAEBGAAIAAAAAAQBAgAAAAj7AgAATQECygAAAAD7AgEA/wMAAAAAAACfAQMAggEAAAEDAgAJAwEYAAAAAAAAAAAKAAAAAAEBAAAAAAGCAAEAAAAMBAEYAAwAAAAAAgACAAAABvsBAABNAAESAAAAAPsBAQCfAAIBggABAAEDBQAPAAEYAAAAAAABEAAAAAAFAQIAAAAg+wIAAE0BAogAAAAAbwMBALwBAZwCAAAAnwEDAsACAwAwAgETBAAAAMACBQASAgAAEgIBADACAYAGAAAAwAIHADACATQIAAAA+wMAAE0CA+QJAAAA+wQAAE0DBMoKAAAAUgQBAJ8DAgJSBAAAnwIDAtkDAwASAgAAEgACAIIDAgALAwYDBwMIBgADAQYBAwMGAgMEAwkDAgQAAQIDBgABGAAAAAAAAAABAAABAAAAAAMAAAIAAAAAAAAAAAABAAAABwAAAAAFAAABAgAZowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBBQAAAEBApAQHAAAAYEBNAwQkCAAAAE0CA2YJAAAAnwECAqQCBQAAAEBATQMAIQoAAACfAgICwAMLABIAAgASAAEAggMCAAwDCgQAAABAAwsDDAMNBAAAQEADDgQAAGBAAw8DEAMRBgQBBAEAARgAAQAAAAAAAQAAAAAAAAAAAQAAAAACAAAAAQAAAAAFh9ROW7EL/nW1ECTP52ZgoeenpGLh3DQBwpcv2cCe8U/I95bx5H3B4g==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(script.Parent.ProgressBar)
+local v_u_3 = require(v1.Roact)
+return function(p4)
+	-- upvalues: (copy) v_u_3, (copy) v_u_2
+	local v5 = v_u_3.Component:extend("App")
+	function v5.init(_) end
+	function v5.render(_)
+		-- upvalues: (ref) v_u_3, (ref) v_u_2
+		return v_u_3.createElement(v_u_2, {})
+	end
+	function v5.willUnmount(_) end
+	local v_u_6 = v_u_3.mount(v_u_3.createElement(v5), p4)
+	return function()
+		-- upvalues: (ref) v_u_3, (copy) v_u_6
+		v_u_3.unmount(v_u_6)
+	end
+end

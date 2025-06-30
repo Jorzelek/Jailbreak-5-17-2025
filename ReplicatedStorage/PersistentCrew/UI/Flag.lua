@@ -1,0 +1,69 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v2 = require(v1.Roact)
+local v_u_3 = v2.createElement
+local v4 = v2.PureComponent:extend("Flag")
+v4.defaultProps = {
+	["flagColor"] = Color3.new(1, 1, 1),
+	["userId"] = 1,
+	["size"] = UDim2.fromScale(1, 1),
+	["position"] = UDim2.fromScale(0.5, 0.5),
+	["anchorPoint"] = Vector2.new(0.5, 0.5)
+}
+function v4.render(p5)
+	-- upvalues: (copy) v_u_3
+	local v6 = v_u_3
+	local v7 = {
+		["BorderSizePixel"] = 0,
+		["BackgroundColor3"] = p5.props.flagColor,
+		["Size"] = p5.props.size,
+		["AnchorPoint"] = p5.props.anchorPoint,
+		["Position"] = p5.props.position
+	}
+	local v8 = {
+		["UICorner"] = v_u_3("UICorner", {
+			["CornerRadius"] = UDim.new(0, 4)
+		})
+	}
+	local v9 = v_u_3
+	local v10 = {
+		["BackgroundTransparency"] = 1,
+		["Image"] = "rbxassetid://12385250525",
+		["Size"] = UDim2.fromScale(1, 1),
+		["ImageColor3"] = p5.props.flagColor
+	}
+	local v11 = {
+		["UICorner"] = v_u_3("UICorner", {
+			["CornerRadius"] = UDim.new(0, 4)
+		})
+	}
+	v8.FlagBg = v9("ImageLabel", v10, v11)
+	local v12 = v_u_3
+	local v13 = {
+		["BackgroundTransparency"] = 1,
+		["Image"] = "rbxthumb://type=AvatarHeadShot&w=150&h=150&id=" .. (p5.props.userId or 1),
+		["Size"] = UDim2.fromScale(1, 0.9),
+		["Position"] = UDim2.fromScale(0, 0),
+		["AnchorPoint"] = Vector2.new(0, 0),
+		["ZIndex"] = 3
+	}
+	local v14 = {
+		["UIAspectRatioConstraint"] = v_u_3("UIAspectRatioConstraint", {
+			["AspectRatio"] = 1,
+			["AspectType"] = Enum.AspectType.FitWithinMaxSize,
+			["DominantAxis"] = Enum.DominantAxis.Height
+		}),
+		["UICorner"] = v_u_3("UICorner", {
+			["CornerRadius"] = UDim.new(1, 0)
+		})
+	}
+	v8.Avatar = v12("ImageLabel", v13, v14)
+	return v6("Frame", v7, v8)
+end
+return v4

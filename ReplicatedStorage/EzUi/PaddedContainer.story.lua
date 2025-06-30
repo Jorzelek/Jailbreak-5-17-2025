@@ -1,0 +1,74 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v1 = script:FindFirstAncestor("EzUi")
+local v_u_2 = require(v1.Parent.Roact)
+local v_u_3 = v_u_2.createElement
+return function(p4)
+	-- upvalues: (copy) v_u_2, (copy) v_u_3
+	local v5 = require(script.Parent.PaddedContainer)
+	local v6 = v_u_2.mount
+	local v7 = v_u_3
+	local v8 = {
+		["BackgroundTransparency"] = 0.9,
+		["BackgroundColor3"] = Color3.new(1, 0, 0),
+		["Size"] = UDim2.new(1, 0, 1, 0)
+	}
+	local v9 = {
+		["AspectRatio"] = v_u_3("UIAspectRatioConstraint", {
+			["AspectRatio"] = 2
+		})
+	}
+	local v10 = v_u_3
+	local v11 = {}
+	local v12 = v_u_3
+	local v13 = {
+		["BorderSizePixel"] = 0,
+		["Size"] = UDim2.new(0.75, 0, 1, 0)
+	}
+	local v14 = {
+		["Container2"] = v_u_3(v5, {
+			["paddingRight"] = 0.5,
+			["size"] = UDim2.new(0.5, 0, 1, 0)
+		}, {
+			["Container3"] = v_u_3(v5, {}, {})
+		}),
+		["Container3"] = v_u_3(v5, {
+			["paddingLeft"] = 0.5,
+			["paddingRight"] = 0.5,
+			["size"] = UDim2.new(0.5, 0, 1, 0),
+			["position"] = UDim2.new(0.5, 0, 0, 0)
+		}, {
+			["Container3"] = v_u_3(v5, {}, {})
+		})
+	}
+	v11.Frame1 = v12("Frame", v13, v14)
+	local v15 = v_u_3
+	local v16 = {
+		["BorderSizePixel"] = 0,
+		["BackgroundColor3"] = Color3.new(0, 1, 0),
+		["BackgroundTransparency"] = 0.7,
+		["Size"] = UDim2.new(0.25, 0, 1, 0),
+		["Position"] = UDim2.new(0.75, 0, 0, 0),
+		["ZIndex"] = 3
+	}
+	local v17 = {
+		["Container2"] = v_u_3(v5, {
+			["paddingLeft"] = 0.5
+		}, {})
+	}
+	v11.Frame2 = v15("Frame", v16, v17)
+	v9.Container1 = v10(v5, {
+		["aspectRatio"] = 2,
+		["verticalPaddingRatio"] = 32
+	}, v11)
+	local v_u_18 = v6(v7("Frame", v8, v9), p4)
+	return function()
+		-- upvalues: (ref) v_u_2, (copy) v_u_18
+		v_u_2.unmount(v_u_18)
+	end
+end

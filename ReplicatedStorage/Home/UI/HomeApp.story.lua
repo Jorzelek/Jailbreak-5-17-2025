@@ -1,0 +1,43 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMdBHR5cGUFdmFsdWUKc2V0VmlzaWJsZQhkaXNwYXRjaARpbml0BXByaW50EGF0dGVtcHRQbGFjZUl0ZW0TYXR0ZW1wdFB1cmNoYXNlSXRlbQ1jcmVhdGVFbGVtZW50DVN0b3JlUHJvdmlkZXIFc3RvcmULYXNwZWN0UmF0aW8UdmVydGljYWxQYWRkaW5nUmF0aW8GcmVuZGVyB3VubW91bnQJQ29tcG9uZW50A0FwcAZleHRlbmQHcmVxdWlyZQdIb21lQXBwBEhvbWUCVUkJaG9tZVN0b3JlBW1vdW50BGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQVSb2FjdApSb2FjdFJvZHV4AAcFAQEAAAAM+wEAAOIDAgBvBAMAMAQDcQAAAACpBAEAMAQDzAEAAAC8AQFMBAAAAJ8BAwGCAAEABQMBAwIFAgABAwMDBAAKBQEYAAABAAABAAD+AAAEEAAAAAADAAABAAAHowAAAKQAAQAAAABAbwECAN0CAACfAAABggABAAMDBgQAAABAAwcAHgcBGAABAAAAAAEeAAAAAAMAAAEAAAejAAAApAABAAAAAEBvAQIA3QIAAJ8AAAGCAAEAAwMGBAAAAEADCAAhCAEYAAEAAAAAASEAAAAACQEEAAAAIvsCAABNAQLKAAAAAPsDAQBNAgO6AQAAAOIDAwD7BAIAMAQDfgIAAAD/BAAAAQAAAPsGAABNBQbKAAAAAPsGAwDiBwgAjAgDADAIB4kEAAAAjAiAADAIB8YFAAAAwAgJADAIB4AGAAAAwAgKADAIBxUHAAAAnwUDAMUEBQABAAAAnwEEAIIBAAALAwkDCgMLBQECAwwDDQMHAwgFBAQFBgcGAQYCAgECFg4BGAAAAAAAAAABAAABAAEAAAAAAQAAAQAAAQAAAwAA+gAA/QAYAAAAAAIAAgAAAAb7AQAATQABEgAAAAD7AQEAnwACAYIAAQABAw8AKQABGAAAAAAAASoAAAAABwEDAAAAMvsCAABNAQKIAAAAAG8DAQC8AQGcAgAAAJ8BAwKkAgQAAAAwQPsGAQBNBQZqBgAAAE0EBVwHAAAATQMEWAUAAACfAgICpAMEAAAAMED7BgEATQUGagYAAABNBAWCCAAAAJ8DAgLZBAAAEgADADAEARMJAAAA2QQBABICAAASAgIAEgADABIAAgAwBAGACgAAAPsFAABNBAXkCwAAAPsGAABNBQbKDAAAAFIGAQCfBQICUgYAAJ8EAwLZBQIAEgIAABIABACCBQIADQMQAxEDEgMTBAAAMEADFAMVAxYDFwMFAw4DGAMJAwADBAYAARgAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAQAAAAwAAAAAAAASAAAAAAAAAAAAAQAAAAcAAAAABAAAAQIAFqMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0CACEGAAAAnwECAqQCBQAAAEBATQMALQcAAACfAgICwAMIABIAAQASAAAAEgACAIIDAgAJAxkEAAAAQAMaAxsDEwQAAEBAAxwDHQYFAQUBAAEYAAEAAAAAAAEAAAAAAQAAAAACAAAAAAEAAAAABlFH+/cT7HgHY4ORYyOZiK5pBXlYfGGUmcCztB8oStkMDPQTdz2CFn4=
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v_u_1.Roact)
+local v_u_3 = require(v_u_1.RoactRodux)
+return function(p4)
+	-- upvalues: (copy) v_u_2, (copy) v_u_1, (copy) v_u_3
+	local v5 = v_u_2.Component:extend("App")
+	local v_u_6 = require(v_u_1.Home.UI.HomeApp)
+	local v_u_7 = require(v_u_1.Home.homeStore)
+	function v5.init(_)
+		-- upvalues: (copy) v_u_7
+		v_u_7:dispatch({
+			["type"] = "setVisible",
+			["value"] = true
+		})
+	end
+	function v5.render(_)
+		-- upvalues: (ref) v_u_2, (ref) v_u_3, (copy) v_u_7, (copy) v_u_6
+		return v_u_2.createElement(v_u_3.StoreProvider, {
+			["store"] = v_u_7
+		}, { v_u_2.createElement(v_u_6, {
+				["aspectRatio"] = 3,
+				["verticalPaddingRatio"] = 128,
+				["attemptPlaceItem"] = function(...)
+					print("attemptPlaceItem", ...)
+				end,
+				["attemptPurchaseItem"] = function(...)
+					print("attemptPurchaseItem", ...)
+				end
+			}) })
+	end
+	local v_u_8 = v_u_2.mount(v_u_2.createElement(v5), p4)
+	return function()
+		-- upvalues: (ref) v_u_2, (copy) v_u_8
+		v_u_2.unmount(v_u_8)
+	end
+end

@@ -1,0 +1,82 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgM+BU1vZGVsBFR5cGUETWFrZQlNQ0wzNkZSRUUFTUNMMzYETmFtZQZpcGFpcnMOR2V0RGVzY2VuZGFudHMKU2Vjb25kQm9keQV0YWJsZQZpbnNlcnQEVGFuawNUb3AORmluZEZpcnN0Q2hpbGQGVHVycmV0BUhhdGNoA0d1bgZCYXJyZWwKVGhlUmF0dGxlcghHb2xkVHJpbQZQcmVzZXQNUmF0dGxlckVuZ2luZQtFbmdpbmVGbGFwcwpFbmdpbmVHb2xkCUZyb250V2luZwRXaW5nBVN0dW50B1BoeXNpY3MJUHJvcGVsbGVyBVNsb29wDVN0ZWVyaW5nV2hlZWwFU3R1bXAFV2hlZWwGVmlzdWFsC0Zsb29yYm9hcmRzFUdldERlZmF1bHRWZWhpY2xlUGFydAtSZWZsZWN0YW5jZRJEZWZhdWx0UmVmbGVjdGFuY2UITWF0ZXJpYWwPRGVmYXVsdE1hdGVyaWFsBFBhcnQFQ29sb3IQVmVoaWNsZUNvbG9yUGFydAZIYXNUYWcGQWRkVGFnEWlzSHlwZXJDaHJvbWVOYW1lH0hZUEVSQ0hST01FX05BTUVfQVRUUklCVVRFX05BTUUMU2V0QXR0cmlidXRlBGdhbWURQ29sbGVjdGlvblNlcnZpY2UKR2V0U2VydmljZRFSZXBsaWNhdGVkU3RvcmFnZQdyZXF1aXJlCFNldHRpbmdzCFJlc291cmNlC0h5cGVyQ2hyb21lEUh5cGVyQ2hyb21lQ29uc3RzEEh5cGVyQ2hyb21lVXRpbHMFUGFpbnQER2FtZQZHYXJhZ2UKUGFpbnRVdGlscwACEgIFAAAAoQJNAgE7AAAAAE0DAREBAAAATQQBrQIAAADwBAIAAwAAgG8EBABSBQAADgUCAE0FALoFAAAA/wYAAAAAAACkBwcAAABgQLwIAkcIAAAAnwgCAJ8HAARRBwsATQwLugUAAADwDAgACQAAgJ40BgULAAAAUg0GAFIOCwCkDAwAACyggJ8MAwFuB/T/AgAAgPAELQANAACAUggGAG8LDgC8CQIDDwAAAJ8JAwJvCxAAvAkJAw8AAACfCQMATDQAAqQHDAAALKCAnwcAAVIIBgBvCw4AvAkCAw8AAACfCQMCbwsRALwJCQMPAAAAnwkDAEw0AAKkBwwAACyggJ8HAAFSCAYAbwsOALwJAgMP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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("CollectionService")
+local v2 = game:GetService("ReplicatedStorage")
+require(v2.Resource.Settings)
+local v_u_3 = require(v2.HyperChrome.HyperChromeConsts)
+local v_u_4 = require(v2.HyperChrome.HyperChromeUtils)
+local v_u_5 = require(v2.Game.Garage.Paint)
+local v_u_6 = require(v2.Game.Garage.PaintUtils)
+return function(p7, p8)
+	-- upvalues: (copy) v_u_6, (copy) v_u_5, (copy) v_u_1, (copy) v_u_4, (copy) v_u_3
+	local v9 = p8.Model
+	local _ = p8.Type
+	local v10 = p8.Make
+	local v11 = v10 == "MCL36FREE" and "MCL36" or v10
+	if p7 then
+		p7 = p7.Name
+	end
+	local v12 = {}
+	for _, v13 in ipairs(v9:GetDescendants()) do
+		if v13.Name == "SecondBody" then
+			table.insert(v12, v13)
+		end
+	end
+	if v11 == "Tank" then
+		local v14 = v9:FindFirstChild("Top")
+		table.insert(v12, v14:FindFirstChild("Turret"))
+		local v15 = v9:FindFirstChild("Top")
+		table.insert(v12, v15:FindFirstChild("Hatch"))
+		local v16 = v9:FindFirstChild("Top"):FindFirstChild("Gun")
+		table.insert(v12, v16:FindFirstChild("Barrel"))
+	elseif v11 == "TheRattler" then
+		local v17 = v9.Model
+		table.insert(v12, v17:FindFirstChild("GoldTrim"))
+		local v18 = v9:FindFirstChild("Preset"):FindFirstChild("RattlerEngine")
+		table.insert(v12, v18:FindFirstChild("EngineFlaps"))
+		local v19 = v9:FindFirstChild("Preset"):FindFirstChild("RattlerEngine")
+		table.insert(v12, v19:FindFirstChild("EngineGold"))
+	elseif v11 == "MCL36" then
+		local v20 = v9.Model
+		table.insert(v12, v20:FindFirstChild("FrontWing"))
+		local v21 = v9.Model
+		table.insert(v12, v21:FindFirstChild("Wing"))
+	elseif v11 == "Stunt" then
+		local v22 = v9.Physics
+		table.insert(v12, v22:FindFirstChild("Propeller"))
+	elseif v11 == "Sloop" then
+		local v23 = v9.Physics:FindFirstChild("SteeringWheel")
+		table.insert(v12, v23:FindFirstChild("Stump"))
+		local v24 = v9.Physics:FindFirstChild("SteeringWheel")
+		table.insert(v12, v24:FindFirstChild("Wheel"))
+		local v25 = v9.Visual
+		table.insert(v12, v25:FindFirstChild("Floorboards"))
+	end
+	for _, v26 in ipairs(v12) do
+		local v27 = v_u_6.GetDefaultVehiclePart(v26)
+		local v28 = {
+			["DefaultReflectance"] = v27.Reflectance,
+			["DefaultMaterial"] = v27.Material
+		}
+		if p7 then
+			v_u_5.Part(v26, p7, v28)
+		else
+			v26.Color = v27.Color
+			v26.Material = v27.Material
+			v26.Reflectance = v27.Reflectance
+		end
+		if not v_u_1:HasTag(v26, "VehicleColorPart") then
+			v_u_1:AddTag(v26, "VehicleColorPart")
+		end
+		if v_u_4.isHyperChromeName(p7) then
+			v26:SetAttribute(v_u_3.HYPERCHROME_NAME_ATTRIBUTE_NAME, p7)
+		else
+			v26:SetAttribute(v_u_3.HYPERCHROME_NAME_ATTRIBUTE_NAME, nil)
+		end
+	end
+end

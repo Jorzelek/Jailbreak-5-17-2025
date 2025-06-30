@@ -1,0 +1,25 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMPBXRhYmxlBGZpbmQGYWN0aXZlBnJlbW92ZQ10cmlnZ2VyVXBkYXRlBEZpcmUGaW5zZXJ0A2FkZARnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQNTdGQGU2lnbmFsA25ldwADBAACAAAAFaQAAgAABACA+wIAAE0BAuMDAAAA+wIBAJ8AAwKkAQUAABAAgPsDAABNAgPjAwAAAFIDAACfAQMB+wIAAE0BAg8GAAAAvAEB3QcAAACfAQIBggABAAgDAQMCBAAEAIADAwMEBAAQAIADBQMGAAsAARgAAAAAAAAAAQAAAAAAAAEAAAAAAAEMAAAAAAQBAQAAABP7AwAATQID4wAAAACeNAIEAAAAAFIDAACkAQMAAAgQgJ8BAwH7AgAATQECDwQAAAC8AQHdBQAAAJ8BAgHZAQAAEgIAABIAAACCAQIABgMDAwEDBwQACBCAAwUDBgEACAgBGAAAAAAAAAAAAAEAAAAAAAEAAAAJAAAAAAQAAAECAB6jAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAwChBgAAAE0CAx8HAAAAnwECAv8CAwAAAAAATQMB7wgAAACfAwECMAMCDwkAAAD/AwAAAAAAADADAuMKAAAAwAMLABIAAgAwAwK/DAAAAIICAgANAwkEAAAAQAMKAwsDDAQAAEBAAw0DDgMPAwUDAwYBAwgBAQEAARgAAQAAAAAAAQAAAAAAAAIAAQAAAAABAAAAAQAAAAkBAAAAAAJ6bEV/VAYjWEioL+vXMHFJ2AF+9m8bJJXT3DBIdcpTfZZelSQUEUpn
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_5 = {
+	["triggerUpdate"] = require(v1.Std.Signal).new(),
+	["active"] = {},
+	["add"] = function(p_u_2)
+		-- upvalues: (copy) v_u_5
+		local v3 = v_u_5.active
+		table.insert(v3, p_u_2)
+		v_u_5.triggerUpdate:Fire()
+		return function()
+			-- upvalues: (ref) v_u_5, (copy) p_u_2
+			local v4 = table.find(v_u_5.active, p_u_2)
+			table.remove(v_u_5.active, v4)
+			v_u_5.triggerUpdate:Fire()
+		end
+	end
+}
+return v_u_5

@@ -1,0 +1,104 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Roact)
+local v_u_3 = require(v1.Std.Signal)
+local v_u_4 = require(script.Parent.gameSettingType)
+local v_u_25 = {
+	["onUpdate"] = v_u_3.new(),
+	["_list"] = {},
+	["onAdded"] = v_u_3.new(),
+	["add"] = function(p_u_5)
+		-- upvalues: (copy) v_u_3, (copy) v_u_4, (copy) v_u_2, (copy) v_u_25
+		local v6 = p_u_5.name
+		assert(v6, "missing name")
+		local v7 = p_u_5.type
+		assert(v7, "missing gameSettingType")
+		local v8 = p_u_5.defaultValue ~= nil
+		assert(v8, "missing defaultValue")
+		local v9 = p_u_5.order
+		assert(v9, "missing order")
+		if not p_u_5.onChanged then
+			p_u_5.onChanged = v_u_3.new()
+		end
+		if p_u_5.type == v_u_4.Checkbox then
+			if not p_u_5._value then
+				p_u_5._value = p_u_5.defaultValue
+			end
+		elseif p_u_5.type == v_u_4.Slider and not p_u_5._value then
+			local v10, v11 = v_u_2.createBinding(p_u_5.defaultValue)
+			p_u_5._value = v10
+			p_u_5._updateValue = v11
+		end
+		function p_u_5.getValue(p12)
+			-- upvalues: (ref) v_u_25
+			return v_u_25.getValue(p12)
+		end
+		local v13 = v_u_25._list
+		table.insert(v13, p_u_5)
+		v_u_25.onUpdate:Fire()
+		v_u_25.onAdded:Fire(p_u_5)
+		return function()
+			-- upvalues: (ref) v_u_25, (copy) p_u_5
+			for v14 = #v_u_25._list, 1, -1 do
+				if v_u_25._list[v14] == p_u_5 then
+					table.remove(v_u_25._list, v14)
+					v_u_25.onUpdate:Fire()
+					return true
+				end
+			end
+			return false
+		end
+	end,
+	["getAll"] = function()
+		-- upvalues: (copy) v_u_25
+		return v_u_25._list
+	end,
+	["getSettingByName"] = function(p15)
+		-- upvalues: (copy) v_u_25
+		for _, v16 in ipairs(v_u_25._list) do
+			if v16.name == p15 then
+				return v16
+			end
+		end
+	end,
+	["getValueByName"] = function(p17)
+		-- upvalues: (copy) v_u_25
+		assert(p17, "missing name")
+		local v18 = v_u_25.getSettingByName(p17)
+		return v_u_25.getValue(v18)
+	end,
+	["getValue"] = function(p19)
+		-- upvalues: (copy) v_u_4
+		assert(p19, "missing setting")
+		if p19.type == v_u_4.Checkbox then
+			return p19._value
+		end
+		if p19.type == v_u_4.Slider then
+			return p19._value:getValue()
+		end
+	end,
+	["setValueByName"] = function(p20, p21)
+		-- upvalues: (copy) v_u_25
+		assert(p20, "missing name")
+		local v22 = v_u_25.getSettingByName(p20)
+		v_u_25.setValue(v22, p21)
+	end,
+	["setValue"] = function(p23, p24)
+		-- upvalues: (copy) v_u_4, (copy) v_u_25
+		assert(p23, "missing setting")
+		if p23.type == v_u_4.Checkbox then
+			p23._value = p24
+		elseif p23.type == v_u_4.Slider then
+			p23._updateValue(p24)
+		end
+		p23.onChanged:Fire(p24)
+		v_u_25.onUpdate:Fire()
+	end
+}
+return v_u_25

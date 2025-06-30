@@ -1,0 +1,184 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgNBC2FzcGVjdFJhdGlvEGZyb250R2xvd0VuYWJsZWQPYmFja0dsb3dFbmFibGVkC2J1YmJsZUNvbG9yB2dldEluc3QPYmFja2dyb3VuZENvbG9yFmJhY2tncm91bmRUcmFuc3BhcmVuY3kOZ2V0SW5zdENvbXBhcmUMdXBkYXRlQ2FtZXJhBHNpemUIcG9zaXRpb24LYW5jaG9yUG9pbnQGekluZGV4BVVEaW0yA25ldwdWZWN0b3IyCFVJQ29ybmVyDENvcm5lclJhZGl1cwRVRGltBUZyYW1lEEJhY2tncm91bmRDb2xvcjMEU2l6ZQhQb3NpdGlvbgtBbmNob3JQb2ludAZaSW5kZXgESWNvbgpJbWFnZUxhYmVsFkJhY2tncm91bmRUcmFuc3BhcmVuY3kFSW1hZ2UFaW1hZ2UPQm9yZGVyU2l6ZVBpeGVsCEJhY2tHbG93BENhcmQLSW1hZ2VDb2xvcjMHVmlzaWJsZRhyYnhhc3NldGlkOi8vMTAwNDYxMzM2NjUGQ29sb3IzCUZyb250R2xvdwZDaXJjbGUEVHlwZQhTdWJUaXRsZQVUaXRsZQZSYXJpdHkLY29ybmVyUGl4ZWwRSW1hZ2VUcmFuc3BhcmVuY3kEVGV4dAlUZXh0TGFiZWwERm9udApMaW5lSGVpZ2h0ClRleHRTY2FsZWQKVGV4dENvbG9yMwl0eXBlVGl0bGUERW51bQdCYW5nZXJzCHN1YlRpdGxlBXRpdGxlC3Jhcml0eVRpdGxlBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlBVJvYWN0DWNyZWF0ZUVsZW1lbnQERXpVaQ1WaWV3cG9ydEZyYW1lAAIbAQIAAADBBU0BAIkAAAAATQMASwIAAACQAgMBTQQABAMAAACQAwQBTQQAkwQAAABvBgUACQUGAcYGAABNBwBBBgAAAEcHQgAAAAAA+wcAAPsIAQDiCQ8AMAQJDgcAAACMCgAAMAoJGggAAABNCgBBBgAAADAKCUEGAAAATQoA+AkAAAAwCgn4CQAAAE0KABEKAAAAMAoJEQoAAACkChIAAEQAgW8LBQCMDAAAUg0FAIwOAACfCgUCMAoJDwsAAACkChIAAEQAgW8LEwCMDAAAbw0TAIwOAACfCgUCMAoJ2wwAAACkChUAAERAgW8L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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Roact).createElement
+local v_u_3 = require(v1.EzUi.ViewportFrame)
+return function(p4)
+	-- upvalues: (copy) v_u_2, (copy) v_u_3
+	local v5 = p4.aspectRatio
+	local v6 = p4.frontGlowEnabled or false
+	local v7 = p4.backGlowEnabled or false
+	local v8 = p4.bubbleColor
+	local v9 = 0.8 * v5
+	local v10
+	if p4.getInst == nil then
+		v10 = v_u_2("Frame", {
+			["BackgroundColor3"] = v8,
+			["Size"] = UDim2.new(0.8, 0, 0.8 * v5, 0),
+			["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+			["AnchorPoint"] = Vector2.new(0.5, 0.5),
+			["ZIndex"] = 2
+		}, {
+			["UICorner"] = v_u_2("UICorner", {
+				["CornerRadius"] = UDim.new(1, 0)
+			}),
+			["Icon"] = v_u_2("ImageLabel", {
+				["BackgroundTransparency"] = 1,
+				["Size"] = UDim2.new(0.9, 0, 0.9, 0),
+				["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+				["AnchorPoint"] = Vector2.new(0.5, 0.5),
+				["Image"] = p4.image
+			})
+		})
+	else
+		v10 = v_u_2(v_u_3, {
+			["backgroundColor"] = v8,
+			["backgroundTransparency"] = 0,
+			["getInst"] = p4.getInst,
+			["getInstCompare"] = p4.getInstCompare,
+			["updateCamera"] = p4.updateCamera,
+			["size"] = UDim2.new(0.8, 0, v9, 0),
+			["position"] = UDim2.new(0.5, 0, 0.5, 0),
+			["anchorPoint"] = Vector2.new(0.5, 0.5),
+			["zIndex"] = 2
+		}, {
+			["UICorner"] = v_u_2("UICorner", {
+				["CornerRadius"] = UDim.new(1, 0)
+			})
+		})
+	end
+	local v11 = v_u_2
+	local v12 = "Frame"
+	local v13 = {
+		["BackgroundTransparency"] = 1,
+		["BorderSizePixel"] = 0,
+		["Size"] = p4.size,
+		["Position"] = p4.position,
+		["ZIndex"] = v7 and 2 or 1
+	}
+	local v14 = {
+		["BackGlow"] = v_u_2("ImageLabel", {
+			["BackgroundTransparency"] = 1,
+			["Image"] = "rbxassetid://10046133665",
+			["AnchorPoint"] = Vector2.new(0.5, 0.5),
+			["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+			["Size"] = UDim2.new(1.5 / v5, 0, 1.5, 0),
+			["ImageColor3"] = v8,
+			["ZIndex"] = 1,
+			["Visible"] = v7
+		})
+	}
+	local v15 = v_u_2
+	local v16 = "Frame"
+	local v17 = {
+		["BorderSizePixel"] = 0,
+		["BackgroundColor3"] = Color3.new(0, 0, 0),
+		["Size"] = UDim2.new(1, 0, 1, 0),
+		["ZIndex"] = 2
+	}
+	local v18 = {
+		["UICorner"] = v_u_2("UICorner", {
+			["CornerRadius"] = UDim.new(0, p4.cornerPixel)
+		}),
+		["FrontGlow"] = v_u_2("ImageLabel", {
+			["BackgroundTransparency"] = 1,
+			["Image"] = "rbxassetid://10046133665",
+			["AnchorPoint"] = Vector2.new(0.5, 0.5),
+			["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+			["Size"] = UDim2.new(1.1 / v5, 0, 1.1, 0),
+			["ImageTransparency"] = 0.5,
+			["ImageColor3"] = v8,
+			["Visible"] = v6
+		}),
+		["Circle"] = v10,
+		["Type"] = v_u_2("Frame", {
+			["BackgroundTransparency"] = 1,
+			["Size"] = UDim2.new(0.5, 0, 0.1, 0),
+			["AnchorPoint"] = Vector2.new(0.5, 0.5),
+			["Position"] = UDim2.new(0.5, 0, 0.075, 0),
+			["ZIndex"] = 3
+		}, {
+			["Text"] = v_u_2("TextLabel", {
+				["BackgroundTransparency"] = 1,
+				["Size"] = UDim2.new(1, 0, 1, 0),
+				["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+				["AnchorPoint"] = Vector2.new(0.5, 0.5),
+				["Text"] = p4.typeTitle,
+				["Font"] = Enum.Font.Bangers,
+				["LineHeight"] = 1,
+				["TextScaled"] = true,
+				["TextColor3"] = Color3.new(0.5, 0.5, 0.5)
+			})
+		})
+	}
+	local v19
+	if p4.subTitle == nil then
+		v19 = false
+	else
+		v19 = v_u_2("Frame", {
+			["BackgroundTransparency"] = 1,
+			["Size"] = UDim2.new(0.5, 0, 0.1, 0),
+			["AnchorPoint"] = Vector2.new(0.5, 1),
+			["Position"] = UDim2.new(0.5, 0, 0.795, 0),
+			["ZIndex"] = 3
+		}, {
+			["Text"] = v_u_2("TextLabel", {
+				["BackgroundTransparency"] = 1,
+				["Size"] = UDim2.new(1.25, 0, 1.25, 0),
+				["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+				["AnchorPoint"] = Vector2.new(0.5, 0.5),
+				["Text"] = p4.subTitle,
+				["Font"] = Enum.Font.Bangers,
+				["LineHeight"] = 1,
+				["TextScaled"] = true,
+				["TextColor3"] = Color3.new(1, 1, 1)
+			})
+		})
+	end
+	v18.SubTitle = v19
+	v18.Title = v_u_2("Frame", {
+		["BackgroundTransparency"] = 1,
+		["Size"] = UDim2.new(0.8, 0, 0.125, 0),
+		["AnchorPoint"] = Vector2.new(0.5, 1),
+		["Position"] = UDim2.new(0.5, 0, 0.92, 0),
+		["ZIndex"] = 3
+	}, {
+		["Text"] = v_u_2("TextLabel", {
+			["BackgroundTransparency"] = 1,
+			["Size"] = UDim2.new(1.25, 0, 1.25, 0),
+			["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+			["AnchorPoint"] = Vector2.new(0.5, 0.5),
+			["Text"] = p4.title,
+			["Font"] = Enum.Font.Bangers,
+			["LineHeight"] = 1,
+			["TextScaled"] = true,
+			["TextColor3"] = Color3.new(1, 1, 1)
+		})
+	})
+	v18.Rarity = v_u_2("Frame", {
+		["BackgroundTransparency"] = 1,
+		["Size"] = UDim2.new(0.5, 0, 0.08, 0),
+		["AnchorPoint"] = Vector2.new(0.5, 1),
+		["Position"] = UDim2.new(0.5, 0, 1, 0),
+		["ZIndex"] = 3
+	}, {
+		["Text"] = v_u_2("TextLabel", {
+			["BackgroundTransparency"] = 1,
+			["Size"] = UDim2.new(1.25, 0, 1.25, 0),
+			["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+			["AnchorPoint"] = Vector2.new(0.5, 0.5),
+			["Text"] = p4.rarityTitle,
+			["Font"] = Enum.Font.Bangers,
+			["LineHeight"] = 1,
+			["TextScaled"] = true,
+			["TextColor3"] = v8
+		})
+	})
+	v14.Card = v15(v16, v17, v18)
+	return v11(v12, v13, v14)
+end

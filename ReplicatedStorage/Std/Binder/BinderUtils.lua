@@ -1,0 +1,120 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMnBHR5cGUFdGFibGUVQmluZGVyIG11c3QgYmUgYmluZGVyBmFzc2VydAZ0eXBlb2YISW5zdGFuY2UgQ2hpbGQgcGFyYW1ldGVyIG11c3QgYmUgaW5zdGFuY2UGUGFyZW50A0dldBFmaW5kRmlyc3RBbmNlc3RvciFQYXJlbnQgcGFyYW1ldGVyIG11c3QgYmUgaW5zdGFuY2UFcGFpcnMLR2V0Q2hpbGRyZW4OZmluZEZpcnN0Q2hpbGQGaW5zZXJ0C2dldENoaWxkcmVuJmJpbmRlcnNMaXN0IG11c3QgYmUgYSB0YWJsZSBvZiBiaW5kZXJzBkdldFRhZxRtYXBCaW5kZXJMaXN0VG9UYWJsZQdHZXRUYWdzEWdldE1hcHBlZEZyb21MaXN0FGdldENoaWxkcmVuT2ZCaW5kZXJzBE5hbWULT2JqZWN0VmFsdWUDSXNBBVZhbHVlBHdhcm4+W0JpbmRlclV0aWxzLmdldExpbmtlZENoaWxkcmVuXSAtIERvdWJsZSBsaW5rZWQgY2hpbGRyZW4gYXQgJXELR2V0RnVsbE5hbWUGZm9ybWF0EWdldExpbmtlZENoaWxkcmVuDkdldERlc2NlbmRhbnRzDmdldERlc2NlbmRhbnRzBGdhbWURQ29sbGVjdGlvblNlcnZpY2UKR2V0U2VydmljZQdyZXF1aXJlEXByb21pc2VCb3VuZENsYXNzBnNjcmlwdAAJBgIAAAAALLsoAANSBQAApAQBAAAAAECfBAIC8AQCAAIAAACpAwABqQMBAIEBAwQDAAAAbwQDAKQCBQAAAEBAnwIDAbssAQNSBQEApAQHAAAAYECfBAIC8AQCAAgAAACpAwABqQMBAIEBAwQJAAAAbwQJAKQCBQAAAEBAnwIDAU0CASQKAAAADgIJAFIFAgC8AwB/CwAAAJ8DAwIOAwEAggMCAE0CAiQKAAAASAD2/8YDAACCAwIADAMBBAAAAEADAgMDAwQEAABAQAMFBAAAYEADBgMHAwgDCQAJCgEYAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAgABAQAAAAEBAgD7BwAKAAAAAAoCAAAAAC+7KAADUgUAAKQEAQAAAABAnwQCAvAEAgACAAAAqQMAAakDAQCBAQMEAwAAAG8EAwCkAgUAAABAQJ8CAwG7LAEDUgUBAKQE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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("CollectionService")
+local v_u_51 = {
+	["findFirstAncestor"] = function(p2, p3)
+		local v4 = type(p2) == "table"
+		assert(v4, "Binder must be binder")
+		local v5 = typeof(p3) == "Instance"
+		assert(v5, "Child parameter must be instance")
+		local v6 = p3.Parent
+		while v6 do
+			local v7 = p2:Get(v6)
+			if v7 then
+				return v7
+			end
+			v6 = v6.Parent
+		end
+		return nil
+	end,
+	["findFirstChild"] = function(p8, p9)
+		local v10 = type(p8) == "table"
+		assert(v10, "Binder must be binder")
+		local v11 = typeof(p9) == "Instance"
+		assert(v11, "Parent parameter must be instance")
+		for _, v12 in pairs(p9:GetChildren()) do
+			local v13 = p8:Get(v12)
+			if v13 then
+				return v13
+			end
+		end
+		return nil
+	end,
+	["getChildren"] = function(p14, p15)
+		local v16 = type(p14) == "table"
+		assert(v16, "Binder must be binder")
+		local v17 = typeof(p15) == "Instance"
+		assert(v17, "Parent parameter must be instance")
+		local v18 = {}
+		for _, v19 in pairs(p15:GetChildren()) do
+			local v20 = p14:Get(v19)
+			if v20 then
+				table.insert(v18, v20)
+			end
+		end
+		return v18
+	end,
+	["mapBinderListToTable"] = function(p21)
+		local v22 = type(p21) == "table"
+		assert(v22, "bindersList must be a table of binders")
+		local v23 = {}
+		for _, v24 in pairs(p21) do
+			v23[v24:GetTag()] = v24
+		end
+		return v23
+	end,
+	["getMappedFromList"] = function(p25, p26)
+		-- upvalues: (copy) v_u_1
+		local v27 = {}
+		for _, v28 in pairs(p26) do
+			for _, v29 in pairs(v_u_1:GetTags(v28)) do
+				local v30 = p25[v29]
+				if v30 then
+					local v31 = v30:Get(v28)
+					if v31 then
+						table.insert(v27, v31)
+					end
+				end
+			end
+		end
+		return v27
+	end,
+	["getChildrenOfBinders"] = function(p32, p33)
+		-- upvalues: (copy) v_u_51
+		local v34 = type(p32) == "table"
+		assert(v34, "bindersList must be a table of binders")
+		local v35 = typeof(p33) == "Instance"
+		assert(v35, "Parent parameter must be instance")
+		local v36 = v_u_51.mapBinderListToTable(p32)
+		return v_u_51.getMappedFromList(v36, p33:GetChildren())
+	end,
+	["getLinkedChildren"] = function(p37, p38, p39)
+		local v40 = {}
+		local v41 = {}
+		for _, v42 in pairs(p39:GetChildren()) do
+			if v42.Name == p38 and (v42:IsA("ObjectValue") and v42.Value) then
+				local v43 = p37:Get(v42.Value)
+				if v43 then
+					if v40[v43] then
+						warn(("[BinderUtils.getLinkedChildren] - Double linked children at %q"):format(v42:GetFullName()))
+					else
+						v40[v43] = true
+						table.insert(v41, v43)
+					end
+				end
+			end
+		end
+		return v41
+	end,
+	["getDescendants"] = function(p44, p45)
+		local v46 = type(p44) == "table"
+		assert(v46, "Binder must be binder")
+		local v47 = typeof(p45) == "Instance"
+		assert(v47, "Parent parameter must be instance")
+		local v48 = {}
+		for _, v49 in pairs(p45:GetDescendants()) do
+			local v50 = p44:Get(v49)
+			if v50 then
+				table.insert(v48, v50)
+			end
+		end
+		return v48
+	end,
+	["promiseBoundClass"] = require(script.Parent.promiseBoundClass)
+}
+return v_u_51

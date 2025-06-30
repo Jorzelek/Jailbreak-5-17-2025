@@ -1,0 +1,40 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMTEHdhaXRGb3JBdHRyaWJ1dGUVU0VSVkVSX1RZUEVfQVRUUl9OQU1FB3RpbWVvdXQbcHJvbWlzZUdldFByaXZhdGVTZXJ2ZXJUeXBlGUJBVFRMRV9TRVJWRVJfU0VSVkVSX1RZUEUHYW5kVGhlbhhwcm9taXNlR2V0SXNCYXR0bGVTZXJ2ZXIFYXdhaXQFZXJyb3IUZ2V0UHJpdmF0ZVNlcnZlclR5cGURZ2V0SXNCYXR0bGVTZXJ2ZXIEZ2FtZRFSZXBsaWNhdGVkU3RvcmFnZQpHZXRTZXJ2aWNlB3JlcXVpcmUNUHJpdmF0ZVNlcnZlchNQcml2YXRlU2VydmVyQ29uc3RzA1N0ZA9SeEluc3RhbmNlVXRpbHMABgQAAwAAAA37AQAATQAB2QAAAAD7AQEA+wMCAE0CA2YBAAAAnwADAowCCgC8AAByAgAAAJ8AAwCCAAAAAwMBAwIDAwAHBAEYAAAAAAAAAAAAAAAAAAgAAAAABAEBAAAACPsDAABNAgOXAAAAAPEAAgACAAAAqQEAAakBAQCCAQIAAQMFAAsAARgAAAAAAAAAAAwAAAAAAwACAAAACvsBAABNAAHMAAAAAJ8AAQLAAgEAEgIBALwAALUCAAAAnwADAIIAAAADAwQGAQMGAQEKBwEYAAAAAAAAAAAAAAsAAAAABAABAAAADfsBAABNAAHMAAAAAJ8AAQK8AAANAQAAAJ8AAgMrAAQApAIDAAAAIEBSAwEAnwICAYIBAgAEAwQDCAMJBAAAIEAADwoBGAAAAAAAAAABAQAAAAIQAAAAAAQAAQAAAA37AQAATQAB4gAAAACfAAECvAAADQEAAACfAAIDKwAEAKQCAwAAACBAUgMBAJ8CAgGCAQIABAMHAwgDCQQAACBAABYLARgAAAAAAAAAAQEAAAACFwAAAAAFAAABAgArowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBBQAAAEBATQMA1gYAAABNAgNCBwAAAJ8BAgKkAgUAAABAQE0EAKEIAAAATQMEUgkAAACfAgIC/wMDAAAAAADABAoAEgACABIAAAASAAEAMAQDzAsAAADABAwAEgADABIAAQAwBAPiDQAAAMAEDgASAAMAMAQDGA8AAADABBAAEgADADAEA4YRAAAAggMCABIDDAQAAABAAw0DDgMPBAAAQEADEAMRAxIDEwYAAwQGAgMHBgMDCgYEAwsEAAIDBAEAARgAAQAAAAAAAQAAAAAAAAEAAAAAAAACAAEAAAAAAAMAAAAABQAAAAcAAAAHAQAAAAAFNC16iv5q8nUG6RAe5bJKaMFN/yN9Pya2I2yZ/EEvnyDjpl5CqE9yWQ==
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v_u_1.PrivateServer.PrivateServerConsts)
+local v_u_3 = require(v_u_1.Std.RxInstanceUtils)
+local v_u_9 = {
+	["promiseGetPrivateServerType"] = function()
+		-- upvalues: (copy) v_u_3, (copy) v_u_1, (copy) v_u_2
+		return v_u_3.waitForAttribute(v_u_1, v_u_2.SERVER_TYPE_ATTR_NAME):timeout(10)
+	end,
+	["promiseGetIsBattleServer"] = function()
+		-- upvalues: (copy) v_u_9, (copy) v_u_2
+		return v_u_9.promiseGetPrivateServerType():andThen(function(p4)
+			-- upvalues: (ref) v_u_2
+			return p4 == v_u_2.BATTLE_SERVER_SERVER_TYPE
+		end)
+	end,
+	["getPrivateServerType"] = function()
+		-- upvalues: (copy) v_u_9
+		local v5, v6 = v_u_9.promiseGetPrivateServerType():await()
+		if not v5 then
+			error(v6)
+		end
+		return v6
+	end,
+	["getIsBattleServer"] = function()
+		-- upvalues: (copy) v_u_9
+		local v7, v8 = v_u_9.promiseGetIsBattleServer():await()
+		if not v7 then
+			error(v8)
+		end
+		return v8
+	end
+}
+return v_u_9

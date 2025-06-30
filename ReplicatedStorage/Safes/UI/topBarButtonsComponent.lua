@@ -1,0 +1,70 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Roact)
+local v_u_3 = v_u_2.createElement
+return function(p4)
+	-- upvalues: (copy) v_u_2, (copy) v_u_3
+	local v5 = v_u_2.createFragment
+	local v6 = {}
+	local v7 = v_u_3
+	local v8 = {
+		["Size"] = UDim2.new(0.2, 0, 1, 0),
+		["AnchorPoint"] = Vector2.new(1, 0),
+		["Position"] = UDim2.new(0.9 - 1 / p4.verticalPaddingRatio / p4.aspectRatio, 0, 0, 0),
+		["BackgroundColor3"] = Color3.fromRGB(255, 255, 255),
+		["Text"] = "",
+		[v_u_2.Event.Activated] = p4.onSelectToggle
+	}
+	local v9 = {
+		["UICorner"] = v_u_3("UICorner", {
+			["CornerRadius"] = UDim.new(0, 4)
+		}),
+		["Text"] = v_u_3("TextLabel", {
+			["BackgroundTransparency"] = 1,
+			["Size"] = UDim2.new(1, 0, 0.9, 0),
+			["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+			["AnchorPoint"] = Vector2.new(0.5, 0.5),
+			["Text"] = p4.nextPageTitle,
+			["TextXAlignment"] = Enum.TextXAlignment.Center,
+			["Font"] = Enum.Font.Bangers,
+			["LineHeight"] = 1,
+			["TextScaled"] = true,
+			["TextColor3"] = Color3.new(0, 0, 0)
+		})
+	}
+	v6.ToggleButton = v7("TextButton", v8, v9)
+	local v10 = v_u_3
+	local v11 = {
+		["Size"] = UDim2.new(0.1, 0, 1, 0),
+		["AnchorPoint"] = Vector2.new(1, 0),
+		["Position"] = UDim2.new(1, 0, 0, 0),
+		["BackgroundColor3"] = Color3.fromRGB(255, 38, 0),
+		["Text"] = "",
+		[v_u_2.Event.Activated] = p4.onSelectExit
+	}
+	local v12 = {
+		["UICorner"] = v_u_3("UICorner", {
+			["CornerRadius"] = UDim.new(0, 4)
+		}),
+		["Text"] = v_u_3("TextLabel", {
+			["BackgroundTransparency"] = 1,
+			["Size"] = UDim2.new(1, 0, 0.9, 0),
+			["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+			["AnchorPoint"] = Vector2.new(0.5, 0.5),
+			["Text"] = "EXIT",
+			["TextXAlignment"] = Enum.TextXAlignment.Center,
+			["Font"] = Enum.Font.Bangers,
+			["LineHeight"] = 1,
+			["TextScaled"] = true,
+			["TextColor3"] = Color3.new(1, 1, 1)
+		})
+	}
+	v6.ExitButton = v10("TextButton", v11, v12)
+	return v5(v6)
+end

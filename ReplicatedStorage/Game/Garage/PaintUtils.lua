@@ -1,0 +1,39 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMXBmlwYWlycwV0YWJsZQZyZW1vdmUORmluZEZpcnN0Q2hpbGQFZHJpbGwETmFtZQtCb3VuZGluZ0JveAZQYXJlbnQEd2FybgZjb25jYXQBLgVlcnJvciJnZXRWZWhpY2xlUGF0aCBmYWlsZWQsIHJlYWNoZWQgbmlsBmluc2VydA5nZXRWZWhpY2xlUGF0aAhSZXNvdXJjZQhWZWhpY2xlcwVQbGFuZQRCb2F0FUdldERlZmF1bHRWZWhpY2xlUGFydARnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UABAgCAAAAABn/AgAAAAAAAKQDAQAAAABAUgQBAJ8DAgRRAwEAagcCBm4D/v8CAACADgANABwDAgCMBAAAYAQKAAMAAACkBQQAAAwggFIGAgCfBQIAvAMAAwUAAACfAwACUgADAEgA8v+CAAIABgMBBAAAAEADAgMDBAAMIIADBAAGBQEYAAABAAAAAAH/AAMAAAAAAQAAAAAAAAD/AwcAAAAABwEAAAAAJVIBAAD/AgAAAQAAAE0DALoAAAAAxQIDAgEAAABvBQEAvAMBAwIAAACfAwMCKwMYAE0BASQDAAAAKwEMAKQDBQAAAEBApAQIAAAcYIBSBQIAbwYJAJ8EAwCfAwABpAMLAAAAoEBvBAwAnwMCAU0FAboAAAAAnjQCBAUAAABSBAIApAMOAAA0YICfAwMBSADj/4ICAgAPAwYDBwMEAwgDCQQAAEBAAwIDCgQAHGCAAwsDDAQAAKBAAw0DDgQANGCAABAPARgAAQAAAAAAAQAAAAABAAEBAAAAAAAAAAEAAAACAAAAAAAAAPoIEQAAAAAGAQIAAAAs+wIAAE0BAjUAAAAAUgIAAJ8BAgL7AwAATQIDMQEAAAD7BAEATQMEYgIAAABvBQMAvAMDAwQAAACfAwMCUgQBAJ8CAwIrAhkA+wMAAE0CAzEBAAAA+wQBAE0DBGICAAAAbwUFALwDAwMEAAAAnwMDAlIEAQCfAgMCKwIMAPsDAABNAgMxAQAAAPsEAQBNAwRiAgAAAG8FBgC8AwMDBAAAAJ8DAwJSBAEAnwIDAoICAgAHAw8DBQMQAxEDBAMSAxMAHRQBGAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAHgAAAAADAAABAgAVowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAv8BAwAAAAAAwAIEADACATEFAAAAwAIGADACATUHAAAAwAIIABIAAQASAAAAMAIBiAkAAACCAQIACgMVBAAAAEADFgMXBgADBQYBAw8GAgMUAwABAgEAARgAAQAAAAAAAQADAAAKAAANAAAAAAcBAAAAAAMhm+vwxLUhmhNfgWRtABIuaENgOQ45MyiHePMs3aTg/p+ygnnnOjnU
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("ReplicatedStorage")
+local v_u_12 = {
+	["drill"] = function(p2, p3)
+		local v4 = {}
+		for v5, v6 in ipairs(p3) do
+			v4[v5] = v6
+		end
+		while p2 and #v4 > 0 do
+			p2 = p2:FindFirstChild(table.remove(v4))
+		end
+		return p2
+	end,
+	["getVehiclePath"] = function(p7)
+		local v8 = { p7.Name }
+		while not p7:FindFirstChild("BoundingBox") do
+			p7 = p7.Parent
+			if not p7 then
+				warn(table.concat(v8, "."))
+				error("getVehiclePath failed, reached nil")
+			end
+			local v9 = p7.Name
+			table.insert(v8, v9)
+		end
+		return v8
+	end,
+	["GetDefaultVehiclePart"] = function(p10)
+		-- upvalues: (copy) v_u_12, (copy) v_u_1
+		local v11 = v_u_12.getVehiclePath(p10)
+		return v_u_12.drill(v_u_1.Resource:FindFirstChild("Vehicles"), v11) or (v_u_12.drill(v_u_1.Resource:FindFirstChild("Plane"), v11) or v_u_12.drill(v_u_1.Resource:FindFirstChild("Boat"), v11))
+	end
+}
+return v_u_12

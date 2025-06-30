@@ -1,0 +1,15 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMNBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlCFJlc291cmNlCFNldHRpbmdzBVByaWNlEU1heFNoaWVsZER1cmF0aW9uEU1pblNoaWVsZER1cmF0aW9uBlJlbG9hZAZJbWFnZXMSRm9yY2VmaWVsZExhdW5jaGVyB0ltYWdlSWQAAQUAAAECACOjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAwBiBgAAAE0CA8oHAAAAnwECAv8CBAAAAAAAjAMwdTADAiQIAAAAjAMPADADAkUJAAAAjAMDADADAswKAAAAjAMEADADAjcLAAAATQQB4wwAAABNAwQuDQAAADADApYOAAAAggICAA8DAQQAAABAAwIDAwMEBAAAQEADBQMGAwcDCAMJAwoDCwMMAw0AAQABGAABAAAAAAABAAAAAAAAAQABAAABAAABAAABAAABAAAAAAACAQAAAAAAamRsx/XhB2BYoAZT0tdrXd3RnbE64W1rWqZiMmC98ywcOdL30ED/Ug==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return {
+	["Price"] = 30000,
+	["MaxShieldDuration"] = 15,
+	["MinShieldDuration"] = 3,
+	["Reload"] = 4,
+	["ImageId"] = require(v1.Resource.Settings).Images.ForcefieldLauncher
+}

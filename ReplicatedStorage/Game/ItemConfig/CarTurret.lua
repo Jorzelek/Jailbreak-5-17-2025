@@ -1,0 +1,17 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMKBVNvdW5kBkNvbG9yMwdmcm9tUkdCC0NvbG9yTm9ybWFsCUNvbG9ySGVhdAdNYXhIZWF0BkRhbWFnZQtCdWxsZXRTcGVlZAhGaXJlRnJlcRRJZ25vcmVWZXJpZnlGaXJlRnJlcQABBQAAAQIAJ6MAAAD/AAQAAAAAAP8BAAAAAAAAMAEAbgAAAACkAQMAAAgQgIwCYACMA3UAjAR/AJ8BBAIwAQDlBAAAAKQBAwAACBCAjAL/AIwDFACMBBQAnwEEAjABAFAFAAAAjAECADABAAcGAAAAjAEEADABAA8HAAAAjAGwBDABAKUIAAAAjAFkADABAEAJAAAAqQEBADABAGwKAAAAggACAAsDAQMCAwMEAAgQgAMEAwUDBgMHAwgDCQMKAAEAARgAAQABAAAAAQAAAAAAAAABAAAAAAAAAAEAAAEAAAEAAAEAAAEAAAIBAAAAAADdjBvC5v1Kae9IcVYThjhLryahikmfTwbHycVxJBP3StE1UDnryt40
+
+-- Decompiled by Krnl
+
+return {
+	["Sound"] = {},
+	["ColorNormal"] = Color3.fromRGB(96, 117, 127),
+	["ColorHeat"] = Color3.fromRGB(255, 20, 20),
+	["MaxHeat"] = 2,
+	["Damage"] = 4,
+	["BulletSpeed"] = 1200,
+	["FireFreq"] = 100,
+	["IgnoreVerifyFireFreq"] = true
+}

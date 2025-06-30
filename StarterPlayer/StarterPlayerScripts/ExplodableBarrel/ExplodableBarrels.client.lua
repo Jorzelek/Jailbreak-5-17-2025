@@ -1,0 +1,9 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMHBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlEEV4cGxvZGFibGVCYXJyZWwWRXhwbG9kYWJsZUJhcnJlbEJpbmRlcgVTdGFydAABBAAAAQIAEqMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0DACcGAAAATQIDYgcAAACfAQICvAIBHAgAAACfAgIBggABAAkDAQQAAABAAwIDAwMEBAAAQEADBQMGAwcAAQABGAABAAAAAAABAAAAAAAAAgAABwEAAAAAACk5NdTULxvFG/1fQOGcAjZD1W0HAuv1SOMiS70ggLKA1HyRqgtyr9Q=
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+require(v1.ExplodableBarrel.ExplodableBarrelBinder):Start()

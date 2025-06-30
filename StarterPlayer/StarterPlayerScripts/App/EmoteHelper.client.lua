@@ -1,0 +1,71 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v_u_1.Std.CharacterUtils)
+local v_u_3 = require(v_u_1.Std.Joint)
+local v_u_4 = require(v_u_1.Std.Maid)
+v_u_2.observeLocalCharacterAdded(function(p_u_5, p_u_6)
+	-- upvalues: (copy) v_u_1, (copy) v_u_2, (copy) v_u_3, (copy) v_u_4
+	local v7 = p_u_5:FindFirstChild("Humanoid")
+	local v8 = {}
+	local v9 = {}
+	local v10 = v7:GetAppliedDescription()
+	if v10 then
+		for v11, v12 in v10:GetEmotes() do
+			for _, v13 in v12 do
+				v8[v13] = v11
+				table.insert(v9, v11)
+			end
+		end
+	end
+	local v_u_14 = {}
+	for _, v15 in v_u_1:GetDescendants() do
+		if v15:IsA("Animation") then
+			local v16 = v15.Name
+			table.insert(v_u_14, v16)
+		end
+	end
+	p_u_6:GiveTask(v7.AnimationPlayed:Connect(function(p17)
+		-- upvalues: (copy) p_u_6, (copy) v_u_14, (ref) v_u_2, (copy) p_u_5, (ref) v_u_3, (ref) v_u_4
+		p_u_6.emoteBallConnection = nil
+		local v18 = not p17.Animation:GetFullName():find("%.Animate%.")
+		if p17.Animation.Name == "Animation" then
+			v18 = false
+		end
+		if table.find(v_u_14, p17.Animation.Name) then
+			v18 = false
+		end
+		local v19 = v18 and v_u_2.getRootPart(p_u_5)
+		if v19 then
+			local v_u_20 = Instance.new("Part")
+			v_u_20.Shape = Enum.PartType.Ball
+			v_u_20.Size = Vector3.new(4, 4, 4)
+			v_u_20.Name = "EmoteBall"
+			v_u_20.CanCollide = true
+			v_u_20.CollisionGroup = v19.CollisionGroup
+			v_u_20.CustomPhysicalProperties = PhysicalProperties.new(0.01, 0, 0, 1, 1)
+			v_u_20.CFrame = v19.CFrame * CFrame.new(0, 0, 1)
+			v_u_20.Transparency = 1
+			v_u_20.Parent = p_u_5
+			v_u_3.CustomWeld(v_u_20, v19, CFrame.new(0, 0, 0), CFrame.new(0, 0, 0))
+			local v21 = v_u_4.new()
+			v21:GiveTask(function()
+				-- upvalues: (copy) v_u_20
+				task.delay(0.25, function()
+					-- upvalues: (ref) v_u_20
+					v_u_20:Destroy()
+				end)
+			end)
+			v21:GiveTask(p17.Stopped:Connect(function()
+				-- upvalues: (ref) p_u_6
+				p_u_6.emoteBallConnection = nil
+			end))
+			p_u_6.emoteBallConnection = v21
+		end
+	end))
+end)

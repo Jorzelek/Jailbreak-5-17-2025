@@ -1,0 +1,104 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgM8BXByb3BzCENoaWxkcmVuBFNpemUGdHlwZW9mBVVEaW0yAVgFU2NhbGUBWQV0YWJsZQljb21wb25lbnQaZXhwb3NlUGFkZGVkQ29udGFpbmVyUHJvcHMaaW5qZWN0UGFkZGVkQ29udGFpbmVyUHJvcHMLYXNwZWN0UmF0aW8UdmVydGljYWxQYWRkaW5nUmF0aW8JcHJvcGFnYXRlD2JhY2tncm91bmRDb2xvchZiYWNrZ3JvdW5kVHJhbnNwYXJlbmN5BkNvbG9yMwdmcm9tSFNWC3BhZGRpbmdMZWZ0DHBhZGRpbmdSaWdodApwYWRkaW5nVG9wDXBhZGRpbmdCb3R0b20LcGFkZGluZ05vbmUEc2l6ZQR3YXJuIlBhZGRlZENvbnRhaW5lcjogaW5uZXJTY2FsZVggPCAwOiAIdG9zdHJpbmciUGFkZGVkQ29udGFpbmVyOiBpbm5lclNjYWxlWSA8IDA6IANuZXcIcG9zaXRpb24FbWVyZ2UDUmVmBUZyYW1lFkJhY2tncm91bmRUcmFuc3BhcmVuY3kQQmFja2dyb3VuZENvbG9yMw9Cb3JkZXJTaXplUGl4ZWwGekluZGV4BlpJbmRleAhQb3NpdGlvbgthbmNob3JQb2ludAtBbmNob3JQb2ludAd2aXNpYmxlB1Zpc2libGUGcmVuZGVyBnNjcmlwdARFelVpEUZpbmRGaXJzdEFuY2VzdG9yB3JlcXVpcmUKRGljdGlvbmFyeQZQYXJlbnQFUm9hY3QNY3JlYXRlRWxlbWVudA1QdXJlQ29tcG9uZW50D1BhZGRlZENvbnRhaW5lcgZleHRlbmQHVmVjdG9yMgxkZWZhdWx0UHJvcHMEbWF0aAZyYW5kb20AAw0DBQAACAUAAAUDDwICak0EAAcAAAAA+wYAAE0FBs4BAAAAhwMEBSsDAQCCAAEATQUABwAAAABNBAUvAgAAAA4EJQBNBgAHAAAAAE0FBi8CAAAAuywFAqQEBAAAADBAnwQCAvAEHAAFAACATQgABwAAAABNBwgvAgAAAE0GB3kGAAAATQUGhAcAAABNCQAHAAAAAE0ICS8CAAAATQcIeAgAAABNBgeEBwAAAOwEBQYJAQEETQcABwAAAABNBgcvAgAAAE0FBngIAAAATQQFhAcAAAAJAgIEUgQDAMYFAADGBgAAZAQxALss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
+
+-- Decompiled by Krnl
+
+local v1 = script:FindFirstAncestor("EzUi")
+local v_u_2 = require(v1.Dictionary)
+local v_u_3 = require(v1.Parent.Roact)
+local v_u_4 = v_u_3.createElement
+local v_u_5 = v_u_3.PureComponent:extend("PaddedContainer")
+v_u_5.defaultProps = {
+	["backgroundTransparency"] = 0,
+	["size"] = UDim2.new(1, 0, 1, 0),
+	["position"] = UDim2.new(0, 0, 0, 0),
+	["anchorPoint"] = Vector2.new(0, 0),
+	["paddingLeft"] = 1,
+	["paddingRight"] = 1,
+	["paddingTop"] = 1,
+	["paddingBottom"] = 1,
+	["zIndex"] = nil
+}
+local v_u_6 = math.random()
+function v_u_5.render(p7)
+	-- upvalues: (ref) v_u_6, (copy) v_u_3, (copy) v_u_5, (copy) v_u_4, (copy) v_u_2
+	local v8 = p7.props.backgroundColor
+	if not v8 and p7.props.backgroundTransparency < 1 then
+		v_u_6 = v_u_6 + 0.07725424859373685
+		v_u_6 = v_u_6 % 1
+		v8 = Color3.fromHSV(v_u_6, 0.8, 0.8)
+	end
+	local v9 = p7.props.verticalPaddingRatio
+	local v10 = v9 * p7.props.aspectRatio
+	local v11 = p7.props.paddingLeft
+	local v12 = p7.props.paddingRight
+	local v13 = p7.props.paddingTop
+	local v14 = p7.props.paddingBottom
+	if p7.props.paddingNone then
+		v11 = 0
+		v12 = 0
+		v13 = 0
+		v14 = 0
+	end
+	local v15 = p7.props.size.X.Scale - v11 / v10 - v12 / v10
+	if v15 < 0 then
+		warn("PaddedContainer: innerScaleX < 0: " .. tostring(v15))
+	end
+	local v_u_16 = p7.props.size.Y.Scale - v13 / v9 - v14 / v9
+	if v_u_16 < 0 then
+		warn("PaddedContainer: innerScaleY < 0: " .. tostring(v_u_16))
+	end
+	local v_u_17 = v15 / v_u_16
+	local function v_u_24(p18, p19, p20)
+		-- upvalues: (ref) v_u_3, (ref) v_u_5, (copy) v_u_17, (copy) v_u_16, (copy) v_u_24
+		local v21 = p18.props[v_u_3.Children]
+		if v21 then
+			if p18.props.Size then
+				local v22 = p18.props.Size
+				if typeof(v22) == "UDim2" then
+					p19 = p19 * (p18.props.Size.X.Scale / p18.props.Size.Y.Scale)
+					p20 = p20 * p18.props.Size.Y.Scale
+				end
+			end
+			for _, v23 in v21 do
+				if typeof(v23) == "table" and v23.props then
+					if v23.component == v_u_5 or (v23.props.exposePaddedContainerProps or v23.props.injectPaddedContainerProps) then
+						v23.props.aspectRatio = p19 * v_u_17
+						v23.props.verticalPaddingRatio = p20 * v_u_16
+					end
+					if v23.props[v_u_3.Children] then
+						v_u_24(v23, p19, p20)
+					end
+				end
+			end
+		end
+	end
+	v_u_24(p7, p7.props.aspectRatio, v9)
+	local v25 = UDim2.new(v15, 0, v_u_16, 0)
+	local v26 = p7.props.position + UDim2.new(v11 / v10, 0, v13 / v9, 0)
+	if p7.props.component then
+		return v_u_4(p7.props.component, v_u_2.merge(p7.props.props, {
+			["size"] = v25,
+			["position"] = v26,
+			["aspectRatio"] = v_u_17,
+			[v_u_3.Children] = p7.props[v_u_3.Children],
+			[v_u_3.Ref] = p7.props[v_u_3.Ref]
+		}))
+	else
+		return v_u_4("Frame", {
+			["BackgroundTransparency"] = p7.props.backgroundTransparency,
+			["BackgroundColor3"] = v8,
+			["BorderSizePixel"] = 0,
+			["ZIndex"] = p7.props.zIndex,
+			["Size"] = v25,
+			["Position"] = v26,
+			["AnchorPoint"] = p7.props.anchorPoint,
+			["Visible"] = p7.props.visible,
+			[v_u_3.Children] = p7.props[v_u_3.Children],
+			[v_u_3.Ref] = p7.props[v_u_3.Ref]
+		})
+	end
+end
+return v_u_5

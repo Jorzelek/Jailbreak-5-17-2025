@@ -1,0 +1,99 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgM8Dl9vbkNsaWVudEV2ZW50DV9ydW5uaW5nVmFsdWUFVmFsdWUKX2VkZ2VWYWx1ZQdTZXRFZGdlBmlzT3BlbgVjbG9zZQVfbWFpZA51cGRhdGVQb3NpdGlvbgxzZXRtZXRhdGFibGUDbmV3C1JlbW90ZUV2ZW50DFdhaXRGb3JDaGlsZAxfcmVtb3RlRXZlbnQITWVzc2FnZXMNT25DbGllbnRFdmVudAdDb25uZWN0CEdpdmVUYXNrB1J1bm5pbmcYR2V0UHJvcGVydHlDaGFuZ2VkU2lnbmFsBEVkZ2UKRmlyZVNlcnZlchZzZXRXb3JsZE1hcmtlclBvc2l0aW9uCHBvc2l0aW9uBnVwZGF0ZQpHZXRSdW5uaW5nBG9wZW4Ob25DbG9zZUNsaWNrZWQKc2V0TWVzc2FnZQR0ZXh0BnR5cGVvZgdWZWN0b3IzCEluc3RhbmNlDFZlY3RvcjNWYWx1ZQNJc0EIUG9zaXRpb24HQ2hhbmdlZAhmdW5jdGlvbgVldmVyeQVlcnJvcidJbnZhbGlkIHR5cGUgZm9yIG1lc3NhZ2UgYHBvc2l0aW9uYDogJXMGZm9ybWF0E3NldFdvcmxkTWFya2VyU2l6ZXMFc2l6ZXMVc2V0V29ybGRNYXJrZXJFbmFibGVkBmFzc2VydAdEZXN0cm95BGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlA1N0ZARNYWlkCEludGVydmFsEENvbnRleHRNZXNzYWdlVUkER2FtZQ5Db250ZXh0TWVzc2FnZQdfX2luZGV4DEJhc2VUdXRvcmlhbAtfX0NsYXNzTmFtZQAMAwABAQAAB6MAAAD7AAAA3QIAALwAAHoAAAAAnwAAAYIAAQABAwEAEwABGAABAAAAAAETAAAAAAYAAgAAACD7AgAATQECpAAAAABNAAHsAQAAAA4ACgD7AQAA+wUAAE0EBVMCAAAATQME7AEAAAC8AQEjAwAAAJ8BAwGCAAEA+wIBAE0BAhEEAAAAnwEBAg4BBAD7AgEATQECgwUAAACfAQEB+wIAAE0BAsEGAAAAxgIAADACAfkHAAAAggABAAgDAgMDAwQDBQMGAwcDCAMJABkAARgAAAAAAAEBAAAAAAAAAAAAAwAAAAABAAAAAgAAAAAAAhoAAAAABAABAAAAC/sC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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Std.Maid)
+local v_u_3 = require(v1.Std.Interval)
+local v_u_4 = require(v1.Game.ContextMessage.ContextMessageUI)
+local v_u_5 = {}
+v_u_5.__index = v_u_5
+v_u_5.__ClassName = "BaseTutorial"
+function v_u_5.new(p6, p7)
+	-- upvalues: (copy) v_u_5, (copy) v_u_2, (copy) v_u_4
+	local v_u_8 = {}
+	local v9 = v_u_5
+	setmetatable(v_u_8, v9)
+	v_u_8._maid = v_u_2.new()
+	v_u_8._remoteEvent = p6:WaitForChild("RemoteEvent")
+	v_u_8.Messages = p7
+	v_u_8._maid:GiveTask(v_u_8._remoteEvent.OnClientEvent:Connect(function(...)
+		-- upvalues: (copy) v_u_8
+		v_u_8:_onClientEvent(...)
+	end))
+	v_u_8._runningValue = p6:WaitForChild("Running")
+	v_u_8._maid:GiveTask(v_u_8._runningValue:GetPropertyChangedSignal("Value"):Connect(function()
+		-- upvalues: (copy) v_u_8, (ref) v_u_4
+		if v_u_8._runningValue.Value then
+			v_u_8:SetEdge(v_u_8._edgeValue.Value)
+		else
+			if v_u_4.isOpen() then
+				v_u_4.close()
+			end
+			v_u_8._maid.updatePosition = nil
+		end
+	end))
+	v_u_8._edgeValue = p6:WaitForChild("Edge")
+	v_u_8:SetEdge(v_u_8._edgeValue.Value)
+	v_u_8._maid:GiveTask(v_u_8._edgeValue:GetPropertyChangedSignal("Value"):Connect(function()
+		-- upvalues: (copy) v_u_8
+		v_u_8:SetEdge(v_u_8._edgeValue.Value)
+	end))
+	return v_u_8
+end
+function v_u_5.SetEdge(p_u_10, p11)
+	-- upvalues: (copy) v_u_4, (copy) v_u_3
+	if p_u_10:GetRunning() then
+		p_u_10._maid.updatePosition = nil
+		local v_u_12 = p_u_10.Messages[p11]
+		if v_u_12 ~= nil then
+			if not v_u_4.isOpen() then
+				v_u_4.open()
+				v_u_4._maid:GiveTask(v_u_4.onCloseClicked:Connect(function()
+					-- upvalues: (copy) p_u_10
+					p_u_10._remoteEvent:FireServer()
+				end))
+			end
+			v_u_4.setMessage(v_u_12.text)
+			if v_u_12.position then
+				local v13 = v_u_12.position
+				local v14 = typeof(v13)
+				if v14 == "Vector3" then
+					v_u_4.setWorldMarkerPosition(v_u_12.position)
+				elseif v14 == "Instance" and v_u_12.position:IsA("Vector3Value") then
+					local v_u_15 = v_u_12.Position
+					v_u_4.setWorldMarkerPosition(v_u_15.Value)
+					p_u_10._maid.updatePosition = v_u_15.Changed:Connect(function()
+						-- upvalues: (ref) v_u_4, (copy) v_u_15
+						v_u_4.setWorldMarkerPosition(v_u_15.Value)
+					end)
+				elseif v14 == "function" then
+					local function v17()
+						-- upvalues: (copy) v_u_12, (ref) v_u_4
+						local v16 = v_u_12.position()
+						v_u_4.setWorldMarkerPosition(v16)
+					end
+					p_u_10._maid.updatePosition = v_u_3.every(5):Connect(v17)
+				else
+					error(("Invalid type for message `position`: %s"):format(v14))
+				end
+			end
+			v_u_4.setWorldMarkerSizes(v_u_12.sizes)
+			v_u_4.setWorldMarkerEnabled(v_u_12.position ~= nil)
+		end
+	end
+end
+function v_u_5.GetRunning(p18)
+	return p18._runningValue.Value
+end
+function v_u_5._onClientEvent(_) end
+function v_u_5.Destroy(p19)
+	local v20 = p19._maid
+	assert(v20)
+	p19._maid:Destroy()
+	p19._maid = nil
+end
+return v_u_5

@@ -1,0 +1,83 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgM7BXByb3BzCW9uQ2hlY2tlZAV2YWx1ZQVGcmFtZQRTaXplCFBvc2l0aW9uC0xheW91dE9yZGVyEEJhY2tncm91bmRDb2xvcjMEc2l6ZQhwb3NpdGlvbgtsYXlvdXRPcmRlcgZDb2xvcjMDbmV3BkNvcm5lcgtBc3BlY3RSYXRpbwhDaGVja2JveAxjb3JuZXJSYWRpdXMIVUlDb3JuZXIMQ29ybmVyUmFkaXVzF1VJQXNwZWN0UmF0aW9Db25zdHJhaW50DERvbWluYW50QXhpcwRFbnVtBkhlaWdodApUZXh0QnV0dG9uCGRpc2FibGVkD0F1dG9CdXR0b25Db2xvcgVVRGltMglmcm9tU2NhbGUHVmVjdG9yMgtBbmNob3JQb2ludA9iYWNrZ3JvdW5kQ29sb3IKU2VsZWN0YWJsZQAEVGV4dAVFdmVudAlBY3RpdmF0ZWQFbWVyZ2UIQ2hpbGRyZW4FQ2hlY2sKSW1hZ2VMYWJlbA9Cb3JkZXJTaXplUGl4ZWwWQmFja2dyb3VuZFRyYW5zcGFyZW5jeQVJbWFnZQtJbWFnZUNvbG9yMwdWaXNpYmxlF3JieGFzc2V0aWQ6Ly84NzI0NjE1Mjg3CmNoZWNrQ29sb3IGcmVuZGVyBnNjcmlwdARFelVpEUZpbmRGaXJzdEFuY2VzdG9yB3JlcXVpcmUGUGFyZW50CkRpY3Rpb25hcnkFUm9hY3QNY3JlYXRlRWxlbWVudAlDb21wb25lbnQGZXh0ZW5kDGRlZmF1bHRQcm9wcwADBQABAAAAE/sCAABNAQIHAAAAAE0AAWABAAAADgAMAPsCAABNAQIHAAAAAE0AAWABAAAA+wQAAE0DBAcAAAAATQIDzAIAAABWAQIAnwACAYIAAQADAwEDAgMDACoAARgAAAAAAAABAAAAAAAAAAAAAAACKwAAAAATAQMAAADeAfsBAABvAgAA4gMFAE0FAAcGAAAATQQFDwcAAAAwBAMvAQAAAE0FAAcGAAAATQQF2wgAAAAwBAM7AgAAAE0FAAcGAAAATQQFIAkAAAAwBAMAAwAAAE0GAAcGAAAATQUGzAoAAAAOBQcApAQNAAAwsICMBQAAjAYAAIwHAACfBAQCKwQGAKQEDQAAMLCAbwUOAG8GDgBvBw4AnwQEAjAEA58EAAAA4gQSAE0GAAcGAAAATQUGbxMA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
+
+-- Decompiled by Krnl
+
+local v1 = script:FindFirstAncestor("EzUi")
+local v_u_2 = require(script.Parent.Dictionary)
+local v_u_3 = require(v1.Parent.Roact)
+local v_u_4 = v_u_3.createElement
+local v5 = v_u_3.Component:extend("Checkbox")
+v5.defaultProps = {
+	["size"] = UDim2.new(0.5, 0, 0.5, 0),
+	["backgroundColor"] = Color3.new(0.8, 0.8, 0.8),
+	["checkColor"] = Color3.new(0, 0, 0),
+	["disabled"] = false
+}
+function v5.render(p_u_6)
+	-- upvalues: (copy) v_u_4, (copy) v_u_3, (copy) v_u_2
+	local v7 = v_u_4
+	local v8 = "Frame"
+	local v9 = {
+		["Size"] = p_u_6.props.size,
+		["Position"] = p_u_6.props.position,
+		["LayoutOrder"] = p_u_6.props.layoutOrder,
+		["BackgroundColor3"] = p_u_6.props.value and Color3.new(0, 0, 0) or Color3.new(0.1, 0.1, 0.1)
+	}
+	local v10 = {}
+	local v11 = p_u_6.props.cornerRadius
+	if v11 then
+		v11 = v_u_4("UICorner", {
+			["CornerRadius"] = p_u_6.props.cornerRadius
+		})
+	end
+	v10.Corner = v11
+	v10.AspectRatio = v_u_4("UIAspectRatioConstraint", {
+		["AspectRatio"] = 1,
+		["DominantAxis"] = Enum.DominantAxis.Height
+	})
+	local v12 = v_u_4
+	local v13 = "TextButton"
+	local v14 = {
+		["AutoButtonColor"] = not p_u_6.props.disabled,
+		["Size"] = UDim2.fromScale(0.92, 0.92),
+		["AnchorPoint"] = Vector2.new(0.5, 0.5),
+		["Position"] = UDim2.fromScale(0.5, 0.5),
+		["LayoutOrder"] = p_u_6.props.layoutOrder,
+		["BackgroundColor3"] = p_u_6.props.backgroundColor,
+		["Selectable"] = true,
+		["Text"] = "",
+		[v_u_3.Event.Activated] = not p_u_6.props.disabled and function()
+			-- upvalues: (copy) p_u_6
+			if p_u_6.props.onChecked then
+				p_u_6.props.onChecked(not p_u_6.props.value)
+			end
+		end or nil
+	}
+	local v15 = v_u_2.merge
+	local v16 = p_u_6.props[v_u_3.Children]
+	local v17 = {
+		["Check"] = v_u_4("ImageLabel", {
+			["Size"] = UDim2.new(1, 0, 1, 0),
+			["AnchorPoint"] = Vector2.new(0.5, 0.5),
+			["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+			["BorderSizePixel"] = 0,
+			["BackgroundTransparency"] = 1,
+			["Image"] = "rbxassetid://8724615287",
+			["ImageColor3"] = p_u_6.props.checkColor,
+			["Visible"] = p_u_6.props.value
+		})
+	}
+	local v18 = p_u_6.props.cornerRadius
+	if v18 then
+		v18 = v_u_4("UICorner", {
+			["CornerRadius"] = p_u_6.props.cornerRadius
+		})
+	end
+	v17.Corner = v18
+	v10.Checkbox = v12(v13, v14, v15(v16, v17))
+	return v7(v8, v9, v10)
+end
+return v5

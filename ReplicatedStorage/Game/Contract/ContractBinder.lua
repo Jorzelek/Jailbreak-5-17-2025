@@ -1,0 +1,9 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMKBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlA1N0ZAZCaW5kZXIDbmV3CENvbnRyYWN0BnNjcmlwdAZQYXJlbnQAAQgAAAECAByjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAwChBgAAAE0CA38HAAAAnwECAk0CAe8IAAAAbwMJAKQEBQAAAEBApAcLAAAAoEBNBgckDAAAAE0FBmAJAAAAnwQCAJ8CAACCAgAADQMBBAAAAEADAgMDAwQEAABAQAMFAwYDBwMIAwkEAACgQAMKAAEAARgAAQAAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAAAAAQAAAAAAjdNXRRGkYa+/Fz3RnU2kbq8bOipzPj71cbmqEOyzVEGp2IGQKIwhfQ==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Std.Binder).new("Contract", require(script.Parent.Contract))

@@ -1,0 +1,31 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMTCGNhdGVnb3J5EG1pc3NpbmcgY2F0ZWdvcnkGYXNzZXJ0BG5hbWUMbWlzc2luZyBuYW1lBXBhaXJzE3NldENhdGVnb3J5RXF1aXBwZWQIZXF1aXBwZWQQbWlzc2luZyBlcXVpcHBlZA5zZXRFcXVpcHBlZFJhdwRnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQVSb2R1eAZHYXJhZ2UMR2FyYWdlQ29uc3RzDWNyZWF0ZVJlZHVjZXIUc2V0Q2F0ZWdvcnlJdGVtT3duZWQAAwgCAAAAAChNBAFrAAAAAEcEAgAAAACAqQMAAakDAQCBAQMEAQAAAG8EAQCkAgMAAAAgQJ8CAwFNBAFaBAAAAEcEAgAAAACAqQMAAakDAQCBAQMEBQAAAG8EBQCkAgMAAAAgQJ8CAwH/AgAAAAAAAKQDBwAAAGBAUgQAAJ8DAgQXAwEAagcCBm4D/v8CAAAATQMBawAAAABNBAFaBAAAAGoEAgOCAgIACAMBAwIDAwQAACBAAwQDBQMGBAAAYEAABwcBGAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAQAAAAAB/wADAAAAAAEIAAAAAAUCAAAAAAtNAwEuAAAAAIEBAwQBAAAAbwQBAKQCAwAAACBAnwIDAU0CAS4AAAAAggICAAQDCAMJAwMEAAAgQAAVCgEYAAAAAAAAAAABAAAWAAAAAAgAAAECACKjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAgCnBgAAAJ8BAgKkAgUAAABAQE0EACgHAAAATQMEuQgAAACfAgICwAMJAE0EAdYKAAAA/wUAAAAAAADiBg4AMAMGPwsAAAAwAwY4DAAAAMAHDwAwBwbfDQAAAJ8EAwCCBAAAEAMLBAAAAEADDAMNAw4EAABAQAMPAxADEQYAAxIDBwMTAwoFAwsMDQYBAgABAQABGAABAAAAAAABAAAAAAIAAAAAAAACCgAAAAABAAIAAQAA/AABAAAAAAJr2K8hJubBT1kcxbU2pqdIVD/EHa3JRalRabBBavhTD2XI2rj3Dd3n
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v2 = require(v1.Rodux)
+require(v1.Garage.GarageConsts)
+local function v10(p3, p4)
+	local v5 = p4.category ~= nil
+	assert(v5, "missing category")
+	local v6 = p4.name ~= nil
+	assert(v6, "missing name")
+	local v7 = {}
+	for v8, v9 in pairs(p3) do
+		v7[v8] = v9
+	end
+	v7[p4.category] = p4.name
+	return v7
+end
+return v2.createReducer({}, {
+	["setCategoryEquipped"] = v10,
+	["setCategoryItemOwned"] = v10,
+	["setEquippedRaw"] = function(_, p11)
+		local v12 = p11.equipped
+		assert(v12, "missing equipped")
+		return p11.equipped
+	end
+})

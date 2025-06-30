@@ -1,0 +1,27 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMVBG5hbWUFdGl0bGUQZ2V0Q2F0ZWdvcnlUaXRsZQZwYWNrZXQObWlzc2luZyBQYWNrZXQGYXNzZXJ0FEdldENhdGVnb3JpZXNCeU1vZGVsA21hcBVzZXRMb2NhbFZlaGljbGVQYWNrZXQEZ2FtZRFSZXBsaWNhdGVkU3RvcmFnZQpHZXRTZXJ2aWNlB3JlcXVpcmUDU3RkClRhYmxlVXRpbHMGR2FyYWdlFkdhcmFnZVRyYW5zbGF0aW9uVXRpbHMFUm9kdXgER2FtZQtWZWhpY2xlQ29uZg1jcmVhdGVSZWR1Y2VyAAMEAQEAAAAL4gECADAAAVoAAAAA+wMAAE0CA54DAAAAUgMAAJ8CAgIwAgGaAQAAAIIBAgAEAwEDAgUCAAEDAwANAAEYAAEAAQAAAAAAAAAOAAAAAAYCAwAAABpNBAF0AAAAAEcEAgAAAACAqQMAAakDAQCBAQMEAQAAAG8EAQCkAgMAAAAgQJ8CAwH7AwAATQIDNwQAAABNAwF0AAAAAJ8CAgL7BAEATQMEkAUAAABSBAIAwAUGABICAgCfAwMAggMAAAcDBAMFAwYEAAAgQAMHAwgGAAEACgkBGAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAAAAAACwAAAAAJAAABAgAwowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBBQAAAEBATQMAoQYAAABNAgMYBwAAAJ8BAgKkAgUAAABAQE0EACgIAAAATQMElgkAAACfAgICpAMFAAAAQEBNBACnCgAAAJ8DAgKkBAUAAABAQE0HAL0LAAAATQYHKAgAAABNBQZnDAAAAJ8EAgJNBQPWDQAAAP8GAAAAAAAA4gcPAMAIEAASAAQAEgABABIAAgAwCAezDgAAAJ8FAwCCBQAAEQMKBAAAAEADCwMMAw0EAABAQAMOAw8DEAMRAxIDEwMUAxUDCQUBDgYBAQEBAAEYAAEAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAACAAAAAAAAAAACAAAAAAEAAAAAAP8AAQAAAAACVKA9FoeI3FxmZFeC+3KGxJ3DMPJDiI9uGrgQgytSaiHgqIccDfxgkg==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Std.TableUtils)
+local v_u_3 = require(v1.Garage.GarageTranslationUtils)
+local v4 = require(v1.Rodux)
+local v_u_5 = require(v1.Game.Garage.VehicleConf)
+return v4.createReducer({}, {
+	["setLocalVehiclePacket"] = function(_, p6)
+		-- upvalues: (copy) v_u_5, (copy) v_u_2, (copy) v_u_3
+		local v7 = p6.packet ~= nil
+		assert(v7, "missing Packet")
+		local v8 = v_u_5.GetCategoriesByModel(p6.packet)
+		return v_u_2.map(v8, function(p9)
+			-- upvalues: (ref) v_u_3
+			return {
+				["name"] = p9,
+				["title"] = v_u_3.getCategoryTitle(p9)
+			}
+		end)
+	end
+})

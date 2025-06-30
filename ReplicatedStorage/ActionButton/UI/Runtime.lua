@@ -1,0 +1,297 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgOBARFfaW5wdXRUeXBlUHJlc3NlZARFbnVtDVVzZXJJbnB1dFR5cGUFVG91Y2gMTW91c2VCdXR0b24xDXRvdWNoSXNUb2dnbGUIR2FtZXBhZDEPZ2FtZXBhZElzVG9nZ2xlCGlzVG9nZ2xlD19mZXRjaElucHV0VHlwZQtfZmV0Y2hTdGF0ZQ9fdXBkYXRlVmlld1R5cGUDbmV3BV9tYWlkFExhc3RJbnB1dFR5cGVDaGFuZ2VkB0Nvbm5lY3QIR2l2ZVRhc2sNdHJpZ2dlclVwZGF0ZQl3b3Jrc3BhY2UNQ3VycmVudENhbWVyYQxWaWV3cG9ydFNpemUYR2V0UHJvcGVydHlDaGFuZ2VkU2lnbmFsBGluaXQXc2hvdWxkSGF2ZVRvdWNoQ29udHJvbHMNaXNTbWFsbFNjcmVlbg10b3VjaENvbnRyb2xzCHNldFN0YXRlEEdldExhc3RJbnB1dFR5cGUIS2V5Ym9hcmQJaW5wdXRUeXBlAl9pCCVzXyVkXyVzCV9ncm91cEtleQdwcmVzc2VkBmZvcm1hdAVzdGF0ZQhfcHJlc3NlZApvblJlbGVhc2VkDHJlbGVhc2VTdGF0ZQJvcwVjbG9jawlfbGFzdFVzZWQVdXBkYXRlUHJvZ3Jlc3NCaW5kaW5nCHVzZUV2ZXJ5CHByb2dyZXNzCW9uUHJlc3NlZAZ0eXBlb2YHYm9vbGVhbnNvblByZXNzZWQgbXVzdCByZXR1cm4gYSBib29sZWFuIGlzIHRoZXJlIGlzIGFsc28gYSB1c2VFdmVyeSBzbyB0aGF0IHVzZUV2ZXJ5IGtub3dzIHdoZXRoZXIgdG8gc2V0IGl0IGFzIHVzZWQgb3Igbm90BmFzc2VydAlIZWFydGJlYXQEdGFzawVkZWxheQ5yZW1vdmVQcm9ncmVzcwpwcmVzc1N0YXRlBWltYWdlB2tleUNvZGUGYnV0dG9uDmdldEJlc3RLZXlDb2RlCGtleUNvZGVzBE5vbmUPcHJvZ3Jlc3NCaW5kaW5nDWNyZWF0ZUJpbmRpbmcNX3JlbGVhc2VTdGF0ZQtfcHJlc3NTdGF0ZRFfZmV0Y2hTdGF0ZUJ1dHRvbgZpcGFpcnMGYWN0aXZlDGdldERhdGFJbm5lcgpjb3VudElubmVyBWlubmVyDGdldERhdGFPdXRlcgpjb3VudE91dGVyBW91dGVyCHByaW9yaXR5B0tleUNvZGUHQnV0dG9uQQhCdXR0b25SMw5TZWxlY3RlZE9iamVjdAhkaXNhYmxlZAV0YWJsZRhrZXlDb2RlcyB3YXMgbm90IGEgdGFibGUEZmluZAZpbnNlcnQEc29ydA9fa2V5Q29kZVByZXNzZWQQYWxsb3dQYXNzVGhyb3VnaApJbnB1dEJlZ2FuCklucHV0RW5kZWQIZGlkTW91bnQQX2NvcHlTdGF0ZUJ1dHRvbgdlbmFibGVkBXByb3BzEURFQlVHX2ZvcmNlUmFkaWFsBVVEaW0yBW1lcmdlC2FuY2hvclBvaW50BHNpemUIcG9zaXRpb24FY29sb3IHVmVjdG9yMgxncmlkUG9zaXRpb24GcmVuZGVyB0Rlc3Ryb3kLd2lsbFVubW91bnQEZ2FtZRBVc2VySW5wdXRTZXJ2aWNlCkdldFNlcnZpY2URUmVwbGljYXRlZFN0b3JhZ2UHcmVxdWlyZQVSb2FjdApHdWlTZXJ2aWNlClJ1blNlcnZpY2UERXpVaQpEaWN0aW9uYXJ5BVV0aWxzDWNyZWF0ZUVsZW1lbnQDU3RkBE1haWQGc2NyaXB0BlBhcmVudApJbnB1dFV0aWxzBlJhZGlhbARHcmlkE0FjdGlvbkJ1dHRvblNlcnZpY2UNUHVyZUNvbXBvbmVudAdSdW50aW1lBmV4dGVuZAxkZWZhdWx0UHJvcHMAFQMBAAAAABpNAQDkAAAAAKQCBAADCBDA8QEFAAIAAACkAgYABQgQwJoBBgACAAAATQIA+QcAAAAOAgIAqQIBAIICAgCkAgkACAgQwJoBBgACAAAATQIAcQoAAAAOAgIAqQIBAIICAgCpAgAAggICAAsDAQMCAwMDBAQDCBDAAwUEBQgQwAMGAwcECAgQwAMIABMJARgAAAIAAAAAAAAAAQAAAgACAAAAAAAAAQACABQAAAAAAgABAAAACfsAAAC8AAARAAAAAJ8AAgH7AAAAvAAAqAEAAACfAAIBggABAAIDCgMLACgAARgAAAAAAQAAAAEpAAAAAAIAAQAAAAX7AAAAvAAAqAAAAACfAAIBggABAAEDCwAtAAEYAAAAAAEuAAAAAAIAAQAAAAX7AAAAvAAAgQAAAACfAAIBggABAAEDDAAwAAEYAAAAAAExAAAAAAYBAwAAADz7AgAATQEC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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("UserInputService")
+local v2 = game:GetService("ReplicatedStorage")
+local v_u_3 = require(v2.Roact)
+local v_u_4 = game:GetService("GuiService")
+local v_u_5 = game:GetService("RunService")
+local v_u_6 = require(v2.EzUi.Dictionary)
+local v_u_7 = require(v2.EzUi.Utils)
+local v_u_8 = v_u_3.createElement
+local v_u_9 = require(v2.Std.Maid)
+local v_u_10 = require(script.Parent.InputUtils)
+local v_u_11 = require(script.Parent.Radial)
+local v_u_12 = require(script.Parent.Grid)
+local v_u_13 = require(script.Parent.Parent.ActionButtonService)
+local v14 = v_u_3.PureComponent:extend("Runtime")
+v14.defaultProps = {
+	["gridPosition"] = UDim2.new(1, -10, 1, -70)
+}
+function v14.init(p_u_15)
+	-- upvalues: (copy) v_u_9, (copy) v_u_1, (copy) v_u_13
+	p_u_15._maid = v_u_9.new()
+	p_u_15:_fetchInputType()
+	p_u_15._maid:GiveTask(v_u_1.LastInputTypeChanged:Connect(function()
+		-- upvalues: (copy) p_u_15
+		p_u_15:_fetchInputType()
+		p_u_15:_fetchState()
+	end))
+	p_u_15:_fetchState()
+	p_u_15._maid:GiveTask(v_u_13.triggerUpdate:Connect(function()
+		-- upvalues: (copy) p_u_15
+		p_u_15:_fetchState()
+	end))
+	p_u_15._maid:GiveTask(workspace.CurrentCamera:GetPropertyChangedSignal("ViewportSize"):Connect(function()
+		-- upvalues: (copy) p_u_15
+		p_u_15:_updateViewType()
+	end))
+	p_u_15:_updateViewType()
+end
+function v14._updateViewType(p16)
+	-- upvalues: (copy) v_u_7
+	p16:setState({
+		["touchControls"] = v_u_7.shouldHaveTouchControls(),
+		["isSmallScreen"] = v_u_7.isSmallScreen()
+	})
+end
+function v14._fetchInputType(p17)
+	-- upvalues: (copy) v_u_1
+	local v18 = v_u_1:GetLastInputType()
+	if v18 == Enum.UserInputType.Gamepad1 or (v18 == Enum.UserInputType.Keyboard or v18 == Enum.UserInputType.Touch) then
+		p17:setState({
+			["inputType"] = v18
+		})
+	end
+end
+function v14._fetchStateButton(p_u_19, p20, p_u_21, p22, p23)
+	-- upvalues: (copy) v_u_10, (copy) v_u_3, (copy) v_u_5
+	local v24 = ("%s_%d_%s"):format(p22, p23, "onReleased")
+	local v25 = ("%s_%d_%s"):format(p22, p23, "onPressed")
+	local v26 = ("%s_%d_%s"):format(p22, p23, "image")
+	local v27 = ("%s_%d_%s"):format(p22, p23, "keyCode")
+	local v28 = ("%s_%d_%s"):format(p22, p23, "button")
+	p20[v27] = v_u_10.getBestKeyCode(p_u_21.keyCodes, p_u_19.state.inputType) or v_u_3.None
+	if p_u_21.useEvery and not p_u_21.progressBinding then
+		local v29, v30 = v_u_3.createBinding(0)
+		p_u_21.progressBinding = v29
+		p_u_21.updateProgressBinding = v30
+	end
+	local function v34(...)
+		-- upvalues: (copy) p_u_21, (copy) p_u_19
+		local v31 = p_u_21
+		local v32 = v31._inputTypePressed
+		if (v32 == Enum.UserInputType.Touch or v32 == Enum.UserInputType.MouseButton1) and v31.touchIsToggle and true or (v32 == Enum.UserInputType.Gamepad1 and v31.gamepadIsToggle and true or false) then
+			return
+		elseif p_u_21._i then
+			local v33 = ("%s_%d_%s"):format(p_u_21._groupKey, p_u_21._i, "pressed")
+			if p_u_19.state[v33] then
+				p_u_19:setState({
+					[v33] = false
+				})
+				p_u_21._pressed = false
+				if p_u_21.onReleased then
+					p_u_21.onReleased(...)
+				end
+			end
+		end
+	end
+	p20[v24] = v34
+	p_u_21._releaseState = v34
+	local function v42(...)
+		-- upvalues: (copy) p_u_21, (copy) p_u_19, (ref) v_u_5
+		local v35 = ("%s_%d_%s"):format(p_u_21._groupKey, p_u_21._i, "pressed")
+		local v36 = p_u_21
+		local v37 = v36._inputTypePressed
+		local v38 = (v37 ~= Enum.UserInputType.Touch and v37 ~= Enum.UserInputType.MouseButton1 or not v36.touchIsToggle) and (v37 ~= Enum.UserInputType.Gamepad1 or not v36.gamepadIsToggle) and true or not p_u_19.state[v35]
+		if (p_u_19.state[v35] and true or false) ~= v38 then
+			p_u_19:setState({
+				[v35] = v38
+			})
+			p_u_21._pressed = v38
+			if v38 then
+				if p_u_21.useEvery and (p_u_21._lastUsed and os.clock() - p_u_21._lastUsed < p_u_21.useEvery) then
+					return
+				end
+				if p_u_21.onPressed then
+					local v39 = p_u_21.onPressed(...)
+					if p_u_21.useEvery then
+						local v40 = typeof(v39) == "boolean"
+						assert(v40, "onPressed must return a boolean is there is also a useEvery so that useEvery knows whether to set it as used or not")
+					end
+					if v39 == false then
+						return
+					end
+				end
+				if p_u_21.useEvery then
+					p_u_21._lastUsed = os.clock()
+					p_u_21._maid.progress = v_u_5.Heartbeat:Connect(function()
+						-- upvalues: (ref) p_u_21
+						local v41 = os.clock() - p_u_21._lastUsed
+						p_u_21.updateProgressBinding(v41 / p_u_21.useEvery)
+					end)
+					p_u_21._maid.removeProgress = task.delay(p_u_21.useEvery, function()
+						-- upvalues: (ref) p_u_21
+						p_u_21._maid.progress = nil
+						p_u_21.updateProgressBinding(0)
+					end)
+					return
+				end
+			elseif p_u_21.onReleased then
+				p_u_21.onReleased(...)
+			end
+		end
+	end
+	p20[v25] = v42
+	p_u_21._pressState = v42
+	p20[v26] = p_u_21.image or v_u_3.None
+	p20[v28] = p_u_21
+	local v43 = ("%s_%d_%s"):format(p22, p23, "pressed")
+	if p_u_21._pressed then
+		p20[v43] = true
+	else
+		p20[v43] = false
+	end
+	p_u_21._groupKey = p22
+	p_u_21._i = p23
+end
+function v14._fetchState(p44)
+	-- upvalues: (copy) v_u_13, (copy) v_u_9
+	for _, v45 in ipairs(v_u_13.active) do
+		v45._groupKey = nil
+		v45._i = nil
+		v45._releaseState = nil
+		v45._pressState = nil
+		if not v45._maid then
+			v45._maid = v_u_9.new()
+		end
+	end
+	local v46 = {}
+	local v47 = v_u_13.getDataInner()
+	v46.countInner = #v47
+	for v48, v49 in ipairs(v47) do
+		p44:_fetchStateButton(v46, v49, "inner", v48)
+	end
+	local v50 = v_u_13.getDataOuter()
+	v46.countOuter = #v50
+	for v51, v52 in ipairs(v50) do
+		p44:_fetchStateButton(v46, v52, "outer", v51)
+	end
+	p44:setState(v46)
+end
+function v14.didMount(p53)
+	-- upvalues: (copy) v_u_1, (copy) v_u_4, (copy) v_u_13
+	p53._maid:GiveTask(v_u_1.InputBegan:Connect(function(p54, p55)
+		-- upvalues: (ref) v_u_4, (ref) v_u_13
+		if p55 then
+			if p54.KeyCode ~= Enum.KeyCode.ButtonA and p54.KeyCode ~= Enum.KeyCode.ButtonR3 then
+				return
+			end
+			if p54.KeyCode == Enum.KeyCode.ButtonA and v_u_4.SelectedObject then
+				return
+			end
+		end
+		if p54.UserInputType == Enum.UserInputType.Keyboard or p54.UserInputType == Enum.UserInputType.Gamepad1 then
+			local v56 = p54.KeyCode
+			local v57 = {}
+			for _, v58 in ipairs(v_u_13.active) do
+				if not v58.disabled and v58.keyCodes then
+					local v59 = v58.keyCodes
+					local v60 = typeof(v59) == "table"
+					assert(v60, "keyCodes was not a table")
+					if table.find(v58.keyCodes, v56) then
+						table.insert(v57, v58)
+					end
+				end
+			end
+			if #v57 == 0 then
+				return
+			end
+			table.sort(v57, function(p61, p62)
+				return (p61.priority or 1) > (p62.priority or 1)
+			end)
+			for v63 = 1, #v57 do
+				local v64 = v57[v63]
+				v64._keyCodePressed = v56
+				v64._inputTypePressed = p54.UserInputType
+				if v64._pressState then
+					v64._pressState(p54.UserInputType)
+				end
+				if not v64.allowPassThrough then
+					break
+				end
+			end
+		end
+	end))
+	p53._maid:GiveTask(v_u_1.InputEnded:Connect(function(p65)
+		-- upvalues: (ref) v_u_13
+		if p65.UserInputType == Enum.UserInputType.Keyboard or p65.UserInputType == Enum.UserInputType.Gamepad1 then
+			local v66 = p65.KeyCode
+			for _, v67 in ipairs(v_u_13.active) do
+				if v67._keyCodePressed == v66 then
+					v67._keyCodePressed = nil
+					if v67._releaseState then
+						v67._releaseState(p65.UserInputType)
+					end
+				end
+			end
+		end
+	end))
+end
+function v14._copyStateButton(p68, p69, p70, p71)
+	local v72 = ("%s_%d_%s"):format(p70, p71, "onReleased")
+	local v73 = ("%s_%d_%s"):format(p70, p71, "onPressed")
+	local v74 = ("%s_%d_%s"):format(p70, p71, "image")
+	local v75 = ("%s_%d_%s"):format(p70, p71, "pressed")
+	local v76 = ("%s_%d_%s"):format(p70, p71, "keyCode")
+	local v77 = ("%s_%d_%s"):format(p70, p71, "button")
+	p69[v72] = p68.state[v72]
+	p69[v73] = p68.state[v73]
+	p69[v74] = p68.state[v74]
+	p69[v75] = p68.state[v75]
+	p69[v76] = p68.state[v76]
+	p69[v77] = p68.state[v77]
+end
+function v14.render(p78)
+	-- upvalues: (copy) v_u_13, (copy) v_u_8, (copy) v_u_11, (copy) v_u_6, (copy) v_u_12
+	if not v_u_13.enabled then
+		return nil
+	end
+	local v79 = {}
+	if p78.state.countInner then
+		for v80 = 1, p78.state.countInner do
+			p78:_copyStateButton(v79, "inner", v80)
+		end
+	end
+	if p78.state.countOuter then
+		for v81 = 1, p78.state.countOuter do
+			p78:_copyStateButton(v79, "outer", v81)
+		end
+	end
+	if not (p78.props.DEBUG_forceRadial or p78.state.touchControls) then
+		return v_u_8(v_u_12, v_u_6.merge({
+			["anchorPoint"] = Vector2.new(1, 1),
+			["size"] = UDim2.new(0.07, 0, 0.5, 0),
+			["position"] = p78.props.gridPosition,
+			["countInner"] = p78.state.countInner,
+			["countOuter"] = p78.state.countOuter,
+			["enabled"] = p78.props.enabled,
+			["color"] = p78.props.color
+		}, v79))
+	end
+	local v82, v83
+	if p78.state.isSmallScreen then
+		v82 = UDim2.new(0.6, 0, 0.6, 0)
+		v83 = UDim2.new(1, 10, 1, -10)
+	else
+		v82 = UDim2.new(0.4, 0, 0.4, 0)
+		v83 = UDim2.new(1, 10, 1, 10)
+	end
+	return v_u_8(v_u_11, v_u_6.merge({
+		["anchorPoint"] = Vector2.new(1, 1),
+		["size"] = v82,
+		["position"] = v83,
+		["countInner"] = p78.state.countInner,
+		["countOuter"] = p78.state.countOuter,
+		["enabled"] = p78.props.enabled,
+		["color"] = p78.props.color
+	}, v79))
+end
+function v14.willUnmount(p84)
+	p84._maid:Destroy()
+end
+return v14

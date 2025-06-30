@@ -1,0 +1,51 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+game:GetService("MarketplaceService")
+local v_u_1 = game:GetService("Players")
+local v_u_2 = game:GetService("ReplicatedStorage")
+local v_u_3 = require(v_u_2.App.store)
+require(v_u_2.Game.Gamepass.GamepassSystem)
+require(v_u_2.Game.Gamepass.GamepassUtils)
+local v_u_4 = require(v_u_2.Std.BaseObject)
+local v5 = require(v_u_2.Std.Binder)
+local v_u_6 = require(v_u_2.Std.Interval)
+local v_u_7 = require(v_u_2.Std.Region.RegionUtils)
+local v8 = require(v_u_2.Trade.TradeConsts)
+local v_u_9 = {}
+v_u_9.__index = v_u_9
+setmetatable(v_u_9, v_u_4)
+function v_u_9.new(p10)
+	-- upvalues: (copy) v_u_4, (copy) v_u_9, (copy) v_u_7, (copy) v_u_2, (copy) v_u_6, (copy) v_u_1, (copy) v_u_3
+	local v11 = v_u_4.new(p10)
+	local v12 = v_u_9
+	setmetatable(v11, v12)
+	local v_u_13 = v_u_7.getPrism(p10.CFrame, p10.Size)
+	p10.Parent = v_u_2
+	local v_u_14 = false
+	v11.maid:GiveTask(v_u_6.every(0.1):Connect(function()
+		-- upvalues: (ref) v_u_1, (ref) v_u_7, (copy) v_u_13, (ref) v_u_14, (ref) v_u_3
+		local v15 = v_u_1.LocalPlayer.Character
+		if v15 then
+			local v16 = v15:FindFirstChild("HumanoidRootPart")
+			if v16 then
+				local v17 = v_u_7.CastPoint(v_u_13, v16.Position)
+				if v17 ~= v_u_14 then
+					v_u_14 = v17
+					v_u_3:dispatch({
+						["type"] = "setOtherTradeServerListVisible",
+						["value"] = v17
+					})
+				end
+			end
+		else
+			return
+		end
+	end))
+	return v11
+end
+return v5.new(v8.OTHER_TRADE_SERVER_LIST_REGION_TAG_NAME, v_u_9)

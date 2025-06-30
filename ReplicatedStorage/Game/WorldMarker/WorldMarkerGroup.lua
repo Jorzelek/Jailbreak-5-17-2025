@@ -1,0 +1,49 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMUDHNldG1ldGF0YWJsZRBfbGlzdFdvcmxkTWFya2VyCF9lbmFibGVkA25ldwpTZXRFbmFibGVkBXRhYmxlBmluc2VydANBZGQEZmluZDtSZW1vdmluZyB3b3JsZE1hcmtlciB0aGF0IGRvZXNuJ3QgZXhpc3QgaW4gX2xpc3RXb3JsZE1hcmtlcgZhc3NlcnQGcmVtb3ZlBlJlbW92ZQZVcGRhdGUqZGVzdHJveWVkL25pbCB3b3JsZE1hcmtlciBpcyBiZWluZyBVcGRhdGVkBmlwYWlycwZHZXRBbGwHX19pbmRleBBXb3JsZE1hcmtlckdyb3VwC19fQ2xhc3NOYW1lAAcEAAEAAAAR/wACAAAAAAD7AwAAnj0ABAMAAABSAgAApAEBAAAAAECfAQMB/wEAAAAAAAAwAQDUAgAAAKkBAQAwAQCrAwAAAIIAAgAEAwEEAAAAQAMCAwMABQQBGAAAAQAAAAAAAAIAAAABAAACBgAAAAAFAgAAAAAOTQQAqwAAAAC8AgGeAQAAAJ8CAwFNAwDUAgAAAJ40AwQBAAAAUgQBAKQCBQAAEDCAnwIDAYIAAQAGAwMDBQMCAwYDBwQAEDCAAA4IARgAAAAAAAEAAAAAAAAAAQ8AAAAABgIAAAAAFKQCAgAABACATQMA1AMAAABSBAEAnwIDAoEBAgUEAAAAUgQCAG8FBACkAwYAAABQQJ8DAwGkAwgAABwAgE0EANQDAAAAUgUCAJ8DAwGCAAEACQMGAwkEAAQAgAMCAwoDCwQAAFBAAwwEABwAgAASDQEYAAAAAAAAAQAAAAAAAAEAAAAAAAETAAAAAAgBAAAAABpNAQCrAAAAACsBAQCCAAEATQQA1AEAAAAcAwQAjAEBAIwC//+oAQ8ATQUA1AEAAACHBAUDTQYEJgIAAACBAQYEAwAAAG8HAwCkBQUAAABAQJ8FAwG8BQQmAgAAAJ8FAgGLAfH/ggABAAYDAwMCAw4DDwMLBAAAQEAAFw4BGAAAAAECAAAAAAABAAABAAAAAAAAAAEAAP0FGAAAAAAKAgAAAAAPMAEAqwAAAACkAgIAAAAQQE0DANQDAAAAnwICBFECBABSCQEAvAcGngQAAACfBwMBbgL7/wIAAICCAAEABQMDAxAEAAAQQAMCAwUAIQUBGAAAAQAAAAAAAQAAAP8AAyIAAAAAAgEAAAAAA00BANQAAAAAggECAAEDAgAnEQEYAAAAKAAAAAACAAABAgAcowAAAP8ABAAAAAAAMAAAbgAAAABvAQEAMAEA5QIAAADAAQMAEgAAADABAO8EAAAAwAEFADABAF8GAAAAwAEHADABAGkIAAAAwAEJADABACYKAAAAwAELADABAJ4MAAAAwAENADABANAOAAAAggACAA8DEgMTAxQGAAMEBgEDCAYCAw0GAwMOBgQDBQYFAxEGAAECAwQFAQABGAABAAEAAQAAAQAAAAkAAAQAAAUAAAoAAAYAAAQBAAAAAAY6PZx6GEK3uwj59u69AjufNBNQqYx99GqYqvRE9dOOZFtNnVHvMSjl
+
+-- Decompiled by Krnl
+
+local v_u_1 = {}
+v_u_1.__index = v_u_1
+v_u_1.__ClassName = "WorldMarkerGroup"
+function v_u_1.new()
+	-- upvalues: (copy) v_u_1
+	local v2 = {}
+	local v3 = v_u_1
+	setmetatable(v2, v3)
+	v2._listWorldMarker = {}
+	v2._enabled = true
+	return v2
+end
+function v_u_1.Add(p4, p5)
+	p5:SetEnabled(p4._enabled)
+	local v6 = p4._listWorldMarker
+	table.insert(v6, p5)
+end
+function v_u_1.Remove(p7, p8)
+	local v9 = table.find(p7._listWorldMarker, p8)
+	assert(v9, "Removing worldMarker that doesn\'t exist in _listWorldMarker")
+	table.remove(p7._listWorldMarker, v9)
+end
+function v_u_1.Update(p10)
+	if p10._enabled then
+		for v11 = #p10._listWorldMarker, 1, -1 do
+			local v12 = p10._listWorldMarker[v11]
+			local v13 = v12.Update
+			assert(v13, "destroyed/nil worldMarker is being Updated")
+			v12:Update()
+		end
+	end
+end
+function v_u_1.SetEnabled(p14, p15)
+	p14._enabled = p15
+	for _, v16 in ipairs(p14._listWorldMarker) do
+		v16:SetEnabled(p15)
+	end
+end
+function v_u_1.GetAll(p17)
+	return p17._listWorldMarker
+end
+return v_u_1

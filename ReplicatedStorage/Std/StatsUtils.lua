@@ -1,0 +1,111 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ServerStorage")
+local v_u_2 = require(v1.Trade.confidenceToZMap)
+local v_u_48 = {
+	["getZSstarFromConfidence"] = function(p3)
+		-- upvalues: (copy) v_u_2
+		if v_u_2[p3] then
+			return v_u_2[p3]
+		end
+		warn("No z value for confidence", p3)
+		local v4 = (1 / 0)
+		local v5 = nil
+		for v6, v7 in pairs(v_u_2) do
+			local v8 = p3 - v6
+			local v9 = math.abs(v8)
+			if v9 < v4 then
+				v5 = v7
+				v4 = v9
+			end
+		end
+		return v5
+	end,
+	["getMeanStdDevFromConfidenceInterval"] = function(p10, p11, p12)
+		-- upvalues: (copy) v_u_48
+		local v13 = p10 <= p11
+		assert(v13, "Invalid bounds given")
+		if p10 == p11 then
+			return p10, 0
+		end
+		local v14
+		if p12 then
+			if p12 >= 0 then
+				v14 = p12 <= 1
+			else
+				v14 = false
+			end
+		else
+			v14 = p12
+		end
+		assert(v14, "Invalid confidence, must be 0 to 1")
+		local v15 = (p10 + p11) / 2
+		local v16 = v_u_48.getZSstarFromConfidence(p12)
+		local v17 = (p11 - v15) / v16
+		local v18 = (v15 - p10) / v16
+		local v19 = v17 == v18
+		local v20 = "Inequal stdDevs " .. v17 .. " " .. v18
+		assert(v19, v20)
+		return v15, v17
+	end,
+	["factorial"] = function(p21)
+		local v22 = 1
+		for v23 = 2, p21 do
+			v22 = v22 * v23
+		end
+		return v22
+	end,
+	["normalCDFTaylorApprox"] = function(p24, p25, p26)
+		-- upvalues: (copy) v_u_48
+		local v27 = p25 > 0
+		assert(v27, "Invalid stdDev")
+		local v28 = (p26 - p24) / p25
+		if v28 > 5 then
+			return 1
+		end
+		if v28 < -5 then
+			return 0
+		end
+		local v29 = 0
+		for v30 = 0, 100 do
+			local v31 = (-1) ^ v30 * v28 ^ (2 * v30 + 1)
+			local v32 = 2 ^ v30 * v_u_48.factorial(v30) * (2 * v30 + 1)
+			local v33 = v31 / v32
+			if v31 ~= v31 or (v32 ~= v32 or (v33 ~= v33 or v33 == (1 / 0))) then
+				break
+			end
+			v29 = v29 + v33
+		end
+		local v34 = v29 * 0.3989422804014327 + 0.5
+		local v35
+		if v34 >= 0 then
+			v35 = v34 <= 1
+		else
+			v35 = false
+		end
+		local v36 = "Invalid normalCDF result, check normalCDFTaylorApprox function " .. v34
+		assert(v35, v36)
+		return v34
+	end,
+	["sampleNormalDistribution"] = function(p37, p38)
+		local v39 = math.random()
+		local v40 = math.random()
+		local v41 = math.log(v39) * -2
+		local v42 = math.sqrt(v41)
+		local v43 = 6.283185307179586 * v40
+		return p37 + p38 * (v42 * math.cos(v43))
+	end,
+	["sampleExponentialDistribution"] = function(p44)
+		local v45 = p44 >= 0
+		assert(v45, "Invalid mean given")
+		local v46 = 1 / p44
+		local v47 = math.random()
+		return -1 / v46 * math.log(v47)
+	end
+}
+return v_u_48

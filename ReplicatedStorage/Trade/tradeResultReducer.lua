@@ -1,0 +1,13 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMIBXZhbHVlDnNldFRyYWRlUmVzdWx0BGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlBVJvZHV4DWNyZWF0ZVJlZHVjZXIAAgMCAAAAAANNAgHMAAAAAIICAgABAwEABgIBGAAAAAcAAAAABgAAAQIAFaMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0CAKcGAAAAnwECAk0CAdYHAAAAxgMAAOIECQDABQoAMAUELggAAACfAgMAggIAAAsDAwQAAABAAwQDBQMGBAAAQEADBwMIAwIFAQgGAAEAAQABGAABAAAAAAABAAAAAAIAAAABAAD/AAEAAAAAAZlSroZUHiU9q5bEEuJTLKmSwo24+OIuJcGecXE+97WkD0qnP0N5JNU=
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Rodux).createReducer(nil, {
+	["setTradeResult"] = function(_, p2)
+		return p2.value
+	end
+})

@@ -1,0 +1,67 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Rodux).createReducer({}, {
+	["addReceiptItem"] = function(p2, p3)
+		local v4 = p3.name ~= nil
+		assert(v4, "missing receipt item Name")
+		local v5 = p3.title ~= nil
+		assert(v5, "missing receipt item Title")
+		local v6 = p3.category ~= nil
+		assert(v6, "missing receipt item Category")
+		local v7 = p3.categoryTitle ~= nil
+		assert(v7, "missing receipt item CategoryTitle")
+		local v8 = {}
+		for v9 = 1, #p2 do
+			local v10 = p2[v9]
+			if v10.category ~= p3.category then
+				table.insert(v8, v10)
+			end
+		end
+		local v11 = {}
+		for v12, v13 in pairs(p3) do
+			if v12 ~= "type" then
+				v11[v12] = v13
+			end
+		end
+		table.insert(v8, v11)
+		return v8
+	end,
+	["removeReceiptItem"] = function(p14, p15)
+		local v16 = p15.name ~= nil
+		assert(v16, "missing receipt item Name")
+		local v17 = p15.category ~= nil
+		assert(v17, "missing receipt item Category")
+		local v18 = {}
+		for v19 = 1, #p14 do
+			local v20 = p14[v19]
+			if v20.name ~= p15.name or v20.category ~= p15.category then
+				table.insert(v18, v20)
+			end
+		end
+		return v18
+	end,
+	["removeReceiptCategory"] = function(p21, p22)
+		local v23 = p22.category ~= nil
+		assert(v23, "missing receipt item Category")
+		local v24 = {}
+		for v25 = 1, #p21 do
+			local v26 = p21[v25]
+			if v26.category ~= p22.category then
+				table.insert(v24, v26)
+			end
+		end
+		return v24
+	end,
+	["clearReceipt"] = function()
+		return {}
+	end,
+	["setPage"] = function()
+		return {}
+	end
+})

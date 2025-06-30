@@ -1,0 +1,37 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMSBmV4cGVjdAJ0bwVlcXVhbAVGcmFtZQNmb28BYQFiBXRocm93B3JlcXVpcmUGc2NyaXB0BlBhcmVudA1jcmVhdGVFbGVtZW50CG9uZUNoaWxkAml0JXNob3VsZCBnZXQgemVybyBjaGlsZHJlbiBmcm9tIGEgdGFibGUcc2hvdWxkIGdldCBleGFjdGx5IG9uZSBjaGlsZCVzaG91bGQgZXJyb3Igd2l0aCBtb3JlIHRoYW4gb25lIGNoaWxkHnNob3VsZCBoYW5kbGUgYmVpbmcgcGFzc2VkIG5pbAAHBgABAAAAD/8AAAAAAAAApAMBAAAAAED7BAAAUgUAAJ8EAgCfAwACTQIDkgIAAABNAQJ7AwAAAMYCAACfAQIBggABAAQDAQQAAABAAwIDAwAGAAEYAAACAAAAAAAAAAAAAAABBwAAAAAHAAIAAAAT+wAAAG8BAACfAAIC4gECADAAAQ8BAAAApAQEAAAAMED7BQEAUgYBAJ8FAgCfBAACTQMEkgUAAABNAgN7BgAAAFIDAACfAgIBggABAAcDBAMFBQEBAwEEAAAwQAMCAwMADAABGAAAAAEBAAMAAAAAAAAAAAAAAAENAAAAAAIAAgAAAAT7AAAA+wEBAJ8AAgGCAAEAAAAbAAEYAAAAARwAAAAABQACAAAAF+IAAgD7AQAAbwIDAJ8BAgIwAQCAAAAAAPsBAABvAgMAnwECAjABAIMBAAAApAMFAAAAQEDZBAAAEgIBABIAAACfAwICTQIDkgYAAABNAQLbBwAAAJ8BAQGCAAEACAMGAwcFAgABAwQDAQQAAEBAAwIDCAECFQABGAABAAAAAAEAAAAAAwAAAAAAAgAAAAABFgAAAAAFAAEAAAANpAIBAAAAAED7AwAAxgQAAJ8DAgCfAgACTQECkgIAAABNAAF7AwAAAMYBAACfAAIBggABAAQDAQQAAABAAwIDAwAgAAEYAAAAAAAAAAAAAAAAASEAAAAABQAAAAAALaQAAQAAAABApAMDAAAAIEBNAgMkBAAAAE0BAsoFAAAAnwACAqQBAQAAAABApAQDAAAAIEBNAwQkBAAAAE0CAwYGAAAAnwECAqQCCAAAAHBAbwMJANkEAAASAAEAnwIDAaQCCAAAAHBAbwMKANkEAQASAAAAEgABAJ8CAwGkAggAAABwQG8DCwDZBAIAEgAAABIAAQCfAgMBpAIIAAAAcEBvAwwA2QQDABIAAQCfAgMBggABAA0DCQQAAABAAwoEAAAgQAMLAwwDDQMOBAAAcEADDwMQAxEDEgQAAQMEAQABGAAAAAAAAAAAAAIAAAAAAAAAAAIAAAAAAAYAAAAAAAAJAAAAAAAACwAAAAAAAwIAAAAAAQAAAQIAA6MAAADAAAAAggACAAEGBQEFAQABGAAAAAEAAAAABlSMhUl8JDH4Zkjv3ZnopnH2ixUVoeUgkm6YCSkqh3qHZyd6MA9W0uk=
+
+-- Decompiled by Krnl
+
+return function()
+	local v_u_1 = require(script.Parent.createElement)
+	local v_u_2 = require(script.Parent.oneChild)
+	it("should get zero children from a table", function()
+		-- upvalues: (copy) v_u_2
+		expect(v_u_2({})).to.equal(nil)
+	end)
+	it("should get exactly one child", function()
+		-- upvalues: (copy) v_u_1, (copy) v_u_2
+		local v3 = v_u_1("Frame")
+		expect(v_u_2({
+			["foo"] = v3
+		})).to.equal(v3)
+	end)
+	it("should error with more than one child", function()
+		-- upvalues: (copy) v_u_1, (copy) v_u_2
+		local v_u_4 = {
+			["a"] = v_u_1("Frame"),
+			["b"] = v_u_1("Frame")
+		}
+		expect(function()
+			-- upvalues: (ref) v_u_2, (copy) v_u_4
+			v_u_2(v_u_4)
+		end).to.throw()
+	end)
+	it("should handle being passed nil", function()
+		-- upvalues: (copy) v_u_2
+		expect(v_u_2(nil)).to.equal(nil)
+	end)
+end

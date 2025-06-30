@@ -1,0 +1,154 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgM8BWNvdW50DW1heFN3ZWVwQW5nbGULY2VudGVyQW5nbGUMYW5nbGVCZXR3ZWVuBG1hdGgFZmxvb3IEY2VpbANtaW4FaGVhdnkGY2VudGVyD2NhbGN1bGF0ZVJhZGlhbAVVRGltMgNuZXcFcHJvcHMLX21ha2VCdXR0b24RYnV0dG9uUmFkaXVzT3V0ZXILcmFkaXVzT3V0ZXIKY291bnRPdXRlchJtYXhTd2VlcEFuZ2xlT3V0ZXIRYW5nbGVCZXR3ZWVuT3V0ZXILcmFkaXVzSW5uZXIRYnV0dG9uUmFkaXVzSW5uZXIKY291bnRJbm5lchFhbmdsZUJldHdlZW5Jbm5lcgNzaW4DY29zBHNxcnQFb3V0ZXIFaW5uZXIFRnJhbWUHVmlzaWJsZRZCYWNrZ3JvdW5kVHJhbnNwYXJlbmN5BFNpemUIUG9zaXRpb24LQW5jaG9yUG9pbnQHZW5hYmxlZARzaXplCHBvc2l0aW9uC2FuY2hvclBvaW50BW1lcmdlC0FzcGVjdFJhdGlvBkNlbnRlchdVSUFzcGVjdFJhdGlvQ29uc3RyYWludAdWZWN0b3IyBnJlbmRlcgRnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQVSb2FjdA1jcmVhdGVFbGVtZW50BEV6VWkKRGljdGlvbmFyeQZzY3JpcHQGUGFyZW50Cm1ha2VCdXR0b24NUHVyZUNvbXBvbmVudAZSYWRpYWwGZXh0ZW5kDGRlZmF1bHRQcm9wcwAEFQIAAAAAVU0CABoAAAAATQQAlgIAAACQAwQBTQUARgQAAACQBAUDTQYA3gYAAACQBQYF7AcDBbsMBwKkBgkAACBwgJ8GAgLsCAEGuwcIAqQHCwAAKHCAnwcCAmAGCwACAAAACQwHBiYLDAImCgYLnhMGBAoAAABSCQYApAgNAAAwcICfCAMCUgIIAHgKAQ7PCQoGlQgJDk0JANcPAAAATQoAyhAAAABSCwIAIQwLEQ0MAgASAACAlQsLDlIMAgAhDQwRDQ0CABIAAIB4DAwODgoCAFINAgArDQQADgkCAFINCwArDQEAUg0MAHgRDQ4JEAURWw8QEyYOBA8OCQIAeBALDisQAQBSEAwAjBICAHgTCA4JERITJg8QEYwQAQBgDwMAEAAAADkQDwCVDxAOeBEH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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v2 = require(v1.Roact)
+local v_u_3 = v2.createElement
+local v_u_4 = require(v1.EzUi.Dictionary)
+local v_u_5 = require(script.Parent.makeButton)
+local function v_u_25(p6, p7)
+	local v8 = p6.count
+	local v9 = p6.maxSweepAngle or 3.141592653589793
+	local v10 = p6.centerAngle or -2.356194490192345
+	local v11 = p6.angleBetween or 0.59839860068377
+	local v12 = v9 / v11
+	local v13 = math.floor(v12)
+	local v14 = p7 / v13
+	local v15 = math.ceil(v14)
+	if v13 < v8 then
+		local v16 = v13 - (v15 * v13 - v8)
+		v8 = math.min(v13, v16)
+	end
+	local v17 = (p7 - 1) % v13 + 1
+	local v18 = p6.heavy
+	local v19 = p6.center
+	local v20
+	if v8 % 2 == 0 then
+		v20 = v8 + 1
+	else
+		v20 = v8
+	end
+	local v21
+	if v8 % 2 == 0 then
+		v21 = v8 - 1
+	else
+		v21 = v8
+	end
+	local v22 = v10 - v11 * ((v19 and v8 and v8 or (v18 and v20 and v20 or v21)) - 1) * 0.5
+	if v18 then
+		v21 = v20 - 1 or v21
+	end
+	local v23 = v21 - 2 * (v17 - 1)
+	if v23 < 1 then
+		v23 = -v23 + 1
+	end
+	local v24 = v23 + (v15 - 1) * v13
+	return v22 + v11 * (v17 - 1), v24, v15, v10
+end
+local v26 = v2.PureComponent:extend("Radial")
+v26.defaultProps = {
+	["enabled"] = true,
+	["size"] = UDim2.new(1, 0, 1, 0),
+	["countOuter"] = 5,
+	["buttonRadiusOuter"] = 0.1,
+	["radiusOuter"] = 0.4,
+	["angleBetweenOuter"] = 0.59839860068377,
+	["maxSweepAngleOuter"] = 4.1887902047863905,
+	["countInner"] = 2,
+	["buttonRadiusInner"] = 0.12,
+	["radiusInner"] = 0.58,
+	["angleBetweenInner"] = 0.48
+}
+function v26._makeButton(p27, p28, p29, p30, p31, p32, p33)
+	-- upvalues: (copy) v_u_5
+	local v34 = 100 - p29 + 500 * p30
+	local v35 = UDim2.new(p33 * 2, 0, p33 * 2, 0)
+	local v36 = UDim2.new(0.5 + p31, 0, 0.5 + p32, 0)
+	return v_u_5(p27.props, p28, p29, v34, v35, v36)
+end
+function v26.render(p37)
+	-- upvalues: (copy) v_u_25, (copy) v_u_3, (copy) v_u_4
+	local v38 = p37.props.buttonRadiusOuter
+	local v39 = p37.props.radiusOuter
+	local v40 = {
+		["count"] = p37.props.countOuter,
+		["maxSweepAngle"] = p37.props.maxSweepAngleOuter,
+		["angleBetween"] = p37.props.angleBetweenOuter,
+		["heavy"] = true,
+		["center"] = false
+	}
+	local v41 = p37.props.radiusInner
+	local v42 = p37.props.buttonRadiusInner
+	local v43 = {
+		["count"] = p37.props.countInner,
+		["angleBetween"] = p37.props.angleBetweenInner,
+		["heavy"] = true,
+		["center"] = true
+	}
+	local v44 = {}
+	for v45 = 1, v40.count do
+		local v46, v47, v48 = v_u_25(v40, v45)
+		local v49 = v46 + v40.angleBetween * ((v48 - 1) % 2) * 0.5
+		local v50 = 2 * v39
+		local v51 = v40.angleBetween / 2
+		local v52 = v50 * math.sin(v51) * 0.5 - v38
+		local v53 = v39
+		local v54 = v38
+		for _ = 1, v48 - 1 do
+			local v55 = 2 * v39
+			local v56 = v40.angleBetween / 2
+			local v57 = v55 * math.sin(v56)
+			local v58 = v40.angleBetween / 2
+			local v59 = v39 * (1 - math.cos(v58))
+			local v60 = (2 * v38 + 2 * v52) ^ 2 - (v57 / 2) ^ 2
+			v39 = v39 + (math.sqrt(v60) - v59)
+		end
+		local v61 = v39 * math.cos(v49)
+		local v62 = v39 * math.sin(v49)
+		if v47 == 1 then
+			v38 = v38 * 1.2
+		end
+		v44[v47] = p37:_makeButton("outer", v47, v48, v61, v62, v38)
+		v39 = v53
+		v38 = v54
+	end
+	local v63 = {}
+	for v64 = 1, v43.count do
+		local v65, v66, v67, v68 = v_u_25(v43, v64)
+		local v69 = v41 * math.cos(v65) - v41 * math.cos(v68)
+		local v70 = v41 * math.sin(v65) - v41 * math.sin(v68)
+		local v71
+		if v66 == 1 then
+			v71 = v42 * 1.2
+		else
+			v71 = v42
+		end
+		v63[v66] = p37:_makeButton("inner", v66, v67, v69, v70, v71)
+	end
+	local v72 = v_u_3
+	local v73 = {
+		["Visible"] = p37.props.enabled,
+		["BackgroundTransparency"] = 1,
+		["Size"] = p37.props.size,
+		["Position"] = p37.props.position,
+		["AnchorPoint"] = p37.props.anchorPoint
+	}
+	local v74 = v_u_4.merge
+	local v75 = {
+		["AspectRatio"] = v_u_3("UIAspectRatioConstraint", {
+			["AspectRatio"] = 1
+		}),
+		["Center"] = v_u_3("Frame", {
+			["Size"] = UDim2.new(1, 0, 1, 0),
+			["BackgroundTransparency"] = 1,
+			["AnchorPoint"] = Vector2.new(0.5, 0.5),
+			["Position"] = UDim2.new(0.5, 0, 0.5, 0)
+		}, v63)
+	}
+	return v72("Frame", v73, v74(v75, v44))
+end
+return v26

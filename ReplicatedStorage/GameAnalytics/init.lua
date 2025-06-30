@@ -1,0 +1,12 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMIBGdhbWUKUnVuU2VydmljZQpHZXRTZXJ2aWNlCElzU2VydmVyB3JlcXVpcmUGc2NyaXB0DUdhbWVBbmFseXRpY3MTR2FtZUFuYWx5dGljc0NsaWVudAABBQAAAQIAG6MAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwK8AQALBAAAAJ8BAgIOAQgApAIGAAAAUECkBAgAAABwQE0DBB0JAAAAnwICAIICAACkAgYAAABQQKQECAAAAHBATQMEtgoAAACfAgIAggIAAAsDAQQAAABAAwIDAwMEAwUEAABQQAMGBAAAcEADBwMIAAEAARgAAAAAAAAABgAAAwEAAAAAAAAAAgAAAAAAAAABAAAAAADkWyEN2javjdafS5n3wvKYKOF20ajANY37Cxgc9MORiLdkhz97DY2d
+
+-- Decompiled by Krnl
+
+if game:GetService("RunService"):IsServer() then
+	return require(script.GameAnalytics)
+else
+	return require(script.GameAnalyticsClient)
+end

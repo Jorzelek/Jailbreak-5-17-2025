@@ -1,0 +1,30 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMSCVRyYW5zZm9ybTBObyB2YWxpZCBnYW1lbW9kZSB3aXRoIHRoYXQgbmFtZSBjb3VsZCBiZSBmb3VuZC4IVmFsaWRhdGUMQXV0b2NvbXBsZXRlBVBhcnNlCGdhbWVtb2RlDFJlZ2lzdGVyVHlwZQRnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQpDbWRyQ2xpZW50BlNoYXJlZARVdGlsCEdhbWVNb2RlDUdhbWVNb2RlVXRpbHMQZ2V0R2FtZU1vZGVOYW1lcw9NYWtlRnV6enlGaW5kZXIABgMBAQAAAAT7AQAAUgIAAJ8BAgCCAQAAAAAKAQEYAAAAAAsAAAAABAEAAAAACBwCAACMAwAAtwMCAAIAAACpAQABqQEBAG8CAACCAQMAAQMCAA4DARgAAAAAAAAAAA8AAAAAAQEAAAAAAYIAAgAAABIEARgAEwAAAAACAQAAAAACEwEAAIIBAgAAABYFARgAABcAAAAABQEBAAAABm8DAAD7BAAAvAEA3QEAAACfAQQBggABAAIDBgMHABsAARgAAAAAAAEcAAAAAAcAAAECAC+jAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNBAAOBgAAAE0DBBIHAAAATQIDnggAAACfAQICpAIFAAAAQEBNBACbCQAAAE0DBMYKAAAAnwICAk0DAgELAAAAnwMBAk0EAT0MAAAAUgUDAJ8EAgLiBREAwAYSABIABAAwBgUhDQAAAMAGEwAwBgV2DgAAAMAGFAAwBgWrDwAAAMAGFQAwBgWbEAAAAMAGFgASAAUAggYCABcDCAQAAABAAwkDCgMLBAAAQEADDAMNAw4DDwMQAxEDEgMBAwMDBAMFBQQNDg8QBgAGAQYCBgMGBAUAAQIDBAEAARgAAQAAAAAAAQAAAAAAAAAAAQAAAAAAAAIAAAEAAAACAQAAAAQAAAQAAAQAAAUAAAEAAAAABV53RriKtw9ObLMsLLtWOXPBYTHqSs8F0dvL2ItDHYgFxq9hVgVUxvY=
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v2 = require(v1.CmdrClient.Shared.Util)
+local v3 = require(v1.GameMode.GameModeUtils).getGameModeNames()
+local v_u_4 = v2.MakeFuzzyFinder(v3)
+local v_u_9 = {
+	["Transform"] = function(p5)
+		-- upvalues: (copy) v_u_4
+		return v_u_4(p5)
+	end,
+	["Validate"] = function(p6)
+		return #p6 > 0, "No valid gamemode with that name could be found."
+	end,
+	["Autocomplete"] = function(p7)
+		return p7
+	end,
+	["Parse"] = function(p8)
+		return p8[1]
+	end
+}
+return function(p10)
+	-- upvalues: (copy) v_u_9
+	p10:RegisterType("gamemode", v_u_9)
+end

@@ -1,0 +1,11 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMJBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlA1N0ZApUYWJsZVV0aWxzGnJlcXVpcmVWYWxpZEluZGV4QW5kRnJlZXplEERST1BQRURfSVRFTV9UQUcISXRlbURyb3AAAQUAAAECABajAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAwChBgAAAE0CAxgHAAAAnwECAk0CAQAIAAAA4gMKAG8ECwAwBAM4CQAAAJ8CAgCCAgAADAMBBAAAAEADAgMDAwQEAABAQAMFAwYDBwMIBQEJAwkAAQABGAABAAAAAAABAAAAAAAAAQAAAQAA/wABAAAAAAAlsMgA1xEpXBd0opQpLBsJBLIg1DuQc2qoiGc2tNVOcHmPpcvjUz+W
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Std.TableUtils).requireValidIndexAndFreeze({
+	["DROPPED_ITEM_TAG"] = "ItemDrop"
+})

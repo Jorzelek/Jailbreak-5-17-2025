@@ -1,0 +1,371 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgOeAQtMb2NhbFBsYXllcglQbGF5ZXJHdWkLT2JqZWN0TG9jYWwGVm9sdW1lDXBsYXlSZWFkeURpbmcKdHJhZGVyVGhlbQZ1c2VySWQSX3RyYWRpbmdXaXRoVXNlcklkBHR5cGUWY2xlYXJUcmFkZUNoYXRNZXNzYWdlcwhkaXNwYXRjaApvZmZlckl0ZW1zAmlkBXRpdGxlFCByZW1vdmVkIGZyb20gdHJhZGUhC2Rpc3BsYXlOYW1lBHRleHQCbWUFY29sb3ITYWRkVHJhZGVDaGF0TWVzc2FnZQZTRVJWRVIGQ29sb3IzA25ldwpGaXJlU2VydmVyGmhhbmRsZVRyYWRlUmVxdWVzdHNFbmFibGVkBG5hbWUMZGVmYXVsdFZhbHVlBW9yZGVyF2FyZVRyYWRlUmVxdWVzdHNFbmFibGVkFEFsbG93IFRyYWRlIFJlcXVlc3RzCENoZWNrYm94A2FkZAhnZXRWYWx1ZQlvbkNoYW5nZWQHQ29ubmVjdAZTdGF0dXMERW51bRVUZXh0Q2hhdE1lc3NhZ2VTdGF0dXMHU3VjY2VzcwpUZXh0U291cmNlBFRleHQGVXNlcklkEUdldFBsYXllckJ5VXNlcklkC1RleHRDaGFubmVsBE5hbWUKUkJYR2VuZXJhbBRnZXRUcmFkaW5nV2l0aFVzZXJJZAtEaXNwbGF5TmFtZQppdGVtc093bmVkBnNvcnRJZBt0cmFkZUludmVudG9yeVNldEl0ZW1zT3duZWQGTmV3ZXN0DU9uQ2xpZW50RXZlbnQSaXRlbXNPd25lZE9mZmVyaW5nDnVwZGF0ZVRyYWRlck1lEHVwZGF0ZVRyYWRlclRoZW0FcmVhZHkIYWNjZXB0ZWQFcmVzZXQFdmFsdWUOc2V0VHJhZGVBY3RpdmUVQUNUSVZFX1RSQURFX09CSl9OQU1FDkZpbmRGaXJzdENoaWxkEG9ic2VydmVBdHRyaWJ1dGUSSVNfUkVBRFlfQVRUUl9OQU1FCEdpdmVUYXNrFUlTX0FDQ0VQVEVEX0FUVFJfTkFNRQdDaGFuZ2VkFldJVEhfVVNFUl9JRF9BVFRSX05BTUUGaXBhaXJzC0dldENoaWxkcmVuCHRvbnVtYmVyA29iagxpc1RyYWRpbmdWSVAaVFJBRElOR19WSVBfQVRUUklCVVRFX05BTUUMR2V0QXR0cmlidXRlBXRhYmxlBmluc2VydARsaXN0E3RyYWRlSW5pdGlhdGlvbnNTZXQRdXBkYXRlSW5pdGlhdGlvbnMKQ2hpbGRBZGRlZAxDaGlsZFJlbW92ZWQOc2V0VHJhZGVSZXN1bHQPVHJhZGUgQWNjZXB0ZWQhNkl0ZW1zIGhhdmUgYmVlbiBleGNoYW5nZWQgYmV0d2VlbiBib3RoIHBhcnRpZXMuIEVuam95IQltZURlY2xpbmUPVHJhZGUgRGVjbGluZWQhNVlvdSBiYWNrZWQgb3V0IG9mIHRoZSB0cmFkZS4gTm8gaXRlbXMgd2VyZSBleGNoYW5nZWQuC3RoZW1EZWNsaW5lQVRoZSBvdGhlciBwYXJ0eSBiYWNrZWQgb3V0IG9mIHRoZSB0cmFkZS4gTm8gaXRlbXMgd2VyZSBleGNoYW5nZWQuCmltYmFsYW5jZWQNVHJhZGUgRGVuaWVkIUJUcmFkZXMgd2l0aCBhbiB1bmZhaXIgYmFsYW5jZSBhcmUgZGVuaWVkLiBObyBpdGVtcyB3ZXJlIGV4Y2hhbmdlZC4MVHJhZGUgRmFpbGVkClRyeSBhZ2Fpbj8IdmJ4bTJjcTkHc3VjY2VzcwRib2R5BHRhc2sFZGVsYXkEaW5mbwxzZXRUcmFkZUluZm8Xc2V0UG9wdWxhclRyYWRlSXRlbURhdGEXc2V0T3RoZXJUcmFkZVNlcnZlckluZm8KYWxsUGxheWVycxNzZXRJbnZlbnRvcnlQbGF5ZXJzCkdldFBsYXllcnMNdXBkYXRlUGxheWVycwJlbRBpc1RyYWRpbmdFbmFibGVkB2NoYW5nZWQHY29ubmVjdCZBUkVfVFJBREVfUkVRVUVTVFNfRU5BQkxFRF9SRU1PVEVfTkFNRQdhbmRUaGVuEW9uTWVzc2FnZUluY29taW5nGFVQREFURV9PV05FRF9SRU1PVEVfTkFNRRtVUERBVEVfT0ZGRVJJTkdfUkVNT1RFX05BTUUXSU5JVElBVElPTlNfRk9MREVSX05BTUUbT0ZGRVJJTkdfUkVTVUxUX1JFTU9URV9OQU1FIFVQREFURV9PRkZFUklOR19JTkZPX1JFTU9URV9OQU1FI1BPUFVMQVJfVFJBREVfSVRFTV9EQVRBX1JFTU9URV9OQU1FI09USEVSX1RSQURFX1NFUlZFUl9EQVRBX1JFTU9URV9OQU1FC1BsYXllckFkZGVkBGluaXQIdG9zdHJpbmcVY2hlY2tBbHJlYWR5SW5pdGlhdGVkI0FDQ0VQVF9UUkFERV9JTklUSUFUSU9OX1JFTU9URV9OQU1FEGFjY2VwdEluaXRpYXRpb24hU0VORF9UUkFERV9JTklUSUFUSU9OX1JFTU9URV9OQU1FDFdhaXRGb3JDaGlsZA5zZW5kSW5pdGlhdGlvbgRnYW1lB1BsYXllcnMKR2V0U2VydmljZRFSZXBsaWNhdGVkU3RvcmFnZQdyZXF1aXJlBnNjcmlwdAZQYXJlbnQUVHJhZGVQb3B1bGFyU29ydERhdGEDQXBwCFJ1blV0aWxzA1N0ZAVBdWRpbwx3YWl0Rm9yQ2hpbGQPUnhJbnN0YW5jZVV0aWxzBVRyYWRlC1RyYWRlQ29uc3RzBkdhcmFnZQhFbnVtU29ydAxHYW1lU2V0dGluZ3MTR2FtZVNldHRpbmdzU2VydmljZQ9nYW1lU2V0dGluZ1R5cGUFc3RvcmUEQ2hhdAtDaGF0U2VydmljZQVEZWJ1Zwl0YWJsZTJMdWEAIwUAAgAAABX7AgAATQECMQAAAABNAAGZAQAAAA4ADgD7AQEATQAB0QIAAAD7AwAATQIDMQAAAABNAQKZAQAAAG8CAwDiAwUAbwQGADAEA0sEAAAAnwAEAYIAAQAHAwEDAgMDAgAAEMwNXAJCAwQFAQQCmpmZmZmZyT8AEQUBGAAAAAAAAAEAAAAAAAAAAAAAAAAAAhIAAAAAEgICAAAAVPsCAABNBAAtAAAAAE0DBIYBAAAAMAMCbwIAAABNAwAtAAAAAE0CA4YBAAAATQQBLQAAAABNAwSGAQAAAPECCQADAAAA+wIBAOIEBABvBQUAMAUEcQMAAAC8AgJMBgAAAJ8CAwFNAwEtAAAAAE0CA0AHAAAATQQALQAAAABNAwRABwAAAP8EAAAAAAAAUgUDAMYGAADGBwAAZAUEAE0KCfQIAAAAqQsBAGoLBApuBfv/AgAAAFIFAgDGBgAAxgcAAGQFIABNCwn0CAAAAIcKBAsrChwATQsJmgkAAABvDAoAcwoLDPsLAQDiDQ8Abw4QADAODXEDAAAAbw4RADAODXcLAAAAMAoN1QwAAACpDgAAMA4N0Q0AAACkDhQAAEwggYwPAQCMEAAAjBEAAJ8OBAIwDg1EDgAAALwLC0wGAAAAnwsDAW4F3/8CAAAAggABABUDBgMHAwgDCQUBAwMKAwsDDAMNAw4DDwMQAxEDEgMTBQUDCwwNDgMUAxUDFgMXBABMIIEAIgABGAAAAAAAAAABAAAAAAAAAAAAAQABAAD/AAAEAAAAAQAAAAEAAQAAAAEAAAD/AAQAAAABAAAAAQAAAAEAAQAAAQAAAQABAAABAAAAAAAAAPsAAP0ADCMAAAAABAEBAAAABvsBAABSAwAAvAEBawAAAACfAQMBggABAAEDGABIGQEYAAAAAAABSQAAAAAHAQIAAAAn4gEFAG8CBgAwAgFaAAAAAG8CBwAwAgGaAQAAAPsDAABNAgPwCAAAADACAXECAAAAqQIBADACAZYDAAAAjAIpADACAUQEAAAA+wMBAE0CA78JAAAAUgMBAJ8CAgHZAgAAEgAAALwDAdMKAAAAnwMCAlIGAwC8BABrCwAAAJ8EAwFNAwHyDAAAAFIFAgC8AwPHDQAAAJ8DAwGCAAEADgMaAw4DCQMbAxwFBQABAgMEAx0DHgMfAyADIQMYAyIDIwECPwABGAABAAABAAABAAAAAAEAAAEAAAIAAAAAAQADAAD+AAAAAwAAAAAAAUAAAAAADAIDAAAAQ00CAOwAAAAApAMEAAMIEMDxAgIAAwAAAIIAAQBNAgBUBQAAACsCAQCCAAEATQIB9QYAAABNBABUBQAAAE0DBOYHAAAA+wQAAFIGAwC8BARhCAAAAJ8EAwIrBAEAggABAE0GADEJAAAATQUGugoAAADwBQIACwAAAIIAAQD7BgEATQUG2AwAAACfBQECKwUBAIIAAQD7CAAATQcIMQ0AAADxBAIABwAAAKkGAAGpBgEA8QMCAAUAAACpBwABqQcBACsGAQAOBxAA+wgCAOIKEgBvCxMAMAsKcQ4AAABNCwRXFAAAADALCncPAAAAMAIK1RAAAAAwBgrREQAAALwICEwVAAAAnwgDAYIAAQAWAyQDJQMmAycEAwgQwAMoAykDKgMrAywDLQMuAy8DAQMJAxADEQMSBQQODxARAxQDMAMLAFEAARgAAAAAAAABAgAAAQIAAQAAAAEAAAAAAQEDAAAAAAABAgAAAAEBAgAAAAAAAAEAAAACAAEAAQAAAQAAAAEAAQD8AAAHUwAAAAAGAQIAAAAQ+wEAAOIDAwBvBAQAMAQDcQAAAAAwAAOlAQAAAPsFAQBNBAV3BQAAADAEA6YCAAAAvAEBTAYAAACfAQMBggABAAcDCQMxAzIFAwABAgMzAzQDCwB1AAEYAAABAAABAAEAAAAA/QAABXcAAAAABAECAAAACU0BAIwAAAAAwAMBABICAAASAgEAvAEBxwIAAACfAQMBggABAAMDNQYFAyMBBXQAARgAAAAAAAAAAAh1AAAAAAYCAQAAABcOAAsA+wIAAOIEAgBvBQMAMAUEcQAAAAAwAQRiAQAAALwCAkwEAAAAnwIDAYIAAQD7AgAA4gQCAG8FBQAwBQRxAAAAADABBGIBAAAAvAICTAQAAACfAgMBggABAAYDCQM2BQIAAQM3AwsDOACAAQABGAABAAEAAAEA/gAAAAUAAQAAAQD+AAAFgQAAAAAEAQEAAAAITQEAjAAAAADAAwEAEgIAALwBAccCAAAAnwEDAYIAAQADAzUGBwMjAQd/AAEYAAAAAAAAAA2AAAAAAAYBAwAAACD7AQAA4gMCAG8EAwAwBANxAAAAADAAA88BAAAAvAEBTAQAAACfAQMBDgAUAPsDAQBNAgMxBQAAAE0BApkGAAAADgEOAPsCAgBNAQLRBwAAAPsEAQBNAwQxBQAAAE0CA5kGAAAAbwMIAOIECgBvBQsAMAUESwkAAACfAQQBggABAAwDCQM5BQIAAQM3AwsDAQMCAwMCAAAQzA1cAkIDBAUBCQKamZmZmZnJPwCQAQABGH8AAQAAAQD+AAAEfQAAAAAAAQAAAAAAAAAAAAAAAACFEgAAAAAGAQMAAAAg+wEAAOIDAgBvBAMAMAQDcQAAAAAwAAM3AQAAALwBAUwEAAAAnwEDAQ4AFAD7AwEATQIDMQUAAABNAQKZBgAAAA4BDgD7AgIATQEC0QcAAAD7BAEATQMEMQUAAABNAgOZBgAAAG8DCADiBAoAbwULADAFBEsJAAAAnwEEAYIAAQAMAwkDOgUCAAEDNwMLAwEDAgMDAgAAEMwNXAJCAwQFAQkCmpmZmZmZyT8AmQEAARiIAAEAAAEA/gAABHQAAAAAAAEAAAAAAAAAAAAAAAAAjhIAAAAABwECAAAALg4AFwD7AQAA4gMDAG8EBAAwBANxAAAAAPsGAQBNBQYxBQAAAE0EBeYGAAAAMAQDhgEAAAD7BgEATQUGMQUAAABNBAVXBwAAADAEA3cCAAAAvAEBTAgAAACfAQMBZQALAPsBAADiAwoAbwQEADAEA3EAAAAAqQQBADAEA58JAAAAvAEBTAgAAACfAQMB+wEAAOIDDABvBA0AMAQDcQAAAAAwAAPMCwAAALwBAUwIAAAAnwEDAYIAAQAOAwkDBwMQBQMAAQIDNwMBAyoDMAMLAzsFAgAJAzwFAgALAz0AogEAARgAAQABAAABAAAAAAAAAQAAAAAAAP0AAAAGAAEAAAEAAP4AAAUAAQAAAQD+AAAEowAAAAAGAQMAAAAg+wEAAOIDAgBvBAMAMAQDcQAAAAAwAAPPAQAAALwBAUwEAAAAnwEDAQ4AFAD7AwEATQIDMQUAAABNAQKZBgAAAA4BDgD7AgIATQEC0QcAAAD7BAEATQMEMQUAAABNAgOZBgAAAG8DCADiBAoAbwULADAFBEsJAAAAnwEEAYIAAQAMAwkDOQUCAAEDOAMLAwEDAgMDAgAAEMwNXAJCAwQFAQkCmpmZmZmZyT8AwQEAARiwAAEAAAEA/gAABEwAAAAAAAEAAAAAAAAAAAAAAAAAthIAAAAABgEDAAAAIPsBAADiAwIAbwQDADAEA3EAAAAAMAADNwEAAAC8AQFMBAAAAJ8BAwEOABQA+wMBAE0CAzEFAAAATQECmQYAAAAOAQ4A+wICAE0BAtEHAAAA+wQBAE0DBDEFAAAATQIDmQYAAABvAwgA4gQKAG8FCwAwBQRLCQAAAJ8BBAGCAAEADAMJAzoFAgABAzgDCwMBAwIDAwIAABDMDVwCQgMEBQEJApqZmZmZmck/ANABAAEYvwABAAABAP4AAAQ9AAAAAAABAAAAAAAAAAAAAAAAAMUSAAAAAAQAAQAAAAz7AAAA4gICAG8DAwAwAwJxAAAAAKkDAQAwAwKfAQAAALwAAEwEAAAAnwADAYIAAQAFAwkDOwUCAAEDOAMLAOMBAAEYAAABAAABAAD+AAAE5AAAAAAKAgUAAABADgA5APsCAABSBAAAvAICYQAAAACfAgMCDgIzAPsGAQBNBQYmAQAAALwDAgMCAAAAnwMDAg4DHgD7BwIATQYHggMAAABSBwMA+wkBAE0ICd8EAAAAwAkFABICAwASAgAAEgIEAJ8GBAC8BAH9BgAAAJ8EAAH7BwIATQYHggMAAABSBwMA+wkBAE0ICf4HAAAAwAkIABICAwASAgAAEgIEAJ8GBAC8BAH9BgAAAJ8EAAH7BAMA4gYMAG8HDQAwBwZxCQAAADAABoYKAAAATQcCVw4AAAAwBwZ3CwAAALwEBEwPAAAAnwQDAcAEEAASAgMAvAIB/QYAAACfAgMBggABABEDKwM+Az8DQANBBgwDQgNDBg0DCQMHAxAFAwkKCwM4AzADCwYOAwwNDrcBAAEYAAEAAAAAAQEAAAAAAAECAAABAQAAAQAAAP3/AAAQAAABAQAAAQAAAP3/AAAQAAEAAAEAAQAAAP0AAAcAAAAABrgAAAAABQEFAAAAL/sCAABNAQKCAAAAAFICAAD7BAEATQME3wEAAADABAIAEgICABICAwASAgQAnwEEAfsCAABNAQKCAAAAAFICAAD7BAEATQME/gMAAADABAQAEgICABICAwASAgQAnwEEAU0BAIUFAAAAwAMGABICAgASAgMAvAEBxwcAAACfAQMB+wIAAE0BAoIAAAAAUgIAAPsEAQBNAwSSCAAAAMAECQASAgMAEgIBABICAAASAgIAEgIEAJ8BBAGCAAEACgNAA0EGCQNDBgoDRAYLAyMDRQYPBAkKCw+PAQABGAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAAEgAAAQEAAAEAAAAAAP03kAAAAAAPAAUAAABR/wAAAAAAAACkAQEAAAAAQPsCAAC8AgJoAgAAAJ8CAgCfAQAEUQE6AE0HBboDAAAAuz4HAqQGBQAAAEBAnwYCAg4GMwD7BwEAUgkGALwHB2EGAAAAnwcDAg4HLQDiCgsATQsH5gwAAAAwCwqGBwAAAE0LB1cNAAAAMAsKWggAAAAwBQoTCQAAAPsOAgBNDQ5qDgAAALwLBxIPAAAAnwsDAjALChsKAAAAnjQABAoAAABSCQAApAgSAABEAIGfCAMB+woBAE0JCjETAAAATQgJmRQAAAAOCA4A+wkDAE0ICdEVAAAA+wsBAE0KCzETAAAATQkKmRQAAABvChYA4gsYAG8MGQAwDAtLFwAAAJ8IBAFuAcX/AgAAgPsBBADiAxwAbwQdADAEA3EaAAAAMAADCxsAAAC8AQFMHgAAAJ8BAwGCAAEAHwNGBAAAAEADRwMtA0gEAABAQAMrAwcDGgNJA0oFBAcICQoDKgMwA0sDTANNA04EAEQAgQMBAwIDAwIAAKiB9jcCQgMEBQEXApqZmZmZmck/AwkDTwUCGhsDUAMLAO4BUQEYAAABAAAAAAAAAAEAAAAAAAEBAAAAAAEBAQAAAAEAAAABAAEAAAAAAAAAAAAA/AAABgAAAAAAAQAAAAAAAAAAAAAAAAD0ABEAAQAAAQD+AAAE7wAAAAAFAQQAAAAV2QEAABIAAAASAgAAEgIBABICAgASAgMAUgIBAJ8CAQFNAgBrAAAAAFIEAQC8AgLHAQAAAJ8CAwFNAgC9AgAAAFIEAQC8AgLHAQAAAJ8CAwGCAAEAAwNSAyMDUwER7QEAARgAAAAAAAAYAAIAAAAAAAEAAAAAAAHuAAAAAAQAAQAAAAz7AAAA4gICAG8DAwAwAwJxAAAAAMYDAAAwAwLMAQAAALwAAEwEAAAAnwADAYIAAQAFAwkDPAUCAAEDVAMLALYCAAEYAAABAAABAAD+AAAENwEAAAAJAQQAAABlxgEAAMYCAACpAwAATQQANwAAAAAOBAQAqQMBAG8BAQBvAgIAZQAUAE0EAEQDAAAADgQDAG8BBABvAgUAZQAOAE0EAP4GAAAADgQDAG8BBABvAgcAZQAIAE0EAJ0IAAAADgQDAG8BCQBvAgoAZQACAG8BCwBvAgwADgMaAPsGAABNBQYxDQAAAE0EBZkOAAAADgQOAPsFAQBNBAXRDwAAAPsHAABNBgcxDQAAAE0FBpkOAAAAbwYQAOIHEgBvCBMAMAgHSxEAAACfBAQB+wUCAE0EBQYUAAAAjAUMAJ8EAgFlABQA+wYAAE0FBjENAAAATQQFmQ4AAAAOBA4A+wUBAE0EBdEPAAAA+wcAAE0GBzENAAAATQUGmQ4AAABvBhUA4gcSAG8IEwAwCAdLEQAAAJ8EBAH7BAMA4gYYAG8HGQAwBwZxFgAAAOIHHQAwAwf6GgAAADABB5obAAAAMAIHRxwAAAAwBwbMFwAAALwEBEweAAAAnwQDAaQEIQAAgPCBjAUGAMAGIgASAgMAnwQDAYIAAQAjAzoDVQNWA1cDWANZA1oDWwNcA10DXgNfA2ADAQMCAwMCAACgpfY3AkIDBAUBEQIzMzMzMzPTPwNhAgAAkMD2NwJCAwkDPAUCFhcDVANiAw4DYwUDGhscAwsDZANlBACA8IEGEwETjQIAARgAAAEBAAABAQEAAQAAAQEAAQAAAQEAAQAAAQEAAgECAgAAAAAAAQAAAAAAAAAAAAAAAAACAAAAAAADAAAAAAABAAAAAAAAAAAAAAAAAAQAAQAAAQEAAQABAP0A/gAACAAAAAAABg4BAAAABAEEAAAAC00BAIwAAAAA2QMAABICAAASAgEAEgICABICAwC8AQHHAQAAAJ8BAwGCAAEAAgM1AyMBFIwCAAEYAAAAAAAAAAAAADANAQAAAAUBAQAAAAv7AQAA4gMCAG8EAwAwBANxAAAAADAAA5oBAAAAvAEBTAQAAACfAQMBggABAAUDCQNmBQIAAQNnAwsAwQIAARgAAAEAAAEA/gAABEIBAAAABAEBAAAACE0BAIwAAAAAwAMBABICAAC8AQHHAgAAAJ8BAwGCAAEAAwM1BhYDIwEWwAIAARgAAAAAAAAABkEBAAAAAwEBAAAABvsCAABNAQJqAAAAAFICAACfAQIBggABAAEDaADLAgABGAAAAAAAAUwBAAAABAEBAAAACE0BAIwAAAAAwAMBABICAAC8AQHHAgAAAJ8BAwGCAAEAAwM1BhgDIwEYygIAARgAAAAAAAAAA0sBAAAABQEBAAAAC/sBAADiAwIAbwQDADAEA3EAAAAAMAADzAEAAAC8AQFMBAAAAJ8BAwGCAAEABQMJAzwFAgABA2kDCwDTAgABGAAAAQAAAQD+AAAEVQEAAAAEAQEAAAAITQEAjAAAAADAAwEAEgIAALwBAccCAAAAnwEDAYIAAQADAzUGGgMjARrSAgABGAAAAAAAAAAHUwEAAAAFAAIAAAAP+wAAAOICAgBvAwMAMAMCcQAAAAD7AwEAvAMDqwQAAACfAwICMAMCdAEAAAC8AABMBQAAAJ8AAwGCAAEABgMJA2oFAgABA2sDbAMLAN0CbQEYAAABAAABAAAAAAD+AAAEXgEAAAAHAQ8AAACvAU0BAN8AAAAA3gEAAPsCAQBNAQLgAQAAAJ8BAQIrAQEAggABAPsCAgBNAQKlAgAAAMADAwASAgMAEgICALwBAecEAAAAnwEDAfsBBAD7AgUA+wQGAE0DBLUFAAAAnwEDAsADBgASAgcAEgIIALwBAbUHAAAAnwEDAfsCCQBNAQJ9CAAAAMADCQASAgoAEgIDABICAgC8AQHHCgAAAJ8BAwH7AQQA+wIFAPsEBgBNAwRfCwAAAJ8BAwLAAwwAEgICABICCwC8AQG1BwAAAJ8BAwH7AQQA+wIFAPsEBgBNAwRfDQAAAJ8BAwLAAw4AEgICALwBAbUHAAAAnwEDAfsBBAD7AwoATQIDMQ8AAAD7BAYATQMEJhAAAACfAQMCwAMRABICDAASAgYAEgICABICCgASAg0AvAEBtQcAAACfAQMB+wEEAPsDCgBNAgMxDwAAAPsEBgBNAwR9EgAAAJ8BAwLAAxMAEgIKABICBgASAg0AEgICALwBAbUHAAAAnwEDAfsBBAD7AgUA+wQGAE0DBCsUAAAAnwEDAtkDBwASAgoAEgINABICAAASAgIAvAEBtQcAAACfAQMB+wEEAPsCBQD7BAYATQMEoxUAAACfAQMCwAMWABICAgC8AQG1BwAAAJ8BAwH7AQQA+wIFAPsEBgBNAwRxFwAAAJ8BAwLAAxgAEgIOALwBAbUHAAAAnwEDAfsBBAD7AgUA+wQGAE0DBEcZAAAAnwEDAsADGgASAgIAvAEBtQcAAACfAQMBwAEbABICAgASAgoA+wICAOIEHgBvBR8AMAUEcRwAAAD7BQoAvAUFqyAAAACfBQICMAUEdB0AAAC8AgJMIQAAAJ8CAwH7AwoATQIDKCIAAABSBAEAvAICxwoAAACfAgMB+wMKAE0CA70jAAAAUgQBALwCAscKAAAAnwIDAYIAAQAkA24DbwNwBgEDcQNyBgMDcwN0BgQDIwN1BgYDdgYIAwEDPgYQA3cGEgN4A3kGFwN6BhkDewYbBhwDCQNqBQIcHQNrA2wDCwN8A1MMAQMEBggQEhUXGRscG30BBgAAAAEAAAAAAQMAAAAAAAAAABwAAAAAAAEAAP8AABMAAAAAAAAAAAAjAAAAAAAAAAAAAAALAAAAAAAAAAAAABCOAAAAAAAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAMwAAAAAAAQD/AAAKAAAAAAABRv8AAAgAAAAAAAEA/wAADAAAAQABAAABAAAAAAD+AAAGAAAAAAAAAQAAAAAAAAEdAAAAcgAAALoAAAAABwIBAAAAFPsFAABNBAV9AAAAALwCAQMBAAAAnwIDAk0GAOYCAAAAuz8GAqQFBAAAADBAnwUCArwDAgMBAAAAnwMDAg4DAgCpBAEAggQCAKkEAACCBAIABQN3Az8DKgN+BAAAMEAA6AJ/ARgAAAAAAAABAAAAAAAAAAABAQACAGkBAAAABQECAAAADPsBAAD7BAEATQME3QAAAAC8AQEDAQAAAJ8BAwJSBAAAvAIBawIAAACfAgMBggABAAMDgAEDPwMYAPACgQEBGAAAAAAAAAABAAAAAXEBAAAABQECAAAADPsBAAD7BAEATQMExgAAAAC8AQHTAQAAAJ8BAwJSBAAAvAIBawIAAACfAgMBggABAAMDggEDgwEDGAD0AoQBARgAAAAAAAAAAQAAAAF1AQAAAAIAAQAAAAT7AQAATQABbwAAAACCAAIAAQMIAPgCLwEYAAAAAHkBAAAAEgAAAQIAlAGjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEBAAAAAEBvAwQAvAEBFgMAAACfAQMCpAIGAAAAUECkBQgAAABwQE0EBSQJAAAATQMEpAoAAACfAgICpAMGAAAAUEBNBQHBCwAAAE0EBUIMAAAAnwMCAqQEBgAAAFBATQYBoQ0AAABNBQbSDgAAAJ8EAgKkBQYAAABQQE0HAaENAAAATQYH8w8AAACfBQICpAYGAAAAUEBNCAGhDQAAAE0HCFIQAAAAnwYCAqQHBgAAAFBATQkBuxEAAABNCAmREgAAAJ8HAgKkCAYAAABQQE0KASgTAAAATQkKHBQAAACfCAICpAkGAAAAUEBNCwGuFQAAAE0KC7MWAAAAnwkCAqQKBgAAAFBATQwBrhUAAABNCwwTFwAAAJ8KAgKkCwYAAABQQE0NAcELAAAATQwNfhgAAACfCwICpAwGAAAAUEBNDgHHGQAAAE0NDtoaAAAAnwwCAqQNBgAAAFBATRABoQ0AAABNDxByGwAAAE0OD1QcAAAAnw0CAsAOHQASAAAAEgAEAP8PBAAAAAAAxhAAADAQD28eAAAAxhAAANkRAQASARD/EgADABIACwASAA8AEgAFABIAAQASAAcAEgAKABIACQASAAwAEgAAABIACAASAAYAEgAEABIAAgAwEQ8THwAAAMARIAASAAcAMBEP4CEAAADAESIAEgABABIABwAwEQ+lIwAAAMARJAASAAEAEgAHADARD2clAAAAwBEmABIADwAwEQ/YJwAAAMEQAACCDwIAKAOFAQQAAABAA4YBA4cBA4gBA4kBBAAAUEADigEEAABwQAOLAQOMAQONAQOOAQOPAQOQAQORAQOSAQOTAQOUAQOVAQOWAQOXAQOYAQOZAQOaAQObAQOcAQOdAQOeAQYAAwgDfQYeA38GHwOBAQYgA4QBBiEDLwYAHR4fICEBAAEHAAEAAAAAAAEAAAAAAAEAAAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAACAAAGAAEAAAIBAAAAAAAAAAAAAAAAAAAAAADmAAAACAAAAAAEAAAAAAQAAAADAAEAAABnAQAAACL4JYl3s1QXxsrh4+M7iwy+i5RdNhOtU4gvkUvzwWjRAQcaSeytWzb8
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("Players")
+local v_u_2 = game:GetService("ReplicatedStorage")
+local v_u_3 = require(script.Parent.TradePopularSortData)
+local v_u_4 = require(v_u_2.App.RunUtils)
+local v_u_5 = require(v_u_2.Std.Audio)
+local v_u_6 = require(v_u_2.Std.waitForChild)
+local v_u_7 = require(v_u_2.Std.RxInstanceUtils)
+local v_u_8 = require(v_u_2.Trade.TradeConsts)
+local v_u_9 = require(v_u_2.Garage.EnumSort)
+local v_u_10 = require(v_u_2.GameSettings.GameSettingsService)
+local v_u_11 = require(v_u_2.GameSettings.gameSettingType)
+local v_u_12 = require(v_u_2.App.store)
+local v_u_13 = require(v_u_2.Chat.ChatService)
+require(v_u_2.Std.Debug.table2Lua)
+local v_u_14 = {
+	["_tradingWithUserId"] = nil
+}
+local v_u_15 = nil
+function v_u_14.init(p16)
+	-- upvalues: (ref) v_u_15, (copy) v_u_4, (copy) v_u_12, (copy) v_u_14, (copy) v_u_6, (copy) v_u_2, (copy) v_u_8, (copy) v_u_11, (copy) v_u_10, (copy) v_u_13, (copy) v_u_1, (copy) v_u_9, (copy) v_u_7, (copy) v_u_5, (copy) v_u_3
+	v_u_15 = p16.em
+	if v_u_4.isTradingEnabled() then
+		v_u_12.changed:connect(function(p17, p18)
+			-- upvalues: (ref) v_u_14, (ref) v_u_12
+			v_u_14._tradingWithUserId = p17.traderThem.userId
+			if p17.traderThem.userId ~= p18.traderThem.userId then
+				v_u_12:dispatch({
+					["type"] = "clearTradeChatMessages"
+				})
+			end
+			local v19 = p18.traderThem.offerItems
+			local v20 = {}
+			for _, v21 in p17.traderThem.offerItems do
+				v20[v21.id] = true
+			end
+			for _, v22 in v19 do
+				if not v20[v22.id] then
+					v_u_12:dispatch({
+						["type"] = "addTradeChatMessage",
+						["displayName"] = "SERVER",
+						["text"] = v22.title .. " removed from trade!",
+						["me"] = false,
+						["color"] = Color3.new(1, 0, 0)
+					})
+				end
+			end
+		end)
+		v_u_6(v_u_2, v_u_8.ARE_TRADE_REQUESTS_ENABLED_REMOTE_NAME):andThen(function(p_u_23)
+			-- upvalues: (ref) v_u_11, (ref) v_u_10
+			local v24 = {
+				["name"] = "areTradeRequestsEnabled",
+				["title"] = "Allow Trade Requests",
+				["type"] = v_u_11.Checkbox,
+				["defaultValue"] = true,
+				["order"] = 41
+			}
+			v_u_10.add(v24)
+			p_u_23:FireServer((v24:getValue()))
+			v24.onChanged:Connect(function(p25)
+				-- upvalues: (copy) p_u_23
+				p_u_23:FireServer(p25)
+			end)
+		end)
+		v_u_13.onMessageIncoming:Connect(function(p26, p27)
+			-- upvalues: (ref) v_u_1, (ref) v_u_14, (ref) v_u_12
+			if p26.Status == Enum.TextChatMessageStatus.Success then
+				if p26.TextSource then
+					local v28 = p27.Text
+					local v29 = p26.TextSource.UserId
+					local v30 = v_u_1:GetPlayerByUserId(v29)
+					if v30 then
+						if p26.TextChannel.Name == "RBXGeneral" then
+							local v31 = v_u_14.getTradingWithUserId()
+							if v31 then
+								local v32 = v30 == v_u_1.LocalPlayer
+								if v32 or v29 == v31 then
+									v_u_12:dispatch({
+										["type"] = "addTradeChatMessage",
+										["displayName"] = v30.DisplayName,
+										["text"] = v28,
+										["me"] = v32
+									})
+								end
+							end
+						else
+							return
+						end
+					else
+						return
+					end
+				else
+					return
+				end
+			else
+				return
+			end
+		end)
+		v_u_6(v_u_2, v_u_8.UPDATE_OWNED_REMOTE_NAME):andThen(function(p33)
+			-- upvalues: (ref) v_u_12, (ref) v_u_9
+			p33.OnClientEvent:Connect(function(p34)
+				-- upvalues: (ref) v_u_12, (ref) v_u_9
+				v_u_12:dispatch({
+					["type"] = "tradeInventorySetItemsOwned",
+					["itemsOwned"] = p34,
+					["sortId"] = v_u_9.Newest
+				})
+			end)
+		end)
+		v_u_6(v_u_2, v_u_8.UPDATE_OFFERING_REMOTE_NAME):andThen(function(p35)
+			-- upvalues: (ref) v_u_12
+			p35.OnClientEvent:Connect(function(p36, p37)
+				-- upvalues: (ref) v_u_12
+				if p36 then
+					v_u_12:dispatch({
+						["type"] = "updateTraderMe",
+						["itemsOwnedOffering"] = p37
+					})
+				else
+					v_u_12:dispatch({
+						["type"] = "updateTraderThem",
+						["itemsOwnedOffering"] = p37
+					})
+				end
+			end)
+		end)
+		v_u_6(v_u_1.LocalPlayer, v_u_8.ACTIVE_TRADE_OBJ_NAME):andThen(function(p38)
+			-- upvalues: (ref) v_u_7, (ref) v_u_8, (ref) v_u_12, (ref) v_u_1, (ref) v_u_5
+			v_u_7.observeAttribute(p38, v_u_8.IS_READY_ATTR_NAME, function(p39)
+				-- upvalues: (ref) v_u_12, (ref) v_u_1, (ref) v_u_5
+				v_u_12:dispatch({
+					["type"] = "updateTraderMe",
+					["ready"] = p39
+				})
+				if p39 and v_u_1.LocalPlayer.PlayerGui then
+					v_u_5.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 9856727426, {
+						["Volume"] = 0.2
+					})
+				end
+			end)
+			v_u_7.observeAttribute(p38, v_u_8.IS_ACCEPTED_ATTR_NAME, function(p40)
+				-- upvalues: (ref) v_u_12, (ref) v_u_1, (ref) v_u_5
+				v_u_12:dispatch({
+					["type"] = "updateTraderMe",
+					["accepted"] = p40
+				})
+				if p40 and v_u_1.LocalPlayer.PlayerGui then
+					v_u_5.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 9856727426, {
+						["Volume"] = 0.2
+					})
+				end
+			end)
+			p38.Changed:Connect(function(p41)
+				-- upvalues: (ref) v_u_12, (ref) v_u_1
+				if p41 then
+					v_u_12:dispatch({
+						["type"] = "updateTraderMe",
+						["userId"] = v_u_1.LocalPlayer.UserId,
+						["displayName"] = v_u_1.LocalPlayer.DisplayName
+					})
+				else
+					v_u_12:dispatch({
+						["type"] = "updateTraderMe",
+						["reset"] = true
+					})
+				end
+				v_u_12:dispatch({
+					["type"] = "setTradeActive",
+					["value"] = p41
+				})
+			end)
+			v_u_7.observeAttribute(p38, v_u_8.WITH_USER_ID_ATTR_NAME, function(p42, p43)
+				-- upvalues: (ref) v_u_1, (ref) v_u_8, (ref) v_u_7, (ref) v_u_12, (ref) v_u_5
+				local v44 = p42 and v_u_1:GetPlayerByUserId(p42)
+				if v44 then
+					local v45 = v44:FindFirstChild(v_u_8.ACTIVE_TRADE_OBJ_NAME)
+					if v45 then
+						p43:GiveTask(v_u_7.observeAttribute(v45, v_u_8.IS_READY_ATTR_NAME, function(p46)
+							-- upvalues: (ref) v_u_12, (ref) v_u_1, (ref) v_u_5
+							v_u_12:dispatch({
+								["type"] = "updateTraderThem",
+								["ready"] = p46
+							})
+							if p46 and v_u_1.LocalPlayer.PlayerGui then
+								v_u_5.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 9856727426, {
+									["Volume"] = 0.2
+								})
+							end
+						end))
+						p43:GiveTask(v_u_7.observeAttribute(v45, v_u_8.IS_ACCEPTED_ATTR_NAME, function(p47)
+							-- upvalues: (ref) v_u_12, (ref) v_u_1, (ref) v_u_5
+							v_u_12:dispatch({
+								["type"] = "updateTraderThem",
+								["accepted"] = p47
+							})
+							if p47 and v_u_1.LocalPlayer.PlayerGui then
+								v_u_5.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 9856727426, {
+									["Volume"] = 0.2
+								})
+							end
+						end))
+					end
+					v_u_12:dispatch({
+						["type"] = "updateTraderThem",
+						["userId"] = p42,
+						["displayName"] = v44.DisplayName
+					})
+				end
+				p43:GiveTask(function()
+					-- upvalues: (ref) v_u_12
+					v_u_12:dispatch({
+						["type"] = "updateTraderThem",
+						["reset"] = true
+					})
+				end)
+			end)
+		end)
+		v_u_6(v_u_1.LocalPlayer, v_u_8.INITIATIONS_FOLDER_NAME):andThen(function(p_u_48)
+			-- upvalues: (ref) v_u_1, (ref) v_u_8, (ref) v_u_5, (ref) v_u_12
+			local function v55()
+				-- upvalues: (copy) p_u_48, (ref) v_u_1, (ref) v_u_8, (ref) v_u_5, (ref) v_u_12
+				local v49 = {}
+				for _, v50 in ipairs(p_u_48:GetChildren()) do
+					local v51 = v50.Name
+					local v52 = tonumber(v51)
+					if v52 then
+						local v53 = v_u_1:GetPlayerByUserId(v52)
+						if v53 then
+							local v54 = {
+								["userId"] = v53.UserId,
+								["name"] = v53.DisplayName,
+								["obj"] = v50,
+								["isTradingVIP"] = v53:GetAttribute(v_u_8.TRADING_VIP_ATTRIBUTE_NAME)
+							}
+							table.insert(v49, v54)
+							if v_u_1.LocalPlayer.PlayerGui then
+								v_u_5.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 9781039157, {
+									["Volume"] = 0.2
+								})
+							end
+						end
+					end
+				end
+				v_u_12:dispatch({
+					["type"] = "tradeInitiationsSet",
+					["list"] = v49
+				})
+			end
+			v55()
+			p_u_48.ChildAdded:Connect(v55)
+			p_u_48.ChildRemoved:Connect(v55)
+		end)
+		v_u_6(v_u_2, v_u_8.OFFERING_RESULT_REMOTE_NAME):andThen(function(p56)
+			-- upvalues: (ref) v_u_1, (ref) v_u_5, (ref) v_u_15, (ref) v_u_12
+			p56.OnClientEvent:Connect(function(p57)
+				-- upvalues: (ref) v_u_1, (ref) v_u_5, (ref) v_u_15, (ref) v_u_12
+				local v58 = false
+				local v59, v60
+				if p57.accepted then
+					v58 = true
+					v59 = "Trade Accepted!"
+					v60 = "Items have been exchanged between both parties. Enjoy!"
+				elseif p57.meDecline then
+					v59 = "Trade Declined!"
+					v60 = "You backed out of the trade. No items were exchanged."
+				elseif p57.themDecline then
+					v59 = "Trade Declined!"
+					v60 = "The other party backed out of the trade. No items were exchanged."
+				elseif p57.imbalanced then
+					v59 = "Trade Denied!"
+					v60 = "Trades with an unfair balance are denied. No items were exchanged."
+				else
+					v59 = "Trade Failed"
+					v60 = "Try again?"
+				end
+				if v58 then
+					if v_u_1.LocalPlayer.PlayerGui then
+						v_u_5.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 9781040308, {
+							["Volume"] = 0.3
+						})
+					end
+					v_u_15.vbxm2cq9(12)
+				elseif v_u_1.LocalPlayer.PlayerGui then
+					v_u_5.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 9781041170, {
+						["Volume"] = 0.3
+					})
+				end
+				v_u_12:dispatch({
+					["type"] = "setTradeResult",
+					["value"] = {
+						["success"] = v58,
+						["title"] = v59,
+						["body"] = v60
+					}
+				})
+				task.delay(6, function()
+					-- upvalues: (ref) v_u_12
+					v_u_12:dispatch({
+						["type"] = "setTradeResult",
+						["value"] = nil
+					})
+				end)
+			end)
+		end)
+		v_u_6(v_u_2, v_u_8.UPDATE_OFFERING_INFO_REMOTE_NAME):andThen(function(p61)
+			-- upvalues: (ref) v_u_12
+			p61.OnClientEvent:Connect(function(p62)
+				-- upvalues: (ref) v_u_12
+				v_u_12:dispatch({
+					["type"] = "setTradeInfo",
+					["info"] = p62
+				})
+			end)
+		end)
+		v_u_6(v_u_2, v_u_8.POPULAR_TRADE_ITEM_DATA_REMOTE_NAME):andThen(function(p63)
+			-- upvalues: (ref) v_u_3
+			p63.OnClientEvent:Connect(function(p64)
+				-- upvalues: (ref) v_u_3
+				v_u_3.setPopularTradeItemData(p64)
+			end)
+		end)
+		v_u_6(v_u_2, v_u_8.OTHER_TRADE_SERVER_DATA_REMOTE_NAME):andThen(function(p65)
+			-- upvalues: (ref) v_u_12
+			p65.OnClientEvent:Connect(function(p66)
+				-- upvalues: (ref) v_u_12
+				v_u_12:dispatch({
+					["type"] = "setOtherTradeServerInfo",
+					["value"] = p66
+				})
+			end)
+		end)
+		local function v67()
+			-- upvalues: (ref) v_u_12, (ref) v_u_1
+			v_u_12:dispatch({
+				["type"] = "setInventoryPlayers",
+				["allPlayers"] = v_u_1:GetPlayers()
+			})
+		end
+		v_u_12:dispatch({
+			["type"] = "setInventoryPlayers",
+			["allPlayers"] = v_u_1:GetPlayers()
+		})
+		v_u_1.PlayerAdded:Connect(v67)
+		v_u_1.ChildRemoved:Connect(v67)
+	end
+end
+function v_u_14.checkAlreadyInitiated(p68, p69)
+	-- upvalues: (copy) v_u_8
+	local v70 = p69:FindFirstChild(v_u_8.INITIATIONS_FOLDER_NAME)
+	local v71 = p68.UserId
+	return v70:FindFirstChild((tostring(v71))) and true or false
+end
+function v_u_14.acceptInitiation(p72)
+	-- upvalues: (copy) v_u_2, (copy) v_u_8
+	v_u_2:FindFirstChild(v_u_8.ACCEPT_TRADE_INITIATION_REMOTE_NAME):FireServer(p72)
+end
+function v_u_14.sendInitiation(p73)
+	-- upvalues: (copy) v_u_2, (copy) v_u_8
+	v_u_2:WaitForChild(v_u_8.SEND_TRADE_INITIATION_REMOTE_NAME):FireServer(p73)
+end
+function v_u_14.getTradingWithUserId()
+	-- upvalues: (copy) v_u_14
+	return v_u_14._tradingWithUserId
+end
+return v_u_14

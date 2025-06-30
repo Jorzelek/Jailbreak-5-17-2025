@@ -1,0 +1,164 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgNZCVZhbGlkUm9vdAZEcmF3ZXIGT3BlbmVkFFNldFByaW1hcnlQYXJ0Q0ZyYW1lB1Nob3dGdW4GQ2xvc2VkB0hpZGVGdW4EdGljaw5nZXRFcXVpcHBlZEZvcgVNb2RlbAZQYXJlbnQOZmluZEZpcnN0Q2hpbGQSUmVwbGFjZSAlcyB3aXRoICVzB0dldE5hbWUGZm9ybWF0BE5hbWUIU3RvcmUgJXMLVGFrZSBvdXQgJXMOSW5zcGVjdCBEcmF3ZXIGYXNzZXJ0CER1cmF0aW9uBlVwZGF0ZQF3CnZjM2Q0MTB1aGMDc3ViB3JldmVyc2UABHRvMmgDb2JqCkZpcmVTZXJ2ZXIBeQZwZWpoZ2YIcW0wbW53bmEFYWNwYncEYjh0ZQhoZjRheXJvNQZBY3Rpb24EUGFydA1Xb3JsZFBvc2l0aW9uBVRpbWVkBERpc3QIQ2FsbGJhY2sGSGFuZGxlCFBvc2l0aW9uA0FkZAZDRnJhbWUDbmV3CEFkZGVkRnVuBlJlbW92ZQpSZW1vdmVkRnVuCGEwcnZiMzZhBFRpbWUEQ2VsbAhDZWxsVGltZQMlZHMEVGV4dAdWaXNpYmxlBHdhaXQIamtueXBrNGUJSW52ZW50b3J5BUV2ZW50AmVtCVNjcmVlbkd1aQRuZXh0C1N0YXNoRHJhd2VyCUdldFRhZ2dlZBZHZXRJbnN0YW5jZUFkZGVkU2lnbmFsB0Nvbm5lY3QYR2V0SW5zdGFuY2VSZW1vdmVkU2lnbmFsBEluaXQEZ2FtZQdQbGF5ZXJzCkdldFNlcnZpY2ULTG9jYWxQbGF5ZXIRQ29sbGVjdGlvblNlcnZpY2URUmVwbGljYXRlZFN0b3JhZ2UHcmVxdWlyZQNTdGQGQmluZGVyC0JpbmRlclV0aWxzCkl0ZW1TeXN0ZW0ER2FtZQJVSQZNb2R1bGUIU2V0dGluZ3MIUmVzb3VyY2UTSW52ZW50b3J5SXRlbUJpbmRlchNJbnZlbnRvcnlJdGVtU3lzdGVtDENpcmNsZUFjdGlvbgAKCAEBAAAADE0BAEkAAAAATQIB/AEAAAD7BwAAhwYHAk0FBusCAAAAvAMBZgMAAACfAwMBggABAAQDAQMCAwMDBAAhBQEYAAABAAIAAAAAAAABIgAAAAAIAQEAAAAMTQEASQAAAABNAgH8AQAAAPsHAACHBgcCTQUGNwIAAAC8AwFmAwAAAJ8DAwGCAAEABAMBAwIDBgMEACcHARgAAAEAAgAAAAAAAAEoAAAAAA0BBgAADwAAAwMIMAIDCDsCAwhHAl+kAQEAAAAAQJ8BAQL7AwAAJgIBA28DAgBgAgIAAwAAAIIAAQDeAQAA+wMBAE0CA9EDAAAA+wMCAJ8CAgITAwIATQQASQQAAADGBQAA+wYDAA4GCwD7CAMATQcIOwUAAABNCQQkBgAAAE0ICSQGAAAA8QcCAAgAAACpBgABqQYBAA4GMgD7CAQATQcIIwcAAAD7CAUAUgkEAJ8HAwIOAxoADgcOAG8ICAC8CgdWCQAAAJ8KAgK8CwNWCQAAAJ8LAgC8CAiNCgAAAJ8IAAIwCAC6CwAAAG8FDABlACAAbwgNALwKA1YJAAAAnwoCALwICI0KAAAAnwgAAjAIALoLAAAAbwUMAGUAFQAOBwsAbwgOALwKB1YJAAAAnwoCALwICI0KAAAAnwgAAjAIALoLAAAAbwUMAGUACQBvCA8AMAgAugsAAABvBQwAZQAEAG8HDwAwBwC6CwAAAIwFAwC7AQUDUggFAKQHEQAAAABBnwcCATAFAOUSAAAAggABABMDCAQAAABAApqZmZmZmbk/AwkDAQMKAwsDDAMNAw4DDwMQAgAAAAAAAOA/AxEDEgMTAxQEAAAAQQMVAC0WARgAAAABAAAAAAECAgAAAAABAgACAQAAAAAAAAAAAAAAAAEBAAAAAAABAQEAAAAAAAAAAAAAAAEAAgAAAAAAAAAAAQADAQAAAAAAAAAAAQACAAABAAQAAAECAAAAAAEAAS4AAAAAGAIGAAATAAAEAw4jAgMUOgIDFEYCAxRYAnYOAXQA+wMAAE0CA9EAAAAA+wMBAJ8CAgITAwIATQQASQEAAAD7BQIADgULAPsHAgBNBgc7AgAAAE0IBCQDAAAATQcIJAMAAADxBgIABwAAAKkFAAGpBQEADgVWAPsHAwBNBgcjBAAAAPsHBABSCAQAnwYDAg4DFgD7BwUAbwoFAG8OBgCMEAUAjBEHALwODvAHAAAAnw4EArwODpsIAAAAnw4CAlILDgBvDAkAbw0KAHMJCg1SCgQATQsDEwsAAAC8BwdrDAAAAJ8HBQFlAD8ADgY+APsHBQBvCg0AbxQOAIwWBQCMFwUAvBQU8AcAAACfFAQCvBQUmwgAAACfFAICUgsUAG8MCQBvDQkAbxQPAIwWBACMFwQAvBQU8AcAAACfFAQCvBQUmwgAAACfFAICvBQUmwgAAACfFAICvBQUmwgAAACfFAICUg4UAG8PCQBvEAkAbxQQAIwWAwCMFwMAvBQU8AcAAACfFAQCvBQUmwgAAACfFAICvBQUmwgAAACfFAICvBQUmwgAAACfFAICUhEUAG8SCQBvExEAcwkKE1IKBAC8BwdrDAAAAJ8HBAFlAAYA+wYFAG8IEgBSCQQAvAYGawwAAACfBgQBqQYBAIIGAgCCAAEAEwMJAwEDCgMLAwwDFwMYAxkDGgMbAxwDHQMeAx8DIAMhAyIDIwMkAFYlARgAAQAAAAABAgABAAAAAAAAAAAAAAAAAQEAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAgACVwAAAAAKAQYAAABE4gELAE0DACQNAAAATQID7AwAAAAwAgFEAAAAAE0EACQNAAAATQME7AwAAABNAgM7DgAAADACAeABAAAATQIAJA0AAAAwAgFJAgAAAG8CDwAwAgG6AwAAAKkCAQAwAgFxBAAAAIwCAQAwAgHlBQAAAIwCBQAwAgHjBgAAAPsCAAAwAgFGBwAAAPsCAQAwAgEmCAAAAPsCAgAwAgG+CQAAAPsCAwAwAgEqCgAAAPsDBABNAgNfEAAAAFIDAQBSBAAAnwIDAfsCBQDiAxMATQQAhRQAAAAwBAM3EQAAAE0FAIUUAAAApAYWAABUQIGMBwAAjAgAAG8JFwCfBgQCCQQFBjAEA+sSAAAAagMCAIIAAQAYAyYDJwMBAxADKAMVAykDKgMWAwUDBwULAAECAwQFBgcICQoDKwMLAywDEwMtAwYDAwUCERIDLgMvBABUQIECAAAAAAAA+L8AajABGAABAAAAAAABAAAAAAAAAAEAAAABAAABAAABAAABAAABAAABAAABAAABAAACAAAAAAACAAAAAAAAAAAAAAAAAAAAAAABawAAAAADAQIAAAAJ+wEAAMYCAABqAgEA+wIBAE0BAmkAAAAAUgIAAJ8BAgGCAAEAAQMxAHwyARgAAAABAAAAAAF9AAAAAAMBAQAAAAe7AQADUgIAAKQBAQAAAABAnwECAd4AAACCAAEAAgMUBAAAAEAAhgEzARgAAAAAAAEBhwAAAAAMAAMAAAsAAAIDBA8CAwUvAkP7AQAAlQABAN4AAAD7AwEATQIDSgEAAABNAQLtAgAAAPsDAgBNAgMBAwAAAE0DAkoBAAAAbwQEAFIGAQC8BASNBQAAAJ8EAwIwBAP1BgAAAKkDAQAwAwKABwAAAKQDCQAAAIBAnwMBAqQECwAAAKBAjAUBAJ8EAgH7BAAA8QACAAQAAACCAAEATQQCSgEAAABvBQQA+wsBAE0KC0oBAAAATQkK7QIAAACkCgkAAACAQJ8KAQImCAkKQwcIA7wFBY0FAAAAnwUDAjAFBPUGAAAApAUJAAAAgECfBQECJgQFA9QBAgAEAAAASADf//sEAADxAAIABAAAAIIAAQCpBAAAMAQCgAcAAACCAAEADAIAAAAAAADwPwM0AzUDNgM3Aw8DOAM5AwgEAACAQAM6BAAAoEAAjAE7ARgAAAEBAAAAAAEAAAEAAAAAAAAAAAEAAAEAAAIAAAABAAABAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAECAAABjQAAAAAJAQgAAAA5TQEAYAAAAADeAQAATQEANgEAAABNAgDfAgAAAN4BAQDeAgIATQEAegMAAADZAgAAEgIDAPsDAgAwAgPFBAAAAIwCAADZAwEAEgEC/xICBAASAAEA+wQCADADBM0FAAAAwQIAAKQCBwAAAGBA+wMFAG8FCAC8AwMFCQAAAJ8DAwMXAgMA+wcGAFIIBgCfBwIBbgL8/wIAAAD7AgUAbwQIALwCAl4KAAAAnwIDAvsEBgC8AgLHCwAAAJ8CAwH7AgUAbwQIALwCAtwMAAAAnwIDAvsEBwC8AgLHCwAAAJ8CAwGCAAEADQM8Az0DPgM/AzMDOwNABAAAYEADQQNCA0MDRANFAgYHgQFGARgAAAABAAAAAAABAAIAAAAABQEAAAAAAAAAFgAAAAAAAAABAAD/AAMAAAAAAAAAAAEAAAAAAAAAAAGCAAAAABkAAAECAHajAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCTQEAMQQAAACkAgEAAAAAQG8EBQC8AgIWAwAAAJ8CAwKkAwEAAAAAQG8FBgC8AwMWAwAAAJ8DAwKkBAgAAABwQE0HA6EJAAAATQYHfwoAAABNBQbZCwAAAJ8EAgKkBQgAAABwQE0IA70NAAAATQcI8AwAAABNBgfwDAAAAJ8FAgKkBggAAABwQE0IA0APAAAATQcIXA4AAACfBgICpAcIAAAAcEBNCQNiEQAAAE0ICcoQAAAAnwcCAqQICAAAAHBATQoDYBMAAABNCQqlEgAAAJ8IAgKkCQgAAABwQE0LA2ATAAAATQoLLRQAAACfCQICxgoAAMYLAADGDAAATQ0G3RUAAACMDgAAxg8AAP8QAAAAAAAAwBEWABIAEADAEhcAEgAQANkTAgASAQ7/EgAJABIAAQASAQ//EgAEABIACADZFAMAEgAJABIAAQASAQ//EgAEABIACAASAQv/wBUYABIAFAASABMAEgARABIAEgASAA0AEgAQAMAWGQASABAAEgANANkXBgASAQr/EgEL/xIBDP8SAQ//EgAHABIAAgASABUAEgAWAOIYGwAwFxhzGgAAAMEKAACCGAIAHANHBAAAAEADSANJA0oDSwNMA00EAABwQANOA08DUANRA1IDUwNUA1UDVgNXAzwDWANZBgAGAQYEBgUDRgUBGgcAAQIDBAUIAQABGAACAAAAAAABAAEAAAAAAAIAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAMAQACAAEBAgABAAYABgAAAAAAACkAAAAAAAAUAAAAAAAAEgAABQAAAAAAAAAAJwEAAAABAAAAAAnK7UjV3q1RvvgpIkGqJUjp6sRTTJxcB0Pgx61OLSVtAFWDrYtczijH
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("Players").LocalPlayer
+local v_u_2 = game:GetService("CollectionService")
+local v3 = game:GetService("ReplicatedStorage")
+local v_u_4 = require(v3.Std.Binder.BinderUtils)
+require(v3.Game.ItemSystem.ItemSystem)
+local v5 = require(v3.Module.UI)
+local v_u_6 = require(v3.Resource.Settings)
+local v_u_7 = require(v3.Inventory.InventoryItemBinder)
+local v_u_8 = require(v3.Inventory.InventoryItemSystem)
+local v_u_9 = nil
+local v_u_10 = nil
+local v_u_11 = nil
+local v_u_12 = v5.CircleAction
+local v_u_13 = 0
+local v_u_14 = nil
+local v_u_15 = {}
+local function v_u_18(p16)
+	-- upvalues: (copy) v_u_15
+	local v17 = p16.ValidRoot
+	v17:SetPrimaryPartCFrame(v_u_15[v17.Drawer].Opened)
+end
+local function v_u_21(p19)
+	-- upvalues: (copy) v_u_15
+	local v20 = p19.ValidRoot
+	v20:SetPrimaryPartCFrame(v_u_15[v20.Drawer].Closed)
+end
+local function v_u_29(p22)
+	-- upvalues: (ref) v_u_13, (copy) v_u_8, (copy) v_u_1, (ref) v_u_14, (copy) v_u_4, (copy) v_u_7
+	local v23 = tick()
+	if v23 - v_u_13 >= 0.1 then
+		v_u_13 = v23
+		local v24 = v_u_8.getEquippedFor(v_u_1)[1]
+		local v25 = p22.ValidRoot
+		local v26 = v_u_14
+		if v26 then
+			v26 = v_u_14.Model == v25.Parent.Parent
+		end
+		local v27
+		if v26 then
+			local v28 = v_u_4.findFirstChild(v_u_7, v25)
+			if v24 then
+				if v28 then
+					p22.Name = ("Replace %s with %s"):format(v28:GetName(), v24:GetName())
+					v27 = 0.5
+				else
+					p22.Name = ("Store %s"):format(v24:GetName())
+					v27 = 0.5
+				end
+			elseif v28 then
+				p22.Name = ("Take out %s"):format(v28:GetName())
+				v27 = 0.5
+			else
+				p22.Name = "Inspect Drawer"
+				v27 = 0.5
+			end
+		else
+			p22.Name = "Inspect Drawer"
+			v27 = 3
+		end
+		assert(v27)
+		p22.Duration = v27
+	end
+end
+local function v_u_36(p30, p31)
+	-- upvalues: (copy) v_u_8, (copy) v_u_1, (ref) v_u_14, (copy) v_u_4, (copy) v_u_7, (ref) v_u_10
+	if p31 then
+		local v32 = v_u_8.getEquippedFor(v_u_1)[1]
+		local v33 = p30.ValidRoot
+		local v34 = v_u_14
+		if v34 then
+			v34 = v_u_14.Model == v33.Parent.Parent
+		end
+		if v34 then
+			local v35 = v_u_4.findFirstChild(v_u_7, v33)
+			if v32 then
+				v_u_10:FireServer("w" .. ("vc3d410uhc"):sub(5, 7):reverse() .. "to2h", v33, v32.obj)
+			elseif v35 then
+				v_u_10:FireServer("y" .. ("pejhgf"):sub(5, 5):reverse() .. "" .. "" .. ("qm0mnwna"):sub(4, 4):reverse():reverse():reverse() .. "" .. "" .. ("acpbw"):sub(3, 3):reverse():reverse():reverse() .. "b8te", v33)
+			end
+		else
+			v_u_10:FireServer("hf4ayro5", v33)
+		end
+		return true
+	end
+end
+local function v_u_39(p37)
+	-- upvalues: (copy) v_u_36, (copy) v_u_29, (copy) v_u_18, (copy) v_u_21, (copy) v_u_12, (copy) v_u_15
+	local v38 = {
+		["Part"] = p37.Parent.Handle,
+		["WorldPosition"] = p37.Parent.Handle.Position,
+		["ValidRoot"] = p37.Parent,
+		["Name"] = "Inspect Drawer",
+		["Timed"] = true,
+		["Duration"] = 1,
+		["Dist"] = 5,
+		["Callback"] = v_u_36,
+		["Update"] = v_u_29,
+		["ShowFun"] = v_u_18,
+		["HideFun"] = v_u_21
+	}
+	v_u_12.Add(v38, p37)
+	v_u_15[p37] = {
+		["Closed"] = p37.CFrame,
+		["Opened"] = p37.CFrame * CFrame.new(0, 0, -1.5)
+	}
+end
+local function v_u_41(p40)
+	-- upvalues: (copy) v_u_15, (copy) v_u_12
+	v_u_15[p40] = nil
+	v_u_12.Remove(p40)
+end
+return {
+	["Init"] = function(p42)
+		-- upvalues: (ref) v_u_9, (ref) v_u_10, (ref) v_u_11, (ref) v_u_14, (copy) v_u_6, (copy) v_u_2, (copy) v_u_39, (copy) v_u_41
+		v_u_9 = p42.Inventory
+		local v43 = p42.Event
+		local v44 = p42.em
+		v_u_10 = v43
+		v_u_11 = v44
+		local v_u_45 = p42.ScreenGui
+		function v_u_11.a0rvb36a(p46)
+			-- upvalues: (ref) v_u_14
+			assert(p46)
+			v_u_14 = p46
+		end
+		local v_u_47 = 0
+		function v_u_11.jknypk4e()
+			-- upvalues: (ref) v_u_47, (ref) v_u_6, (copy) v_u_45
+			local v48 = v_u_47 + 1
+			v_u_47 = v48
+			local v49 = v_u_6.Time.Cell
+			local v50 = v_u_45.CellTime
+			v50.Time.Text = ("%ds"):format(v49)
+			v50.Visible = true
+			local v51 = tick()
+			while true do
+				wait(1)
+				if v48 ~= v_u_47 then
+					break
+				end
+				v50.Time.Text = ("%ds"):format(v_u_6.Time.Cell - tick() + v51)
+				if v49 <= tick() - v51 then
+					if v48 == v_u_47 then
+						v50.Visible = false
+					end
+				end
+			end
+		end
+		local v52 = next
+		local v53, v54 = v_u_2:GetTagged("StashDrawer")
+		for _, v55 in v52, v53, v54 do
+			v_u_39(v55)
+		end
+		v_u_2:GetInstanceAddedSignal("StashDrawer"):Connect(v_u_39)
+		v_u_2:GetInstanceRemovedSignal("StashDrawer"):Connect(v_u_41)
+	end
+}

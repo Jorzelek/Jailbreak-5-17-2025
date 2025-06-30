@@ -1,0 +1,38 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMSFVRJTUVfT0ZfREFZX0FUVFJfTkFNRQxTZXRBdHRyaWJ1dGUMc2V0VGltZU9mRGF5DEdldEF0dHJpYnV0ZQxnZXRUaW1lT2ZEYXkZR2V0QXR0cmlidXRlQ2hhbmdlZFNpZ25hbBlnZXRUaW1lT2ZEYXlDaGFuZ2VkU2lnbmFsF1BSRUNJUElUQVRJT05fQVRUUl9OQU1FEHNldFByZWNpcGl0YXRpb24QZ2V0UHJlY2lwaXRhdGlvbh1nZXRQcmVjaXBpdGF0aW9uQ2hhbmdlZFNpZ25hbARnYW1lCExpZ2h0aW5nCkdldFNlcnZpY2URUmVwbGljYXRlZFN0b3JhZ2UHcmVxdWlyZQtFbnZpcm9ubWVudBFFbnZpcm9ubWVudENvbnN0cwAHBQECAAAACvsBAAD7BAEATQMEwwAAAABSBAAAvAEBLgEAAACfAQQBqQEBAIIBAgACAwEDAgAIAwEYAAAAAAAAAAABAAkAAAAABAACAAAACPsAAAD7AwEATQIDwwAAAAC8AAASAQAAAJ8AAwCCAAAAAgMBAwQADAUBGAAAAAAAAAAADQAAAAAEAAIAAAAI+wAAAPsDAQBNAgPDAAAAALwAABYBAAAAnwADAIIAAAACAwEDBgAPBwEYAAAAAAAAAAAQAAAAAAUBAgAAAAr7AQAA+wQBAE0DBGcAAAAAUgQAALwBAS4BAAAAnwEEAakBAQCCAQIAAgMIAwIAEgkBGAAAAAAAAAAAAQATAAAAAAQAAgAAAAj7AAAA+wMBAE0CA2cAAAAAvAAAEgEAAACfAAMAggAAAAIDCAMEABYKARgAAAAAAAAAABcAAAAABAACAAAACPsAAAD7AwEATQIDZwAAAAC8AAAWAQAAAJ8AAwCCAAAAAgMIAwYAGQsBGAAAAAAAAAAAGgAAAAAFAAABAgA1owAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBAQAAAABAbwMEALwBARYDAAAAnwEDAqQCBgAAAFBATQQB+wcAAABNAwRTCAAAAJ8CAgL/AwQAAAAAAMAECQASAAAAEgACADAEA9cKAAAAwAQLABIAAAASAAIAMAQD4wwAAADABA0AEgAAABIAAgAwBAODDgAAAMAEDwASAAAAEgACADAEA9oQAAAAwAQRABIAAAASAAIAMAQDxhIAAADABBMAEgAAABIAAgAwBAP5FAAAAIIDAgAVAwwEAAAAQAMNAw4DDwMQBAAAUEADEQMSBgADAwYBAwUGAgMHBgMDCQYEAwoGBQMLBgABAgMEBQEAARgAAQAAAAAAAQAAAAAAAQAAAAAAAAIAAgAAAAAEAAAAAAMAAAAAAwAAAAAEAAAAAAMAAAAAAwEAAAAABhOeVpgC8c7kIVo8DNPiwew01K5UvAiwlJcXlpftrVZ+kM7YmtZG0jo=
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("Lighting")
+local v2 = game:GetService("ReplicatedStorage")
+local v_u_3 = require(v2.Environment.EnvironmentConsts)
+return {
+	["setTimeOfDay"] = function(p4)
+		-- upvalues: (copy) v_u_1, (copy) v_u_3
+		v_u_1:SetAttribute(v_u_3.TIME_OF_DAY_ATTR_NAME, p4)
+		return true
+	end,
+	["getTimeOfDay"] = function()
+		-- upvalues: (copy) v_u_1, (copy) v_u_3
+		return v_u_1:GetAttribute(v_u_3.TIME_OF_DAY_ATTR_NAME)
+	end,
+	["getTimeOfDayChangedSignal"] = function()
+		-- upvalues: (copy) v_u_1, (copy) v_u_3
+		return v_u_1:GetAttributeChangedSignal(v_u_3.TIME_OF_DAY_ATTR_NAME)
+	end,
+	["setPrecipitation"] = function(p5)
+		-- upvalues: (copy) v_u_1, (copy) v_u_3
+		v_u_1:SetAttribute(v_u_3.PRECIPITATION_ATTR_NAME, p5)
+		return true
+	end,
+	["getPrecipitation"] = function()
+		-- upvalues: (copy) v_u_1, (copy) v_u_3
+		return v_u_1:GetAttribute(v_u_3.PRECIPITATION_ATTR_NAME)
+	end,
+	["getPrecipitationChangedSignal"] = function()
+		-- upvalues: (copy) v_u_1, (copy) v_u_3
+		return v_u_1:GetAttributeChangedSignal(v_u_3.PRECIPITATION_ATTR_NAME)
+	end
+}

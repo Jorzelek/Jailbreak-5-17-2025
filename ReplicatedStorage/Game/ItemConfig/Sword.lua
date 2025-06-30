@@ -1,0 +1,13 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMLBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlCFJlc291cmNlCFNldHRpbmdzBVByaWNlBkltYWdlcwVTd29yZAdJbWFnZUlkCUVxdWlwVGltZQABBQAAAQIAHaMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0DAGIGAAAATQIDygcAAACfAQIC/wIDAAAAAACMAyBOMAMCJAgAAABNBAHjCQAAAE0DBKUKAAAAMAMClgsAAABvAwwAMAMC1w0AAACCAgIADgMBBAAAAEADAgMDAwQEAABAQAMFAwYDBwMIAwkDCgIAAAAAAADgPwMLAAEAARgAAQAAAAAAAQAAAAAAAAEAAQAAAQAAAAAAAQAAAgEAAAAAABy8eYOEJcLTLngTF9xTCdcfKIH6fsC/D1c8hXgI1L81eX4/a5e6tAs=
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return {
+	["Price"] = 20000,
+	["ImageId"] = require(v1.Resource.Settings).Images.Sword,
+	["EquipTime"] = 0.5
+}

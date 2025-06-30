@@ -1,0 +1,21 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMUJEFycmVzdCBhIGNyaW1pbmFsIHdpdGggYSAlcysgYm91bnR5LghDdXJyZW5jeQdHZXRHb2FsBmZvcm1hdARtYXRoBnJhbmRvbQRnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQhTZXR0aW5ncwhSZXNvdXJjZQZGb3JtYXQGTW9kdWxlCEVudW1UZWFtBlBvbGljZQZ0ZWFtSWQHbWVzc2FnZQRnb2FsCXJld2FyZEV4cAADBgEBAAAHAAABAwEIAgxvAQAA+wQAAE0DBAkBAAAAvAQAFQIAAACfBAIAnwMAALwBAY0DAAAAnwEAAIIBAAAEAwEDAgMDAwQACAABGAAAAAAAAAAAAAAAAAkAAAAABAAAAAAAB6QBAwAACBCAjAIFAIwDBgCfAQMCWwABAIIAAgAEAgAAAAAAQH9AAwUDBgQACBCAAAsAARgAAAAAAAAADAAAAAAGAAABAgAoowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBBQAAAEBATQMAYgcAAABNAgPKBgAAAJ8BAgKkAgUAAABAQE0EAEAJAAAATQMErQgAAACfAgIC/wMDAAAAAABNBQFMCgAAAE0EBbILAAAAMAQDbwwAAADABA0AEgACADAEA5gOAAAAwAQPADAEAwoQAAAAjAQeADAEAwMRAAAAggMCABIDBwQAAABAAwgDCQMKBAAAQEADCwMMAw0DDgMPAxADEQYAAxIGAQMTAxQCAAEBAAEYAAEAAAAAAAEAAAAAAAABAAAAAAAAAgABAAAAAAABAAAAAwAAAwAAAQEAAAAAAvwqwTNZW0Uzzu6rp/q1YETmldszQ3shOcL6C0pkoFMuvncxQ8YOw0s=
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v2 = require(v1.Resource.Settings)
+local v_u_3 = require(v1.Module.Format)
+return {
+	["teamId"] = v2.EnumTeam.Police,
+	["message"] = function(p4)
+		-- upvalues: (copy) v_u_3
+		return ("Arrest a criminal with a %s+ bounty."):format(v_u_3.Currency(p4:GetGoal()))
+	end,
+	["goal"] = function()
+		return math.random(5, 6) * 500
+	end,
+	["rewardExp"] = 30
+}

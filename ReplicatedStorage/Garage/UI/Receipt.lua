@@ -1,0 +1,179 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgNjBGluaXQFcHJvcHMPb25SZXF1ZXN0UmVtb3ZlCW1haW5SYXRpbwtjb3JuZXJQaXhlbAxwYWRkaW5nUmF0aW8Jc2hvd1RvdGFsB3JlY2VpcHQFcHJpY2UFb3duZWQIY2F0ZWdvcnkEbmFtZQdsaW1pdGVkBW1lcmdlC2xheW91dE9yZGVyBXRhYmxlBmluc2VydAVGcmFtZQ9Cb3JkZXJTaXplUGl4ZWwWQmFja2dyb3VuZFRyYW5zcGFyZW5jeRBCYWNrZ3JvdW5kQ29sb3IzBFNpemULTGF5b3V0T3JkZXIGQ29sb3IzA25ldwVVRGltMgtBc3BlY3RSYXRpbxdVSUFzcGVjdFJhdGlvQ29uc3RyYWludAhVSUNvcm5lcg5TY3JvbGxpbmdGcmFtZQZCb3R0b20MQ29ybmVyUmFkaXVzBFVEaW0SU2Nyb2xsQmFyVGhpY2tuZXNzFFNjcm9sbEJhckltYWdlQ29sb3IzCkNhbnZhc1NpemUPRWxhc3RpY0JlaGF2aW9yGVZlcnRpY2FsU2Nyb2xsQmFyUG9zaXRpb24WVmVydGljYWxTY3JvbGxCYXJJbnNldARFbnVtBkFsd2F5cwRMZWZ0DlNjcm9sbEJhckluc2V0BE5vbmUKTGlzdExheW91dAxVSUxpc3RMYXlvdXQTSG9yaXpvbnRhbEFsaWdubWVudBFWZXJ0aWNhbEFsaWdubWVudAlTb3J0T3JkZXINRmlsbERpcmVjdGlvbgZDZW50ZXIDVG9wCFZlcnRpY2FsCFBvc2l0aW9uB1Zpc2libGUETGluZQVUb3RhbAVQcmljZQVUaXRsZQlUZXh0TGFiZWwLQW5jaG9yUG9pbnQEVGV4dARGb250CkxpbmVIZWlnaHQKVGV4dFNjYWxlZApUZXh0Q29sb3IzDlRleHRYQWxpZ25tZW50DlRleHRZQWxpZ25tZW50B1ZlY3RvcjIGVE9UQUw6B0JhbmdlcnMFUmlnaHQBLQABJAVjb21tYQdmcm9tUkdCBnJlbmRlcgR0eXBlEXJlbW92ZVJlY2VpcHRJdGVtBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlA1N0ZAZTdHJpbmcERXpVaQpEaWN0aW9uYXJ5ClJvYWN0Um9kdXgFUm9hY3QNY3JlYXRlRWxlbWVu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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Std.String)
+local v_u_3 = require(v1.EzUi.Dictionary)
+local v4 = require(v1.RoactRodux)
+local v5 = require(v1.Roact)
+local v_u_6 = v5.createElement
+local v_u_7 = require(script.Parent.ReceiptItem)
+local v8 = v5.PureComponent:extend("Receipt")
+v8.defaultProps = {
+	["showTotal"] = true
+}
+function v8.init(_) end
+function v8.render(p_u_9)
+	-- upvalues: (copy) v_u_6, (copy) v_u_7, (copy) v_u_3, (copy) v_u_2
+	local v10 = p_u_9.props.mainRatio
+	local v11 = p_u_9.props.cornerPixel
+	local v12 = p_u_9.props.paddingRatio
+	local v13 = p_u_9.props.paddingRatio * 2
+	local v14
+	if p_u_9.props.showTotal then
+		v14 = 1 / (1 / v10 - 0.2222222222222222) or v10
+	else
+		v14 = v10
+	end
+	local v15 = {}
+	local v16 = 0
+	local v17 = 0
+	for v18 = 1, #p_u_9.props.receipt do
+		local v_u_19 = p_u_9.props.receipt[v18]
+		local v20 = v_u_19.price or 0
+		local v21 = not (p_u_9.props.owned[v_u_19.category] and p_u_9.props.owned[v_u_19.category][v_u_19.name])
+		if v_u_19.limited then
+			v21 = false
+		end
+		if v21 then
+			v16 = v16 + v20
+			local v22 = v_u_6(v_u_7, v_u_3.merge({
+				["layoutOrder"] = 2 * v18,
+				["mainRatio"] = 1 / (1 / (v14 * 6) - 1 / v13 + 1 / v13 / 6),
+				["paddingRatio"] = v12,
+				["cornerPixel"] = v11,
+				["onRequestRemove"] = function()
+					-- upvalues: (copy) p_u_9, (copy) v_u_19
+					p_u_9.props.onRequestRemove(v_u_19)
+				end
+			}, v_u_19))
+			table.insert(v15, v22)
+			local v23 = v_u_6("Frame", {
+				["BorderSizePixel"] = 0,
+				["BackgroundTransparency"] = 0,
+				["BackgroundColor3"] = Color3.new(0, 0, 0),
+				["Size"] = UDim2.new(1, 0, 1, 0),
+				["LayoutOrder"] = 2 * v18 + 1
+			}, {
+				["AspectRatio"] = v_u_6("UIAspectRatioConstraint", {
+					["AspectRatio"] = v13
+				})
+			})
+			table.insert(v15, v23)
+			v17 = v17 + 1
+		end
+	end
+	local v24 = v_u_6
+	local v25 = {
+		["BackgroundTransparency"] = 0,
+		["BorderSizePixel"] = 0,
+		["BackgroundColor3"] = Color3.new(0.1, 0.1, 0.1),
+		["Size"] = UDim2.new(1, 0, 1, 0),
+		["LayoutOrder"] = p_u_9.props.layoutOrder
+	}
+	local v26 = {
+		["AspectRatio"] = v_u_6("UIAspectRatioConstraint", {
+			["AspectRatio"] = v10
+		}),
+		["UICorner"] = v_u_6("UICorner", {
+			["CornerRadius"] = UDim.new(0, v11)
+		}),
+		["ScrollingFrame"] = v_u_6("ScrollingFrame", {
+			["BackgroundTransparency"] = 1,
+			["BackgroundColor3"] = Color3.new(1, 1, 1),
+			["BorderSizePixel"] = 0,
+			["ScrollBarThickness"] = 4,
+			["ScrollBarImageColor3"] = Color3.new(1, 1, 1),
+			["CanvasSize"] = UDim2.new(0, 0, ((1 + v10 / v13) * v17 / 6 - v10 / v13) * v10 / v14, 0),
+			["Size"] = UDim2.new(1, 0, v10 / v14, 0),
+			["ElasticBehavior"] = Enum.ElasticBehavior.Always,
+			["VerticalScrollBarPosition"] = Enum.VerticalScrollBarPosition.Left,
+			["VerticalScrollBarInset"] = Enum.ScrollBarInset.None
+		}, v_u_3.merge({
+			["ListLayout"] = v_u_6("UIListLayout", {
+				["HorizontalAlignment"] = Enum.HorizontalAlignment.Center,
+				["VerticalAlignment"] = Enum.VerticalAlignment.Top,
+				["SortOrder"] = Enum.SortOrder.LayoutOrder,
+				["FillDirection"] = Enum.FillDirection.Vertical
+			})
+		}, v15))
+	}
+	local v27 = v_u_6
+	local v28 = {
+		["BackgroundTransparency"] = 0.6,
+		["BackgroundColor3"] = Color3.new(0, 0, 0),
+		["BorderSizePixel"] = 0,
+		["Size"] = UDim2.new(1, 0, v10 / 4.5, 0),
+		["Position"] = UDim2.new(0, 0, 1 - v10 / 4.5, 0),
+		["Visible"] = p_u_9.props.showTotal
+	}
+	local v29 = {
+		["Line"] = v_u_6("Frame", {
+			["Size"] = UDim2.new(1, 0, 0, 1),
+			["Position"] = UDim2.new(0, 0, 0, 0),
+			["BackgroundColor3"] = Color3.new(0, 0, 0),
+			["BorderSizePixel"] = 0
+		}),
+		["Total"] = v_u_6("Frame", {
+			["BackgroundTransparency"] = 1,
+			["BorderSizePixel"] = 0,
+			["Size"] = UDim2.new(0.5 - 0.5 / v12 - 1 / v12, 0, 0.6, 0),
+			["Position"] = UDim2.new(1 / v12, 0, 0.2, 0)
+		}, {
+			["Title"] = v_u_6("TextLabel", {
+				["BackgroundTransparency"] = 1,
+				["Size"] = UDim2.new(1, 0, 1, 0),
+				["Position"] = UDim2.new(0, 0, 0, 0),
+				["AnchorPoint"] = Vector2.new(0, 0),
+				["Text"] = "TOTAL:",
+				["Font"] = Enum.Font.Bangers,
+				["LineHeight"] = 0.95,
+				["TextScaled"] = true,
+				["TextColor3"] = Color3.new(1, 1, 1),
+				["TextXAlignment"] = Enum.TextXAlignment.Right,
+				["TextYAlignment"] = Enum.TextYAlignment.Center
+			})
+		})
+	}
+	local v30 = v_u_6
+	local v31 = {
+		["BackgroundTransparency"] = 1,
+		["BorderSizePixel"] = 0,
+		["Size"] = UDim2.new(0.5 - 0.5 / v12 - 1 / v12, 0, 0.6, 0),
+		["Position"] = UDim2.new(0.5 + 0.5 / v12, 0, 0.2, 0)
+	}
+	local v32 = {
+		["Title"] = v_u_6("TextLabel", {
+			["BackgroundTransparency"] = 1,
+			["Size"] = UDim2.new(1, 0, 1, 0),
+			["Position"] = UDim2.new(0, 0, 0, 0),
+			["AnchorPoint"] = Vector2.new(0, 0),
+			["Text"] = (v16 > 0 and "-" or "") .. "$" .. v_u_2.comma(v16),
+			["Font"] = Enum.Font.Bangers,
+			["LineHeight"] = 0.95,
+			["TextScaled"] = true,
+			["TextColor3"] = v16 > 0 and Color3.new(1, 0, 0) or Color3.fromRGB(134, 195, 81),
+			["TextXAlignment"] = Enum.TextXAlignment.Left,
+			["TextYAlignment"] = Enum.TextYAlignment.Center
+		})
+	}
+	v29.Price = v30("Frame", v31, v32)
+	v26.Bottom = v27("Frame", v28, v29)
+	return v24("Frame", v25, v26)
+end
+return v4.connect(function(_, _) end, function(p_u_33)
+	return {
+		["onRequestRemove"] = function(p34)
+			-- upvalues: (copy) p_u_33
+			p_u_33({
+				["type"] = "removeReceiptItem",
+				["name"] = p34.name,
+				["category"] = p34.category
+			})
+		end
+	}
+end)(v8)

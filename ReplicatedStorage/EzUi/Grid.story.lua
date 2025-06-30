@@ -1,0 +1,58 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMiCVRleHRMYWJlbBZCYWNrZ3JvdW5kVHJhbnNwYXJlbmN5EEJhY2tncm91bmRDb2xvcjMEU2l6ZQhQb3NpdGlvbgRUZXh0BWNvbG9yBHNpemUIcG9zaXRpb24FdGl0bGUNdGVzdENvbXBvbmVudAd1bm1vdW50B3JlcXVpcmUER3JpZAZzY3JpcHQGUGFyZW50BW1vdW50BUZyYW1lBVVEaW0yA25ldw1jcmVhdGVFbGVtZW50C2FzcGVjdFJhdGlvDHBhZGRpbmdSYXRpbwtyb3dzUGVyUGFnZQpjb2xzUGVyUm93CWNvbXBvbmVudAVpdGVtcwZDb2xvcjMBMQEyATMERXpVaRFGaW5kRmlyc3RBbmNlc3RvcgVSb2FjdAAEBQEBAAAAGPsBAABvAgAA4gMGAG8EBwAwBAM6AQAAAE0EAEQIAAAAMAQDnwIAAABNBAAPCQAAADAEAy8DAAAATQQA2woAAAAwBAM7BAAAAE0EAJoLAAAAMAQD9QUAAACfAQMAggEAAAwDAQMCAwMDBAMFAwYFBQECAwQFAgAAAAAAAOA/AwcDCAMJAwoABgsBGAAAAAEAAAEAAAABAAAAAQAAAAEAAAD7AAcAAAAAAgACAAAABvsBAABNAAESAAAAAPsBAQCfAAIBggABAAEDDAAyAAEYAAAAAAABMwAAAAARAQMAAABqpAEBAAAAAECkBAQAAAAwQE0DBCQFAAAATQIDBwIAAACfAQIC+wMAAE0CA+QGAAAA+wMBAG8EBwDiBQsAbwYMADAGBToIAAAApAYPAAA40IBvBxAAjAgAAG8JEACMCgAAnwYFAjAGBS8JAAAApAYPAAA40IBvBxEAjAgAAG8JEQCMCgAAnwYFAjAGBTsKAAAA+wcAAE0GB8oSAAAAUgcBAOIIGQCMCQEAMAkIiRMAAACMCWQAMAkIKBQAAACMCQMAMAkIDxUAAACMCQMAMAkI0xYAAAD7CQIAMAkI6BcAAAD/CQAAAwAAAOIKHACkCx4AADjQgYwMAQCMDQAAjA4AAJ8LBAIwCwpEGgAAAG8LHwAwCwqaGwAAAOILHACkDB4AADjQgYwNAACMDgEAjA8AAJ8MBAIwDAtEGgAAAG8MIAAwDAuaGwAAAOIMHACkDR4AADjQgYwOAACMDwAAjBABAJ8NBAIwDQxEGgAAAG8NIQAwDQyaGwAAAMUJCgQBAAAAMAkIGBgAAACfBgMAnwMAAlIEAACfAgMC2QMAABICAAASAAIAggMCACIDDQQAAABAAw4DDwQAADBAAxADEQMSAwIDBAMFBQMICQoCAAAAAAAA4D8DEwMUBAA40IACzczMzMzM7D8CmpmZmZmZqT8DFQMWAxcDGAMZAxoDGwUGExQVFhcYAwcDCgUCGhsDHAQAONCBAx0DHgMfAQEQAAEYAAAAAAAAAAAAAQAAAQEBAQAAAQAAAAAAAAAAAQAAAAAAAAAAAgAAAAABAAABAAABAAABAAABAAABAAEBAAAAAAAAAAEAAAIBAAAAAAAAAAEAAAIBAAAAAAAAAAEAAAAA9QD6+R3iIAAAABEAAAAABQAAAQIAF6MAAACkAAEAAAAAQG8CAgC8AAB8AwAAAJ8AAwKkAQUAAABAQE0DACQGAAAATQIDIQcAAACfAQICTQIByggAAADAAwkAEgACAMAECgASAAEAEgACABIAAwCCBAIACwMPBAAAAEADIAMhAw0EAABAQAMQAyIDFQYABgICAAIBAAEYAAEAAAAAAAEAAAAAAAABAAIACgAAAAABAAAAAAMcuBsUrZf82y58cYBBSe+YgklrnjkRG9E28u2vnaIjuKQ23u49Pwe8
+
+-- Decompiled by Krnl
+
+local v1 = script:FindFirstAncestor("EzUi")
+local v_u_2 = require(v1.Parent.Roact)
+local v_u_3 = v_u_2.createElement
+local function v_u_5(p4)
+	-- upvalues: (copy) v_u_3
+	return v_u_3("TextLabel", {
+		["BackgroundTransparency"] = 0.5,
+		["BackgroundColor3"] = p4.color,
+		["Size"] = p4.size,
+		["Position"] = p4.position,
+		["Text"] = p4.title
+	})
+end
+return function(p6)
+	-- upvalues: (copy) v_u_2, (copy) v_u_3, (copy) v_u_5
+	local v7 = require(script.Parent.Grid)
+	local v8 = v_u_2.mount
+	local v9 = v_u_3
+	local v10 = {
+		["BackgroundTransparency"] = 0.5,
+		["Size"] = UDim2.new(0.9, 0, 0.9, 0),
+		["Position"] = UDim2.new(0.05, 0, 0.05, 0)
+	}
+	local v11 = v_u_2.createElement
+	local v12 = {
+		["aspectRatio"] = 1,
+		["paddingRatio"] = 100,
+		["rowsPerPage"] = 3,
+		["colsPerRow"] = 3,
+		["component"] = v_u_5,
+		["items"] = {
+			{
+				["color"] = Color3.new(1, 0, 0),
+				["title"] = "1"
+			},
+			{
+				["color"] = Color3.new(0, 1, 0),
+				["title"] = "2"
+			},
+			{
+				["color"] = Color3.new(0, 0, 1),
+				["title"] = "3"
+			}
+		}
+	}
+	local v_u_13 = v8(v9("Frame", v10, v11(v7, v12)), p6)
+	return function()
+		-- upvalues: (ref) v_u_2, (copy) v_u_13
+		v_u_2.unmount(v_u_13)
+	end
+end

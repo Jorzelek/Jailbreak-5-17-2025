@@ -1,0 +1,85 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMXBVRpdGxlBVNvbmdzC0xhd25SZWFsaXR5BE5hbWUHQXNzZXRJZAsyMDI0IFRyYWNrMQsyMDI0IFRyYWNrMgsyMDI0IFRyYWNrMwsyMDI0IFRyYWNrNAhTcGVjdHJ1bQlTYWZlaG91c2UKRG9pbmcgV2VsbBBIb3ZlcmJpa2UgRXNjYXBlBU5pZ2h0DExpdmluZyBEcmVhbQtDb2xkIE5pZ2h0cw1Mb25lbHkgVm95YWdlDVN1bW1lciBOaWdodHMTVGhlIFBhc3NhZ2Ugb2YgVGltZRNUaGUgRGF5J3MgQmVnaW5uaW5nDEEgTmlnaHQgQXdheRNBd2FrZW5pbmcgTW9vbmxpZ2h0DFRoZSBDaGFtcGlvbgABEwAAAQIAjAGjAAAA4gACAG8BAwAwAQC6AAAAAP8BAAASAAAA4gIGAG8DBwAwAwK6BAAAAG8DCAAwAwKJBQAAAOIDBgBvBAkAMAQDugQAAABvBAoAMAQDiQUAAADiBAYAbwULADAFBLoEAAAAbwUMADAFBIkFAAAA4gUGAG8GDQAwBgW6BAAAAG8GDgAwBgWJBQAAAOIGBgBvBw8AMAcGugQAAABvBxAAMAcGiQUAAADiBwYAbwgRADAIB7oEAAAAbwgSADAIB4kFAAAA4ggGAG8JEwAwCQi6BAAAAG8JFAAwCQiJBQAAAOIJBgBvChUAMAoJugQAAABvChYAMAoJiQUAAADiCgYAbwsXADALCroEAAAAbwsYADALCokFAAAA4gsGAG8MGQAwDAu6BAAAAG8MGgAwDAuJBQAAAOIMBgBvDRsAMA0MugQAAABvDRwAMA0MiQUAAADiDQYAbw4dADAODboEAAAAbw4eADAODYkFAAAA4g4GAG8PHwAwDw66BAAAAG8PIAAwDw6JBQAAAOIPBgBvECEAMBAPugQAAABvECIAMBAPiQUAAADiEAYAbxEjADARELoEAAAAbxEkADAREIkFAAAA4hEGAG8SJQAwEhG6BAAAAG8SJgAwEhGJBQAAAMUBAhEBAAAA4gIGAG8DJwAwAwK6BAAAAG8DKAAwAwKJBQAAAOIDBgBvEikAMBIDugQAAABvEioAMBIDiQUAAADFAQIDEQAAADABAN8BAAAAggACACsDAQMCBQIAAQMDAwQDBQUCBAUDBgIAAFDkdcAPQgMHAgAAYEB2wA9CAwgCAAA4X3fAD0IDCQIAAJAYd8APQgMKAgAAaM2T4QBCAwsCAAB4YaHhAEIDDAIAAAC5qSj0QQMNAgAAqKqF4QBCAw4CAADwfKko9EEDDwIAAPBNqSj0QQMQAgAAkJ+H4QBCAxECAAAgrYjhAEIDEgIAAEDSieEAQgMTAgAAUI2L4QBCAxQCAAAQrYzhAEIDFQIAAAAQqCj0QQMWAgAAEMaN4QBCAxcCAABQzaco9EEAAQABGAABAQAAAQABAQAAAQAAAgEAAAEAAAIBAAABAAACAQAAAQAAAgEAAAEAAAIBAAABAAACAQAAAQAAAgEAAAEAAAIBAAABAAACAQAAAQAAAgEAAAEAAAIBAAABAAACAQAAAQAAAgEAAAEAAAIBAAABAAACAQAAAQAAAgAAAQAAAQAAAgEAAAEAAAAAuQAAAQAAAAAAmXNDrgsmOr2rtyk6uHORxXWKg00DkaagGQeiAvhHfPo7l9YY5YU5SA==
+
+-- Decompiled by Krnl
+
+local v1 = {
+	["Title"] = "LawnReality",
+	["Songs"] = {
+		{
+			["Name"] = "2024 Track1",
+			["AssetId"] = 17046617226
+		},
+		{
+			["Name"] = "2024 Track2",
+			["AssetId"] = 17046620172
+		},
+		{
+			["Name"] = "2024 Track3",
+			["AssetId"] = 17046629351
+		},
+		{
+			["Name"] = "2024 Track4",
+			["AssetId"] = 17046627090
+		},
+		{
+			["Name"] = "Spectrum",
+			["AssetId"] = 9063004589
+		},
+		{
+			["Name"] = "Safehouse",
+			["AssetId"] = 9063115823
+		},
+		{
+			["Name"] = "Doing Well",
+			["AssetId"] = 5411347344
+		},
+		{
+			["Name"] = "Hoverbike Escape",
+			["AssetId"] = 9062888789
+		},
+		{
+			["Name"] = "Night",
+			["AssetId"] = 5411346383
+		},
+		{
+			["Name"] = "Living Dream",
+			["AssetId"] = 5411345631
+		},
+		{
+			["Name"] = "Cold Nights",
+			["AssetId"] = 9062904818
+		},
+		{
+			["Name"] = "Lonely Voyage",
+			["AssetId"] = 9062913444
+		},
+		{
+			["Name"] = "Summer Nights",
+			["AssetId"] = 9062922824
+		},
+		{
+			["Name"] = "The Passage of Time",
+			["AssetId"] = 9062937002
+		},
+		{
+			["Name"] = "The Day\'s Beginning",
+			["AssetId"] = 9062946210
+		},
+		{
+			["Name"] = "A Night Away",
+			["AssetId"] = 5411340544
+		},
+		{
+			["Name"] = "Awakening Moonlight",
+			["AssetId"] = 9062955202
+		},
+		{
+			["Name"] = "The Champion",
+			["AssetId"] = 5411339477
+		}
+	}
+}
+return v1

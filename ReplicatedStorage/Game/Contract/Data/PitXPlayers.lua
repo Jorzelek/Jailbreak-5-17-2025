@@ -1,0 +1,18 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMRJFBpdCBtYW5ldXZlciAlZCBkaWZmZXJlbnQgY3JpbWluYWxzLgdHZXRHb2FsBmZvcm1hdARtYXRoBnJhbmRvbQRnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQhTZXR0aW5ncwhSZXNvdXJjZQhFbnVtVGVhbQZQb2xpY2UGdGVhbUlkB21lc3NhZ2UEZ29hbAlyZXdhcmRFeHAAAwUBAAAABwAAAQMBBAIIbwEAALwDABUBAAAAnwMCALwBAY0CAAAAnwEAAIIBAAADAwEDAgMDAAcAARgAAAAAAAAAAAgAAAAAAwAAAAAABqQAAgAABACAjAEFAIwCBwCfAAMAggAAAAMDBAMFBAAEAIAACgABGAAAAAAAAAsAAAAABQAAAQIAIKMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0DAGIHAAAATQIDygYAAACfAQIC/wIDAAAAAABNBAFMCAAAAE0DBLIJAAAAMAMCbwoAAADAAwsAMAMCmAwAAADAAw0AMAMCCg4AAACMAygAMAMCAw8AAACCAgIAEAMGBAAAAEADBwMIAwkEAABAQAMKAwsDDAMNAw4GAAMPBgEDEAMRAgABAQABGAABAAAAAAABAAAAAAAAAgABAAAAAAABAAADAAADAAABAQAAAAACnvfpVk4JNJKsM4PC9eCdkYF2aPZ7N+/0QafdepvEU7wWoOZpzjcpFQ==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return {
+	["teamId"] = require(v1.Resource.Settings).EnumTeam.Police,
+	["message"] = function(p2)
+		return ("Pit maneuver %d different criminals."):format(p2:GetGoal())
+	end,
+	["goal"] = function()
+		return math.random(5, 7)
+	end,
+	["rewardExp"] = 40
+}

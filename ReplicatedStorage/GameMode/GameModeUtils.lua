@@ -1,0 +1,17 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMMBE5hbWUDbWFwCEdhbWVNb2RlBE1vZGULR2V0Q2hpbGRyZW4QZ2V0R2FtZU1vZGVOYW1lcwRnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQNTdGQKVGFibGVVdGlscwADAgEAAAAAA00BALoAAAAAggECAAEDAQAHAAEYAAAACAAAAAAEAAIAAAAO+wEAAE0AAZAAAAAA+wMBAE0CA5sBAAAATQECDQIAAAC8AQFoAwAAAJ8BAgLAAgQAnwADAIIAAAAFAwIDAwMEAwUGAAEABgYBGAAAAAAAAAAAAAAAAAAABwAAAAAEAAABAgAWowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBBQAAAEBATQMAoQYAAABNAgMYBwAAAJ8BAgL/AgEAAAAAAMADCAASAAEAEgAAADADAgEJAAAAggICAAoDBwQAAABAAwgDCQMKBAAAQEADCwMMBgEDBgEBAQABGAABAAAAAAABAAAAAAAAAQACAAAAAAYBAAAAAAIZQuIbnNtxzSuGiI+/STp5tqoNlwlSLKqWGyL0R3op+a6W+ru8Jynf
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v_u_1.Std.TableUtils)
+return {
+	["getGameModeNames"] = function()
+		-- upvalues: (copy) v_u_2, (copy) v_u_1
+		return v_u_2.map(v_u_1.GameMode.Mode:GetChildren(), function(p3)
+			return p3.Name
+		end)
+	end
+}

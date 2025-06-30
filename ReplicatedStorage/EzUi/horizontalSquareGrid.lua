@@ -1,0 +1,27 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMWCG51bUl0ZW1zBWl0ZW1zC2FzcGVjdFJhdGlvFHZlcnRpY2FsUGFkZGluZ1JhdGlvAmlkBG5hbWUJY29tcG9uZW50BW1lcmdlBHNpemUIcG9zaXRpb24FVURpbTIJZnJvbVNjYWxlDmNyZWF0ZUZyYWdtZW50FGhvcml6b250YWxTcXVhcmVHcmlkBnNjcmlwdARFelVpEUZpbmRGaXJzdEFuY2VzdG9yB3JlcXVpcmUKRGljdGlvbmFyeQZQYXJlbnQFUm9hY3QNY3JlYXRlRWxlbWVudAACFQEDAAAASf8BAAAAAAAATQIAwwAAAAArAgMATQMAGAEAAAAcAgMATQMAiQIAAABNBgDGBAAAANgFAwbsBAUDjAcBAFIFAgCMBgEAqAUxAHgJBwM+CgIFJggJCk0KABgBAAAAhwkKBysJAgD/CQAAAAAAAE0KCfQGAAAAKwoFAE0KCVoHAAAAKwoCABwLAQCVCgsD+wsAAE0MAOgIAAAA+w4BAE0NDh8JAAAATQ8AGAEAAACHDg8H4g8MAKQQDwAAONCA2BEDA4wSAQCfEAMCMBAPDwoAAACkEA8AADjQgG8TEADsFAgDQxITFAkTCARDERITjBIAAJ8QAwIwEA/bCwAAAJ8NAwCfCwACagsBCosFz//7BgIATQUGNhEAAABSBgEAnwUCAIIFAAASAwEDAgMDAgAAAAAAAPA/AwQCAAAAAAAAAEADBQMGAwcDCAMJAwoFAgoLAwsDDAQAONCAAgAAAAAAAOA/Aw0ACQ4BGAAAAQAAAAAAAQABAAAAAQAAAAEAAAEAAAAAAAEAAAAAAAAAAQEAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAAAAP7+B/UNAAAAAAAKAAAAAAUAAAECABqjAAAApAABAAAAAEBvAgIAvAAAfAMAAACfAAMCpAEFAAAAQEBNAgCpBgAAAJ8BAgKkAgUAAABAQE0EACQHAAAATQMEIQgAAACfAgICTQMCygkAAADABAoAEgADABIAAQASAAIAggQCAAsDDwQAAABAAxADEQMSBAAAQEADEwMUAxUDFgYAAQABAAEYAAEAAAAAAAEAAAAAAQAAAAAAAAEABAAAABQBAAAAAAHDeiURLOhf5PG+T4W/WnlBBymBi/RGNBoJe+bx7/Gwq/7n2QBoJAhB
+
+-- Decompiled by Krnl
+
+local v1 = script:FindFirstAncestor("EzUi")
+local v_u_2 = require(v1.Dictionary)
+local v_u_3 = require(v1.Parent.Roact)
+local v_u_4 = v_u_3.createElement
+return function(p5)
+	-- upvalues: (copy) v_u_4, (copy) v_u_2, (copy) v_u_3
+	local v6 = p5.numItems or #p5.items
+	local v7 = p5.aspectRatio
+	local v8 = 1 / p5.verticalPaddingRatio / v7
+	local v9 = {}
+	for v10 = 1, v6 do
+		local v11 = v10 - 1 - v6 / 2
+		local v12 = p5.items[v10] or {}
+		v9[v12.id or (v12.name or #v9 + 1)] = v_u_4(p5.component, v_u_2.merge(p5.items[v10], {
+			["size"] = UDim2.fromScale(1 / v7, 1),
+			["position"] = UDim2.fromScale(0.5 + v11 / v7 + v11 * v8, 0)
+		}))
+	end
+	return v_u_3.createFragment(v9)
+end

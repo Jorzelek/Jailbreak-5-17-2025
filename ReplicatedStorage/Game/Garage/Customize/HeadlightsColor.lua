@@ -1,0 +1,43 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMeBE1ha2UFTW9kZWwETmFtZQVXaGl0ZQhHZXRDb2xvcgZpcGFpcnMOR2V0RGVzY2VuZGFudHMKSGVhZGxpZ2h0cwV0YWJsZQZpbnNlcnQVR2V0RGVmYXVsdFZlaGljbGVQYXJ0C1JlZmxlY3RhbmNlEkRlZmF1bHRSZWZsZWN0YW5jZQRQYXJ0DkZpbmRGaXJzdENoaWxkBEJvZHkLR2V0Q2hpbGRyZW4JSGVhZGxpZ2h0BUxpZ2h0FkZpbmRGaXJzdENoaWxkV2hpY2hJc0EFQ29sb3IEZ2FtZRFSZXBsaWNhdGVkU3RvcmFnZQpHZXRTZXJ2aWNlB3JlcXVpcmUFUGFpbnQER2FtZQZHYXJhZ2UKUGFpbnRVdGlscw9EaXNhYmxlTWF0ZXJpYWwAAhECAwAAAFxNAgGtAAAAAE0DATsBAAAAxgQAAEcABAAAAAAATQQAugIAAABlAAEAbwQDAPsGAABNBQYLBAAAAFIGBACfBQIC/wYAAAAAAACkBwYAAABQQLwIA0cHAAAAnwgCAJ8HAARRBwsATQwLugIAAADwDAgACAAAgJ40BgULAAAAUg0GAFIOCwCkDAsAACiQgJ8MAwFuB/T/AgAAgKQHBgAAAFBAUggGAJ8HAgRRBxEA+w0BAE0MDYgMAAAAUg0LAJ8MAgL7DQIATQ4MYg0AAAAwDg3ADgAAAPsOAABNDQ5EDwAAAFIOCwBSDwQA+xACAJ8NBAFuB+7/AgAAgG8JAQC8BwMDEAAAAJ8HAwIOBxgAbwoRALwIBwMQAAAAnwgDAqQJBgAAAFBAvAoIaBIAAACfCgIAnwkABFEJCwBNDg26AgAAAPAOCAATAACAbxAUALwODVQVAAAAnw4DAg4OAgAwBQ6kFgAAAG4J9P8CAACAggABABcDAQMCAwMDBAMFAwYEAABQQAMHAwgDCQMKBAAokIADCwMMAw0DDgMPAxADEQMSAxMDFAMVAAoAARgAAAEAAQEAAQAAAgIAAAAAAQABAAAAAAAAAQAAAAEAAAAAAAD+AAUAAAAAAQAAAAABAAAAAAEAAAAAAAD9AAYAAAABAQAAAAEAAAAAAAABAAAAAQAAAAEBAPwACQsAAAAABgAAAQIAJaMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0EAL0HAAAATQMEKAgAAABNAgNRBgAAAJ8BAgKkAgUAAABAQE0FAL0HAAAATQQFKAgAAABNAwR5CQAAAJ8CAgLiAwwAjAQAADAEA8AKAAAAqQQBADAEA8ALAAAAwAQNABIAAQASAAIAEgADAIIEAgAOAxYEAAAAQAMXAxgDGQQAAEBAAxoDGwMcAx0DDQMeBQIKCwYAAQABAAEYAAEAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAEBAAABAAADAAAAAAEAAAAAAU8FZRjX8SCIfcEPjL3i8wwMy8u4H12lCgMmmVnTV7MBNsgiG8pNRSg=
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Game.Garage.Paint)
+local v_u_3 = require(v1.Game.Garage.PaintUtils)
+local v_u_4 = {
+	["DefaultReflectance"] = 0,
+	["DisableMaterial"] = true
+}
+return function(p5, p6)
+	-- upvalues: (copy) v_u_2, (copy) v_u_3, (copy) v_u_4
+	local _ = p6.Make
+	local v7 = p6.Model
+	local v8 = p5 == nil and "White" or p5.Name
+	local v9 = v_u_2.GetColor(v8)
+	local v10 = {}
+	for _, v11 in ipairs(v7:GetDescendants()) do
+		if v11.Name == "Headlights" then
+			table.insert(v10, v11)
+		end
+	end
+	for _, v12 in ipairs(v10) do
+		v_u_4.DefaultReflectance = v_u_3.GetDefaultVehiclePart(v12).Reflectance
+		v_u_2.Part(v12, v8, v_u_4)
+	end
+	local v13 = v7:FindFirstChild("Model")
+	if v13 then
+		local v14 = v13:FindFirstChild("Body")
+		for _, v15 in ipairs(v14:GetChildren()) do
+			if v15.Name == "Headlight" then
+				local v16 = v15:FindFirstChildWhichIsA("Light")
+				if v16 then
+					v16.Color = v9
+				end
+			end
+		end
+	end
+end

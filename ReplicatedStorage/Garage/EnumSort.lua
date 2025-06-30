@@ -1,0 +1,14 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMKBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlA1N0ZAZFbnVtZXIGTmV3ZXN0DEFscGhhYmV0aWNhbAVQcmljZQdQb3B1bGFyAAEIAAABAgAZowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBBQAAAEBATQMAoQYAAABNAgNXBwAAAJ8BAgJSAgEA/wMAAAQAAABvBAgAbwUJAG8GCgBvBwsAxQMEBQEAAACfAgIAggIAAAwDAQQAAABAAwIDAwMEBAAAQEADBQMGAwcDCAMJAwoAAQABGAABAAAAAAABAAAAAAAAAgAAAAAAAAAAAAABAAAAAAD0FHCBwwP298bQGhWSb9z1XRUN+QGOP2Z0/HH0w0J3KYk3WyXllzXv
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Std.Enumer)({
+	"Newest",
+	"Alphabetical",
+	"Price",
+	"Popular"
+})

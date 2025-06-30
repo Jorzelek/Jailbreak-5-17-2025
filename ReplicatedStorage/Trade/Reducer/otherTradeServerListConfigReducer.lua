@@ -1,0 +1,20 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMNBXRhYmxlBWNsb25lBXZhbHVlFG90aGVyVHJhZGVTZXJ2ZXJJbmZvF3NldE90aGVyVHJhZGVTZXJ2ZXJJbmZvB3Zpc2libGUec2V0T3RoZXJUcmFkZVNlcnZlckxpc3RWaXNpYmxlBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlBVJvZHV4DWNyZWF0ZVJlZHVjZXIAAwQCAAAAAAmkAgIAAAQAgFIDAACfAgICTQMBzAMAAAAwAwLIBAAAAIICAgAFAwEDAgQABACAAwMDBAAGBQEYAAAAAAEAAAABBwAAAAAEAgAAAAAJpAICAAAEAIBSAwAAnwICAk0DAcwDAAAAMAMCoAQAAACCAgIABQMBAwIEAAQAgAMDAwYACwcBGAAAAAABAAAAAQwAAAAABgAAAQIAGaMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0CAKcGAAAAnwECAk0CAdYHAAAA/wMAAAAAAADiBAoAwAULADAFBG4IAAAAwAUMADAFBNQJAAAAnwIDAIICAAANAwgEAAAAQAMJAwoDCwQAAEBAAwwDDQMFAwcFAggJBgAGAQIAAQEAARgAAQAAAAAAAQAAAAACAAAAAAEAAAUAAPoAAQAAAAACGTKBoEvI+DEr9us0rh56kxUDVuxolTLWABbXHsgI9bNhCWkZwsOl9w==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Rodux).createReducer({}, {
+	["setOtherTradeServerInfo"] = function(p2, p3)
+		local v4 = table.clone(p2)
+		v4.otherTradeServerInfo = p3.value
+		return v4
+	end,
+	["setOtherTradeServerListVisible"] = function(p5, p6)
+		local v7 = table.clone(p5)
+		v7.visible = p6.value
+		return v7
+	end
+})

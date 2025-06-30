@@ -1,0 +1,297 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgN5DkVhc2VfSW5PdXRRdWFkBHRpY2sKRGlzY29ubmVjdA1Sb29mRG9vck1vdG9yBkNGcmFtZQNuZXcOUm9vZkRvb3JPcGVuQzEEbGVycAJDMQlIZWFydGJlYXQMUm9vZkRvb3JPcGVuB0Nvbm5lY3QMUm9vZkRvb3JTcGVjBEtpbGwPT3BlblJvb2ZEb29yUmF3CURvb3JNb3RvcgpEb29yT3BlbkMxBExlcnAIRG9vck9wZW4MU2lkZURvb3JTcGVjD09wZW5TaWRlRG9vclJhdwpWYXVsdE1vdG9yC1ZhdWx0T3BlbkMxC1ZhdWx0T3BlbmVkBFJvb3QFTW9kZWwIU2tlbGV0b24FVmF1bHQISW5zdGFuY2UFU291bmQVcmJ4YXNzZXRpZDovLzU1MjI0NzY2B1NvdW5kSWQGUGFyZW50BlZvbHVtZQRQbGF5BGdhbWUGRGVicmlzB0FkZEl0ZW0JRXhwbG9zaW9uCFBvc2l0aW9uGURlc3Ryb3lKb2ludFJhZGl1c1BlcmNlbnQNQmxhc3RQcmVzc3VyZQR3YWl0DVZhdWx0RG9vclNwZWMQT3BlblZhdWx0RG9vclJhdwF1AAtxbmdhdDV5aGN1OQNzdWIHcmV2ZXJzZQNzbHMIU3lzdGVtSWQCSWQKRmlyZVNlcnZlcgZBY3Rpb24Bcwt4cHc2eXZ2dW9rYQFwAXQHbDNka21yawl0bjg5OHdwbmoFc3FvOXYEa2tvOA5Sb29mRG9vckNsb3NlZARQYXJ0BE5hbWUJVmFsaWRSb290BVRpbWVkBU5vUmF5CER1cmF0aW9uBERpc3QIQ2FsbGJhY2sJT3BlbiBEb29yA0FkZAV0YWJsZQZpbnNlcnQOTGVmdERvb3JDbG9zZWQMQnJlYWNoIFZhdWx0EUNpcmNsZUFjdGlvblNwZWNzC1NldHVwQm94Q2FyBkJveENhcgRmaW5kDE9uQ2FyQ3JlYXRlZARuZXh0Dk9uQ2FyRGVzdHJveWVkBEdvbGQDUm9iCEh1bWFub2lkCUNoYXJhY3RlcghSb290UGFydAlNYWduaXR1ZGUBZwpzNWExejlqdHpzBDh0MnMMT25DYXJFbnRlcmVkCGpqMW5rdnN0BXQydXhqBGxmd2sBNQtPbkNhckV4aXRlZA1HZXRTeXN0ZW1CeUlkCkdldENhckJ5SWQIdXk1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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("Players").LocalPlayer
+local v_u_2 = game:GetService("RunService")
+game:GetService("CollectionService")
+local v3 = game:GetService("ReplicatedStorage")
+local v_u_4 = require(v3.Module.UI).CircleAction
+local v_u_5 = require(v3.Game.TrainSystem)
+local v_u_6 = nil
+local v_u_7 = nil
+local function v_u_17(p_u_8)
+	-- upvalues: (copy) v_u_2
+	if p_u_8.VaultOpenC1 then
+		if not p_u_8.VaultOpened then
+			if p_u_8.RoofDoorOpen then
+				p_u_8.VaultOpened = true
+				local v9 = p_u_8.Model.Skeleton.Vault.Root
+				local v10 = Instance.new("Sound")
+				v10.SoundId = "rbxassetid://55224766"
+				v10.Parent = v9
+				v10.Volume = 0.8
+				v10:Play()
+				game.Debris:AddItem(v10, 5)
+				local v11 = Instance.new("Explosion")
+				v11.Position = v9.Position
+				v11.DestroyJointRadiusPercent = 0
+				v11.BlastPressure = 5000
+				v11.Parent = v9
+				game.Debris:AddItem(v11, 5)
+				wait(0.1)
+				local v_u_12 = tick()
+				local v_u_13 = nil
+				local function v16()
+					-- upvalues: (copy) v_u_12, (ref) v_u_13, (copy) p_u_8
+					local v14 = (tick() - v_u_12) * 0.5
+					if v14 >= 1 then
+						v_u_13:Disconnect()
+						v14 = 1
+					end
+					local v15 = v14 < 0.5 and 2 * v14 * v14 or -1 - 2 * (v14 - 2) * v14
+					p_u_8.VaultMotor.C1 = CFrame.new():Lerp(p_u_8.VaultOpenC1, v15)
+				end
+				v_u_13 = v_u_2.Heartbeat:Connect(v16)
+				p_u_8.VaultDoorSpec.Kill = true
+				return true
+			end
+		end
+	else
+		return
+	end
+end
+local function v_u_47(p_u_18)
+	-- upvalues: (copy) v_u_2, (ref) v_u_6, (copy) v_u_4, (copy) v_u_17
+	local v19 = {}
+	local v20 = p_u_18.Model
+	local function v29(_, p21)
+		-- upvalues: (copy) p_u_18, (ref) v_u_2, (ref) v_u_6
+		if p21 then
+			local v_u_22 = p_u_18
+			local v23
+			if v_u_22.RoofDoorOpen then
+				v23 = nil
+			else
+				v_u_22.RoofDoorOpen = true
+				local v_u_24 = tick()
+				local v_u_25 = nil
+				local function v28()
+					-- upvalues: (copy) v_u_24, (ref) v_u_25, (copy) v_u_22
+					local v26 = (tick() - v_u_24) * 0.5
+					if v26 >= 1 then
+						v_u_25:Disconnect()
+						v26 = 1
+					end
+					local v27 = v26 < 0.5 and 2 * v26 * v26 or -1 - 2 * (v26 - 2) * v26
+					v_u_22.RoofDoorMotor.C1 = CFrame.new():lerp(v_u_22.RoofDoorOpenC1, v27)
+				end
+				v_u_25 = v_u_2.Heartbeat:Connect(v28)
+				v_u_22.RoofDoorSpec.Kill = true
+				v23 = true
+			end
+			if not v23 then
+				return false
+			end
+			v_u_6:FireServer("u" .. "" .. ("qngat5yhcu9"):sub(4, 7):reverse() .. "sls", p_u_18.SystemId, p_u_18.Id)
+		end
+		return true
+	end
+	local v30 = v20.Skeleton.RoofDoorClosed
+	local v31 = {
+		["Part"] = v30,
+		["Name"] = "Open Door",
+		["ValidRoot"] = p_u_18.Model,
+		["Timed"] = true,
+		["NoRay"] = true,
+		["Duration"] = 2,
+		["Dist"] = 10,
+		["Callback"] = v29
+	}
+	v_u_4.Add(v31, v30)
+	p_u_18.RoofDoorSpec = v31
+	table.insert(v19, v31)
+	local function v40(_, p32)
+		-- upvalues: (copy) p_u_18, (ref) v_u_2, (ref) v_u_6
+		if p32 then
+			local v_u_33 = p_u_18
+			local v34
+			if v_u_33.DoorOpen then
+				v34 = nil
+			else
+				v_u_33.DoorOpen = true
+				local v_u_35 = tick()
+				local v_u_36 = nil
+				local function v39()
+					-- upvalues: (copy) v_u_35, (ref) v_u_36, (copy) v_u_33
+					local v37 = (tick() - v_u_35) * 0.5
+					if v37 >= 1 then
+						v_u_36:Disconnect()
+						v37 = 1
+					end
+					local v38 = v37 < 0.5 and 2 * v37 * v37 or -1 - 2 * (v37 - 2) * v37
+					v_u_33.DoorMotor.C1 = CFrame.new():Lerp(v_u_33.DoorOpenC1, v38)
+				end
+				v_u_36 = v_u_2.Heartbeat:Connect(v39)
+				v_u_33.SideDoorSpec.Kill = true
+				v34 = true
+			end
+			if not v34 then
+				return false
+			end
+			v_u_6:FireServer("s" .. "" .. ("xpw6yvvuoka"):sub(2, 7):reverse():reverse():reverse():reverse():reverse() .. "p", p_u_18.SystemId, p_u_18.Id)
+		end
+		return true
+	end
+	local v41 = v20.Skeleton.LeftDoorClosed
+	local v42 = {
+		["Part"] = v41,
+		["Name"] = "Open Door",
+		["ValidRoot"] = p_u_18.Model,
+		["Timed"] = true,
+		["NoRay"] = true,
+		["Duration"] = 2,
+		["Dist"] = 10,
+		["Callback"] = v40
+	}
+	v_u_4.Add(v42, v41)
+	p_u_18.SideDoorSpec = v42
+	table.insert(v19, v42)
+	local function v44(_, p43)
+		-- upvalues: (ref) v_u_17, (copy) p_u_18, (ref) v_u_6
+		if p43 then
+			if not v_u_17(p_u_18) then
+				return false
+			end
+			v_u_6:FireServer("t" .. ("l3dkmrk"):sub(4, 4):reverse():reverse():reverse() .. "" .. "" .. ("tn898wpnj"):sub(5, 5):reverse() .. "" .. "" .. ("sqo9v"):sub(4, 4):reverse() .. "kko8", p_u_18.SystemId, p_u_18.Id)
+		end
+		return true
+	end
+	local v45 = v20.Skeleton.Vault.Root
+	local v46 = {
+		["Part"] = v45,
+		["Name"] = "Breach Vault",
+		["Timed"] = true,
+		["NoRay"] = true,
+		["Duration"] = 3,
+		["Dist"] = 20,
+		["Callback"] = v44
+	}
+	v_u_4.Add(v46, v45)
+	p_u_18.VaultDoorSpec = v46
+	table.insert(v19, v46)
+	p_u_18.CircleActionSpecs = v19
+end
+local function v_u_49(p48)
+	-- upvalues: (copy) v_u_47
+	if p48.Name:find("BoxCar") then
+		v_u_47(p48)
+	end
+end
+local function v_u_52(p50)
+	if p50.Name:find("BoxCar") then
+		for _, v51 in next, p50.CircleActionSpecs do
+			if not v51.Kill then
+				v51.Kill = true
+			end
+		end
+	end
+end
+local v_u_53 = nil
+local function v_u_57(p_u_54)
+	-- upvalues: (ref) v_u_53, (copy) v_u_2, (copy) v_u_1, (ref) v_u_6
+	if p_u_54.Name:find("BoxCar") then
+		local v_u_55 = 0
+		v_u_53 = v_u_2.Heartbeat:Connect(function()
+			-- upvalues: (ref) v_u_55, (copy) p_u_54, (ref) v_u_1, (ref) v_u_6
+			local v56 = tick()
+			if v56 - v_u_55 > 1 then
+				v_u_55 = v56
+				if p_u_54.VaultOpened and (p_u_54.Model.Model.Rob.Gold.Position - v_u_1.Character.Humanoid.RootPart.Position).Magnitude < 7 then
+					v_u_6:FireServer("g" .. ("s5a1z9jtzs"):sub(4, 6):reverse():reverse():reverse():reverse():reverse() .. "8t2s", p_u_54.SystemId, p_u_54.Id)
+				end
+			end
+		end)
+	end
+end
+local function v_u_59(p58)
+	-- upvalues: (ref) v_u_53, (ref) v_u_6
+	if p58.Name:find("BoxCar") then
+		if v_u_53 then
+			v_u_53:Disconnect()
+			v_u_53 = nil
+		end
+		v_u_6:FireServer("t" .. ("jj1nkvst"):sub(5, 6):reverse():reverse():reverse():reverse():reverse() .. "" .. "" .. ("t2uxj"):sub(2, 3):reverse():reverse():reverse() .. "" .. "" .. ("lfwk"):sub(2, 3):reverse():reverse():reverse():reverse():reverse() .. "5", p58.SystemId, p58.Id)
+	end
+end
+return {
+	["Init"] = function(p60)
+		-- upvalues: (ref) v_u_6, (ref) v_u_7, (copy) v_u_5, (copy) v_u_49, (copy) v_u_52, (copy) v_u_57, (copy) v_u_59, (copy) v_u_2, (copy) v_u_17
+		local v61 = p60.Event
+		local v62 = p60.em
+		v_u_6 = v61
+		v_u_7 = v62
+		v_u_5.Signals.OnCarCreated:Connect(v_u_49)
+		v_u_5.Signals.OnCarDestroyed:Connect(v_u_52)
+		v_u_5.Signals.OnCarEntered:Connect(v_u_57)
+		v_u_5.Signals.OnCarExited:Connect(v_u_59)
+		function v_u_7.uy5tasls(p63, p64)
+			-- upvalues: (ref) v_u_5, (ref) v_u_2
+			local v65 = v_u_5.GetSystemById(p63)
+			local v_u_66 = v_u_5.GetCarById(v65, p64)
+			if not (v65 and v_u_66) then
+				return nil
+			end
+			if not v_u_66.RoofDoorOpen then
+				v_u_66.RoofDoorOpen = true
+				local v_u_67 = tick()
+				local v_u_68 = nil
+				local function v71()
+					-- upvalues: (copy) v_u_67, (ref) v_u_68, (copy) v_u_66
+					local v69 = (tick() - v_u_67) * 0.5
+					if v69 >= 1 then
+						v_u_68:Disconnect()
+						v69 = 1
+					end
+					local v70 = v69 < 0.5 and 2 * v69 * v69 or -1 - 2 * (v69 - 2) * v69
+					v_u_66.RoofDoorMotor.C1 = CFrame.new():lerp(v_u_66.RoofDoorOpenC1, v70)
+				end
+				v_u_68 = v_u_2.Heartbeat:Connect(v71)
+				v_u_66.RoofDoorSpec.Kill = true
+			end
+			return true
+		end
+		function v_u_7.svvy6wpp(p72, p73)
+			-- upvalues: (ref) v_u_5, (ref) v_u_2
+			local v74 = v_u_5.GetSystemById(p72)
+			local v_u_75 = v_u_5.GetCarById(v74, p73)
+			if not (v74 and v_u_75) then
+				return nil
+			end
+			if not v_u_75.DoorOpen then
+				v_u_75.DoorOpen = true
+				local v_u_76 = tick()
+				local v_u_77 = nil
+				local function v80()
+					-- upvalues: (copy) v_u_76, (ref) v_u_77, (copy) v_u_75
+					local v78 = (tick() - v_u_76) * 0.5
+					if v78 >= 1 then
+						v_u_77:Disconnect()
+						v78 = 1
+					end
+					local v79 = v78 < 0.5 and 2 * v78 * v78 or -1 - 2 * (v78 - 2) * v78
+					v_u_75.DoorMotor.C1 = CFrame.new():Lerp(v_u_75.DoorOpenC1, v79)
+				end
+				v_u_77 = v_u_2.Heartbeat:Connect(v80)
+				v_u_75.SideDoorSpec.Kill = true
+			end
+			return true
+		end
+		function v_u_7.tk89kko8(p81, p82)
+			-- upvalues: (ref) v_u_5, (ref) v_u_17
+			local v83 = v_u_5.GetSystemById(p81)
+			local v84 = v_u_5.GetCarById(v83, p82)
+			if not (v83 and v84) then
+				return nil
+			end
+			if not v_u_17(v84) then
+				return nil
+			end
+			v_u_17(v84)
+			return true
+		end
+	end
+}

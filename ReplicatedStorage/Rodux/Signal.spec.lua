@@ -1,0 +1,147 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMfA25ldwZleHBlY3QCdG8CYmUCb2sFZXF1YWwLSGVsbG8gV29ybGQHY29ubmVjdARmaXJlCmRpc2Nvbm5lY3QFZXJyb3IlQ2FsbGJhY2sgd2FzIGNhbGxlZCBhZnRlciBkaXNjb25uZWN0IQ5ub3QgYSBmdW5jdGlvbgV0aHJvdwVuZXZlcg5faXNEaXNwYXRjaGluZwdyZXF1aXJlBnNjcmlwdAZQYXJlbnQGU2lnbmFsAml0HXNob3VsZCBjb25zdHJ1Y3QgZnJvbSBub3RoaW5nH3Nob3VsZCBmaXJlIGNvbm5lY3RlZCBjYWxsYmFja3Mac2hvdWxkIGRpc2Nvbm5lY3QgaGFuZGxlcnMdc2hvdWxkIGZpcmUgaGFuZGxlcnMgaW4gb3JkZXI2c2hvdWxkIGNvbnRpbnVlIGZpcmluZyBkZXNwaXRlIG1pZC1ldmVudCBkaXNjb25uZWN0aW9uRHNob3VsZCBza2lwIGxpc3RlbmVycyB0aGF0IHdlcmUgZGlzY29ubmVjdGVkIGR1cmluZyBldmVudCBldmFsdWF0aW9uRHNob3VsZCB0aHJvdyBhbiBlcnJvciBpZiB0aGUgYXJndW1lbnQgdG8gYGNvbm5lY3RgIGlzIG5vdCBhIGZ1bmN0aW9uN3Nob3VsZCB0aHJvdyBhbiBlcnJvciB3aGVuIGRpc2Nvbm5lY3RpbmcgbW9yZSB0aGFuIG9uY2U2c2hvdWxkIHRocm93IGFuIGVycm9yIHdoZW4gc3Vic2NyaWJpbmcgZHVyaW5nIGRpc3BhdGNoOHNob3VsZCB0aHJvdyBhbiBlcnJvciB3aGVuIHVuc3Vic2NyaWJpbmcgZHVyaW5nIGRpc3BhdGNoABsGAAEAAAAQ+wEAAE0AAe8AAAAAnwABAqQEAgAAABBAUgUAAJ8EAgJNAwSSAwAAAE0CA8wEAAAATQECEAUAAACfAQEBggABAAYDAQMCBAAAEEADAwMEAwUABAABGAAAAAACAAAAAAAAAAAAAAEFAAAAAAYCAQAAABikBAEAAAAAQFIFAACfBAICTQMEkgIAAABNAgN7AwAAAG8DBACfAgIBpAQBAAAAAEBSBQEAnwQCAk0DBJICAAAATQIDewMAAACMAwcAnwICAfsDAACVAgMF3gIAAIIAAQAGAwIEAAAAQAMDAwYDBwIAAAAA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
+
+-- Decompiled by Krnl
+
+return function()
+	local v_u_1 = require(script.Parent.Signal)
+	it("should construct from nothing", function()
+		-- upvalues: (copy) v_u_1
+		local v2 = v_u_1.new()
+		expect(v2).to.be.ok()
+	end)
+	it("should fire connected callbacks", function()
+		-- upvalues: (copy) v_u_1
+		local v_u_3 = 0
+		local function v6(p4, p5)
+			-- upvalues: (ref) v_u_3
+			expect(p4).to.equal("Hello World")
+			expect(p5).to.equal(7)
+			v_u_3 = v_u_3 + 1
+		end
+		local v7 = v_u_1.new()
+		local v8 = v7:connect(v6)
+		v7:fire("Hello World", 7)
+		expect(v_u_3).to.equal(1)
+		v8:disconnect()
+		v7:fire("Hello World", 7)
+		expect(v_u_3).to.equal(1)
+	end)
+	it("should disconnect handlers", function()
+		-- upvalues: (copy) v_u_1
+		local v9 = v_u_1.new()
+		v9:connect(function()
+			error("Callback was called after disconnect!")
+		end):disconnect()
+		v9:fire()
+	end)
+	it("should fire handlers in order", function()
+		-- upvalues: (copy) v_u_1
+		local v10 = v_u_1.new()
+		local v_u_11 = 0
+		local v_u_12 = 0
+		local function v13()
+			-- upvalues: (ref) v_u_11, (ref) v_u_12
+			expect(v_u_11).to.equal(1)
+			expect(v_u_12).to.equal(0)
+			v_u_12 = v_u_12 + 1
+		end
+		v10:connect(function()
+			-- upvalues: (ref) v_u_11, (ref) v_u_12
+			expect(v_u_11).to.equal(0)
+			expect(v_u_12).to.equal(0)
+			v_u_11 = v_u_11 + 1
+		end)
+		v10:connect(v13)
+		v10:fire()
+		expect(v_u_11).to.equal(1)
+		expect(v_u_12).to.equal(1)
+	end)
+	it("should continue firing despite mid-event disconnection", function()
+		-- upvalues: (copy) v_u_1
+		local v14 = v_u_1.new()
+		local v_u_15 = 0
+		local v_u_16 = 0
+		local v_u_17 = nil
+		v_u_17 = v14:connect(function()
+			-- upvalues: (ref) v_u_17, (ref) v_u_15
+			v_u_17:disconnect()
+			v_u_15 = v_u_15 + 1
+		end)
+		v14:connect(function()
+			-- upvalues: (ref) v_u_16
+			v_u_16 = v_u_16 + 1
+		end)
+		v14:fire()
+		expect(v_u_15).to.equal(1)
+		expect(v_u_16).to.equal(1)
+	end)
+	it("should skip listeners that were disconnected during event evaluation", function()
+		-- upvalues: (copy) v_u_1
+		local v18 = v_u_1.new()
+		local v_u_19 = 0
+		local v_u_20 = 0
+		local v_u_21 = nil
+		v18:connect(function()
+			-- upvalues: (ref) v_u_19, (ref) v_u_21
+			v_u_19 = v_u_19 + 1
+			v_u_21:disconnect()
+		end)
+		v_u_21 = v18:connect(function()
+			-- upvalues: (ref) v_u_20
+			v_u_20 = v_u_20 + 1
+		end)
+		v18:fire()
+		expect(v_u_19).to.equal(1)
+		expect(v_u_20).to.equal(0)
+	end)
+	it("should throw an error if the argument to `connect` is not a function", function()
+		-- upvalues: (copy) v_u_1
+		local v_u_22 = v_u_1.new()
+		expect(function()
+			-- upvalues: (copy) v_u_22
+			v_u_22:connect("not a function")
+		end).to.throw()
+	end)
+	it("should throw an error when disconnecting more than once", function()
+		-- upvalues: (copy) v_u_1
+		local v23 = v_u_1.new():connect(function() end)
+		expect(v23.disconnect).never.to.throw()
+		expect(v23.disconnect).to.throw()
+	end)
+	it("should throw an error when subscribing during dispatch", function()
+		-- upvalues: (copy) v_u_1
+		local v24 = {
+			["_isDispatching"] = false
+		}
+		local v_u_25 = v_u_1.new(v24)
+		v_u_25:connect(function()
+			-- upvalues: (copy) v_u_25
+			v_u_25:connect(function() end)
+		end)
+		v24._isDispatching = true
+		expect(function()
+			-- upvalues: (copy) v_u_25
+			v_u_25:fire()
+		end).to.throw()
+	end)
+	it("should throw an error when unsubscribing during dispatch", function()
+		-- upvalues: (copy) v_u_1
+		local v26 = {
+			["_isDispatching"] = false
+		}
+		local v_u_27 = v_u_1.new(v26)
+		local v_u_28 = nil
+		v_u_28 = v_u_27:connect(function()
+			-- upvalues: (ref) v_u_28
+			v_u_28.disconnect()
+		end)
+		v26._isDispatching = true
+		expect(function()
+			-- upvalues: (copy) v_u_27
+			v_u_27:fire()
+		end).to.throw()
+	end)
+end

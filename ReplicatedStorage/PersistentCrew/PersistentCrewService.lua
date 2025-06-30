@@ -1,0 +1,526 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgO5AQtMb2NhbFBsYXllcglQbGF5ZXJHdWkLT2JqZWN0TG9jYWwGVm9sdW1lCXBsYXlEcnVtcwlwbGF5Q2xpY2sEdHlwZQV2YWx1ZRVzZXROZXR3b3JrTXV0ZXhMb2NrZWQIZGlzcGF0Y2geb3B0aW1pc3RpY2FsbHlMb2NrTmV0d29ya011dGV4FkxFQVZFX0NMQU5fUkVNT1RFX05BTUUORmluZEZpcnN0Q2hpbGQKRmlyZVNlcnZlchtDTEFOX0pPSU5fQ09PTERPV05fRFVSQVRJT04HJWQgZGF5cwZmb3JtYXQDbmV3PEFyZSB5b3Ugc3VyZSB5b3Ugd2FudCB0byBsZWF2ZT8gSWYgeW91IGpvaW5lZCBmb3IgbGVzcyB0aGFuICssIHlvdSdsbCBoYXZlIHRvIHdhaXQgdG8gam9pbiBhbm90aGVyIGNyZXcuBE1haWQFT25ZZXMHQ29ubmVjdAhHaXZlVGFzawxhdHRlbXB0TGVhdmUXQ1JFQVRFX0NMQU5fUkVNT1RFX05BTUUNYXR0ZW1wdENyZWF0ZR1SRVFVRVNUX0pPSU5fQ0xBTl9SRU1PVEVfTkFNRRhhdHRlbXB0UmVxdWVzdEpvaW5Vc2VySWQgQ1VTVE9NX0JBVFRMRV9JTlZJVEVfUkVNT1RFX05BTUUTYXR0ZW1wdEJhdHRsZUNsYW5JZBVWSUVXX0NMQU5fUkVNT1RFX05BTUUVYXR0ZW1wdFZpZXdVc2VySWRDbGFuA29iahRSRVNQT05TRV9SRU1PVEVfTkFNRQROYW1lFG9uQWNjZXB0QmF0dGxlSW52aXRlFW9uRGVjbGluZUJhdHRsZUludml0ZSJVTkFDQ0VQVF9CQVRUTEVfSU5WSVRFX1JFTU9URV9OQU1FFm9uVW5BY2NlcHRCYXR0bGVJbnZpdGUjUkVNT1ZFX1BMQVlFUl9GUk9NX0NMQU5fUkVNT1RFX05BTUUVcHJvbWlzZU5hbWVGcm9tVXNlcklkBWF3YWl0HkFyZSB5b3Ugc3VyZSB5b3Ugd2FudCB0byBraWNrIAE/C2F0dGVtcHRLaWNrH0FERF9QTEFZRVJfQVNfQURNSU5fUkVNT1RFX05BTUUMYXR0ZW1wdEFkbWluF1JFTkFNRV9DTEFOX1JFTU9URV9OQU1FOkFyZSB5b3Ugc3VyZSB5b3Ugd2FudCB0byByZW5hbWUgeW91ciBjcmV3PyBUaGlzIHdpbGwgY29zdCABJAVjb21tYRBDTEFOX1JFTkFNRV9DT1NUCHRvc3RyaW5nEWF0dGVtcHRSZW5hbWVDcmV3H1JFTU9WRV9QTEFZRVJfQURNSU5fUkVNT1RFX05BTUUOYXR0ZW1wdFVuQWRtaW4fQUNDRVBUX0pPSU5fUkVRVUVTVF9SRU1PVEVfTkFNRRhvbkNsaWNrSm9pblJlcXVlc3RBY2NlcHQdREVOWV9KT0lOX1JFUVVFU1RfUkVNT1RFX05BTUUWb25DbGlja0pvaW5SZXF1ZXN0RGVueRRSRUFEWV9VUF9SRU1PVEVfTkFNRQ5vbkNsaWNrUmVhZHlVcBZVTlJFQURZX1VQX1JFTU9URV9OQU1FEG9uQ2xpY2tVbnJlYWR5VXAGdHlwZW9mBnN0cmluZxVpbnZhbGlkIHJlcG9ydCBvcHRpb24GYXNzZXJ0F1JFUE9SVF9DTEFOX1JFTU9URV9OQU1FEWF0dGVtcHRSZXBvcnRDcmV3E29uQ291bnRkb3duRmluaXNoZWQHdW5tb3VudB5ORVRXT1JLX01VVEVYX0xPQ0tFRF9BVFRSX05BTUUMR2V0QXR0cmlidXRlEm5ldHdvcmtNdXRleExvY2tlZAR0YXNrBmNhbmNlbAVkZWxheQxncm91cFZpc2libGUdSU5GT1JNX1VJX0lTX09QRU5fUkVNT1RFX05BTUUCaWQGdXNlcklkC2Rpc3BsYXlOYW1lB2lzQWRtaW4Ic2hvd0tpY2sJc2hvd0FkbWluC3Nob3dVbkFkbWluDWJhdHRsZXNQbGF5ZWQKYmF0dGxlc1dvbgV0YWJsZQZpbnNlcnQKc2V0TWVtYmVycxFzaG93UmVxdWVzdEFjY2VwdA9zaG93UmVxdWVzdERlbnkCWyMBXQR3YXJuD3NldEpvaW5SZXF1ZXN0cxJzZXRWaWV3aW5nQ2xhbkluZm8NSXNQbGF5ZXJzQ2xhbhJzZXRDdXJyZW50Q2xhbkluZm8KQWRtaW5JZE1hcAZVc2VySWQTTWVtYmVyQmF0dGxlSW5mb01hcAdNZW1iZXJzCkJhdHRsZXNXb24NQmF0dGxlc1BsYXllZAh0b251bWJlcgdhbmRUaGVuA2FsbAxKb2luUmVxdWVzdHMFY2F0Y2gKYWxsU2V0dGxlZA1PbkNsaWVudEV2ZW50E3NldE1lbWJlcnNPbmxpbmVNYXAQaW52YWxpZGF0ZU9ubGluZRBnZXRNZW1iZXJzT25saW5lDHVwZGF0ZU9ubGluZR1nZXRNZW1iZXJzT25saW5lQ2hhbmdlZFNpZ25hbApEb0NsZWFuaW5nFmdldFBsYXllclZpZXdpbmdDbGFuSWQaTUVNQkVSU19PTkxJTkVfT0JKRUNUX05BTUULR2l2ZVByb21pc2URdXBkYXRlVmlld2luZ0luZm8SZ2V0SXNDbGFuUmVhZGllZFVwDnNldElzUmVhZGllZFVwFmRpc3BhdGNoUmVhZHlVcENoYW5nZXMPY2FsbGJhY2tXcmFwcGVyEGdldEN1cnJlbnRDbGFuSWQWb2JzZXJ2ZUlzQ2xhblJlYWRpZWRVcA1vYnNlcnZpbmdDbGFuEXVwZGF0ZUN1cnJlbnRJbmZvBW1vdW50CVNjcmVlbkd1aQ5aSW5kZXhCZWhhdmlvcgxSZXNldE9uU3Bhd24OSWdub3JlR3VpSW5zZXQMRGlzcGxheU9yZGVyBEVudW0HU2libGluZw1jcmVhdGVFbGVtZW50DVN0b3JlUHJvdmlkZXIFc3RvcmUQUGVyc2lzdGVudENyZXdVSQRtYWlkEG9ic2VydmVBdHRyaWJ1dGUHY2hhbmdlZAdjb25uZWN0DHdhaXRGb3JDaGlsZCJVUERBVEVfUEVSU0lTVEVOVF9DUkVXX1JFTU9URV9OQU1FI2dldFBsYXllclZpZXdpbmdDbGFuSWRDaGFuZ2VkU2lnbmFsHWdldEN1cnJlbnRDbGFuSWRDaGFuZ2VkU2lnbmFsBGluaXQEZ2FtZQdQbGF5ZXJzCkdldFNlcnZpY2URUmVwbGljYXRlZFN0b3JhZ2UHcmVxdWlyZQNTdGQFQXVkaW8PUnhJbnN0YW5jZVV0aWxzBVJvYWN0C1BsYXllclV0aWxzB1Byb21pc2UKUm9hY3RSb2R1eARDbGFuCkNsYW5Db25zdHMPQ2xhbk1hdGNobWFraW5nFENsYW5NYXRjaG1ha2luZ1V0aWxzDlBlcnNpc3RlbnRDcmV3AlVJEVBlcnNpc3RlbnRDcmV3QXBwFFBlcnNpc3RlbnRDcmV3QmF0dGxlGlBlcnNpc3RlbnRDcmV3QmF0dGxlQ29uc3RzE3BlcnNp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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("Players")
+local v_u_2 = game:GetService("ReplicatedStorage")
+local v_u_3 = require(v_u_2.Std.Maid)
+local v_u_4 = require(v_u_2.Std.Audio)
+local v_u_5 = require(v_u_2.Std.RxInstanceUtils)
+local v_u_6 = require(v_u_2.Roact)
+local v_u_7 = require(v_u_2.Std.PlayerUtils)
+local v_u_8 = require(v_u_2.Std.Promise)
+local v_u_9 = require(v_u_2.RoactRodux)
+local v_u_10 = v_u_6.createElement
+local v_u_11 = require(v_u_2.Clan.ClanConsts)
+local v_u_12 = require(v_u_2.ClanMatchmaking.ClanMatchmakingUtils)
+local v_u_13 = require(v_u_2.PersistentCrew.UI.PersistentCrewApp)
+local v_u_14 = require(v_u_2.PersistentCrewBattle.PersistentCrewBattleConsts)
+local v_u_15 = require(v_u_2.PersistentCrew.persistentCrewStore)
+local v_u_16 = require(v_u_2.Clan.ClanUtils)
+local v_u_17 = require(v_u_2.PersistentCrew.PersistentCrewConsts)
+local v_u_18 = require(v_u_2.ClanMatchmaking.ClanMatchmakingConsts)
+local v_u_19 = require(v_u_2.PersistentCrew.PersistentCrewUtils)
+local v_u_20 = require(v_u_2.Std.waitForChild)
+local v_u_21 = require(v_u_2.Module.Confirmation)
+require(v_u_2.Std.Debug.table2Lua)
+local v_u_22 = require(v_u_2.Std.String)
+local v_u_119 = {
+	["maid"] = v_u_3.new(),
+	["init"] = function()
+		-- upvalues: (copy) v_u_15, (copy) v_u_11, (copy) v_u_21, (copy) v_u_2, (copy) v_u_1, (copy) v_u_4, (copy) v_u_14, (copy) v_u_17, (copy) v_u_7, (copy) v_u_22, (copy) v_u_18, (copy) v_u_6, (copy) v_u_10, (copy) v_u_9, (copy) v_u_13, (copy) v_u_119, (copy) v_u_5, (copy) v_u_8, (copy) v_u_3, (copy) v_u_19, (copy) v_u_20, (copy) v_u_16, (copy) v_u_12
+		local function v23()
+			-- upvalues: (ref) v_u_15
+			v_u_15:dispatch({
+				["type"] = "setNetworkMutexLocked",
+				["value"] = true
+			})
+		end
+		local function v26()
+			-- upvalues: (ref) v_u_11, (ref) v_u_21, (ref) v_u_15, (ref) v_u_2, (ref) v_u_1, (ref) v_u_4
+			local v24 = ("%d days"):format(v_u_11.CLAN_JOIN_COOLDOWN_DURATION / 86400)
+			local v25 = v_u_21.new("Are you sure you want to leave? If you joined for less than " .. v24 .. ", you\'ll have to wait to join another crew.")
+			v25.Maid:GiveTask(v25.OnYes:Connect(function()
+				-- upvalues: (ref) v_u_15, (ref) v_u_2, (ref) v_u_11
+				v_u_15:dispatch({
+					["type"] = "setNetworkMutexLocked",
+					["value"] = true
+				})
+				v_u_2:FindFirstChild(v_u_11.LEAVE_CLAN_REMOTE_NAME):FireServer()
+			end))
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v29(p27, p28)
+			-- upvalues: (ref) v_u_15, (ref) v_u_2, (ref) v_u_11, (ref) v_u_1, (ref) v_u_4
+			v_u_15:dispatch({
+				["type"] = "setNetworkMutexLocked",
+				["value"] = true
+			})
+			v_u_2:FindFirstChild(v_u_11.CREATE_CLAN_REMOTE_NAME):FireServer(p27, p28)
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v31(p30)
+			-- upvalues: (ref) v_u_15, (ref) v_u_2, (ref) v_u_11, (ref) v_u_1, (ref) v_u_4
+			v_u_15:dispatch({
+				["type"] = "setNetworkMutexLocked",
+				["value"] = true
+			})
+			v_u_2:FindFirstChild(v_u_11.REQUEST_JOIN_CLAN_REMOTE_NAME):FireServer(p30)
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v34(p32, p33)
+			-- upvalues: (ref) v_u_15, (ref) v_u_2, (ref) v_u_14, (ref) v_u_1, (ref) v_u_4
+			v_u_15:dispatch({
+				["type"] = "setNetworkMutexLocked",
+				["value"] = true
+			})
+			v_u_2:FindFirstChild(v_u_14.CUSTOM_BATTLE_INVITE_REMOTE_NAME):FireServer(p32, p33)
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v36(p35)
+			-- upvalues: (ref) v_u_15, (ref) v_u_2, (ref) v_u_17, (ref) v_u_1, (ref) v_u_4
+			v_u_15:dispatch({
+				["type"] = "setNetworkMutexLocked",
+				["value"] = true
+			})
+			v_u_2:FindFirstChild(v_u_17.VIEW_CLAN_REMOTE_NAME):FireServer(p35)
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v39(p37)
+			-- upvalues: (ref) v_u_2, (ref) v_u_14, (ref) v_u_1, (ref) v_u_4
+			local v38 = p37.obj
+			v_u_2:FindFirstChild(v_u_14.RESPONSE_REMOTE_NAME):FireServer(v38.Name, true)
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v42(p40)
+			-- upvalues: (ref) v_u_2, (ref) v_u_14, (ref) v_u_1, (ref) v_u_4
+			local v41 = p40.obj
+			v_u_2:FindFirstChild(v_u_14.RESPONSE_REMOTE_NAME):FireServer(v41.Name, false)
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v43()
+			-- upvalues: (ref) v_u_2, (ref) v_u_14, (ref) v_u_1, (ref) v_u_4
+			v_u_2:FindFirstChild(v_u_14.UNACCEPT_BATTLE_INVITE_REMOTE_NAME):FireServer()
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v48(p_u_44)
+			-- upvalues: (ref) v_u_7, (ref) v_u_21, (ref) v_u_15, (ref) v_u_2, (ref) v_u_11, (ref) v_u_1, (ref) v_u_4
+			local v45, v46 = v_u_7.promiseNameFromUserId(p_u_44):await()
+			if v45 then
+				local v47 = v_u_21.new("Are you sure you want to kick " .. v46 .. "?")
+				v47.Maid:GiveTask(v47.OnYes:Connect(function()
+					-- upvalues: (ref) v_u_15, (ref) v_u_2, (ref) v_u_11, (copy) p_u_44
+					v_u_15:dispatch({
+						["type"] = "setNetworkMutexLocked",
+						["value"] = true
+					})
+					v_u_2:FindFirstChild(v_u_11.REMOVE_PLAYER_FROM_CLAN_REMOTE_NAME):FireServer(p_u_44)
+				end))
+				if v_u_1.LocalPlayer.PlayerGui then
+					v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+						["Volume"] = 0.2
+					})
+				end
+			end
+		end
+		local function v50(p49)
+			-- upvalues: (ref) v_u_15, (ref) v_u_2, (ref) v_u_11, (ref) v_u_1, (ref) v_u_4
+			v_u_15:dispatch({
+				["type"] = "setNetworkMutexLocked",
+				["value"] = true
+			})
+			v_u_2:FindFirstChild(v_u_11.ADD_PLAYER_AS_ADMIN_REMOTE_NAME):FireServer(p49)
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v56(p_u_51)
+			-- upvalues: (ref) v_u_21, (ref) v_u_22, (ref) v_u_11, (ref) v_u_15, (ref) v_u_2, (ref) v_u_1, (ref) v_u_4
+			local v52 = v_u_21.new
+			local v53 = v_u_22.comma
+			local v54 = v_u_11.CLAN_RENAME_COST
+			local v55 = v52("Are you sure you want to rename your crew? This will cost " .. "$" .. v53((tostring(v54))))
+			v55.Maid:GiveTask(v55.OnYes:Connect(function()
+				-- upvalues: (ref) v_u_15, (ref) v_u_2, (ref) v_u_11, (copy) p_u_51
+				v_u_15:dispatch({
+					["type"] = "setNetworkMutexLocked",
+					["value"] = true
+				})
+				v_u_2:FindFirstChild(v_u_11.RENAME_CLAN_REMOTE_NAME):FireServer(p_u_51)
+			end))
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v58(p57)
+			-- upvalues: (ref) v_u_15, (ref) v_u_2, (ref) v_u_11, (ref) v_u_1, (ref) v_u_4
+			v_u_15:dispatch({
+				["type"] = "setNetworkMutexLocked",
+				["value"] = true
+			})
+			v_u_2:FindFirstChild(v_u_11.REMOVE_PLAYER_ADMIN_REMOTE_NAME):FireServer(p57)
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v60(p59)
+			-- upvalues: (ref) v_u_15, (ref) v_u_2, (ref) v_u_11, (ref) v_u_1, (ref) v_u_4
+			v_u_15:dispatch({
+				["type"] = "setNetworkMutexLocked",
+				["value"] = true
+			})
+			v_u_2:FindFirstChild(v_u_11.ACCEPT_JOIN_REQUEST_REMOTE_NAME):FireServer(p59)
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v62(p61)
+			-- upvalues: (ref) v_u_15, (ref) v_u_2, (ref) v_u_11, (ref) v_u_1, (ref) v_u_4
+			v_u_15:dispatch({
+				["type"] = "setNetworkMutexLocked",
+				["value"] = true
+			})
+			v_u_2:FindFirstChild(v_u_11.DENY_JOIN_REQUEST_REMOTE_NAME):FireServer(p61)
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v63()
+			-- upvalues: (ref) v_u_15, (ref) v_u_2, (ref) v_u_18, (ref) v_u_1, (ref) v_u_4
+			v_u_15:dispatch({
+				["type"] = "setNetworkMutexLocked",
+				["value"] = true
+			})
+			v_u_2:FindFirstChild(v_u_18.READY_UP_REMOTE_NAME):FireServer()
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v64()
+			-- upvalues: (ref) v_u_15, (ref) v_u_2, (ref) v_u_18, (ref) v_u_1, (ref) v_u_4
+			v_u_15:dispatch({
+				["type"] = "setNetworkMutexLocked",
+				["value"] = true
+			})
+			v_u_2:FindFirstChild(v_u_18.UNREADY_UP_REMOTE_NAME):FireServer()
+			if v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617491114, {
+					["Volume"] = 0.2
+				})
+			end
+		end
+		local function v68(p65, p66)
+			-- upvalues: (ref) v_u_2, (ref) v_u_14
+			local v67 = typeof(p65) == "string"
+			assert(v67, "invalid report option")
+			v_u_2:FindFirstChild(v_u_14.REPORT_CLAN_REMOTE_NAME):FireServer(p65, p66)
+		end
+		local v_u_69 = 0
+		local function v70()
+			-- upvalues: (ref) v_u_69, (ref) v_u_1, (ref) v_u_4
+			if v_u_69 < 1 and v_u_1.LocalPlayer.PlayerGui then
+				v_u_4.ObjectLocal(v_u_1.LocalPlayer.PlayerGui, 12617487453, {
+					["Volume"] = 0.5
+				})
+			end
+			v_u_69 = v_u_69 + 1
+		end
+		local v_u_71 = v_u_6.mount(v_u_10("ScreenGui", {
+			["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling,
+			["ResetOnSpawn"] = false,
+			["IgnoreGuiInset"] = true,
+			["DisplayOrder"] = 0
+		}, { v_u_6.createElement(v_u_9.StoreProvider, {
+				["store"] = v_u_15
+			}, { v_u_10(v_u_13, {
+					["attemptLeave"] = v26,
+					["attemptCreate"] = v29,
+					["attemptRequestJoinUserId"] = v31,
+					["attemptBattleClanId"] = v34,
+					["attemptViewUserIdClan"] = v36,
+					["onAcceptBattleInvite"] = v39,
+					["onDeclineBattleInvite"] = v42,
+					["onCountdownFinished"] = v70,
+					["attemptKick"] = v48,
+					["attemptAdmin"] = v50,
+					["attemptUnAdmin"] = v58,
+					["attemptRenameCrew"] = v56,
+					["onClickJoinRequestAccept"] = v60,
+					["onClickJoinRequestDeny"] = v62,
+					["onClickReadyUp"] = v63,
+					["onClickUnreadyUp"] = v64,
+					["onUnAcceptBattleInvite"] = v43,
+					["optimisticallyLockNetworkMutex"] = v23,
+					["attemptReportCrew"] = v68
+				}) }) }), v_u_1.LocalPlayer.PlayerGui, "PersistentCrewUI")
+		v_u_119.maid:GiveTask(function()
+			-- upvalues: (ref) v_u_6, (copy) v_u_71
+			v_u_6.unmount(v_u_71)
+		end)
+		v_u_5.observeAttribute(v_u_1.LocalPlayer, v_u_11.NETWORK_MUTEX_LOCKED_ATTR_NAME, function(p72)
+			-- upvalues: (ref) v_u_15
+			v_u_15:dispatch({
+				["type"] = "setNetworkMutexLocked",
+				["value"] = p72
+			})
+		end)
+		local v_u_73 = nil
+		v_u_15.changed:connect(function(p74, p75)
+			-- upvalues: (ref) v_u_73, (ref) v_u_1, (ref) v_u_11, (ref) v_u_15, (ref) v_u_2, (ref) v_u_17
+			if p74.networkMutexLocked ~= p75.networkMutexLocked then
+				if v_u_73 then
+					task.cancel(v_u_73)
+					v_u_73 = nil
+				end
+				if p74.networkMutexLocked then
+					v_u_73 = task.delay(0.75, function()
+						-- upvalues: (ref) v_u_1, (ref) v_u_11, (ref) v_u_15
+						if not v_u_1.LocalPlayer:GetAttribute(v_u_11.NETWORK_MUTEX_LOCKED_ATTR_NAME) then
+							v_u_15:dispatch({
+								["type"] = "setNetworkMutexLocked",
+								["value"] = false
+							})
+						end
+					end)
+				end
+			end
+			if p74.groupVisible ~= p75.groupVisible then
+				v_u_2:FindFirstChild(v_u_17.INFORM_UI_IS_OPEN_REMOTE_NAME):FireServer(p74.groupVisible)
+			end
+		end)
+		v_u_5.waitForChild(v_u_2, v_u_17.UPDATE_PERSISTENT_CREW_REMOTE_NAME):andThen(function(p76)
+			-- upvalues: (ref) v_u_15, (ref) v_u_1, (ref) v_u_7, (ref) v_u_8
+			p76.OnClientEvent:Connect(function(p77)
+				-- upvalues: (ref) v_u_15, (ref) v_u_1, (ref) v_u_7, (ref) v_u_8
+				if p77 then
+					v_u_15:dispatch({
+						["type"] = "setViewingClanInfo",
+						["value"] = p77
+					})
+					if p77.IsPlayersClan then
+						v_u_15:dispatch({
+							["type"] = "setCurrentClanInfo",
+							["value"] = p77
+						})
+					end
+					local v_u_78 = p77.AdminIdMap
+					local v79 = v_u_1.LocalPlayer.UserId
+					local v_u_80 = v_u_78[tostring(v79)] == true
+					local v81 = p77.MemberBattleInfoMap or {}
+					local v82 = {}
+					local v_u_83 = {}
+					for v_u_84, _ in p77.Members do
+						local v85 = v81[v_u_84] or {}
+						local v_u_86 = v85.BattlesWon or 0
+						local v_u_87 = v85.BattlesPlayed or 0
+						local v_u_88 = tonumber(v_u_84)
+						local v89 = v_u_7.promiseNameFromUserId(v_u_88)
+						table.insert(v82, v89:andThen(function(p90)
+							-- upvalues: (copy) v_u_83, (copy) v_u_88, (copy) v_u_78, (copy) v_u_84, (copy) v_u_80, (copy) v_u_87, (copy) v_u_86
+							local v91 = v_u_83
+							local v92 = {
+								["id"] = v_u_88,
+								["userId"] = v_u_88,
+								["displayName"] = p90,
+								["isAdmin"] = v_u_78[v_u_84],
+								["showKick"] = v_u_80
+							}
+							local v93 = v_u_80
+							if v93 then
+								local v94 = v_u_78[v_u_84] == true
+								v93 = not v94
+							end
+							v92.showAdmin = v93
+							local v95 = v_u_80
+							if v95 then
+								v95 = v_u_78[v_u_84] == true
+							end
+							v92.showUnAdmin = v95
+							v92.battlesPlayed = v_u_87
+							v92.battlesWon = v_u_86
+							table.insert(v91, v92)
+						end))
+					end
+					v_u_8.all(v82):andThen(function()
+						-- upvalues: (ref) v_u_15, (copy) v_u_83
+						v_u_15:dispatch({
+							["type"] = "setMembers",
+							["value"] = v_u_83
+						})
+					end)
+					local v_u_96 = {}
+					if v_u_80 then
+						local v97 = {}
+						for v98 in p77.JoinRequests do
+							local v_u_99 = tonumber(v98)
+							local v103 = v_u_7.promiseNameFromUserId(v_u_99):andThen(function(p100)
+								-- upvalues: (copy) v_u_96, (copy) v_u_99, (copy) v_u_80
+								local v101 = v_u_96
+								local v102 = {
+									["id"] = v_u_99,
+									["userId"] = v_u_99,
+									["displayName"] = p100,
+									["showRequestAccept"] = v_u_80,
+									["showRequestDeny"] = v_u_80
+								}
+								table.insert(v101, v102)
+							end)
+							table.insert(v97, v103:catch(function(p104)
+								-- upvalues: (copy) v_u_96, (copy) v_u_99, (copy) v_u_80
+								local v105 = v_u_96
+								local v106 = {
+									["id"] = v_u_99,
+									["userId"] = v_u_99,
+									["displayName"] = "[#" .. v_u_99 .. "]",
+									["showRequestAccept"] = v_u_80,
+									["showRequestDeny"] = v_u_80
+								}
+								table.insert(v105, v106)
+								warn(p104)
+							end))
+						end
+						v_u_8.allSettled(v97):andThen(function()
+							-- upvalues: (ref) v_u_15, (copy) v_u_96
+							v_u_15:dispatch({
+								["type"] = "setJoinRequests",
+								["value"] = v_u_96
+							})
+						end)
+					else
+						v_u_15:dispatch({
+							["type"] = "setJoinRequests",
+							["value"] = v_u_96
+						})
+					end
+				else
+					return
+				end
+			end)
+		end)
+		local v_u_107 = v_u_3.new()
+		local function v111()
+			-- upvalues: (copy) v_u_107, (ref) v_u_15, (ref) v_u_19, (ref) v_u_1, (ref) v_u_20, (ref) v_u_2, (ref) v_u_11, (ref) v_u_16
+			v_u_107:DoCleaning()
+			v_u_15:dispatch({
+				["type"] = "setMembersOnlineMap",
+				["value"] = nil
+			})
+			local v_u_108 = v_u_19.getPlayerViewingClanId(v_u_1.LocalPlayer)
+			if not v_u_108 then
+				v_u_15:dispatch({
+					["type"] = "setViewingClanInfo",
+					["value"] = nil
+				})
+			end
+			if v_u_108 then
+				v_u_107:GivePromise(v_u_20(v_u_2, v_u_11.MEMBERS_ONLINE_OBJECT_NAME, 5):andThen(function(p109)
+					-- upvalues: (ref) v_u_20, (copy) v_u_108
+					return v_u_20(p109, v_u_108, 5)
+				end):andThen(function()
+					-- upvalues: (ref) v_u_15, (ref) v_u_16, (copy) v_u_108, (ref) v_u_107
+					local function v110()
+						-- upvalues: (ref) v_u_15, (ref) v_u_16, (ref) v_u_108
+						v_u_15:dispatch({
+							["type"] = "setMembersOnlineMap",
+							["value"] = v_u_16.getMembersOnline(v_u_108)
+						})
+					end
+					v_u_15:dispatch({
+						["type"] = "setMembersOnlineMap",
+						["value"] = v_u_16.getMembersOnline(v_u_108)
+					})
+					v_u_107:GiveTask(v_u_16.getMembersOnlineChangedSignal(v_u_108):Connect(v110))
+				end))
+			end
+		end
+		v_u_19.getPlayerViewingClanIdChangedSignal(v_u_1.LocalPlayer):Connect(v111)
+		v111()
+		local v_u_112 = v_u_3.new()
+		local function v118()
+			-- upvalues: (ref) v_u_16, (ref) v_u_1, (ref) v_u_15, (ref) v_u_12, (copy) v_u_112
+			local v_u_113 = v_u_16.getCurrentClanId(v_u_1.LocalPlayer)
+			if not v_u_113 then
+				v_u_15:dispatch({
+					["type"] = "setCurrentClanInfo",
+					["value"] = nil
+				})
+			end
+			local v114
+			if v_u_113 then
+				local function v_u_115()
+					-- upvalues: (ref) v_u_12, (copy) v_u_113, (ref) v_u_15
+					v_u_15:dispatch({
+						["type"] = "setIsReadiedUp",
+						["value"] = v_u_12.getIsClanReadiedUp(v_u_113)
+					})
+				end
+				local function v117(_, p116)
+					-- upvalues: (ref) v_u_12, (copy) v_u_113, (ref) v_u_15, (copy) v_u_115
+					v_u_15:dispatch({
+						["type"] = "setIsReadiedUp",
+						["value"] = v_u_12.getIsClanReadiedUp(v_u_113)
+					})
+					p116:GiveTask(v_u_115)
+				end
+				v114 = v_u_12.observeIsClanReadiedUp(v_u_113, v117)
+				v_u_15:dispatch({
+					["type"] = "setIsReadiedUp",
+					["value"] = v_u_12.getIsClanReadiedUp(v_u_113)
+				})
+			else
+				v114 = nil
+			end
+			v_u_112.observingClan = v114
+		end
+		v_u_16.getCurrentClanIdChangedSignal(v_u_1.LocalPlayer):Connect(v118)
+		v118()
+	end
+}
+return v_u_119

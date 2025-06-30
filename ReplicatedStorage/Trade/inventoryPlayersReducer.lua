@@ -1,0 +1,35 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMUCmFsbFBsYXllcnMSbWlzc2luZyBhbGxQbGF5ZXJzBmFzc2VydA5zZWxlY3RlZFBsYXllchNzZXRJbnZlbnRvcnlQbGF5ZXJzFm1pc3Npbmcgc2VsZWN0ZWRQbGF5ZXIjVVBEQVRFX0lOVkVOVE9SWV9QTEFZRVJfUkVNT1RFX05BTUUORmluZEZpcnN0Q2hpbGQKRmlyZVNlcnZlchJzZXRJbnZlbnRvcnlQbGF5ZXIEZ2FtZRFSZXBsaWNhdGVkU3RvcmFnZQpHZXRTZXJ2aWNlB3JlcXVpcmUFVHJhZGULVHJhZGVDb25zdHMFUm9kdXgHUGxheWVycw1jcmVhdGVSZWR1Y2VyC0xvY2FsUGxheWVyAAMFAgAAAAAWTQQBdAAAAABHBAIAAAAAgKkDAAGpAwEAgQEDBAEAAABvBAEApAIDAAAAIECfAgMB4gIFAE0DAEsEAAAAMAMCSwQAAABNAwF0AAAAADADAnQAAAAAggICAAYDAQMCAwMEAAAgQAMEBQIEAAAIBQEYAAAAAAAAAAAAAAAAAQAAAAAAAAAAAQkAAAAABwICAAAAIk0EAUsAAAAARwQCAAAAAICpAwABqQMBAIEBAwQBAAAAbwQBAKQCAwAAACBAnwIDAeICBQBNAwB0BAAAADADAnQEAAAATQMBSwAAAAAwAwJLAAAAAPsDAAD7BgEATQUG4AYAAAC8AwMDBwAAAJ8DAwJNBgFLAAAAALwEA2sIAAAAnwQDAYICAgAJAwQDBgMDBAAAIEADAQUCBAADBwMIAwkADQoBGAAAAAAAAAAAAAAAAAEAAAAAAAAAAAMAAAAAAAABAAAAAAEOAAAAAAgAAAECAC+jAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAwC7BgAAAE0CA5EHAAAAnwECAqQCBQAAAEBATQMApwgAAACfAgICpAMBAAAAAEBvBQkAvAMDFgMAAACfAwMCTQQC1goAAADiBQ0ATQYDMQ4AAAAwBgVLCwAAAP8GAAAAAAAAMAYFdAwAAADiBhEAwAcSADAHBu0PAAAAwAcTABIAAAASAAEAMAcGTxAAAACfBAMAggQAABQDCwQAAABAAwwDDQMOBAAAQEADDwMQAxEDEgMTAwQDAQUCCwwDFAMFAwoFAg8QBgAGAQIAAQEAARgAAQAAAAAAAQAAAAAAAAEAAAAAAQAAAAAAAgAAAAAAAAAAAAAAAQAABQAAAAD6AAEAAAAAAoqRDWr0rP56uFVn/gSJXY+Lmc1Ag5XDwECwRfLTCS8rQFuTLdesYB8=
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v_u_1.Trade.TradeConsts)
+local v3 = require(v_u_1.Rodux)
+local v4 = game:GetService("Players")
+return v3.createReducer({
+	["selectedPlayer"] = v4.LocalPlayer,
+	["allPlayers"] = {}
+}, {
+	["setInventoryPlayers"] = function(p5, p6)
+		local v7 = p6.allPlayers ~= nil
+		assert(v7, "missing allPlayers")
+		return {
+			["selectedPlayer"] = p5.selectedPlayer,
+			["allPlayers"] = p6.allPlayers
+		}
+	end,
+	["setInventoryPlayer"] = function(p8, p9)
+		-- upvalues: (copy) v_u_1, (copy) v_u_2
+		local v10 = p9.selectedPlayer ~= nil
+		assert(v10, "missing selectedPlayer")
+		local v11 = {
+			["allPlayers"] = p8.allPlayers,
+			["selectedPlayer"] = p9.selectedPlayer
+		}
+		v_u_1:FindFirstChild(v_u_2.UPDATE_INVENTORY_PLAYER_REMOTE_NAME):FireServer(p9.selectedPlayer)
+		return v11
+	end
+})

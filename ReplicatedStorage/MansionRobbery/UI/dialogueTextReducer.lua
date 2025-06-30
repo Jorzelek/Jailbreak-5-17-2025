@@ -1,0 +1,15 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMLBHRleHQVbWlzc2luZyBkaWFsb2d1ZSB0ZXh0BmFzc2VydA9zZXREaWFsb2d1ZVRleHQEZ2FtZRFSZXBsaWNhdGVkU3RvcmFnZQpHZXRTZXJ2aWNlB3JlcXVpcmUFUm9kdXgNY3JlYXRlUmVkdWNlcgAAAgUCAAAAAA9NBAHVAAAAAEcEAgAAAACAqQMAAakDAQCBAQMEAQAAAG8EAQCkAgMAAAAgQJ8CAwFNAgHVAAAAAIICAgAEAwEDAgMDBAAAIEAABgQBGAAAAAAAAAAAAAAAAAEAAAcAAAAABgAAAQIAFaMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0CAKcGAAAAnwECAk0CAdYHAAAAbwMIAOIECgDABQsAMAUEZQkAAACfAgMAggIAAAwDBQQAAABAAwYDBwMIBAAAQEADCQMKAwsDBAUBCQYAAQABAAEYAAEAAAAAAAEAAAAAAgAAAAEAAP8AAQAAAAABaax73MRC1etbaBFIcLMKfsUGCzA6PPV8WPowixOQC4Wbcx2W61VsRQ==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Rodux).createReducer("", {
+	["setDialogueText"] = function(_, p2)
+		local v3 = p2.text ~= nil
+		assert(v3, "missing dialogue text")
+		return p2.text
+	end
+})

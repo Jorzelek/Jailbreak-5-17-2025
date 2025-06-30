@@ -1,0 +1,343 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgOMAQtSZXNwb25kZWRBdAZVc2VySWQKSW1hZ2VMYWJlbA9Cb3JkZXJTaXplUGl4ZWwWQmFja2dyb3VuZFRyYW5zcGFyZW5jeRBCYWNrZ3JvdW5kQ29sb3IzBUltYWdlBFNpemUIUG9zaXRpb24LQW5jaG9yUG9pbnQGQ29sb3IzA25ldy5yYnh0aHVtYjovL3R5cGU9QXZhdGFySGVhZFNob3Qmdz0xNTAmaD0xNTAmaWQ9CHRvc3RyaW5nBHNpemUIcG9zaXRpb24HVmVjdG9yMghVSUNvcm5lcghVSVN0cm9rZQpBZG1pbkJhZGdlDENvcm5lclJhZGl1cwRVRGltDFRyYW5zcGFyZW5jeQlUaGlja25lc3MFQ29sb3IHSXNBZG1pbgtJbWFnZUJ1dHRvbgZaSW5kZXgFVURpbTIJZnJvbVNjYWxlGHJieGFzc2V0aWQ6Ly8xMjM4NTI2Mzk0NgVGcmFtZQZ6SW5kZXgBUQlUZXh0TGFiZWwEVGV4dARGb250ClRleHRTY2FsZWQKVGV4dENvbG9yMwE/BEVudW0KRnJlZG9rYU9uZQ9hdmF0YXJDb21wb25lbnQEbWFpZARkb3RzCHNldFN0YXRlBGluaXQFcHJvcHMLYXNwZWN0UmF0aW8BLgVzdGF0ZQNyZXAXQVNTRU1CTElORyAlZHYlZCBCQVRUTEURbnVtUGxheWVyc1BlclRlYW0GZm9ybWF0DWNsYW5Db2xvck91cnMPY2xhbkNvbG9yVGhlaXJzD3JnYiglZCwgJWQsICVkKQFyAWcBYhJyZ2IoMjU1LCAyNTUsIDI1NSkNPGZvbnQgY29sb3I9IgsiPiVzPC9mb250PgxjbGFuTmFtZU91cnMADmNsYW5OYW1lVGhlaXJzC2FuY2hvclBvaW50CVVJQ29ybmVycwtBc3BlY3RSYXRpbwlDb250YWluZXIXVUlBc3BlY3RSYXRpb0NvbnN0cmFpbnQWYmFja2dyb3VuZFRyYW5zcGFyZW5jeRR2ZXJ0aWNhbFBhZGRpbmdSYXRpbw5UaXRsZUNvbnRhaW5lcglDbGFuQUZsYWcFQ2xhbkEJQ2xhbkJGbGFnBUNsYW5CD0Zvb3RlckNvbnRhaW5lcg9iYWNrZ3JvdW5kQ29sb3IKcGFkZGluZ1RvcA1wYWRkaW5nQm90dG9tC3BhZGRpbmdMZWZ0DHBhZGRpbmdSaWdodA1UZXh0Q29udGFpbmVyE0NyZXdUaXRsZUFDb250YWluZXITQ3Jld1RpdGxlQkNvbnRhaW5lcg5UZXh0WEFsaWdubWVudAdCYW5nZXJzBkNlbnRlcghSaWNoVGV4dARMZWZ0BVJpZ2h0BUlubmVyBEZsYWcJZmxhZ0NvbG9yBnVzZXJJZA1jbGFuT3duZXJPdXJzBEdyaWQaZXhwb3NlUGFkZGVkQ29udGFpbmVyUHJvcHMJY29tcG9uZW50BWl0ZW1zCG51bUl0ZW1zD2NsYW5NZW1iZXJzT3Vycw9jbGFuT3duZXJUaGVpcnMRY2xhbk1lbWJlcnNUaGVpcnMTVW5hY2NlcHRNYXRjaG1ha2luZwR0ZXh0DGNvcm5lclJhZGl1cwdvbkNsaWNrD1VOQUNDRVBUIEJBVFRMRQdmcm9tUkdCFm9uVW5BY2NlcHRCYXR0bGVJbnZpdGUGcmVuZGVyBWV2ZXJ5B0Nvbm5lY3QIR2l2ZVRhc2sIZGlkTW91bnQKRG9DbGVhbmluZwt3aWxsVW5tb3VudARnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQNTdGQETWFpZAhJbnRlcnZhbAVSb2FjdA1jcmVhdGVFbGVtZW50BEV6VWkPUGFkZGVkQ29udGFpbmVyDlBlcnNpc3RlbnRDcmV3AlVJClRleHRCdXR0b24UaG9yaXpvbnRhbFNxdWFyZUdyaWQNUHVyZUNvbXBvbmVudAlSZXNwb25zZXMGZXh0ZW5kDGRlZmF1bHRQcm9wcwAHDQEBAAAA+QFNAQCTAAAAAA4BdwBNAgDmAgAAAJABAgH7AgAAbwMDAOIECwCMBQAAMAUEjgQAAACMBQAAMAUEOgUAAACkBQ4AADTAgG8GDwBvBw8AbwgPAJ8FBAIwBQSfBgAAAG8GEAC7PwEDUggBAKQHEgAAABBBnwcCAnMFBgcwBQSpBwAAAE0FAA8TAAAAMAUELwgAAABNBQDbFAAAADAFBDsJAAAApAUWAAA0UIGMBgAAjAcAAJ8FAwIwBQToCgAAAOIFGgD7BgAAbwcXAOIIHACkCR4AADTQgYwKAQCMCwAAnwkDAjAJCE8bAAAAnwYDAjAGBfQXAAAA+wYAAG8HGADiCCIAbwkjADAJCNkfAAAAjAkB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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Std.Maid)
+local v_u_3 = require(v1.Std.Interval)
+local v4 = require(v1.Roact)
+local v_u_5 = v4.createElement
+local v_u_6 = require(v1.EzUi.PaddedContainer)
+local v_u_7 = require(v1.PersistentCrew.UI.Flag)
+local v_u_8 = require(v1.PersistentCrew.UI.TextButton)
+local v_u_9 = require(v1.PersistentCrew.UI.horizontalSquareGrid)
+local function v_u_21(p10)
+	-- upvalues: (copy) v_u_5
+	if p10.RespondedAt then
+		local v11 = p10.UserId or 1
+		local v12 = v_u_5
+		local v13 = "ImageLabel"
+		local v14 = {
+			["BorderSizePixel"] = 0,
+			["BackgroundTransparency"] = 0,
+			["BackgroundColor3"] = Color3.new(0.9, 0.9, 0.9),
+			["Image"] = "rbxthumb://type=AvatarHeadShot&w=150&h=150&id=" .. tostring(v11),
+			["Size"] = p10.size,
+			["Position"] = p10.position,
+			["AnchorPoint"] = Vector2.new(0, 0)
+		}
+		local v15 = {
+			["UICorner"] = v_u_5("UICorner", {
+				["CornerRadius"] = UDim.new(1, 0)
+			}),
+			["UIStroke"] = v_u_5("UIStroke", {
+				["Transparency"] = 0.5,
+				["Thickness"] = 1,
+				["Color"] = Color3.new(0, 0, 0)
+			})
+		}
+		local v16 = p10.IsAdmin
+		if v16 then
+			v16 = v_u_5("ImageButton", {
+				["BackgroundTransparency"] = 1,
+				["ZIndex"] = 3,
+				["Size"] = UDim2.fromScale(0.4, 0.4),
+				["Position"] = UDim2.fromScale(0.8, 0.8),
+				["AnchorPoint"] = Vector2.new(0.5, 0.5),
+				["Image"] = "rbxassetid://12385263946"
+			})
+		end
+		v15.AdminBadge = v16
+		return v12(v13, v14, v15)
+	else
+		local v17 = v_u_5
+		local v18 = "Frame"
+		local v19 = {
+			["BorderSizePixel"] = 0,
+			["BackgroundTransparency"] = 0
+		}
+		local v20
+		if p10.RespondedAt ~= nil then
+			v20 = Color3.new(1, 1, 1)
+		else
+			v20 = Color3.new(0.4, 0.4, 0.4)
+		end
+		v19.BackgroundColor3 = v20
+		v19.Size = p10.size
+		v19.Position = p10.position
+		v19.ZIndex = p10.zIndex
+		return v17(v18, v19, {
+			["UICorner"] = v_u_5("UICorner", {
+				["CornerRadius"] = UDim.new(1, 0)
+			}),
+			["UIStroke"] = v_u_5("UIStroke", {
+				["Transparency"] = 0.5,
+				["Thickness"] = 1,
+				["Color"] = Color3.new(0, 0, 0)
+			}),
+			["Q"] = v_u_5("TextLabel", {
+				["BackgroundTransparency"] = 1,
+				["Text"] = "?",
+				["Font"] = Enum.Font.FredokaOne,
+				["TextScaled"] = true,
+				["Size"] = UDim2.fromScale(1, 1),
+				["AnchorPoint"] = Vector2.new(0.5, 0.5),
+				["Position"] = UDim2.fromScale(0.5, 0.5),
+				["TextColor3"] = Color3.new(0.2, 0.2, 0.2)
+			})
+		})
+	end
+end
+local v22 = v4.PureComponent:extend("Responses")
+v22.defaultProps = {
+	["size"] = UDim2.new(1, 0, 0.3, 0),
+	["anchorPoint"] = Vector2.new(0.5, 0.5),
+	["position"] = UDim2.new(0.5, 0, 0.5, 0),
+	["numPlayersPerTeam"] = 5
+}
+function v22.init(p23)
+	-- upvalues: (copy) v_u_2
+	p23.maid = v_u_2.new()
+	p23:setState({
+		["dots"] = 0
+	})
+end
+function v22.render(p24)
+	-- upvalues: (copy) v_u_5, (copy) v_u_6, (copy) v_u_7, (copy) v_u_9, (copy) v_u_21, (copy) v_u_8
+	local v25 = 0.385 / p24.props.aspectRatio * 1.5
+	local v26 = Color3.new(0.2, 0.2, 0.2)
+	local v27 = ("."):rep(p24.state.dots - 1) .. ("ASSEMBLING %dv%d BATTLE"):format(p24.props.numPlayersPerTeam, p24.props.numPlayersPerTeam) .. ("."):rep(p24.state.dots - 1)
+	local v28 = p24.props.clanColorOurs
+	local v29 = p24.props.clanColorTheirs
+	local v30 = ("rgb(%d, %d, %d)"):format(v28.r * 255, v28.g * 255, v28.b * 255)
+	local v31 = not v29 and "rgb(255, 255, 255)" or ("rgb(%d, %d, %d)"):format(v29.r * 255, v29.g * 255, v29.b * 255)
+	local v32 = ("<font color=\"" .. v30 .. "\">%s</font>"):format(p24.props.clanNameOurs)
+	local v33 = ("<font color=\"" .. v31 .. "\">%s</font>"):format(p24.props.clanNameTheirs or "")
+	local v34 = v_u_5
+	local v35 = {
+		["BorderSizePixel"] = 0,
+		["BackgroundTransparency"] = 0.8,
+		["BackgroundColor3"] = Color3.new(0, 0, 0),
+		["Size"] = p24.props.size,
+		["Position"] = p24.props.position,
+		["AnchorPoint"] = p24.props.anchorPoint
+	}
+	local v36 = {
+		["UICorners"] = v_u_5("UICorner", {
+			["CornerRadius"] = UDim.new(0, 4)
+		}),
+		["AspectRatio"] = v_u_5("UIAspectRatioConstraint", {
+			["AspectRatio"] = p24.props.aspectRatio
+		})
+	}
+	local v37 = v_u_5
+	local v38 = v_u_6
+	local v39 = {
+		["backgroundTransparency"] = 1,
+		["aspectRatio"] = p24.props.aspectRatio,
+		["verticalPaddingRatio"] = p24.props.verticalPaddingRatio
+	}
+	local v40 = {
+		["TitleContainer"] = v_u_5(v_u_6, {
+			["backgroundTransparency"] = 0,
+			["backgroundColor"] = Color3.new(0.2, 0.2, 0.2),
+			["size"] = UDim2.new(1, 0, 0.13, 0),
+			["paddingTop"] = 0,
+			["paddingBottom"] = 1,
+			["paddingLeft"] = 0,
+			["paddingRight"] = 0
+		}, {
+			["UICorner"] = v_u_5("UICorner", {
+				["CornerRadius"] = UDim.new(0, 4)
+			}),
+			["TextContainer"] = v_u_5(v_u_6, {
+				["size"] = UDim2.fromScale(0.5, 1),
+				["position"] = UDim2.fromScale(0.25, 0),
+				["backgroundTransparency"] = 1,
+				["paddingTop"] = 1,
+				["paddingBottom"] = 1,
+				["paddingLeft"] = 1,
+				["paddingRight"] = 1
+			}, {
+				["UICorner"] = v_u_5("UICorner", {
+					["CornerRadius"] = UDim.new(0, 4)
+				}),
+				["Text"] = v_u_5("TextLabel", {
+					["BackgroundTransparency"] = 1,
+					["Text"] = v27,
+					["TextColor3"] = Color3.new(1, 1, 1),
+					["TextScaled"] = true,
+					["Size"] = UDim2.new(1, 0, 1, 0),
+					["Font"] = Enum.Font.Bangers,
+					["TextXAlignment"] = Enum.TextXAlignment.Center
+				})
+			}),
+			["CrewTitleAContainer"] = v_u_5(v_u_6, {
+				["size"] = UDim2.fromScale(0.5, 1),
+				["position"] = UDim2.fromScale(0, 0),
+				["backgroundTransparency"] = 1,
+				["paddingTop"] = 1,
+				["paddingBottom"] = 1,
+				["paddingLeft"] = 1,
+				["paddingRight"] = 1
+			}, {
+				["UICorner"] = v_u_5("UICorner", {
+					["CornerRadius"] = UDim.new(0, 4)
+				}),
+				["Text"] = v_u_5("TextLabel", {
+					["BackgroundTransparency"] = 1,
+					["Text"] = v32,
+					["RichText"] = true,
+					["TextColor3"] = Color3.new(1, 1, 1),
+					["TextScaled"] = true,
+					["Size"] = UDim2.new(1, 0, 1, 0),
+					["Font"] = Enum.Font.Bangers,
+					["TextXAlignment"] = Enum.TextXAlignment.Left
+				})
+			}),
+			["CrewTitleBContainer"] = v_u_5(v_u_6, {
+				["size"] = UDim2.fromScale(0.5, 1),
+				["position"] = UDim2.fromScale(0.5, 0),
+				["backgroundTransparency"] = 1,
+				["paddingTop"] = 1,
+				["paddingBottom"] = 1,
+				["paddingLeft"] = 1,
+				["paddingRight"] = 1
+			}, {
+				["UICorner"] = v_u_5("UICorner", {
+					["CornerRadius"] = UDim.new(0, 4)
+				}),
+				["Text"] = v_u_5("TextLabel", {
+					["BackgroundTransparency"] = 1,
+					["Text"] = v33,
+					["RichText"] = true,
+					["TextColor3"] = Color3.new(1, 1, 1),
+					["TextScaled"] = true,
+					["Size"] = UDim2.new(1, 0, 1, 0),
+					["Font"] = Enum.Font.Bangers,
+					["TextXAlignment"] = Enum.TextXAlignment.Right
+				})
+			})
+		}),
+		["ClanAFlag"] = v_u_5(v_u_6, {
+			["backgroundTransparency"] = 0,
+			["backgroundColor"] = v26,
+			["size"] = UDim2.new(v25, 0, 0.385, 0),
+			["position"] = UDim2.new(0, 0, 0.13, 0),
+			["paddingTop"] = 0,
+			["paddingBottom"] = 0.5,
+			["paddingLeft"] = 0,
+			["paddingRight"] = 0.5
+		}, {
+			["UICorner"] = v_u_5("UICorner", {
+				["CornerRadius"] = UDim.new(0, 4)
+			}),
+			["Inner"] = v_u_5(v_u_6, {
+				["backgroundTransparency"] = 1
+			}, {
+				["Flag"] = v_u_5(v_u_7, {
+					["flagColor"] = v28,
+					["userId"] = p24.props.clanOwnerOurs
+				})
+			})
+		}),
+		["ClanA"] = v_u_5(v_u_6, {
+			["backgroundColor"] = v26,
+			["size"] = UDim2.new(1 - v25, 0, 0.385, 0),
+			["position"] = UDim2.new(v25, 0, 0.13, 0),
+			["paddingTop"] = 0,
+			["paddingBottom"] = 0.5,
+			["paddingLeft"] = 0.5,
+			["paddingRight"] = 0
+		}, {
+			["UICorner"] = v_u_5("UICorner", {
+				["CornerRadius"] = UDim.new(0, 4)
+			}),
+			["Grid"] = v_u_5(v_u_9, {
+				["exposePaddedContainerProps"] = true,
+				["component"] = v_u_21,
+				["items"] = p24.props.clanMembersOurs,
+				["numItems"] = p24.props.numPlayersPerTeam
+			})
+		}),
+		["ClanBFlag"] = v_u_5(v_u_6, {
+			["backgroundColor"] = v26,
+			["size"] = UDim2.new(v25, 0, 0.385, 0),
+			["position"] = UDim2.new(0, 0, 0.515, 0),
+			["paddingTop"] = 0.5,
+			["paddingBottom"] = 0,
+			["paddingLeft"] = 0,
+			["paddingRight"] = 0.5
+		}, {
+			["UICorner"] = v_u_5("UICorner", {
+				["CornerRadius"] = UDim.new(0, 4)
+			}),
+			["Inner"] = v_u_5(v_u_6, {
+				["backgroundTransparency"] = 1
+			}, {
+				["Flag"] = v_u_5(v_u_7, {
+					["flagColor"] = v29,
+					["userId"] = p24.props.clanOwnerTheirs
+				})
+			})
+		}),
+		["ClanB"] = v_u_5(v_u_6, {
+			["backgroundColor"] = v26,
+			["size"] = UDim2.new(1 - v25, 0, 0.385, 0),
+			["position"] = UDim2.new(v25, 0, 0.515, 0),
+			["paddingTop"] = 0.5,
+			["paddingBottom"] = 0,
+			["paddingLeft"] = 0.5,
+			["paddingRight"] = 0
+		}, {
+			["UICorner"] = v_u_5("UICorner", {
+				["CornerRadius"] = UDim.new(0, 4)
+			}),
+			["Grid"] = v_u_5(v_u_9, {
+				["exposePaddedContainerProps"] = true,
+				["component"] = v_u_21,
+				["items"] = p24.props.clanMembersTheirs,
+				["numItems"] = p24.props.numPlayersPerTeam
+			})
+		}),
+		["FooterContainer"] = v_u_5(v_u_6, {
+			["backgroundTransparency"] = 1,
+			["backgroundColor"] = Color3.new(0.2, 0.2, 0.2),
+			["size"] = UDim2.new(1, 0, 0.1, 0),
+			["position"] = UDim2.fromScale(0, 0.9),
+			["paddingTop"] = 1,
+			["paddingBottom"] = 0,
+			["paddingLeft"] = 0,
+			["paddingRight"] = 0
+		}, {
+			["UICorner"] = v_u_5("UICorner", {
+				["CornerRadius"] = UDim.new(0, 4)
+			}),
+			["UnacceptMatchmaking"] = v_u_5(v_u_8, {
+				["text"] = "UNACCEPT BATTLE",
+				["backgroundColor"] = Color3.fromRGB(255, 58, 43),
+				["size"] = UDim2.fromScale(1, 1),
+				["cornerRadius"] = 4,
+				["onClick"] = p24.props.onUnAcceptBattleInvite
+			})
+		})
+	}
+	v36.Container = v37(v38, v39, v40)
+	return v34("Frame", v35, v36)
+end
+function v22.didMount(p_u_41)
+	-- upvalues: (copy) v_u_3
+	p_u_41.maid:GiveTask(v_u_3.every(0.5):Connect(function()
+		-- upvalues: (copy) p_u_41
+		p_u_41:setState({
+			["dots"] = p_u_41.state.dots % 4 + 1
+		})
+	end))
+end
+function v22.willUnmount(p42)
+	p42.maid:DoCleaning()
+end
+return v22

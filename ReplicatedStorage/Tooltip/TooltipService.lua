@@ -1,0 +1,33 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMXBHR5cGUFdmFsdWUOc2V0VG9vbHRpcFRleHQIZGlzcGF0Y2gQc2V0VG9vbHRpcENvbmZpZwRtYXRoBnJhbmRvbQVldmVyeRZUT09MVElQX0NZQ0xFX0lOVEVSVkFMB0Nvbm5lY3QEaW5pdARnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQNBcHAFc3RvcmUGc2NyaXB0BlBhcmVudA1Ub29sdGlwQ29uc3RzC1Rvb2x0aXBEYXRhA1N0ZAhJbnRlcnZhbAADBgAEAAAAE/sAAADiAgIAbwMDADADAnEAAAAA+wQBAPsFAgCHAwQFMAMCzAEAAAC8AABMBAAAAJ8AAwH7AgIA+wMDAM8BAgOVAAEF3gACAIIAAQAGAwEDAgUCAAEDAwMEAgAAAAAAAPA/AAwFARgAAAEAAAEAAAAA/gAABAAAAAABDQAAAAAIAAQAAAAm+wEAABwAAQCkAQIAAAQAgFICAACfAQIC2QIAABICAQASAgAAEgEB/xIAAAD7BAIATQMExAMAAAD7BQMATQQF7gQAAACfAwICUgUCALwDA8cFAAAAnwMDAfsDAQDiBQgAbwYJADAGBXEGAAAA+wcAAIcGBwEwBgXMBwAAALwDA0wKAAAAnwMDAc8DAQCVAQMLwQEAAIIAAQAMAwYDBwQABACAAwgDCQMKAwEDAgUCBgcDAwMEAgAAAAAAAPA/AQAJCwEYAAABAAAAAQAAAAAHAAAAAAAAAAAAAPoAAQAAAQAAAP4AAAQABAAKAAAAAAcAAAECADGjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAwDBBgAAAE0CA34HAAAAnwECAqQCBQAAAEBApAUJAAAAgEBNBAUkCgAAAE0DBCsLAAAAnwICAqQDBQAAAEBApAYJAAAAgEBNBQYkCgAAAE0EBVEMAAAAnwMCAqQEBQAAAEBATQYAoQ0AAABNBQasDgAAAJ8EAgL/BQEAAAAAAMAGDwASAAMAEgABABIABAASAAIAMAYFExAAAACCBQIAEQMMBAAAAEADDQMOAw8EAABAQAMQAxEDEgQAAIBAAxMDFAMVAxYDFwYBAwsBAQEAARgAAQAAAAAAAQAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAABAAIAAAAAAAAOAQAAAAACvDKpXoZeY1GO9sPKg50Zryvu1bv1xcj1bDF8zZps8vlwejCDw7MB5Q==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.App.store)
+local v_u_3 = require(script.Parent.TooltipConsts)
+local v_u_4 = require(script.Parent.TooltipData)
+local v_u_5 = require(v1.Std.Interval)
+return {
+	["init"] = function()
+		-- upvalues: (copy) v_u_4, (copy) v_u_2, (copy) v_u_5, (copy) v_u_3
+		local v_u_6 = #v_u_4
+		local v_u_7 = math.random(v_u_6)
+		local function v8()
+			-- upvalues: (ref) v_u_2, (ref) v_u_4, (ref) v_u_7, (copy) v_u_6
+			v_u_2:dispatch({
+				["type"] = "setTooltipText",
+				["value"] = v_u_4[v_u_7]
+			})
+			v_u_7 = v_u_7 % v_u_6 + 1
+		end
+		v_u_5.every(v_u_3.TOOLTIP_CYCLE_INTERVAL):Connect(v8)
+		v_u_2:dispatch({
+			["type"] = "setTooltipText",
+			["value"] = v_u_4[v_u_7]
+		})
+		v_u_7 = v_u_7 % v_u_6 + 1
+	end
+}

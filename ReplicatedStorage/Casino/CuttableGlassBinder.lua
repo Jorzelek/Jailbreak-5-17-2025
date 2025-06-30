@@ -1,0 +1,51 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMpCUN1dFJlbW90ZQ5GaW5kRmlyc3RDaGlsZApGaXJlU2VydmVyBmFjdGlvbgVJc0N1dAxHZXRBdHRyaWJ1dGUHRW5hYmxlZAxwcmVVcGRhdGVGdW4GUmVtb3ZlA25ldwxzZXRtZXRhdGFibGUKQXR0YWNobWVudAlWYWxpZFJvb3QETmFtZQVOb1JheQVUaW1lZAhEdXJhdGlvbgREaXN0CENhbGxiYWNrDFByZVVwZGF0ZUZ1bg9QcmVVcGRhdGVQZXJpb2QQcHJvbXB0QXR0YWNobWVudAVCcmVhawNBZGQEbWFpZAhHaXZlVGFzawRnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQNTdGQKQmFzZU9iamVjdA5NYW5pZmVzdEJpbmRlcgJVSQZNb2R1bGUMQ2lyY2xlQWN0aW9uB19faW5kZXgNQ3V0dGFibGVHbGFzcw5ob2xlQXR0YWNobWVudARIb2xlBlByb21wdAAFBQIBAAAADA4BCgD7AgAAbwQAALwCAgMBAAAAnwIDArwDAmsCAAAAnwMCAakDAQCCAwIAggABAAMDAQMCAwMAEAQBGAABAAAAAAEAAAEAAhEAAAAABQEBAAAADPsCAABvBAAAvAICEgEAAACfAgMCKgICAAAAAACpAQABqQEBADABAPACAAAAggABAAMDBQMGAwcAFwgBGAAAAAAAAAAAAAAAARgAAAAAAgACAAAABvsBAABNAAFpAAAAAPsBAQCfAAIBggABAAEDCQAnAAEYAAAAAAABKAAAAAAJAgMAAAA8+wMAAE0CA+8AAAAAUgMAAJ8CAgL7BQEAnj0CBAUAAABSBAIApAMCAAAAEECfAwMB2QMAABIAAADZBAEAEgAAAOIFDQBNBgESDgAAADAGBQ0DAAAAMAAFSQQAAABvBg8AMAYFugUAAACpBgEAMAYFtgYAAACpBgEAMAYFcQcAAABvBhAAMAYF5QgAAACMBggAMAYF4wkAAAAwAwVGCgAAADAEBaMLAAAAbwYQADAGBUQMAAAA+wcCAE0GB18RAAAAUgcFAFIIAACfBgMBTQYCFhIAAADZCAIAEgICABIAAAC8Bgb9EwAAAJ8GAwGCAgIAFAMKAwsEAAAQQAMMAw0DDgMPAxADEQMSAxMDFAMVBQoDBAUGBwgJCgsMAxYDFwIAAAAAAADgPwMYAxkDGgMAAQIMCgEYAAAAAAABAAAAAAAAAgAHAAMBAAAAAQABAAABAAABAAABAAABAAABAAEAAQAAAgAAAAAAAQAAAAAAAAAEDQAAAAAKAAABAgA6owAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBBQAAAEBATQMAoQYAAABNAgNLBwAAAJ8BAgKkAgUAAABAQE0DAIkIAAAAnwICAqQDBQAAAEBATQUAQAoAAABNBAVcCQAAAJ8DAgJNBAPdCwAAAP8FAgAAAAAAMAUFbgwAAACePQUFAQAAAFIHBQBSCAEApAYOAAAA0ECfBgMBwAYPABIAAQASAAUAEgAEADAGBe8QAAAATQYC7xAAAABvBxEA4ggUAG8JFQAwCQiCEgAAAG8JFgAwCQgSEwAAAFIJBQCfBgQAggYAABcDGwQAAABAAxwDHQMeBAAAQEADHwMgAyEDIgMjAyQDJQMLBAAA0EAGAwMKAyYDJwMWBQISEwMoAykBAwEAARgAAQAAAAAAAQAAAAAAAAEAAAAAAQAAAAAAAAEAAgABAAEAAAAAAAACAAAAAAAiAAAAAQAAAQAAAf0AAQAAAAAE9ynNJ+1WhGjF7aezBw/A73SCenCBNSLRPBKhykepX/o5gYKQvISKfA==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Std.BaseObject)
+local v3 = require(v1.ManifestBinder)
+local v_u_4 = require(v1.Module.UI).CircleAction
+local v_u_5 = {}
+v_u_5.__index = v_u_5
+setmetatable(v_u_5, v_u_2)
+function v_u_5.new(p_u_6, p7)
+	-- upvalues: (copy) v_u_2, (copy) v_u_5, (copy) v_u_4
+	local v8 = v_u_2.new(p_u_6)
+	local v9 = v_u_5
+	setmetatable(v8, v9)
+	local v12 = {
+		["Attachment"] = p7.promptAttachment,
+		["ValidRoot"] = p_u_6,
+		["Name"] = "Break",
+		["NoRay"] = true,
+		["Timed"] = true,
+		["Duration"] = 0.5,
+		["Dist"] = 8,
+		["Callback"] = function(_, p10)
+			-- upvalues: (copy) p_u_6
+			if p10 then
+				p_u_6:FindFirstChild("CutRemote"):FireServer()
+				return true
+			end
+		end,
+		["PreUpdateFun"] = function(p11)
+			-- upvalues: (copy) p_u_6
+			p11.Enabled = p_u_6:GetAttribute("IsCut") == false
+		end,
+		["PreUpdatePeriod"] = 0.5
+	}
+	v_u_4.Add(v12, p_u_6)
+	v8.maid:GiveTask(function()
+		-- upvalues: (ref) v_u_4, (copy) p_u_6
+		v_u_4.Remove(p_u_6)
+	end)
+	return v8
+end
+return v3.new("CuttableGlass", {
+	["holeAttachment"] = "Hole",
+	["promptAttachment"] = "Prompt"
+}, v_u_5)

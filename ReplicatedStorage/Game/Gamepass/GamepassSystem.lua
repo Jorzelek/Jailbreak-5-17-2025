@@ -1,0 +1,143 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgNBDnBsYXllclJlbW92aW5nE09uQW55UGxheWVyQW55T3duZWQFVmFsdWUERmlyZQpHYW1lcGFzc2VzDFdhaXRGb3JDaGlsZA9vYnNlcnZlQ2hpbGRyZW4IR2l2ZVRhc2sRbW9uaXRvckdhbWVwYXNzZXMDbmV3C3BsYXllckFkZGVkCk9uQW55T3duZWQHQ29ubmVjdAZMaXN0ZW4HYW5kVGhlbgpHZXRQbGF5ZXJzC1BsYXllckFkZGVkDlBsYXllclJlbW92aW5nBEluaXQTR2V0R2FtZXBhc3NGcm9tRW51bQZhc3NlcnQIU2V0T3duZWQEdHlwZQZudW1iZXINRG9lc1BsYXllck93bg5taXNzaW5nIHBsYXllcgtEaXNwbGF5TmFtZRdwbGF5ZXIgd2FzIG5vdCBhIHBsYXllchRtaXNzaW5nIGdhbWVwYXNzRW51bQ5GaW5kRmlyc3RDaGlsZAZpcGFpcnMLR2V0Q2hpbGRyZW4TZG9lc1BsYXllck93bkNhY2hlZAhJbnRWYWx1ZQNJc0EKT25PYmpBZGRlZApDaGlsZEFkZGVkFkdldEdhbWVwYXNzT3duZWRTaWduYWwERW51bQhJbmZvVHlwZQhHYW1lUGFzcw5HZXRQcm9kdWN0SW5mbwdyZXNvbHZlBWRlZmVyD3Byb21pc2VQcm9wZXJ0eQxQcmljZUluUm9idXgMcHJvbWlzZVByaWNlEEljb25JbWFnZUFzc2V0SWQOcHJvbWlzZUltYWdlSWQEZ2FtZQdQbGF5ZXJzCkdldFNlcnZpY2ULTG9jYWxQbGF5ZXIHcmVxdWlyZQ1HYW1lcGFzc1V0aWxzBnNjcmlwdAZQYXJlbnQSTWFya2V0cGxhY2VTZXJ2aWNlEVJlcGxpY2F0ZWRTdG9yYWdlA1N0ZARNYWlkB1Byb21pc2UPUnhJbnN0YW5jZVV0aWxzBlNpZ25hbAx3YWl0Rm9yQ2hpbGQAEQMBAQAAAAT7AQAAqQIBAGoCAQCCAAEAAAAbAAEYAAAAARwAAAAAAwEBAAAABPsBAADGAgAAagIBAIIAAQAAACIBARgAAAABIwAAAAAGAgIAAAAK+wMAAE0CA+oAAAAA+wQBAE0FAOwBAAAAvAIC3QIAAACfAgQBggABAAMDAgMDAwQAKAABGAAAAAAAAAAAAAIqAAAAAAgBAwAA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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("Players")
+local v_u_2 = v_u_1.LocalPlayer
+local v_u_3 = require(script.Parent.GamepassUtils)
+local v_u_4 = game:GetService("MarketplaceService")
+local v5 = game:GetService("ReplicatedStorage")
+local v_u_6 = require(v5.Std.Maid)
+local v_u_7 = require(v5.Std.Promise)
+local v_u_8 = require(v5.Std.RxInstanceUtils)
+local v_u_9 = require(v5.Std.Signal)
+local v_u_10 = require(v5.Std.waitForChild)
+local v_u_11 = {}
+local v_u_12 = {}
+local v_u_45 = {
+	["OnAnyOwned"] = v_u_9.new(),
+	["OnAnyPlayerAnyOwned"] = v_u_9.new(),
+	["Init"] = function()
+		-- upvalues: (copy) v_u_45, (copy) v_u_12, (copy) v_u_10, (copy) v_u_2, (copy) v_u_8, (copy) v_u_6, (copy) v_u_1
+		v_u_45.OnAnyOwned:Connect(function(p13)
+			-- upvalues: (ref) v_u_12
+			v_u_12[p13] = true
+		end)
+		v_u_10(v_u_2, "Gamepasses"):andThen(v_u_45.Listen)
+		local v_u_14 = {}
+		local function v19(p_u_15)
+			-- upvalues: (ref) v_u_6, (copy) v_u_14, (ref) v_u_8, (ref) v_u_45
+			v_u_14[p_u_15] = v_u_6.new()
+			local v16 = v_u_14[p_u_15]
+			local v17 = p_u_15:WaitForChild("Gamepasses")
+			v16:GiveTask(v_u_8.observeChildren(v17, function(p18, _)
+				-- upvalues: (ref) v_u_45, (copy) p_u_15
+				v_u_45.OnAnyPlayerAnyOwned:Fire(p_u_15, p18.Value)
+			end))
+		end
+		local function v21(p20)
+			-- upvalues: (copy) v_u_14
+			v_u_14[p20] = nil
+		end
+		for _, v_u_22 in v_u_1:GetPlayers() do
+			v_u_14[v_u_22] = v_u_6.new()
+			local v23 = v_u_14[v_u_22]
+			local v24 = v_u_22:WaitForChild("Gamepasses")
+			v23:GiveTask(v_u_8.observeChildren(v24, function(p25, _)
+				-- upvalues: (ref) v_u_45, (copy) v_u_22
+				v_u_45.OnAnyPlayerAnyOwned:Fire(v_u_22, p25.Value)
+			end))
+		end
+		v_u_1.PlayerAdded:Connect(v19)
+		v_u_1.PlayerRemoving:Connect(v21)
+	end,
+	["SetOwned"] = function(p26)
+		-- upvalues: (copy) v_u_3, (copy) v_u_45, (copy) v_u_11
+		local v27 = v_u_3.GetGamepassFromEnum(p26)
+		assert(v27)
+		v_u_45.OnAnyOwned:Fire(p26)
+		if v_u_11[p26] then
+			v_u_11[p26]:Fire(p26)
+		end
+	end,
+	["DoesPlayerOwn"] = function(p28)
+		-- upvalues: (copy) v_u_12
+		assert(p28)
+		local v29 = type(p28) == "number"
+		assert(v29)
+		return v_u_12[p28] == true
+	end,
+	["doesPlayerOwnCached"] = function(p30, p31)
+		local v32 = p30 ~= nil
+		assert(v32, "missing player")
+		local v33 = p30.DisplayName ~= nil
+		assert(v33, "player was not a player")
+		local v34 = p31 ~= nil
+		assert(v34, "missing gamepassEnum")
+		local v35 = p30:FindFirstChild("Gamepasses")
+		if not v35 then
+			return false
+		end
+		for _, v36 in ipairs(v35:GetChildren()) do
+			if v36.Value == p31 then
+				return true
+			end
+		end
+		return false
+	end,
+	["Listen"] = function(p37)
+		-- upvalues: (copy) v_u_45
+		assert(p37)
+		local function v40(p38)
+			-- upvalues: (ref) v_u_45
+			if p38:IsA("IntValue") then
+				local v39 = p38.Value > 0
+				assert(v39)
+				v_u_45.SetOwned(p38.Value)
+			end
+		end
+		for _, v41 in ipairs(p37:GetChildren()) do
+			if v41:IsA("IntValue") then
+				local v42 = v41.Value > 0
+				assert(v42)
+				v_u_45.SetOwned(v41.Value)
+			end
+		end
+		p37.ChildAdded:Connect(v40)
+	end,
+	["GetGamepassOwnedSignal"] = function(p43)
+		-- upvalues: (copy) v_u_11, (copy) v_u_9
+		local v44 = v_u_11[p43]
+		if v44 == nil then
+			v44 = v_u_9.new()
+			v_u_11[p43] = v44
+		end
+		return v44
+	end
+}
+local v_u_46 = {}
+function v_u_45.promiseProperty(p_u_47, p_u_48)
+	-- upvalues: (copy) v_u_46, (copy) v_u_7, (copy) v_u_4
+	if v_u_46[p_u_47] then
+		return v_u_7.resolve(v_u_46[p_u_47][p_u_48])
+	else
+		return v_u_7.defer(function(p49)
+			-- upvalues: (ref) v_u_4, (copy) p_u_47, (ref) v_u_46, (copy) p_u_48
+			local v50 = v_u_4:GetProductInfo(p_u_47, Enum.InfoType.GamePass)
+			v_u_46[p_u_47] = v50
+			p49(v50[p_u_48])
+		end)
+	end
+end
+function v_u_45.promisePrice(p51)
+	-- upvalues: (copy) v_u_45
+	return v_u_45.promiseProperty(p51, "PriceInRobux")
+end
+function v_u_45.promiseImageId(p52)
+	-- upvalues: (copy) v_u_45
+	return v_u_45.promiseProperty(p52, "IconImageAssetId")
+end
+return v_u_45

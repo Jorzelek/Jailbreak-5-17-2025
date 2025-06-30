@@ -1,0 +1,24 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMLB01ha2VDYXIFU3BlZWQHTW92ZUNhcgpEZXN0cm95Q2FyBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlB0RlZmF1bHQGc2NyaXB0BlBhcmVudAAEAwEBAAAABvsCAABNAQInAAAAAFICAACfAQIAggEAAAEDAQAFAQEYAAAAAAAABwAAAAAKBAEAAAALTQQBLAAAAAD7BgAATQUGPAEAAABSBgAAUgcBAFIIAgBSCQMAnwUFAIIFAAACAwIDAwAJAwEYAAACAAAAAAAAAAAKAAAAAAMBAQAAAAb7AgAATQECcQAAAABSAgAAnwECAIIBAAABAwQADgQBGAAAAAAAAA8AAAAABgAAAQIAHqMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQKQECAAAAHBATQMEJAkAAABNAgM6BgAAAJ8BAgLAAgoAEgABAMADCwASAAEAwAQMABIAAQDiBRAAMAIFJw0AAAAwAwU8DgAAADAEBXEPAAAAggUCABEDBQQAAABAAwYDBwMIBAAAQEADCQMKBAAAcEADCwYABgEGAgMBAwMDBAUDDQ4PAwABAgEAARgAAQAAAAAAAgAAAAAAAAAAAQAEAAUAAwEAAQABAAABAAAAAAMNy29pOu/m6z8PBf1Ibcfzgn+GBDx7lSg0lWCmIbTprAD0oYWlD1XQ
+
+-- Decompiled by Krnl
+
+game:GetService("ReplicatedStorage")
+local v_u_1 = require(script.Parent.Default)
+return {
+	["MakeCar"] = function(p2)
+		-- upvalues: (copy) v_u_1
+		return v_u_1.MakeCar(p2)
+	end,
+	["MoveCar"] = function(p3, p4, p5, p6)
+		-- upvalues: (copy) v_u_1
+		local _ = p4.Speed
+		return v_u_1.MoveCar(p3, p4, p5, p6)
+	end,
+	["DestroyCar"] = function(p7)
+		-- upvalues: (copy) v_u_1
+		return v_u_1.DestroyCar(p7)
+	end
+}

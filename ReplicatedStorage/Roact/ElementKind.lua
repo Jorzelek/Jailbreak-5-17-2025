@@ -1,0 +1,42 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMVBnR5cGVvZgV0YWJsZQJvZgZQb3J0YWwNZnJvbUNvbXBvbmVudAdyZXF1aXJlBnNjcmlwdAZQYXJlbnQGU3ltYm9sBnN0cmljdAhuZXdwcm94eQRIb3N0CEZ1bmN0aW9uCFN0YXRlZnVsCEZyYWdtZW50BW5hbWVkBnN0cmluZwhmdW5jdGlvbgxnZXRtZXRhdGFibGUHX19pbmRleAtFbGVtZW50S2luZAADAwEBAAAADLssAANSAgAApAEBAAAAAECfAQIC8AEDAAIAAADGAQAAggECAPsCAACHAQACggECAAMDAQQAAABAAwIAGQMBGAAAAAAAAAABAAMAABoAAAAABQEDAAAAD/sBAACaAAUAAQAAAPsCAQBNAQISAAAAAIIBAgD7AgIAuywAA1IEAACkAwIAAAAQQJ8DAgKHAQIDggECAAMDBAMBBAAAEEAAJwUBGAAAAAEAAAACAAAAAAAAACgAAAAACQAAAQIAY6MAAACkAAEAAAAAQKQDAwAAACBATQIDJAQAAABNAQKTBQAAAJ8AAgKkAQEAAAAAQKQEAwAAACBATQMEJAQAAABNAgONBgAAAJ8BAgKkAgEAAAAAQKQFAwAAACBATQQFJAQAAABNAwQSBwAAAJ8CAgKkAwkAAACAQKkEAQCfAwIC4gQOAE0FAFEPAAAAbwYHAJ8FAgIwBQQSBwAAAE0FAFEPAAAAbwYKAJ8FAgIwBQQoCgAAAE0FAFEPAAAAbwYLAJ8FAgIwBQSICwAAAE0FAFEPAAAAbwYMAJ8FAgIwBQQmDAAAAE0FAFEPAAAAbwYNAJ8FAgIwBQQpDQAAAMAFEAASAAMAMAUEvBEAAAD/BQMAAAAAAE0GBCgKAAAAMAYFQRIAAABNBgSICwAAADAGBWgTAAAATQYEJgwAAAAwBgVLFAAAAMAGFQASAAIAEgADABIABQAwBgQ8FgAAALs8AwNSBwMApAYYAAAAcEGfBgICMAQGbhkAAABSBgEAUgcEAG8IGgCfBgMBggMCABsDBgQAAABAAwcEAAAgQAMIAwkDCgMEAwsEAACAQAMMAw0DDgMPBQUHCgsMDQMQBgADAwMRAxIDAgYBAwUDEwQAAHBBAxQDFQIAAQEAARgACgAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAgAAAAIBAAAAAAABAAAAAAABAAAAAAABAAAAAAABAAAAAAADAAAACAABAAAAAQAAAAEAAAADAAAAAAAIAAAAAAAAAgAAAAIBAAAAAAIDSdmLMsFoYjGNsx+HusnBzqR7WcYP1V3CR/kIA+PtEYq/YqCQs9tf
+
+-- Decompiled by Krnl
+
+local v1 = require(script.Parent.Symbol)
+local v2 = require(script.Parent.strict)
+local v_u_3 = require(script.Parent.Portal)
+local v_u_4 = newproxy(true)
+local v6 = {
+	["Portal"] = v1.named("Portal"),
+	["Host"] = v1.named("Host"),
+	["Function"] = v1.named("Function"),
+	["Stateful"] = v1.named("Stateful"),
+	["Fragment"] = v1.named("Fragment"),
+	["of"] = function(p5)
+		-- upvalues: (copy) v_u_4
+		if typeof(p5) == "table" then
+			return p5[v_u_4]
+		else
+			return nil
+		end
+	end
+}
+local v_u_7 = {
+	["string"] = v6.Host,
+	["function"] = v6.Function,
+	["table"] = v6.Stateful
+}
+function v6.fromComponent(p8)
+	-- upvalues: (copy) v_u_3, (copy) v_u_4, (copy) v_u_7
+	if p8 == v_u_3 then
+		return v_u_4.Portal
+	else
+		return v_u_7[typeof(p8)]
+	end
+end
+getmetatable(v_u_4).__index = v6
+v2(v6, "ElementKind")
+return v_u_4

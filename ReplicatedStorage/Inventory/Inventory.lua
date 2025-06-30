@@ -1,0 +1,24 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMLDHNldG1ldGF0YWJsZQNvYmoDbmV3FmRvZXNJbnZlbnRvcnlWYWx1ZUhhdmUHSGFzSXRlbQdEZXN0cm95B3JlcXVpcmUOSW52ZW50b3J5VXRpbHMGc2NyaXB0BlBhcmVudAdfX2luZGV4AAQFAQEAAAAM/wEBAAAAAAD7BAAAnj0BBAQAAABSAwEApAIBAAAAAECfAgMBMAABEwIAAACCAQIAAwMBBAAAAEADAgAHAwEYAAABAAAAAAAAAgACCAAAAAAFAgEAAAAI+wMAAE0CA8kAAAAATQMAEwEAAABSBAEAnwIDAIICAAACAwQDAgAPBQEYAAAAAAAAAAAQAAAAAAEBAAAAAAGCAAEAAAASBgEYABIAAAAABAAAAQIAGqMAAACkAAEAAAAAQKQDBAAAADBATQIDJAUAAABNAQK7AgAAAJ8AAgL/AQMAAAAAADABAW4GAAAAwAIHABIAAQAwAgHvCAAAAMACCQASAAAAMAIBTQoAAADAAgsAMAIBUAwAAACCAQIADQMHBAAAAEADCAMJBAAAMEADCgMLBgADAwYBAwUGAgMGAwABAgEAARgAAQAAAAAAAAAAAgABAAIAAAAIAAAAAwAAAgEAAAAAA3jW9yW1coOZShKdsZlOq+fj3DzYJdxt2IK9LZ5wYUdGvZbPsT/vuaE=
+
+-- Decompiled by Krnl
+
+local v_u_1 = require(script.Parent.InventoryUtils)
+local v_u_2 = {}
+v_u_2.__index = v_u_2
+function v_u_2.new(p3)
+	-- upvalues: (copy) v_u_2
+	local v4 = {}
+	local v5 = v_u_2
+	setmetatable(v4, v5)
+	v4.obj = p3
+	return v4
+end
+function v_u_2.HasItem(p6, p7)
+	-- upvalues: (copy) v_u_1
+	return v_u_1.doesInventoryValueHave(p6.obj, p7)
+end
+function v_u_2.Destroy(_) end
+return v_u_2

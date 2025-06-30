@@ -1,0 +1,15 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMKBGNhc2gSbWlzc2luZyBjYXNoIHZhbHVlBmFzc2VydAdzZXRDYXNoBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlBVJvZHV4DWNyZWF0ZVJlZHVjZXIAAgUCAAAAAAtNAwGfAAAAAIEBAwQBAAAAbwQBAKQCAwAAACBAnwIDAU0CAZ8AAAAAggICAAQDAQMCAwMEAAAgQAAGBAEYAAAAAAAAAAABAAAHAAAAAAYAAAECABWjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAgCnBgAAAJ8BAgJNAgHWBwAAAIwDAADiBAkAwAUKADAFBOkIAAAAnwIDAIICAAALAwUEAAAAQAMGAwcDCAQAAEBAAwkDCgMEBQEIBgABAAEAARgAAQAAAAAAAQAAAAACAAAAAQAA/wABAAAAAAH8l+H2+cw84c5Ti2J98UaJsLMtJZyg6H9XzQ8pzNyxpXiUHmaT6jt1
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Rodux).createReducer(0, {
+	["setCash"] = function(_, p2)
+		local v3 = p2.cash
+		assert(v3, "missing cash value")
+		return p2.cash
+	end
+})

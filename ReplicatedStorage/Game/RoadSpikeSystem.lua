@@ -1,0 +1,86 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+require(v1.Module.Time)
+local v_u_2 = require(v1.Vehicle.VehicleUtils)
+local v_u_3 = game:GetService("CollectionService")
+local v_u_4 = game:GetService("RunService")
+local v_u_5 = nil
+local v_u_6 = {}
+local v_u_7 = nil
+local function v_u_18()
+	-- upvalues: (copy) v_u_2, (ref) v_u_7, (copy) v_u_6, (ref) v_u_5
+	local v8 = v_u_2.GetLocalVehiclePacket()
+	if v8 == nil then
+		if v_u_7 then
+			v_u_7 = nil
+		end
+	elseif v8.Model:IsDescendantOf(workspace) then
+		local v9 = v8.Model.PrimaryPart.Position
+		if v_u_7 ~= nil then
+			for _, v10 in ipairs(v_u_6) do
+				local v11 = v10.Part
+				local v12 = v11.CFrame
+				local v13 = v12.p
+				local v14 = (v_u_7 - v13).Unit:Dot(v12.LookVector)
+				local v15 = (v9 - v13).Unit:Dot(v12.LookVector)
+				if math.sign(v14) ~= math.sign(v15) then
+					local v16 = (v9 - v13):Dot(v12.RightVector)
+					if math.abs(v16) <= v11.Size.X * 0.5 then
+						local v17 = (v9 - v13):Dot(v12.UpVector)
+						if math.abs(v17) < 16 then
+							v_u_5:FireServer("l" .. ("fvo12is1nc"):sub(4, 8):reverse():reverse():reverse():reverse():reverse() .. "x6", v11)
+						end
+					end
+				end
+			end
+		end
+		v_u_7 = v9
+		return
+	end
+end
+local v_u_19 = 0
+local function v_u_21()
+	-- upvalues: (ref) v_u_19, (copy) v_u_18
+	local v20 = tick()
+	if v20 - v_u_19 > 0.1 then
+		v_u_19 = v20
+		v_u_18()
+	end
+end
+return {
+	["Init"] = function(p22)
+		-- upvalues: (ref) v_u_5, (copy) v_u_4, (copy) v_u_21, (copy) v_u_6, (copy) v_u_3
+		v_u_5 = p22.Event
+		v_u_4.Heartbeat:Connect(v_u_21)
+		local function v25(p23)
+			-- upvalues: (ref) v_u_6
+			local v24 = v_u_6
+			table.insert(v24, {
+				["Part"] = p23
+			})
+		end
+		local function v28(p26)
+			-- upvalues: (ref) v_u_6
+			for v27 = #v_u_6, 1, -1 do
+				if v_u_6[v27].Part == p26 then
+					table.remove(v_u_6, v27)
+					return
+				end
+			end
+		end
+		for _, v29 in ipairs(v_u_3:GetTagged("RoadSpike")) do
+			local v30 = v_u_6
+			table.insert(v30, {
+				["Part"] = v29
+			})
+		end
+		v_u_3:GetInstanceAddedSignal("RoadSpike"):Connect(v25)
+		v_u_3:GetInstanceRemovedSignal("RoadSpike"):Connect(v28)
+	end
+}

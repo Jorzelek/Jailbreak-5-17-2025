@@ -1,0 +1,9 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMHBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlDlJvY2tldExhdW5jaGVyGlJvY2tldExhdW5jaGVyUm9ja2V0QmluZGVyBVN0YXJ0AAEEAAABAgASowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBBQAAAEBATQMA0wYAAABNAgNRBwAAAJ8BAgK8AgEcCAAAAJ8CAgGCAAEACQMBBAAAAEADAgMDAwQEAABAQAMFAwYDBwABAAEYAAEAAAAAAAEAAAAAAAABAAABAQAAAAAAhqIWd81iNfO0ZnzjfSqGhkoGIrQCvhgwABN8dAYHSKtBmpLUkzDj1g==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+require(v1.RocketLauncher.RocketLauncherRocketBinder):Start()

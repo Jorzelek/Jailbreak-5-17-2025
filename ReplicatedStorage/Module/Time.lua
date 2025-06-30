@@ -1,0 +1,13 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMECXdvcmtzcGFjZRBHZXRTZXJ2ZXJUaW1lTm93CkdldE5vd1N5bmMESW5pdAADAgAAAAAABqQAAQAAAABAvAAAtwIAAACfAAIAggAAAAMDAQQAAABAAwIAAgMBGAAAAAAAAAMAAAAAAAAAAAAAAYIAAQAAAAUEARgABQAAAAADAAABAgAJowAAAMAAAADAAQEA4gIEADABAnMCAAAAMAACMgMAAACCAgIABQYABgEDBAMDBQICAwIAAQEAARgAAQMBAQABAAABAAAAAAJXCMyEGCfGq2XMphApTxCEFrE48xDJIDjVG3wJasZZmD1C0+QGNEZd
+
+-- Decompiled by Krnl
+
+return {
+	["Init"] = function() end,
+	["GetNowSync"] = function()
+		return workspace:GetServerTimeNow()
+	end
+}

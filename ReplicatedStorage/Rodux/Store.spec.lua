@@ -1,0 +1,452 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgNUDGhlbGxvLCB3b3JsZANuZXcGZXhwZWN0AnRvAmJlAm9rCGdldFN0YXRlBWVxdWFsCGRlc3RydWN0DWluaXRpYWwgc3RhdGUEdHlwZQR0ZXN0CnRlc3Qgc3RhdGUHcmVkdWNlcg50ZXN0TWlkZGxld2FyZQFhCGZ1bmN0aW9uCGRpc3BhdGNoBWZsdXNoCWV4ZWN1dGUgYQV0YWJsZQZpbnNlcnQNaW5zdGFudGlhdGUgYQttaWRkbGV3YXJlQQlleGVjdXRlIGINaW5zdGFudGlhdGUgYgttaWRkbGV3YXJlQhJyZXBvcnRSZWR1Y2VyRXJyb3IRcmVwb3J0VXBkYXRlRXJyb3IFZXJyb3IGWjRQSDBEBVZhbHVlBkBASU5JVAdtZXNzYWdlIUNhdWdodCBlcnJvciBpbiByZWR1Y2VyIHdpdGggaW5pdAZzdHJpbmcEZmluZAt0aHJvd25WYWx1ZQZzY3JpcHQETmFtZQpUaHJvd0Vycm9yCUluY3JlbWVudBdDYXVnaHQgZXJyb3IgaW4gcmVkdWNlcgJpdCFzaG91bGQgaW5zdGFudGlhdGUgd2l0aCBhIHJlZHVjZXI2c2hvdWxkIGluc3RhbnRpYXRlIHdpdGggYSByZWR1Y2VyIGFuZCBhbiBpbml0aWFsIHN0YXRlQXNob3VsZCBpbnN0YW50aWF0ZSB3aXRoIGEgcmVkdWNlciwgaW5pdGlhbCBzdGF0ZSwgYW5kIG1pZGRsZXdhcmVzPXNob3VsZCBtb2RpZnkgdGhlIGRpc3BhdGNoIG1ldGhvZCB3aGVuIG1pZGRsZXdhcmVzIGFyZSBwYXNzZWQnc2hvdWxkIGV4ZWN1dGUgbWlkZGxld2FyZSBsZWZ0LXRvLXJpZ2h0MXNob3VsZCBzZW5kIGFuIGluaXRpYWwgYWN0aW9uIHdpdGggYSAndHlwZScgZmllbGRCc2hvdWxkIHJlcG9ydCBhIHJlZHVjZXIgZXJyb3IgdGhyb3duIHdoZW4gaGFuZGxpbmcgdGhlIElOSVQgYWN0aW9uRnNob3VsZCByZXBvcnQgYSByZWR1Y2VyIGVycm9yIHRocm93biB3aGVuIGhhbmRsaW5nIGEgc3Vic2VxdWVudCBhY3Rpb24DZm9vClNvbWVBY3Rpb24FdGhyb3ccc2hvdWxkIGdldCB0aGUgY3VycmVudCBzdGF0ZTJzaG91bGQgdGhyb3cgZXJyb3JzIGlmIHRyaWdnZXJlZCBkdXJpbmcgZGlzcGF0Y2hlcwNhY3QDYmFyCWluY3JlbWVudAdjaGFuZ2VkB2Nvbm5lY3QFdmFsdWUJZGVjcmVtZW50BW5ldmVyBHdhaXQjQ2F1Z2h0IGVycm9yIGZsdXNoaW5nIHN0b3JlIHVwZGF0ZXMIdG8geWllbGQGYW1vdW50BmlwYWlycxFNaWREaXNwYXRjaEFjdGlvbiJzaG91bGQgYmUgc2VudCB0aHJvdWdoIHRoZSByZWR1Y2VyLnNob3VsZCB0cmlnZ2VyIHRoZSBjaGFuZ2VkIGV2ZW50IGFmdGVyIGEgZmx1c2g5c2hvdWxkIGhhbmRsZSBhY3Rpb25zIGRpc3BhdGNoZWQgd2l0aGluIHRoZSBjaGFuZ2VkIGV2ZW50LHNob3VsZCBwcmV2ZW50IHlpZWxkaW5nIGZyb20gY2hhbmdlZCBoYW5kbGVyPHNob3VsZCB0aHJvdyBpZiBhbiBhY3Rpb24gaXMgZGlzcGF0Y2hlZCB3aXRob3V0IGEgdHlwZSBmaWVsZDVzaG91bGQgdGhyb3cgaWYgdGhlIGFjdGlvbiBpcyBub3QgYSBmdW5jdGlvbiBvciB0YWJsZTtzaG91bGQgcmVwb3J0IGFuIGVycm9yIGlmIHRoZSBsaXN0ZW5lcnMgZXJyb3Igd2hlbiBmbHVzaGluZ0hzaG91bGQgdGhyb3cgZXJyb3JzIGlmIGRpc3BhdGNoaW5nIHdoaWxlIGEgZGlzcGF0Y2ggaXMgYWxyZWFkeSBoYXBwZW5pbmc7c2hvdWxkIG5vdCBmaXJlIGEgY2hhbmdlZCBldmVudCBpZiB0aGVyZSB3ZXJlIG5vIGRpc3BhdGNoZXMHcmVxdWlyZQZQYXJlbnQFU3RvcmUIZGVzY3JpYmUAQwMCAAAAAAJvAgAAggICAAEDAQAGAAEYAAAHAAAAAAYAAQAAACD7AQAATQAB7wAAAADAAQEAnwACAqQEAwAAACBAUgUAAJ8EAgJNAwSSBAAAAE0CA8wFAAAATQECEAYAAACfAQEBpAMDAAAAIEC8BAAWBwAAAJ8EAgCfAwACTQIDkgQAAABNAQJ7CAAAAG8CCQCfAQIBvAEAdgoAAACfAQIBggABAAsDAgYAAwME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
+
+-- Decompiled by Krnl
+
+return function()
+	local v_u_1 = require(script.Parent.Store)
+	describe("new", function()
+		-- upvalues: (copy) v_u_1
+		it("should instantiate with a reducer", function()
+			-- upvalues: (ref) v_u_1
+			local v2 = v_u_1.new(function(_, _)
+				return "hello, world"
+			end)
+			expect(v2).to.be.ok()
+			expect(v2:getState()).to.equal("hello, world")
+			v2:destruct()
+		end)
+		it("should instantiate with a reducer and an initial state", function()
+			-- upvalues: (ref) v_u_1
+			local v4 = v_u_1.new(function(p3, _)
+				return p3
+			end, "initial state")
+			expect(v4).to.be.ok()
+			expect(v4:getState()).to.equal("initial state")
+			v4:destruct()
+		end)
+		it("should instantiate with a reducer, initial state, and middlewares", function()
+			-- upvalues: (ref) v_u_1
+			local v6 = v_u_1.new(function(p5, _)
+				return p5
+			end, "initial state", {})
+			expect(v6).to.be.ok()
+			expect(v6:getState()).to.equal("initial state")
+			v6:destruct()
+		end)
+		it("should modify the dispatch method when middlewares are passed", function()
+			-- upvalues: (ref) v_u_1
+			local v_u_7 = 0
+			local v_u_8 = 0
+			local v_u_9 = nil
+			local v_u_10 = nil
+			local v_u_11 = nil
+			local v15 = { function(p_u_12, p13)
+					-- upvalues: (ref) v_u_7, (ref) v_u_9, (ref) v_u_10, (ref) v_u_8, (ref) v_u_11
+					v_u_7 = v_u_7 + 1
+					v_u_9 = p_u_12
+					v_u_10 = p13
+					return function(p14)
+						-- upvalues: (ref) v_u_8, (ref) v_u_11, (copy) p_u_12
+						v_u_8 = v_u_8 + 1
+						v_u_11 = p14
+						p_u_12(p14)
+					end
+				end }
+			local v18 = v_u_1.new(function(p16, p17)
+				return p17.type == "test" and "test state" or p16
+			end, "initial state", v15)
+			expect(v_u_7).to.equal(1)
+			expect(v_u_8).to.equal(0)
+			expect(v_u_9).to.be.a("function")
+			expect(v_u_10).to.equal(v18)
+			v18:dispatch({
+				["type"] = "test"
+			})
+			expect(v_u_7).to.equal(1)
+			expect(v_u_8).to.equal(1)
+			expect(v_u_11.type).to.equal("test")
+			v18:flush()
+			expect(v18:getState()).to.equal("test state")
+			v18:destruct()
+		end)
+		it("should execute middleware left-to-right", function()
+			-- upvalues: (ref) v_u_1
+			local v_u_19 = {}
+			local v29 = v_u_1.new(function(p20)
+				return p20
+			end, 5, { function(p_u_21, _)
+					-- upvalues: (copy) v_u_19
+					local v22 = v_u_19
+					table.insert(v22, "instantiate a")
+					return function(p23)
+						-- upvalues: (ref) v_u_19, (copy) p_u_21
+						local v24 = v_u_19
+						table.insert(v24, "execute a")
+						return p_u_21(p23)
+					end
+				end, function(p_u_25, _)
+					-- upvalues: (copy) v_u_19
+					local v26 = v_u_19
+					table.insert(v26, "instantiate b")
+					return function(p27)
+						-- upvalues: (ref) v_u_19, (copy) p_u_25
+						local v28 = v_u_19
+						table.insert(v28, "execute b")
+						return p_u_25(p27)
+					end
+				end })
+			expect(#v_u_19).to.equal(2)
+			expect(v_u_19[1]).to.equal("instantiate b")
+			expect(v_u_19[2]).to.equal("instantiate a")
+			v29:dispatch({
+				["type"] = "test"
+			})
+			expect(#v_u_19).to.equal(4)
+			expect(v_u_19[3]).to.equal("execute a")
+			expect(v_u_19[4]).to.equal("execute b")
+			v29:destruct()
+		end)
+		it("should send an initial action with a \'type\' field", function()
+			-- upvalues: (ref) v_u_1
+			local v_u_30 = nil
+			local v_u_31 = 0
+			local v34 = v_u_1.new(function(p32, p33)
+				-- upvalues: (ref) v_u_30, (ref) v_u_31
+				v_u_30 = p33
+				v_u_31 = v_u_31 + 1
+				return p32
+			end)
+			expect(v_u_31).to.equal(1)
+			expect(v_u_30).to.be.a("table")
+			expect(v_u_30.type).to.be.ok()
+			v34:destruct()
+		end)
+		it("should report a reducer error thrown when handling the INIT action", function()
+			-- upvalues: (ref) v_u_1
+			local v_u_35 = nil
+			local v_u_36 = nil
+			local v_u_37 = nil
+			local v41 = {
+				["reportReducerError"] = function(p38, p39, p40)
+					-- upvalues: (ref) v_u_35, (ref) v_u_36, (ref) v_u_37
+					v_u_35 = p38
+					v_u_36 = p39
+					v_u_37 = p40
+				end,
+				["reportUpdateError"] = function() end
+			}
+			local v42 = v_u_1.new(function(_, _)
+				error("Z4PH0D")
+			end, {
+				["Value"] = 1
+			}, nil, v41)
+			expect(v_u_35.Value).to.equal(1)
+			expect(v_u_36.type).to.equal("@@INIT")
+			expect(v_u_37.message).to.equal("Caught error in reducer with init")
+			expect(string.find(v_u_37.thrownValue, "Z4PH0D")).to.be.ok()
+			expect(string.find(v_u_37.thrownValue, script.Name)).to.be.ok()
+			v42:destruct()
+		end)
+		it("should report a reducer error thrown when handling a subsequent action", function()
+			-- upvalues: (ref) v_u_1
+			local v_u_43 = nil
+			local v_u_44 = nil
+			local v_u_45 = nil
+			local v49 = {
+				["reportReducerError"] = function(p46, p47, p48)
+					-- upvalues: (ref) v_u_43, (ref) v_u_44, (ref) v_u_45
+					v_u_43 = p46
+					v_u_44 = p47
+					v_u_45 = p48
+				end,
+				["reportUpdateError"] = function() end
+			}
+			local v52 = v_u_1.new(function(p50, p51)
+				if p51.type ~= "ThrowError" then
+					return p51.type == "Increment" and {
+						["Value"] = p50.Value + 1
+					} or p50
+				end
+				error("Z4PH0D")
+				return p50
+			end, {
+				["Value"] = 1
+			}, nil, v49)
+			expect(v_u_43).to.equal(nil)
+			expect(v_u_44).to.equal(nil)
+			expect(v_u_45).to.equal(nil)
+			v52:dispatch({
+				["type"] = "Increment"
+			})
+			v52:dispatch({
+				["type"] = "ThrowError"
+			})
+			expect(v_u_43.Value).to.equal(2)
+			expect(v_u_44.type).to.equal("ThrowError")
+			expect(v_u_45.message).to.equal("Caught error in reducer")
+			expect(string.find(v_u_45.thrownValue, "Z4PH0D")).to.be.ok()
+			expect(string.find(v_u_45.thrownValue, script.Name)).to.be.ok()
+			v52:destruct()
+		end)
+	end)
+	describe("getState", function()
+		-- upvalues: (copy) v_u_1
+		it("should get the current state", function()
+			-- upvalues: (ref) v_u_1
+			local v53 = v_u_1.new(function(_, _)
+				return "foo"
+			end)
+			local v54 = v53:getState()
+			expect(v54).to.equal("foo")
+			v53:destruct()
+		end)
+		it("should throw errors if triggered during dispatches", function()
+			-- upvalues: (ref) v_u_1
+			local v_u_55 = nil
+			v_u_55 = v_u_1.new(function(_, p56)
+				-- upvalues: (ref) v_u_55
+				if p56.type ~= "@@INIT" then
+					v_u_55:getState()
+				end
+			end)
+			expect(function()
+				-- upvalues: (ref) v_u_55
+				v_u_55:dispatch({
+					["type"] = "SomeAction"
+				})
+			end).to.throw()
+			v_u_55:destruct()
+		end)
+	end)
+	describe("dispatch", function()
+		-- upvalues: (copy) v_u_1
+		it("should be sent through the reducer", function()
+			-- upvalues: (ref) v_u_1
+			local v59 = v_u_1.new(function(p57, p58)
+				return p58.type == "act" and "bar" or (p57 or "foo")
+			end)
+			expect(v59).to.be.ok()
+			expect(v59:getState()).to.equal("foo")
+			v59:dispatch({
+				["type"] = "act"
+			})
+			v59:flush()
+			expect(v59:getState()).to.equal("bar")
+			v59:destruct()
+		end)
+		it("should trigger the changed event after a flush", function()
+			-- upvalues: (ref) v_u_1
+			local v63 = v_u_1.new(function(p60, p61)
+				local v62 = p60 or 0
+				if p61.type == "increment" then
+					return v62 + 1
+				else
+					return v62
+				end
+			end)
+			local v_u_64 = 0
+			v63.changed:connect(function(p65, p66)
+				-- upvalues: (ref) v_u_64
+				expect(p66).to.equal(0)
+				expect(p65).to.equal(1)
+				v_u_64 = v_u_64 + 1
+			end)
+			v63:dispatch({
+				["type"] = "increment"
+			})
+			v63:flush()
+			expect(v_u_64).to.equal(1)
+			v63:destruct()
+		end)
+		it("should handle actions dispatched within the changed event", function()
+			-- upvalues: (ref) v_u_1
+			local v_u_70 = v_u_1.new(function(p67, p68)
+				local v69 = p67 or {
+					["value"] = 0
+				}
+				return p68.type == "increment" and {
+					["value"] = v69.value + 1
+				} or (p68.type == "decrement" and {
+					["value"] = v69.value - 1
+				} or v69)
+			end)
+			local v_u_71 = 0
+			v_u_70.changed:connect(function(p72, p73)
+				-- upvalues: (copy) v_u_70, (ref) v_u_71
+				expect(p72).never.to.equal(p73)
+				if p72.value > 0 then
+					v_u_70:dispatch({
+						["type"] = "decrement"
+					})
+				end
+				v_u_71 = v_u_71 + 1
+			end)
+			v_u_70:dispatch({
+				["type"] = "increment"
+			})
+			v_u_70:flush()
+			v_u_70:flush()
+			expect(v_u_71).to.equal(2)
+			v_u_70:destruct()
+		end)
+		it("should prevent yielding from changed handler", function()
+			-- upvalues: (ref) v_u_1
+			local v_u_74 = nil
+			local v_u_75 = nil
+			local v77 = {
+				["reportUpdateError"] = function(_, _, _, p76)
+					-- upvalues: (ref) v_u_74, (ref) v_u_75
+					v_u_74 = p76.message
+					v_u_75 = p76.thrownValue
+				end,
+				["reportReducerError"] = function() end
+			}
+			local v_u_78 = 0
+			local v_u_79 = 0
+			local v81 = v_u_1.new(function(p80, _)
+				return (p80 or 0) + 1
+			end, nil, nil, v77)
+			v81.changed:connect(function(_, _)
+				-- upvalues: (ref) v_u_78, (ref) v_u_79
+				v_u_78 = v_u_78 + 1
+				wait()
+				v_u_79 = v_u_79 + 1
+			end)
+			v81:dispatch({
+				["type"] = "increment"
+			})
+			v81:flush()
+			expect(v_u_78).to.equal(1)
+			expect(v_u_79).to.equal(0)
+			expect(v_u_74).to.equal("Caught error flushing store updates")
+			expect(string.find(v_u_75, script.Name)).to.be.ok()
+			expect(string.find(v_u_75, "to yield")).to.be.ok()
+			v81:destruct()
+		end)
+		it("should throw if an action is dispatched without a type field", function()
+			-- upvalues: (ref) v_u_1
+			local v_u_83 = v_u_1.new(function(p82, _)
+				return p82
+			end)
+			expect(function()
+				-- upvalues: (copy) v_u_83
+				v_u_83:dispatch({})
+			end).to.throw()
+			v_u_83:destruct()
+		end)
+		it("should throw if the action is not a function or table", function()
+			-- upvalues: (ref) v_u_1
+			local v_u_85 = v_u_1.new(function(p84, _)
+				return p84
+			end)
+			expect(function()
+				-- upvalues: (copy) v_u_85
+				v_u_85:dispatch(1)
+			end).to.throw()
+			v_u_85:destruct()
+		end)
+		it("should report an error if the listeners error when flushing", function()
+			-- upvalues: (ref) v_u_1
+			local v_u_86 = nil
+			local v_u_87 = nil
+			local v_u_88 = nil
+			local v_u_89 = nil
+			local v94 = {
+				["reportReducerError"] = function() end,
+				["reportUpdateError"] = function(p90, p91, p92, p93)
+					-- upvalues: (ref) v_u_86, (ref) v_u_87, (ref) v_u_88, (ref) v_u_89
+					v_u_86 = p90
+					v_u_87 = p91
+					v_u_88 = p92
+					v_u_89 = p93
+				end
+			}
+			local v97 = v_u_1.new(function(p95, p96)
+				return p96.type == "Increment" and {
+					["Value"] = p95.Value + p96.amount
+				} or p95
+			end, {
+				["Value"] = 1
+			}, nil, v94)
+			v97.changed:connect(function(p98, _)
+				if p98.Value == 15 then
+					error("Z4PH0D")
+				end
+			end)
+			local v99 = {
+				{
+					["type"] = "Increment",
+					["amount"] = 1
+				},
+				{
+					["type"] = "Increment",
+					["amount"] = 3
+				},
+				{
+					["type"] = "Increment",
+					["amount"] = 10
+				}
+			}
+			local v100 = v_u_87
+			local v101 = v_u_86
+			local v102 = v_u_88
+			local v103 = v_u_89
+			for _, v104 in ipairs(v99) do
+				v97:dispatch(v104)
+			end
+			v97:flush()
+			expect(v103.message).to.equal("Caught error flushing store updates")
+			expect(string.find(v103.thrownValue, script.Name)).to.be.ok()
+			expect(v102[1]).to.equal(v99[1])
+			expect(v102[2]).to.equal(v99[2])
+			expect(v102[3]).to.equal(v99[3])
+			expect(v101.Value).to.equal(1)
+			expect(v100.Value).to.equal(15)
+			v97:destruct()
+		end)
+		it("should throw errors if dispatching while a dispatch is already happening", function()
+			-- upvalues: (ref) v_u_1
+			local v_u_105 = nil
+			v_u_105 = v_u_1.new(function(_, p106)
+				-- upvalues: (ref) v_u_105
+				if p106.type == "SomeAction" then
+					v_u_105:dispatch({
+						["type"] = "MidDispatchAction"
+					})
+				end
+			end)
+			expect(function()
+				-- upvalues: (ref) v_u_105
+				v_u_105:dispatch({
+					["type"] = "SomeAction"
+				})
+			end).to.throw()
+			v_u_105:destruct()
+		end)
+	end)
+	describe("flush", function()
+		-- upvalues: (copy) v_u_1
+		it("should not fire a changed event if there were no dispatches", function()
+			-- upvalues: (ref) v_u_1
+			local v107 = v_u_1.new(function() end)
+			local v_u_108 = 0
+			v107.changed:connect(function()
+				-- upvalues: (ref) v_u_108
+				v_u_108 = v_u_108 + 1
+			end)
+			v107:flush()
+			expect(v_u_108).to.equal(0)
+			v107:dispatch({
+				["type"] = "increment"
+			})
+			v107:flush()
+			expect(v_u_108).to.equal(1)
+			v107:flush()
+			expect(v_u_108).to.equal(1)
+			v107:destruct()
+		end)
+	end)
+end

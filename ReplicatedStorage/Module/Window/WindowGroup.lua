@@ -1,0 +1,54 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMZBmlwYWlycwtfbGlzdFdpbmRvdwdEZXN0cm95DHNldG1ldGF0YWJsZQNuZXcFX21haWQIR2l2ZVRhc2sGSXNPcGVuBUNsb3NlDl9iZWZvcmVPcGVuRnVuC19fQ2xhc3NOYW1lBldpbmRvdwZhc3NlcnQFZXJyb3IfV2luZG93IGFscmVhZHkgZXhpc3RzIGluIGdyb3VwLgV0YWJsZQZpbnNlcnQDQWRkBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlA1N0ZARNYWlkB19faW5kZXgABgcAAQAAABGkAAEAAAAAQPsDAABNAQPxAgAAAJ8AAgRRAAMAvAUEUAMAAACfBQIBbgD8/wIAAID7AAAAxgEAADABAPECAAAAggABAAQDAQQAAABAAwIDAwANAAEYAAAAAAAAAAEAAP8AAwAAAAEOAAAAAAQAAgAAABv/AAIAAAAAAPsDAACePQAEAwAAAFICAACkAQEAAAAAQJ8BAwH7AgEATQEC7wIAAACfAQECMAEAwQMAAAD/AQAAAAAAADABAPEEAAAATQEAwQMAAADZAwAAEgAAALwBAf0FAAAAnwEDAYIAAgAGAwQEAAAAQAMFAwYDAgMHAQAHBQEYAAABAAAAAAAAAgAAAAAAAQAAAAEAAAAAAAAHCAAAAAAHAAIAAAAUpAABAAAAAED7AwAATQED8QIAAACfAAIEUQAKAPsFAQDxBAgABQAAALwFBDEDAAAAnwUCAg4FAwC8BQRjBAAAAJ8FAgFuAPX/AgAAgIIAAQAFAwEEAAAAQAMCAwgDCQAgCgEYAAAAAAAAAAEAAAAAAAABAAD+AAUhAAAAAAkCAAAAACZNBAHlAAAAAPAEAgABAAAAqQMAAakDAQC7AQMCpAIDAAAAIECfAgIBpAIFAAAAQEBNAwDxBgAAAJ8CAgRRAgYAmgEFAAYAAACkBwgAAABwQG8ICQCfBwIBbgL5/wIAAIBNAwDxBgAAAJ40AwQBAAAAUgQBAKQCDAAALKCAnwIDAdkCAAASAAAAEgABADACARcNAAAAggABAA4DCwMMAw0EAAAgQAMBBAAAQEADAgMOBAAAcEADDwMQAxEEACyggAMKAQIWEgEYAAAAAAAAAAAAAAEAAAAAAAEAAQAAAP4ABQAAAAAAAAADAAAAAAcXAAAAAAQBAAAAAA9NAgDBAAAAALsBAgKkAQIAAAAQQJ8BAgFNAQDBAAAAAMYCAAAwAgDBAAAAALwCAVADAAAAnwICAYIAAQAEAwYDDQQAABBAAwMAKAMBGAAAAAAAAAEAAQAAAQAAASkAAAAABAAAAQIAHqMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0DAKEGAAAATQIDdgcAAACfAQIC/wIDAAAAAAAwAgJuCAAAAMADCQASAAIAEgABADADAu8KAAAAwAMLADADAl8MAAAAwAMNADADAlAOAAAAggICAA8DEwQAAABAAxQDFQMWBAAAQEADFwMYAxkGAQMFBgMDEgYEAwMDAQMEAQABGAABAAAAAAABAAAAAAAAAgABAAEAAAAADwAAEgAABgEAAAAABbvcdnKrPucBiRgc5pt1aStryN77WIKJ4r2I5lVU5A4yTISrwADUu4g=
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Std.Maid)
+local v_u_3 = {}
+v_u_3.__index = v_u_3
+function v_u_3.new()
+	-- upvalues: (copy) v_u_3, (copy) v_u_2
+	local v_u_4 = {}
+	local v5 = v_u_3
+	setmetatable(v_u_4, v5)
+	v_u_4._maid = v_u_2.new()
+	v_u_4._listWindow = {}
+	v_u_4._maid:GiveTask(function()
+		-- upvalues: (copy) v_u_4
+		for _, v6 in ipairs(v_u_4._listWindow) do
+			v6:Destroy()
+		end
+		v_u_4._listWindow = nil
+	end)
+	return v_u_4
+end
+function v_u_3.Add(p_u_7, p_u_8)
+	local v9 = p_u_8.__ClassName == "Window"
+	assert(v9)
+	for _, v10 in ipairs(p_u_7._listWindow) do
+		if p_u_8 == v10 then
+			error("Window already exists in group.")
+		end
+	end
+	local v11 = p_u_7._listWindow
+	table.insert(v11, p_u_8)
+	function p_u_8._beforeOpenFun()
+		-- upvalues: (copy) p_u_7, (copy) p_u_8
+		for _, v12 in ipairs(p_u_7._listWindow) do
+			if v12 ~= p_u_8 and v12:IsOpen() then
+				v12:Close()
+			end
+		end
+	end
+end
+function v_u_3.Destroy(p13)
+	local v14 = p13._maid
+	assert(v14)
+	local v15 = p13._maid
+	p13._maid = nil
+	v15:Destroy()
+end
+return v_u_3

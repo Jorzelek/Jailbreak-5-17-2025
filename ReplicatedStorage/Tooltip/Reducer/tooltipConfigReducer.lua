@@ -1,0 +1,22 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMPBXRhYmxlBWNsb25lBXZhbHVlBHRleHQOc2V0VG9vbHRpcFRleHQHdmlzaWJsZRFzZXRUb29sdGlwVmlzaWJsZQRnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQVSb2R1eAdUb29sdGlwDVRvb2x0aXBDb25zdHMNY3JlYXRlUmVkdWNlcgADBAIAAAAADlICAAArAgIA/wIAAAAAAABSAAIApAICAAAEAIBSAwAAnwICAk0DAcwDAAAAMAMC1QQAAACCAgIABQMBAwIEAAQAgAMDAwQABwUBGAAAAAAAAQAAAAEAAAABCQAAAAAEAgAAAAAOUgIAACsCAgD/AgAAAAAAAFIAAgCkAgIAAAQAgFIDAACfAgICTQMBzAMAAAAwAwKgBAAAAIICAgAFAwEDAgQABACAAwMDBgAOBwEYAAAAAAABAAAAAQAAAAEPAAAAAAcAAAECAB+jAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAgCnBgAAAJ8BAgKkAgUAAABAQE0EAHUHAAAATQMEKwgAAACfAgICTQMB1gkAAADGBAAA4gUMAMAGDQAwBgViCgAAAMAGDgAwBgUmCwAAAJ8DAwCCAwAADwMIBAAAAEADCQMKAwsEAABAQAMMAw0DDgMPAwUDBwUCCgsGAAYBAgABAQABGAABAAAAAAABAAAAAAEAAAAAAAACAAAAAQAABwAA+AABAAAAAAJNCzHtT8LlL3/PW3n69n4Zgm6/IkpYcnxsGTEx2Ez8VP6Fj1BdBrpl
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v2 = require(v1.Rodux)
+require(v1.Tooltip.TooltipConsts)
+return v2.createReducer(nil, {
+	["setTooltipText"] = function(p3, p4)
+		local v5 = table.clone(p3 or {})
+		v5.text = p4.value
+		return v5
+	end,
+	["setTooltipVisible"] = function(p6, p7)
+		local v8 = table.clone(p6 or {})
+		v8.visible = p7.value
+		return v8
+	end
+})

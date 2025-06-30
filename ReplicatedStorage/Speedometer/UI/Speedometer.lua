@@ -1,0 +1,474 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgOvAQZzdHJpbmcFbWF0Y2gVXihbXiVkXSolZCkoJWQqKSguLSkkB3JldmVyc2UIKCVkJWQlZCkDJTEsBGdzdWIFY29tbWEJZWplY3RPcGVuCHNldFN0YXRlBGluaXQCX2MEbWF0aAZyYW5kb20DbmV3BG1haWQUR2V0TG9jYWxWZWhpY2xlTW9kZWwWTm8gbG9jYWwgdmVoaWNsZSBtb2RlbAZhc3NlcnQaZ2V0VGlyZUhlYWx0aENoYW5nZWRTaWduYWwHQ29ubmVjdAhHaXZlVGFzax1nZXRUaXJlTWF4SGVhbHRoQ2hhbmdlZFNpZ25hbAhkaWRNb3VudAVwcm9wcxBvbkNsaWNrRWplY3ROYW1lBkNvbG9yMwRsZXJwBCUwM2QGZm9ybWF0BXN0YXRlDG9uQ2xpY2tFamVjdAVVRGltMgNtaW4FJXMgbWkFZmxvb3IHZW5hYmxlZA1nZXRUaXJlSGVhbHRoEGdldFRpcmVNYXhIZWFsdGgJSXNSdW5uaW5nFk5vIGhlYWx0aCBvciBtYXhIZWFsdGgKcGFzc2VuZ2VycwZpcGFpcnMETmFtZQpUZXh0QnV0dG9uFkJhY2tncm91bmRUcmFuc3BhcmVuY3kPQm9yZGVyU2l6ZVBpeGVsEEJhY2tncm91bmRDb2xvcjMEU2l6ZQdWZWN0b3IyC0FuY2hvclBvaW50AARUZXh0C0xheW91dE9yZGVyBUV2ZW50EE1vdXNlQnV0dG9uMURvd24IVUlDb3JuZXIFVGl0bGUMQ29ybmVyUmFkaXVzBFVEaW0JVGV4dExhYmVsBEZvbnQKVGV4dENvbG9yMwpUZXh0U2NhbGVkCFBvc2l0aW9uBEVudW0LTHVja2llc3RHdXkKSW1hZ2VMYWJlbBFJbWFnZVRyYW5zcGFyZW5jeQVJbWFnZQtJbWFnZUNvbG9yMxdyYnhhc3NldGlkOi8vODIwODA1ODUxMgphY2NlbFJhdGlvA21hcAtBc3BlY3RSYXRpbxdVSUFzcGVjdFJhdGlvQ29uc3RyYWludAVGcmFtZQRzaXplCHBvc2l0aW9uC2FuY2hvclBvaW50CFVJU3Ryb2tlA1RvcAZCb3R0b20FQ29sb3IJVGhpY2tuZXNzBWNvbG9yBlpJbmRleAVTcGVlZAZNZXRyaWMFUGxhdGUETG9jawVFamVjdAhNaXNzaWxlcwpNaXNzaWxlQnV5BXNwZWVkB0JhbmdlcnMGbWV0cmljD2hhc0xpY2Vuc2VQbGF0ZQdWaXNpYmxlDG9uQ2xpY2tQbGF0ZQxsaWNlbnNlUGxhdGULSW1hZ2VCdXR0b24XcmJ4YXNzZXRpZDovLzgyMDgwNTkxOTgLbG9ja0VuYWJsZWQLb25DbGlja0xvY2sESWNvbgZsb2NrZWQXcmJ4YXNzZXRpZDovLzU5Mjg5MzY5ODAXcmJ4YXNzZXRpZDovLzU5Mjg5MzYyOTYMZWplY3RFbmFibGVkBExpc3QXcmJ4YXNzZXRpZDovLzgyMDgwNTk2MjQFbWVyZ2UKTGlzdExheW91dAxVSUxpc3RMYXlvdXQTSG9yaXpvbnRhbEFsaWdubWVudBFWZXJ0aWNhbEFsaWdubWVudAlTb3J0T3JkZXINRmlsbERpcmVjdGlvbgdQYWRkaW5nBkNlbnRlcghWZXJ0aWNhbA4lZC8lZCBNSVNTSUxFUwxtaXNzaWxlQ291bnQKbWlzc2lsZU1heA9taXNzaWxlc0VuYWJsZWQRb25DbGlja01pc3NpbGVCdXkDQnV5BUxpbmUwBUxpbmUxCUhlYWx0aEJhcghOaXRyb0JhcgVNZXRlcg5UZXh0WEFsaWdubWVudAdmcm9tSGV4BmNiMzQyYQVSaWdodAVJbm5lchBDbGlwc0Rlc2NlbmRhbnRzBVZhbHVlClVJR3JhZGllbnQIUm90YXRpb24GT2Zmc2V0DUNvbG9yU2VxdWVuY2UVQ29sb3JTZXF1ZW5jZUtleXBvaW50B2Zyb21SR0IKb25DbGlja0JhcghiYXJSYXRpbwhPZG9tZXRlcgpIb3Jpem9udGFsF3JieGFzc2V0aWQ6Ly84MjQ3MDAyMTMzBkFtb3VudAhkaXN0YW5jZQZyZW5kZXIHRGVzdHJveQt3aWxsVW5tb3VudARnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UKUnVuU2VydmljZQdyZXF1aXJlBEV6VWkKRGljdGlvbmFyeQVSb2FjdANTdGQETWFpZAdWZWhpY2xlDFZlaGljbGVVdGlscw1jcmVhdGVFbGVtZW50DVB1cmVDb21wb25lbnQLU3BlZWRvbWV0ZXIGZXh0ZW5kA01QSAhKQUlMQlJLIQxkZWZhdWx0UHJv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/AAAAAAAAAAAAQAAAAAAAP8AAAAAAAAAAAEAAAAAAAD/AQAAAQAAAAAAAAAAAAMABQD2AAAMAAABAAABAAAAAPIAAAABAAAAAAAAAQAAAAD+AAAAAQAAAAAAAAABAAABBAAAAAABAAAA+AAACgAAAPYAAAEAAAEAAAAAAAAAAQD9AAAAAAAAAQAAAAAAAAEA/gAAAAAAAAEAAAEAAAAAAP4AAAAAAAAAAAABAQAAAQD+/wAAAwAAAQAAAQAAAAAA+wAAAQAAAAAAAAEAAAAAAP4AAAEAAAAAAAAAAQAAAQASAAAAAQAAAPgAAPIAABkA5wABAAABAAAAAAAAAAEAAP0AAAAAAAAAAAEAAAAAAAD/AAEAAAAAAAEAAAAAAAAA/gABAQAAAQAA/wAAAwAAAfoAAQAAAAAAAAABAAAAAAD+AAAAAQAAAAAAAAAAAQAAAwAAAAEAAAAAAAAAAPoAAAAAABUAAAABAAABAAAAAADpAAEAAAEAAAAAAAAAAAEA/QAAAAAAAAEAAAAAAAEAAP4AAAAACQEAAAEAAP8AAAPzAAEAAAEAAAEAAAAAAAAA/QAAAAAAAAAAAQAAAAAAAAUAAAAAAAAAAPoAAAgBAQH1AAEAAAAAAAAAAQAAAAAA/gAAAQAAAAAAAAAAAQAAAP4AAAEAAAAAAAIAAAABAAD8AAAAAQAAAAEAAAABAAAAKQAAAAAAAPsAAAf49gAA5AAAMQAAAQAAAQAAAAAAAADNAQAAAAAAAAEAAAAAAAAA/gEAAAAAAAAAAQAAAQAAAP0AAAAAAAAAAAABAAAAAQAHAAAA9wAACwAAAAEAAAEA8wAAAAAAAQAAAAAAAAAAAf4AAAAAAAEAAAAAAAAAAAH+AAEAAAEAAAAAAAEAAAAA/QAAAAABAQAAAQAA/wAAA/sAAQAAAAAAAP8AAAMAAAH8AAEAAAAAAAAAAAEAAAAA/gABAAAAAAAAAAABAAAAAP4AAAEAAAEAAAEAAAABAACTAADvAAB6AACkAAABAAABWgAAAAAAAAABAAAAAAAAAP8BAQAAAQAAAQAAAAAAAQD+AAAAAAAA/QAABQAAAQAA+gAAAAAAAQAAAAAAAAAAAQIAAAAAAAAA/AAABgAAAQD5AQAAAAAAAQAAAAAAAAAA/gAAAAAAAAAAAQAAAAAAAP8AAAEAAAEAAAAAAAAAAQD9AAEB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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = game:GetService("RunService")
+local v_u_3 = require(v1.EzUi.Dictionary)
+local v_u_4 = require(v1.Roact)
+local v_u_5 = require(v1.Std.Maid)
+local v_u_6 = require(v1.Vehicle.VehicleUtils)
+local v_u_7 = v_u_4.createElement
+local v8 = v_u_4.PureComponent:extend("Speedometer")
+v8.defaultProps = {
+	["metric"] = "MPH",
+	["hasLicensePlate"] = true,
+	["licensePlate"] = "JAILBRK!",
+	["locked"] = false,
+	["lockEnabled"] = true,
+	["ejectEnabled"] = true,
+	["missilesEnabled"] = false,
+	["missileCount"] = 0,
+	["missileMax"] = 10,
+	["size"] = UDim2.new(1, 0, 1, 0),
+	["position"] = UDim2.new(0, 0, 0, 0),
+	["enabled"] = true
+}
+function v8.init(p9)
+	p9:setState({
+		["ejectOpen"] = false
+	})
+end
+function v8.didMount(p_u_10)
+	-- upvalues: (copy) v_u_5, (copy) v_u_6
+	p_u_10.maid = v_u_5.new()
+	local v11 = v_u_6.GetLocalVehicleModel()
+	assert(v11, "No local vehicle model")
+	p_u_10.maid:GiveTask(v_u_6.getTireHealthChangedSignal(v11):Connect(function()
+		-- upvalues: (copy) p_u_10
+		p_u_10:setState({
+			["_c"] = math.random()
+		})
+	end))
+	p_u_10.maid:GiveTask(v_u_6.getTireMaxHealthChangedSignal(v11):Connect(function()
+		-- upvalues: (copy) p_u_10
+		p_u_10:setState({
+			["_c"] = math.random()
+		})
+	end))
+end
+function v8.render(p_u_12)
+	-- upvalues: (copy) v_u_6, (copy) v_u_2, (copy) v_u_7, (copy) v_u_4, (copy) v_u_3
+	if p_u_12.props.enabled then
+		local v13 = v_u_6.GetLocalVehicleModel()
+		if v13 then
+			local v14 = v_u_6.getTireHealth(v13)
+			local v15 = v_u_6.getTireMaxHealth(v13)
+			if v_u_2:IsRunning() then
+				assert(v14 and v15, "No health or maxHealth")
+			else
+				v14 = 75
+				v15 = 150
+			end
+			local v16 = v14 / v15
+			local v17 = {}
+			if p_u_12.state.ejectOpen and p_u_12.props.passengers then
+				for v18, v19 in ipairs(p_u_12.props.passengers) do
+					local v_u_20 = v19.Name
+					v17[v_u_20] = v_u_7("TextButton", {
+						["BackgroundTransparency"] = 0,
+						["BorderSizePixel"] = 0,
+						["BackgroundColor3"] = Color3.new(1, 1, 1),
+						["Size"] = UDim2.new(1, 0, 1, 0),
+						["AnchorPoint"] = Vector2.new(0, 0),
+						["Text"] = "",
+						["LayoutOrder"] = 10 - v18,
+						[v_u_4.Event.MouseButton1Down] = function()
+							-- upvalues: (copy) p_u_12, (copy) v_u_20
+							p_u_12:setState({
+								["ejectOpen"] = false
+							})
+							if p_u_12.props.onClickEjectName then
+								p_u_12.props.onClickEjectName(v_u_20)
+							end
+						end
+					}, {
+						["UICorner"] = v_u_7("UICorner", {
+							["CornerRadius"] = UDim.new(0.25, 0)
+						}),
+						["Title"] = v_u_7("TextLabel", {
+							["BackgroundTransparency"] = 1,
+							["Text"] = v_u_20,
+							["Font"] = Enum.Font.LuckiestGuy,
+							["TextColor3"] = Color3.new(0.2, 0.2, 0.2),
+							["TextScaled"] = true,
+							["Size"] = UDim2.new(1, 0, 0.9, 0),
+							["AnchorPoint"] = Vector2.new(0.5, 0.5),
+							["Position"] = UDim2.new(0.5, 0, 0.6, 0)
+						})
+					})
+				end
+			end
+			local v21 = {}
+			for v_u_22 = 1, 9 do
+				v21[v_u_22] = v_u_7("ImageLabel", {
+					["BackgroundTransparency"] = 1,
+					["ImageTransparency"] = 0,
+					["Image"] = "rbxassetid://8208058512",
+					["Size"] = UDim2.new(1, 0, 1, 0),
+					["ImageColor3"] = p_u_12.props.accelRatio:map(function(p23)
+						-- upvalues: (copy) v_u_22
+						local v24 = Color3.new(1, 1, 1)
+						local v25 = v_u_22 / 10
+						local v26 = (v_u_22 + 1) / 10
+						if p23 < v25 then
+							return Color3.new(0, 0, 0)
+						end
+						if p23 < v26 then
+							local v27 = ((p23 - v25) / (v26 - v25)) ^ 2
+							v24 = Color3.new(0, 0, 0):lerp(v24, v27)
+						end
+						return v24
+					end),
+					["LayoutOrder"] = v_u_22
+				}, {
+					["AspectRatio"] = v_u_7("UIAspectRatioConstraint", {
+						["AspectRatio"] = 1.34375
+					})
+				})
+			end
+			local v28 = v_u_7
+			local v29 = {
+				["BackgroundTransparency"] = 0.6666666666666666,
+				["BackgroundColor3"] = Color3.new(0.2, 0.2, 0.2),
+				["Size"] = p_u_12.props.size,
+				["Position"] = p_u_12.props.position,
+				["AnchorPoint"] = p_u_12.props.anchorPoint
+			}
+			local v30 = {
+				["AspectRatio"] = v_u_7("UIAspectRatioConstraint", {
+					["AspectRatio"] = 3
+				}),
+				["UICorner"] = v_u_7("UICorner", {
+					["CornerRadius"] = UDim.new(0.25, 0)
+				}),
+				["UIStroke"] = v_u_7("UIStroke", {
+					["Color"] = p_u_12.props.color,
+					["Thickness"] = 3
+				})
+			}
+			local v31 = v_u_7
+			local v32 = {
+				["BackgroundTransparency"] = 1,
+				["Size"] = UDim2.new(1, 0, 0.5714285714285714, 0),
+				["Position"] = UDim2.new(0, 0, 0, 0),
+				["ZIndex"] = 2
+			}
+			local v34 = {
+				["Speed"] = v_u_7("TextLabel", {
+					["BackgroundTransparency"] = 1,
+					["Size"] = UDim2.new(0.4, 0, 1, 0),
+					["AnchorPoint"] = Vector2.new(0.5, 0),
+					["Position"] = UDim2.new(0.5, 0, 0, 0),
+					["TextColor3"] = Color3.new(1, 1, 1),
+					["TextScaled"] = true,
+					["Text"] = p_u_12.props.speed:map(function(p33)
+						return ("%03d"):format(p33)
+					end),
+					["Font"] = Enum.Font.Bangers
+				}),
+				["Metric"] = v_u_7("TextLabel", {
+					["BackgroundTransparency"] = 1,
+					["Size"] = UDim2.new(0.1, 0, 0.5, 0),
+					["AnchorPoint"] = Vector2.new(0.5, 0),
+					["Position"] = UDim2.new(0.7124999999999999, 0, 0.1, 0),
+					["TextColor3"] = Color3.new(1, 1, 1),
+					["TextScaled"] = true,
+					["Text"] = p_u_12.props.metric,
+					["Font"] = Enum.Font.Bangers
+				}),
+				["Plate"] = v_u_7("TextButton", {
+					["BackgroundTransparency"] = 0,
+					["BorderSizePixel"] = 0,
+					["BackgroundColor3"] = Color3.new(0, 0, 0),
+					["Size"] = UDim2.new(0.3, 0, 1, 0),
+					["AnchorPoint"] = Vector2.new(1, 1),
+					["Position"] = UDim2.new(1, 0, 1, -6),
+					["Text"] = "",
+					["Visible"] = p_u_12.props.hasLicensePlate,
+					[v_u_4.Event.MouseButton1Down] = p_u_12.props.onClickPlate
+				}, {
+					["AspectRatio"] = v_u_7("UIAspectRatioConstraint", {
+						["AspectRatio"] = 4
+					}),
+					["Title"] = v_u_7("TextLabel", {
+						["BackgroundTransparency"] = 1,
+						["Size"] = UDim2.new(0.8, 0, 1, 0),
+						["AnchorPoint"] = Vector2.new(0.5, 0),
+						["Position"] = UDim2.new(0.5, 0, 0.2, 0),
+						["TextColor3"] = Color3.new(1, 1, 1),
+						["TextScaled"] = true,
+						["Text"] = p_u_12.props.licensePlate,
+						["Font"] = Enum.Font.LuckiestGuy
+					})
+				})
+			}
+			local v35 = v_u_7
+			local v36 = {
+				["BackgroundTransparency"] = 1,
+				["ImageColor3"] = Color3.new(1, 1, 1),
+				["Image"] = "rbxassetid://8208059198",
+				["Size"] = UDim2.new(0.5, 0, 0.5, 0),
+				["Position"] = UDim2.new(0.04, 0, 0.14, 0),
+				["Visible"] = p_u_12.props.lockEnabled,
+				[v_u_4.Event.MouseButton1Down] = p_u_12.props.onClickLock
+			}
+			local v37 = {
+				["AspectRatio"] = v_u_7("UIAspectRatioConstraint", {
+					["AspectRatio"] = 1
+				}),
+				["Icon"] = v_u_7("ImageLabel", {
+					["BackgroundTransparency"] = 1,
+					["ImageColor3"] = Color3.new(1, 1, 1),
+					["Image"] = p_u_12.props.locked and "rbxassetid://5928936980" or "rbxassetid://5928936296",
+					["Size"] = UDim2.new(0.6, 0, 0.6, 0),
+					["AnchorPoint"] = Vector2.new(0.5, 0.5),
+					["Position"] = UDim2.new(0.5, 0, 0.5, 0)
+				})
+			}
+			v34.Lock = v35("ImageButton", v36, v37)
+			v34.Eject = v_u_7("ImageButton", {
+				["BackgroundTransparency"] = 1,
+				["ImageColor3"] = Color3.new(1, 1, 1),
+				["Image"] = "rbxassetid://8208059198",
+				["Size"] = UDim2.new(0.5, 0, 0.5, 0),
+				["Position"] = UDim2.new(0.16, 0, 0.14, 0),
+				["Visible"] = p_u_12.props.ejectEnabled,
+				[v_u_4.Event.MouseButton1Down] = function()
+					-- upvalues: (copy) p_u_12
+					local v38 = not p_u_12.state.ejectOpen
+					p_u_12:setState({
+						["ejectOpen"] = v38
+					})
+					if p_u_12.props.onClickEject then
+						p_u_12.props.onClickEject(v38)
+					end
+				end
+			}, {
+				["AspectRatio"] = v_u_7("UIAspectRatioConstraint", {
+					["AspectRatio"] = 1
+				}),
+				["Icon"] = v_u_7("ImageLabel", {
+					["BackgroundTransparency"] = 1,
+					["Image"] = "rbxassetid://8208059624",
+					["ImageColor3"] = Color3.new(1, 1, 1),
+					["Size"] = UDim2.new(0.6, 0, 0.6, 0),
+					["AnchorPoint"] = Vector2.new(0.5, 0.5),
+					["Position"] = UDim2.new(0.5, 0, 0.5, 0)
+				}),
+				["List"] = v_u_7("Frame", {
+					["BackgroundTransparency"] = 1,
+					["BackgroundColor3"] = Color3.new(1, 0, 0),
+					["Size"] = UDim2.new(4, 0, 0.8, 0),
+					["Position"] = UDim2.new(0.5, 0, -0.8, 0),
+					["AnchorPoint"] = Vector2.new(0.5, 1),
+					["Visible"] = p_u_12.props.ejectOpen
+				}, v_u_3.merge({
+					["ListLayout"] = v_u_7("UIListLayout", {
+						["HorizontalAlignment"] = Enum.HorizontalAlignment.Center,
+						["VerticalAlignment"] = Enum.VerticalAlignment.Bottom,
+						["SortOrder"] = Enum.SortOrder.LayoutOrder,
+						["FillDirection"] = Enum.FillDirection.Vertical,
+						["Padding"] = UDim.new(0.2, 0)
+					})
+				}, v17))
+			})
+			v34.Missiles = v_u_7("TextLabel", {
+				["BackgroundTransparency"] = 1,
+				["Size"] = UDim2.new(0.25, 0, 0.3, 0),
+				["AnchorPoint"] = Vector2.new(0, 1),
+				["Position"] = UDim2.new(0.04, 0, 0.96, 0),
+				["TextColor3"] = Color3.new(1, 1, 1),
+				["TextScaled"] = true,
+				["Text"] = ("%d/%d MISSILES"):format(p_u_12.props.missileCount, p_u_12.props.missileMax),
+				["Font"] = Enum.Font.LuckiestGuy,
+				["Visible"] = p_u_12.props.missilesEnabled
+			})
+			v34.MissileBuy = v_u_7("TextButton", {
+				["BorderSizePixel"] = 0,
+				["BackgroundColor3"] = Color3.new(1, 1, 1),
+				["Size"] = UDim2.new(1, 0, 0.18, 0),
+				["AnchorPoint"] = Vector2.new(0.5, 1),
+				["Position"] = UDim2.new(0.15, 0, 1.07, 0),
+				["ZIndex"] = 4,
+				["Text"] = "",
+				["Visible"] = p_u_12.props.missilesEnabled,
+				[v_u_4.Event.MouseButton1Down] = p_u_12.props.onClickMissileBuy
+			}, {
+				["AspectRatio"] = v_u_7("UIAspectRatioConstraint", {
+					["AspectRatio"] = 3
+				}),
+				["UICorner"] = v_u_7("UICorner", {
+					["CornerRadius"] = UDim.new(0.25, 0)
+				}),
+				["Title"] = v_u_7("TextLabel", {
+					["BackgroundTransparency"] = 1,
+					["Size"] = UDim2.new(1, 0, 1, 0),
+					["AnchorPoint"] = Vector2.new(0.5, 0.5),
+					["Position"] = UDim2.new(0.5, 0, 0.6, 0),
+					["TextColor3"] = Color3.new(0.2, 0.2, 0.2),
+					["TextScaled"] = true,
+					["Text"] = "Buy",
+					["Font"] = Enum.Font.LuckiestGuy,
+					["ZIndex"] = 5
+				})
+			})
+			v30.Top = v31("Frame", v32, v34)
+			local v39 = v_u_7
+			local v40 = {
+				["BackgroundTransparency"] = 1,
+				["Size"] = UDim2.new(1, 0, 0.5714285714285714, 0),
+				["Position"] = UDim2.new(0, 0, 0.5714285714285714, 0)
+			}
+			local v41 = {
+				["Line0"] = v_u_7("Frame", {
+					["BorderSizePixel"] = 0,
+					["BackgroundColor3"] = p_u_12.props.color,
+					["Size"] = UDim2.new(1, 0, 0, 2)
+				}),
+				["Line1"] = v_u_7("Frame", {
+					["BorderSizePixel"] = 0,
+					["BackgroundColor3"] = p_u_12.props.color,
+					["Size"] = UDim2.new(1, 0, 0, 2),
+					["Position"] = UDim2.new(0, 0, 0, -6)
+				})
+			}
+			local v42 = v_u_7
+			local v43 = {
+				["BackgroundTransparency"] = 0,
+				["BackgroundColor3"] = Color3.fromHex("cb342a"),
+				["Size"] = UDim2.new(0.85, 0, 0.1, 0),
+				["Position"] = UDim2.new(0.5, 0, 0.47, 0),
+				["AnchorPoint"] = Vector2.new(0.5, 0.5),
+				["Text"] = "",
+				["TextScaled"] = true,
+				["TextColor3"] = Color3.new(1, 1, 1),
+				["TextXAlignment"] = Enum.TextXAlignment.Right
+			}
+			local v44 = {
+				["UICorner"] = v_u_7("UICorner", {
+					["CornerRadius"] = UDim.new(1, 0)
+				})
+			}
+			local v45 = v_u_7
+			local v46 = {
+				["BackgroundTransparency"] = 1,
+				["Size"] = UDim2.new(v16, 0, 1, 0),
+				["ClipsDescendants"] = true
+			}
+			local v47 = {}
+			local v48 = v_u_7
+			local v49 = {
+				["BackgroundTransparency"] = 0,
+				["BackgroundColor3"] = Color3.new(1, 1, 1)
+			}
+			local v50 = UDim2.new
+			local v51 = 1 / v16
+			v49.Size = v50(math.min(v51, 2), 0, 1, 0)
+			v47.Value = v48("Frame", v49, {
+				["UICorner"] = v_u_7("UICorner", {
+					["CornerRadius"] = UDim.new(1, 0)
+				}),
+				["UIGradient"] = v_u_7("UIGradient", {
+					["Color"] = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(101, 216, 99)), ColorSequenceKeypoint.new(1, Color3.fromRGB(89, 201, 113)) }),
+					["Rotation"] = 90,
+					["Offset"] = Vector2.new(0, 0)
+				})
+			})
+			v44.Inner = v45("Frame", v46, v47)
+			v41.HealthBar = v42("TextLabel", v43, v44)
+			local v52 = v_u_7
+			local v53 = {
+				["BackgroundTransparency"] = 0,
+				["BackgroundColor3"] = Color3.new(0, 0, 0),
+				["Size"] = UDim2.new(0.85, 0, 0.1, 0),
+				["Position"] = UDim2.new(0.5, 0, 0.62, 0),
+				["AnchorPoint"] = Vector2.new(0.5, 0.5),
+				["Text"] = "",
+				[v_u_4.Event.MouseButton1Down] = p_u_12.props.onClickBar
+			}
+			local v58 = {
+				["UICorner"] = v_u_7("UICorner", {
+					["CornerRadius"] = UDim.new(1, 0)
+				}),
+				["Inner"] = v_u_7("Frame", {
+					["BackgroundTransparency"] = 1,
+					["Size"] = p_u_12.props.barRatio:map(function(p54)
+						return UDim2.new(p54, 0, 1, 0)
+					end),
+					["ClipsDescendants"] = true
+				}, {
+					["Value"] = v_u_7("Frame", {
+						["BackgroundTransparency"] = 0,
+						["BackgroundColor3"] = Color3.new(1, 1, 1),
+						["Size"] = p_u_12.props.barRatio:map(function(p55)
+							local v56 = UDim2.new
+							local v57 = 1 / p55
+							return v56(math.min(v57, 2), 0, 1, 0)
+						end)
+					}, {
+						["UICorner"] = v_u_7("UICorner", {
+							["CornerRadius"] = UDim.new(1, 0)
+						}),
+						["UIGradient"] = v_u_7("UIGradient", {
+							["Color"] = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(204, 105, 207)), ColorSequenceKeypoint.new(1, Color3.fromRGB(164, 65, 167)) }),
+							["Rotation"] = 90,
+							["Offset"] = Vector2.new(0, 0)
+						})
+					})
+				})
+			}
+			v41.NitroBar = v52("TextButton", v53, v58)
+			v41.Meter = v_u_7("Frame", {
+				["BackgroundTransparency"] = 1,
+				["BorderSizePixel"] = 0,
+				["Size"] = UDim2.new(1, 0, 0.31, 0),
+				["AnchorPoint"] = Vector2.new(0, 0.5),
+				["Position"] = UDim2.new(0, 0, 0.23, 0),
+				["ClipsDescendants"] = true
+			}, v_u_3.merge({
+				["ListLayout"] = v_u_7("UIListLayout", {
+					["HorizontalAlignment"] = Enum.HorizontalAlignment.Center,
+					["VerticalAlignment"] = Enum.VerticalAlignment.Center,
+					["SortOrder"] = Enum.SortOrder.LayoutOrder,
+					["FillDirection"] = Enum.FillDirection.Horizontal,
+					["Padding"] = UDim.new(0, 0)
+				}),
+				["Odometer"] = v_u_7("ImageLabel", {
+					["BackgroundTransparency"] = 1,
+					["Image"] = "rbxassetid://8247002133",
+					["Size"] = UDim2.new(1, 0, 1, 0),
+					["LayoutOrder"] = 100
+				}, {
+					["AspectRatio"] = v_u_7("UIAspectRatioConstraint", {
+						["AspectRatio"] = 5.875
+					}),
+					["Amount"] = v_u_7("TextLabel", {
+						["BackgroundTransparency"] = 1,
+						["Size"] = UDim2.new(0.8, 0, 0.8, 0),
+						["AnchorPoint"] = Vector2.new(0.5, 0.5),
+						["Position"] = UDim2.new(0.5, 0, 0.6, 0),
+						["TextColor3"] = Color3.new(1, 1, 1),
+						["TextScaled"] = true,
+						["Text"] = p_u_12.props.distance:map(function(p59)
+							local v60 = p59 + 0.5
+							local v61 = math.floor(v60)
+							local v62, v63, v64 = string.match(v61, "^([^%d]*%d)(%d*)(.-)$")
+							return ("%s mi"):format(v62 .. v63:reverse():gsub("(%d%d%d)", "%1,"):reverse() .. v64)
+						end),
+						["Font"] = Enum.Font.LuckiestGuy
+					})
+				})
+			}, v21))
+			v30.Bottom = v39("Frame", v40, v41)
+			return v28("Frame", v29, v30)
+		end
+	end
+end
+function v8.willUnmount(p65)
+	p65.maid:Destroy()
+end
+return v8

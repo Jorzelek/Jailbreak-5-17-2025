@@ -1,0 +1,12 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMMBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlBVJvZHV4BVN0b3JlA25ldw9jb21iaW5lUmVkdWNlcnMMZGlhbG9ndWVUZXh0Dk1hbnNpb25Sb2JiZXJ5AlVJE2RpYWxvZ3VlVGV4dFJlZHVjZXIAAQkAAAECACGjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAgCnBgAAAJ8BAgJNAwFeBwAAAE0CA+8IAAAATQMB4wkAAADiBAsApAUFAAAAQEBNCADzDAAAAE0HCFwNAAAATQYHwQ4AAACfBQICMAUEKQoAAACfAwIAnwIAAIICAAAPAwEEAAAAQAMCAwMDBAQAAEBAAwUDBgMHAwgDCQUBCgMKAwsDDAABAAEYAAEAAAAAAAEAAAAAAQAAAAAAAAEAAAAAAAAAAAAA/wAAAQAAAAAAkJEmPi8QvUCiVUyqW4ix1r/ONn/vx0v8frQ4VEdGwimhrOAFTHOGzw==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v2 = require(v1.Rodux)
+return v2.Store.new(v2.combineReducers({
+	["dialogueText"] = require(v1.MansionRobbery.UI.dialogueTextReducer)
+}))

@@ -1,0 +1,80 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgM9BXByb3BzCENoaWxkcmVuC2FzcGVjdFJhdGlvF1VJQXNwZWN0UmF0aW9Db25zdHJhaW50C0FzcGVjdFJhdGlvCGRpc2FibGVkCmJyaWdodGVuQnkPYmFja2dyb3VuZENvbG9yBHRleHQJVGV4dExhYmVsFkJhY2tncm91bmRUcmFuc3BhcmVuY3kEU2l6ZQhQb3NpdGlvbgtBbmNob3JQb2ludARUZXh0CkxpbmVIZWlnaHQKVGV4dFNjYWxlZApUZXh0Q29sb3IzBEZvbnQFVURpbTIDbmV3B1ZlY3RvcjIJdGV4dENvbG9yBGZvbnQMY29ybmVyUmFkaXVzCFVJQ29ybmVyDENvcm5lclJhZGl1cwRVRGltClRleHRCdXR0b24LYW5jaG9yUG9pbnQKYm9yZGVyU2l6ZQ9Cb3JkZXJTaXplUGl4ZWwLYm9yZGVyQ29sb3IMQm9yZGVyQ29sb3IzEEJhY2tncm91bmRDb2xvcjMABHNpemUIcG9zaXRpb24LbGF5b3V0T3JkZXILTGF5b3V0T3JkZXIHdmlzaWJsZQdWaXNpYmxlD0F1dG9CdXR0b25Db2xvcgVFdmVudAlBY3RpdmF0ZWQHb25DbGljawZyZW5kZXIEZ2FtZRFSZXBsaWNhdGVkU3RvcmFnZQpHZXRTZXJ2aWNlB3JlcXVpcmUDU3RkCkNvbG9yVXRpbHMFUm9hY3QNY3JlYXRlRWxlbWVudA1QdXJlQ29tcG9uZW50BmV4dGVuZARFbnVtCkZyZWRva2FPbmUGQ29sb3IzDGRlZmF1bHRQcm9wcwACDAEDAAAA2QFNAgAHAAAAAPsEAABNAwTOAQAAAIcBAgMrAQIA/wEAAAAAAABNAwAHAAAAAE0CA4kCAAAADgIMAPsCAQBvAwMA4gQFAE0GAAcAAAAATQUGiQIAAAAwBQRpBAAAAJ8CAwIwAgFpBAAAAE0EAAcAAAAATQMEggYAAAAOAwoA+wMCAE0CA5wHAAAATQQABwAAAABNAwQOCAAAAG8ECQCfAgMCZQAEAE0DAAcAAAAATQIDDggAAAD7BAIATQMEnAcAAABSBAIAbwUKAJ8DAwJNBQAHAAAAAE0EBdULAAAADgQ7APsEAQBvBQwA4gYWAIwHAQAwBwY6DQAAAKQHGQAAYHCBbwgaAIwJAABvChoAjAsAAJ8HBQIwBwYvDgAAAKQHGQAAYHCBbwgbAIwJAABvChsAjAsAAJ8HBQIwBwY7DwAAAKQHHQAAYMCBbwgbAG8JGwCfBwMCMAcG6BAAAABNCAAHAAAAAE0HCNULAAAAMAcG9REAAACMBwEAMAcGghIAAACpBwEAMAcG3hMAAABNCQAHAAAAAE0ICb8eAAAAygcIAzAHBnMUAAAATQgABwAAAABNBwgZHwAAADAHBjkVAAAAnwQDAjAEAfURAAAATQUABwAAAABNBAVvIAAAAA4EEAD7BAEAbwUhAOIGIwCkByUAAGBAgowIAABNCgAHAAAAAE0JCm8gAAAAnwcDAjAHBk8iAAAAnwQDAjAEAU8iAAAA+wQBAG8FJgD/BgUAAAAAAE0IAAcAAAAATQcICCcAAAAwBwboEAAAAE0IAAcAAAAATQcIaSgAAAAwBwaOKQAAAE0IAAcAAAAATQcIiyoAAAAwBwY0KwAAADACBp8sAAAAbwctADAHBvURAAAATQgABwAAAABNBwgPLgAAADAHBi8OAAAAqQcBADAHBt4TAAAATQgABwAAAABNBwjbLwAAADAHBjsPAAAATQgABwAAAABNBwggMAAAADAHBgAxAAAATQgABwAAAABNBwigMgAAADAHBoAzAAAATQkABwAAAABNCAmCBgAAAFYHCAAwBwbXNAAAAPsJAABNCAk2NQAAAE0HCB42AAAATQoABwAAAABNCQqCBgAAACsJBQBNCQAHAAAAAE0ICW43AAAAZQABAMYIAABqCAYHUgcBAJ8EBACCBAAAOAMBAwIDAwMEAwUFAQQDBgMHAwgCAAAAAAAA4L8CzczMzMzM5L8DCQMKAwsDDAMNAw4DDwMQAxEDEgMTBQkNDg8QERITFBUDFAMVBABgcIECzczMzMzM7D8CAAAAAAAA4D8DFgQAYMCBAxcDGAMZAxoDGwUBIgMcBABgQIIDHQMeAx8DIAMhAyIDIwMkAyUDJgMnAygDKQMqAysDLAMtAy4AEy8BGAAAAAAAAAEBAAIAAAAAAQAAAQAAAAAA/wAABAAAAAABAAAAAAAAAAAAAQAAAAEAAAAAAAIAAAAAAQAAAQAAAQAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAEAAAAAAAEAAAEAAAEAAAAAAAABAAAAAAD3AAAMAAAAAAEAAAEAAAAAAAAAAAD/AAAEAAAAAQAAAAAAAQAAAAAAAQAAAAAAAQABAAABAAAAAAABAAABAAAAAAABAAAAAAABAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAB8wAUAAAAAAoAAAECAEWjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAwChBgAAAE0CAzMHAAAAnwECAqQCBQAAAEBATQMAIQgAAACfAgICTQMCygkAAABNBAL4CgAAAG8GCwC8BAScDAAAAJ8EAwLiBRQApAYYABdYUMEwBgUZDQAAAKQGGwAAaJCBjAcBAIwIAQCMCQEAnwYEAjAGBQ4OAAAAjAYAADAGBWkPAAAApAYbAABokIGMBwAAjAgAAIwJAACfBgQCMAYFixAAAACpBgAAMAYFghEAAABvBhwAMAYF1RIAAACMBgQAMAYFbxMAAAAwBQSSHQAAAMAFHgASAAIAEgADABIAAQAwBQSAHwAAAIIEAgAgAzAEAAAAQAMxAzIDMwQAAEBAAzQDNQM2AzcDOAMdAzkDGAMIAx8DIQMGAwkDGQUHDQ4PEBESEwM6AxMDOwQXWFDBAzwDFQQAaJCBAyQDPQYAAy8BAAEAARgAAQAAAAAAAQAAAAAAAAEAAAAAAQACAAAAAAACAQAAAAEAAAAAAAAAAQAAAQAAAAAAAAABAAABAAABAAD5AAoAAAAAADABAAAAAAFsBWfLNjMc9F7BDV/iGwsU+cUJqLHuqONk0us8e/H89UGhJmCfsqTw
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Std.ColorUtils)
+local v_u_3 = require(v1.Roact)
+local v_u_4 = v_u_3.createElement
+local v5 = v_u_3.PureComponent:extend("TextButton")
+v5.defaultProps = {
+	["font"] = Enum.Font.FredokaOne,
+	["backgroundColor"] = Color3.new(1, 1, 1),
+	["borderSize"] = 0,
+	["borderColor"] = Color3.new(0, 0, 0),
+	["disabled"] = false,
+	["text"] = "",
+	["cornerRadius"] = 4
+}
+function v5.render(p6)
+	-- upvalues: (copy) v_u_3, (copy) v_u_4, (copy) v_u_2
+	local v7 = p6.props[v_u_3.Children] or {}
+	if p6.props.aspectRatio then
+		v7.AspectRatio = v_u_4("UIAspectRatioConstraint", {
+			["AspectRatio"] = p6.props.aspectRatio
+		})
+	end
+	local v8
+	if p6.props.disabled then
+		v8 = v_u_2.brightenBy(p6.props.backgroundColor, -0.5)
+	else
+		v8 = p6.props.backgroundColor
+	end
+	local v9 = v_u_2.brightenBy(v8, -0.65)
+	if p6.props.text then
+		v7.Text = v_u_4("TextLabel", {
+			["BackgroundTransparency"] = 1,
+			["Size"] = UDim2.new(0.9, 0, 0.9, 0),
+			["Position"] = UDim2.new(0.5, 0, 0.5, 0),
+			["AnchorPoint"] = Vector2.new(0.5, 0.5),
+			["Text"] = p6.props.text,
+			["LineHeight"] = 1,
+			["TextScaled"] = true,
+			["TextColor3"] = p6.props.textColor or v9,
+			["Font"] = p6.props.font
+		})
+	end
+	if p6.props.cornerRadius then
+		v7.CornerRadius = v_u_4("UICorner", {
+			["CornerRadius"] = UDim.new(0, p6.props.cornerRadius)
+		})
+	end
+	local v10 = v_u_4
+	local v11 = "TextButton"
+	local v12 = {
+		["AnchorPoint"] = p6.props.anchorPoint,
+		["BorderSizePixel"] = p6.props.borderSize,
+		["BorderColor3"] = p6.props.borderColor,
+		["BackgroundColor3"] = v8,
+		["Text"] = "",
+		["Size"] = p6.props.size,
+		["TextScaled"] = true,
+		["Position"] = p6.props.position,
+		["LayoutOrder"] = p6.props.layoutOrder,
+		["Visible"] = p6.props.visible,
+		["AutoButtonColor"] = not p6.props.disabled
+	}
+	local v13 = v_u_3.Event.Activated
+	local v14
+	if p6.props.disabled then
+		v14 = nil
+	else
+		v14 = p6.props.onClick
+	end
+	v12[v13] = v14
+	return v10(v11, v12, v7)
+end
+return v5

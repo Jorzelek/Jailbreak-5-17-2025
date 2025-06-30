@@ -1,0 +1,12 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMIBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlFFBlcnNpc3RlbnRDcmV3QmF0dGxlFUNyZXdMZWFkZXJib2FyZEJpbmRlchpDcmV3c0luU2VydmVyRGlzcGxheUJpbmRlcgVTdGFydAABBQAAAQIAHKMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0DAFgGAAAATQIDRgcAAACfAQICpAIFAAAAQEBNBABYBgAAAE0DBEkIAAAAnwICArwDARwJAAAAnwMCAbwDAhwJAAAAnwMCAYIAAQAKAwEEAAAAQAMCAwMDBAQAAEBAAwUDBgMHAwgAAQABGAABAAAAAAABAAAAAAAAAQAAAAAAAAEAAAEAAAEBAAAAAAC53C/9kloeSYsYRWnykhg0eFeLtNqP3sH5cX4ve55tHIdNvdlujLx4
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v2 = require(v1.PersistentCrewBattle.CrewLeaderboardBinder)
+local v3 = require(v1.PersistentCrewBattle.CrewsInServerDisplayBinder)
+v2:Start()
+v3:Start()

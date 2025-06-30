@@ -1,0 +1,23 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMNA0hpcBJSaWdodFdyaXN0Um90YXRpb24RTGVmdFdyaXN0Um90YXRpb24HU3ByaW5ncwpJdGVtT2Zmc2V0DEl0ZW1Sb3RhdGlvbgxOZWNrUm90YXRpb24NV2Fpc3RSb3RhdGlvbgdWZWN0b3IzA25ldwZDRnJhbWUGTW90aW9uDkFycmVzdERpc3RhbmNlAAEFAAABAgAyowAAAP8AAgAAAAAA4gEDAOICBQDiAwoATDYAAqQEDQAAMLCAnwQBAjAEA4AGAAAATDYAAqQEDQAAMLCAnwQBAjAEA+UHAAAATDYAAqQEDQAAMLCAnwQBAjAEA40IAAAATDYAAqQEDQAAMLCAnwQBAjAEA18JAAAAMAMCmAQAAAAwAgG9AAAAAKQCDwAAMOCAnwIBAjACAQ4BAAAApAIPAAAw4ICfAgECMAIBhQIAAAAwAQCXEAAAAIwBCgAwAQCWEQAAAIIAAgASAwEDAgMDBQMAAQIDBAUBBAMFAwYDBwMIBQQGBwgJAwkDCgQAMLCAAwsEADDggAMMAw0AAQABGAABAAEBAQEAAAAAAAEAAAAAAAEAAAAAAAEAAAAAAPwA/wAJAAAAAAEAAAAA9QAOAAACAQAAAAAACb1zZUjJw/47eRnxk6wZj3CflVReL1HxEONU5YS1bIUdI441ZwVPow==
+
+-- Decompiled by Krnl
+
+local v1 = {}
+local v2 = {}
+local v3 = {
+	["Springs"] = {
+		["ItemOffset"] = Vector3.new(),
+		["ItemRotation"] = Vector3.new(),
+		["NeckRotation"] = Vector3.new(),
+		["WaistRotation"] = Vector3.new()
+	}
+}
+v2.Hip = v3
+v2.RightWristRotation = CFrame.new()
+v2.LeftWristRotation = CFrame.new()
+v1.Motion = v2
+v1.ArrestDistance = 10
+return v1

@@ -1,0 +1,78 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgM5DWNyZWF0ZUJpbmRpbmcNd29ybGRQb3NpdGlvbhN1cGRhdGVXb3JsZFBvc2l0aW9uBFVuaXQOd29ybGREaXJlY3Rpb24UdXBkYXRlV29ybGREaXJlY3Rpb24EbmFtZQRwYXJ0BWZsYXNoBWNvbG9yBWJhZGNjCXdvcmtzcGFjZQVUZWFtcw9Qb2xpY2VfTWlsaXRhcnkGQ29sb3IzA25ldwZwb2ludHMEaW5pdAh3YXlwb2ludAhzZXRTdGF0ZQ1vblNldFdheXBvaW50DWNyZWF0ZUVsZW1lbnQNU3RvcmVQcm92aWRlcgVzdG9yZQptYXBJbWFnZUlkDW1hcFdvcmxkV2lkdGgObWFwV29ybGRIZWlnaHQPbWFwV29ybGRDZW50ZXJYD21hcFdvcmxkQ2VudGVyWQ1tYXBJbWFnZVdpZHRoDm1hcEltYWdlSGVpZ2h0CW51bVBvaW50cwZsYWJlbHMEc2l6ZQVVRGltMgZyZW5kZXILd2lsbFVubW91bnQHdW5tb3VudAlDb21wb25lbnQDQXBwBmV4dGVuZAdyZXF1aXJlBnNjcmlwdAZQYXJlbnQKQmlnTWluaW1hcAV0aXRsZQhwb3NpdGlvbgRDSVRZB2ltYWdlSWQLbWFya2VyQ29sb3IEQmFuawVtb3VudARnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UFUm9hY3QKUm9hY3RSb2R1eAAHBwEBAAAHAAABCAMNAjL7AgAATQECMQAAAABvAgEAnwECAzABAIACAAAAMAIA1gMAAAD7AgAATQECMQAAAABvAwQATQIDBwUAAACfAQIDMAEA9QYAAAAwAgDDBwAAAP8BAAABAAAA4gIMAG8DDQAwAwJaCAAAAKQFDwAAAOBATQQFehAAAABNAwQsEQAAADADAiQJAAAAqQMAADADAqcKAAAApAMUAABMIIGMBAEAjAUAAIwGAACfAwQCMAMCRAsAAADFAQICAQAAADABAA0VAAAAggABABYDAQcAcCBFAAAAAAAAskIAAAAAAwIDAwcAAIA/AAAAAAAAgD8AAAAAAwQDBQMGAwcDCAMJAwoFBAgJCgsDCwMMBAAA4EADDQMOAw8DEAQATCCBAxEAChIBGAAAAAAAAAAAAAEAAAAAAAAAAAAAAgABAQAAAQAAAAAAAAABAAABAAAAAAAAAAAA+wAICwAAAAAEAQEAAAAI+wEAAOIDAQAwAAMUAAAAALwBASoCAAAAnwEDAYIAAQADAxMFAQADFAA5FQEYAAABAP8AAAM6AAAAAA0BBQAAAFT7AgAATQECygAAAAD7AwEATQIDugEAAADiAwMA+wQCADAEA34CAAAA/wQAAAEAAAD7BgAATQUGygAAAAD7BgMA4gcTAG8IFAAwCAcdBAAAAIwIABwwCAdTBQAAAIwIABwwCAceBgAAAIwI8P8wCAcrBwAAAIwIAAYwCAdkCAAAAIwIAAQwCAdbCQAAAIwIAAQwCAcjCgAAAE0IAIALAAAAMAgHgAsAAABNCAD1DAAAADAIB/UMAAAATQgADQ0AAAAwCAcNDQAAAE0JAA0NAAAAHAgJADAIBywOAAAA+wgEADAIBz8PAAAApAgXAABYUIGMCQEAjAoAAG8LGACMDAAAnwgFAjAIBw8QAAAApAgaAABYkIGMCQEAjAoAAIwLAACfCAQCMAgHRBEAAADZCAAAEgAAADAIB08SAAAAnwUDAMUEBQABAAAAnwEEAIIBAAAbAxYDFwMYBQECAxkDGgMbAxwDHQMeAx8DAgMFAxEDIAMhAyIDCgMVBQ8EBQYHCAkKCwwNDg8QERICAACQuSliAEIDIwMQBABYUIECAAAAAAAA6D8DDwQAWJCBAQEjJAEYAAAAAAAAAAEAAAEAAQAAAAABAAABAAABAAABAAABAAABAAABAAABAAAAAQAAAAEAAAABAAAAAAEAAAIAAAAAAAAAAAMAAAAAAAAAAQAAAO4AAP0AJAAAAAABAQAAAAABggABAAAAQSUBGABBAAAAAAIAAgAAAAb7AQAATQABEgAAAAD7AQEAnwACAYIAAQABAyYARAABGAAAAAAAAUUAAAAACwEDAAAAUvsCAABNAQKIAAAAAG8DAQC8AQGcAgAAAJ8BAwKkAgQAAAAwQPsFAQBNBAXBAQAAAE0DBH4FAAAAnwICAqQDBAAAADBApAYHAAAAYEBNBQYkCAAAAE0EBRQJAAAAnwMCAsAECgASAgAAMAQBEwsAAAD/BAAAAgAAAOIFDgBvBg8AMAYFmgwAAABvBhAAMAYF2w0AAADiBhMAbwcUADAHBpoMAAAAbwcVADAHBrYRAAAAbwcWADAHBtsNAAAApAcZAABgcIGMCAEAjAkAAIwKAACfBwQCMAcGSxIAAADFBAUDAQAAANkFAQASAgAAEgICABIAAgASAAMAEgAEADAFAYAaAAAAwAUbADAFATQcAAAA+wYAAE0FBuQdAAAA+wcAAE0GB8oeAAAAUgcBAJ8GAgJSBwAAnwUDAtkGAwASAgAAEgAFAIIGAgAfAycDKAMpAyoEAAAwQAMYAysEAABgQAMsAy0GAAMSAy4DLwUCDA0DMAdcj6ZBKVyLQVL4hEQAAAAAAzEDMgUEDBENEgMzAgAAUNyfTPFBBwAA+kMAAAAAAAB6wwAAAAADDwMQBABgcIEDJAYDAyUDNAMWBAACAwQGAAEYAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAQAAAA0AAQEAAAEAAAIBAAABAAABAAABAAAAAAAAAAAAAwAAAAAAAAAeAAACAAAAAAAAAAAAAQAAAAcAAAAABAAAAQIAFqMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0CACEGAAAAnwECAqQCBQAAAEBATQMALQcAAACfAgICwAMIABIAAQASAAAAEgACAIIDAgAJAzUEAAAAQAM2AzcDKgQAAEBAAzgDOQYFAQUBAAEYAAEAAAAAAAEAAAAAAQAAAAACAAAAAAEAAAAABpns+hprH3UvqyiQjg7QiSJpP+fJBNdVfEi5nS+Nqr6fMbqziFBfZmA=
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v_u_1.Roact)
+local v_u_3 = require(v_u_1.RoactRodux)
+return function(p4)
+	-- upvalues: (copy) v_u_2, (copy) v_u_1, (copy) v_u_3
+	local v5 = v_u_2.Component:extend("App")
+	local v_u_6 = require(v_u_1.App.store)
+	local v_u_7 = require(script.Parent.BigMinimap)
+	function v5.init(p8)
+		-- upvalues: (ref) v_u_2
+		local v9, v10 = v_u_2.createBinding(Vector3.new(2567, 0, 89))
+		p8.worldPosition = v9
+		p8.updateWorldPosition = v10
+		local v11, v12 = v_u_2.createBinding((Vector3.new(1, 0, 1)).Unit)
+		p8.worldDirection = v11
+		p8.updateWorldDirection = v12
+		p8.points = {
+			{
+				["name"] = "badcc",
+				["part"] = workspace.Teams.Police_Military,
+				["flash"] = false,
+				["color"] = Color3.new(1, 0, 0)
+			}
+		}
+	end
+	local v_u_13 = {
+		{
+			["title"] = "CITY",
+			["position"] = Vector3.new(20.82, 17.42, 1063.76)
+		},
+		{
+			["title"] = "Bank",
+			["imageId"] = 4643749317,
+			["position"] = Vector3.new(500, 0, -250),
+			["markerColor"] = Color3.new(1, 0, 0)
+		}
+	}
+	function v5.render(p_u_14)
+		-- upvalues: (ref) v_u_2, (ref) v_u_3, (copy) v_u_6, (copy) v_u_7, (copy) v_u_13
+		return v_u_2.createElement(v_u_3.StoreProvider, {
+			["store"] = v_u_6
+		}, { v_u_2.createElement(v_u_7, {
+				["mapImageId"] = 8795797298,
+				["mapWorldWidth"] = 7168,
+				["mapWorldHeight"] = 7168,
+				["mapWorldCenterX"] = -16,
+				["mapWorldCenterY"] = 1536,
+				["mapImageWidth"] = 1024,
+				["mapImageHeight"] = 1024,
+				["worldPosition"] = p_u_14.worldPosition,
+				["worldDirection"] = p_u_14.worldDirection,
+				["points"] = p_u_14.points,
+				["numPoints"] = #p_u_14.points,
+				["labels"] = v_u_13,
+				["size"] = UDim2.new(1, 0, 0.75, 0),
+				["color"] = Color3.new(1, 0, 0),
+				["onSetWaypoint"] = function(p15)
+					-- upvalues: (copy) p_u_14
+					p_u_14:setState({
+						["waypoint"] = p15
+					})
+				end
+			}) })
+	end
+	function v5.willUnmount(_) end
+	local v_u_16 = v_u_2.mount(v_u_2.createElement(v5), p4)
+	return function()
+		-- upvalues: (ref) v_u_2, (copy) v_u_16
+		v_u_2.unmount(v_u_16)
+	end
+end

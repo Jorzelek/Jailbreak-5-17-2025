@@ -1,0 +1,45 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMVA25ldwNnZXQGZXhwZWN0DmVsZW1lbnRUcmFjaW5nAnRvBWVxdWFsA3NldApnYXJibGVnb29wBXBjYWxsBGZpbmQCYmUCb2sMSGVsbG8gdGhlcmUhB3JlcXVpcmUGc2NyaXB0BlBhcmVudAZDb25maWcCaXQhc2hvdWxkIGFjY2VwdCB2YWxpZCBjb25maWd1cmF0aW9uKHNob3VsZCByZWplY3QgaW52YWxpZCBjb25maWd1cmF0aW9uIGtleXMqc2hvdWxkIHJlamVjdCBpbnZhbGlkIGNvbmZpZ3VyYXRpb24gdmFsdWVzAAcGAAEAAAAl+wEAAE0AAe8AAAAAnwABAk0BAF8BAAAAnwEBAqQEAwAAACBATQUB+QQAAACfBAICTQMEkgUAAABNAgN7BgAAAKkDAACfAgIBTQIAUwcAAADiAwgAqQQBADAEA/kEAAAAnwICAaQEAwAAACBATQUB+QQAAACfBAICTQMEkgUAAABNAgN7BgAAAKkDAQCfAgIBggABAAkDAQMCAwMEAAAgQAMEAwUDBgMHBQEEAAQAARgAAAAAAQAAAgAAAAAAAAAAAAACAAABAAD/BAAAAAAAAAAAAAABBQAAAAADAAEAAAAK+wEAAE0AAVMAAAAA/wEBAAAAAACpAgEAMAIBuQEAAACfAAIBggABAAIDBwMIABYAARgAAAAAAAEAAP8DFwAAAAAKAAEAAAAi+wEAAE0AAe8AAAAAnwABAqQBAgAAABBA2QIAABIAAACfAQIDpAUEAAAAMEBSBgEAnwUCAk0EBZIFAAAATQMEewYAAACpBAAAnwMCAaQGBAAAADBAbwkHALwHAlYIAAAAnwcDAJ8GAAJNBQaSBQAAAE0EBcwJAAAATQMEEAoAAACfAwEBggABAAsDAQMJBAAAEEADAwQAADBAAwUDBgMIAwoDCwMMAQERAAEYAAAAAAQAAAAABgAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAARIAAAAAAwABAAAACvsBAABNAAFTAAAAAP8BAQAAAAAAbwIBADACAfkCAAAAnwACAYIAAQADAwcDDQMEACgAARgAAAAAAAEAAP8DKQAAAAAKAAEAAAAw+wEAAE0AAe8AAAAAnwABAqQBAgAAABBA2QIAABIAAACfAQIDpAUEAAAAMEBSBgEAnwUCAk0EBZIFAAAATQMEewYAAACpBAAAnwMCAaQGBAAAADBAbwkHALwHAlYIAAAAnwcDAJ8GAAJNBQaSBQAAAE0EBcwJAAAATQMEEAoAAACfAwEBpAYEAAAAMEBvCQsAvAcCVggAAACfBwMAnwYAAk0FBpIFAAAATQQFzAkAAABNAwQQCgAAAJ8DAQGCAAEADAMBAwkEAAAQQAMDBAAAMEADBQMGAwQDCgMLAwwDDQEDIgABGAAAAAAFAAAAAAYAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAASMAAAAABAAAAAAAHKQAAQAAAABApAMDAAAAIEBNAgMkBAAAAE0BAtkFAAAAnwACAqQBBwAAAGBAbwIIANkDAAASAAAAnwEDAaQBBwAAAGBAbwIJANkDAQASAAAAnwEDAaQBBwAAAGBAbwIKANkDAgASAAAAnwEDAYIAAQALAw4EAAAAQAMPBAAAIEADEAMRAxIEAABgQAMTAxQDFQMAAgQBAAEYAAAAAAAAAAAAAgAAAAAADQAAAAAAEQAAAAAAEgIAAAAAAQAAAQIAA6MAAADAAAAAggACAAEGBQEFAQABGAAAAAEAAAAABi2TkV7U9JMLH1f7ygBeT7GZwvfdPRTXN8MxqzbFg4WtrKKqeZVsz/I=
+
+-- Decompiled by Krnl
+
+return function()
+	local v_u_1 = require(script.Parent.Config)
+	it("should accept valid configuration", function()
+		-- upvalues: (copy) v_u_1
+		local v2 = v_u_1.new()
+		local v3 = v2.get()
+		expect(v3.elementTracing).to.equal(false)
+		v2.set({
+			["elementTracing"] = true
+		})
+		expect(v3.elementTracing).to.equal(true)
+	end)
+	it("should reject invalid configuration keys", function()
+		-- upvalues: (copy) v_u_1
+		local v_u_4 = v_u_1.new()
+		local v5, v6 = pcall(function()
+			-- upvalues: (copy) v_u_4
+			v_u_4.set({
+				["garblegoop"] = true
+			})
+		end)
+		expect(v5).to.equal(false)
+		expect(v6:find("garblegoop")).to.be.ok()
+	end)
+	it("should reject invalid configuration values", function()
+		-- upvalues: (copy) v_u_1
+		local v_u_7 = v_u_1.new()
+		local v8, v9 = pcall(function()
+			-- upvalues: (copy) v_u_7
+			v_u_7.set({
+				["elementTracing"] = "Hello there!"
+			})
+		end)
+		expect(v8).to.equal(false)
+		expect(v9:find("elementTracing")).to.be.ok()
+		expect(v9:find("Hello there!")).to.be.ok()
+	end)
+end

@@ -1,0 +1,301 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgOrAQhJc1N0dWRpbwhJc1NlcnZlcghJc0NsaWVudAhSZXNvdXJjZQhWZWhpY2xlcwZDYW1hcm8ORmluZEZpcnN0Q2hpbGQEVHlwZQRNYWtlBU1vZGVsB0NoYXNzaXMVR2V0TG9jYWxWZWhpY2xlUGFja2V0EExhc3RWZWhpY2xlRWplY3QIczlyOGcxNmcJUGFzc2VuZ2VyCUJhbmtUcnVjawxjYW5Mb2NhbExvY2sBcwdqc3BybmN3A3N1YgdyZXZlcnNlAAt3aXBtaW15cDM2YgE2BkxvY2tlZAxHZXRBdHRyaWJ1dGUKRmlyZVNlcnZlchF0b2dnbGVMb2NhbExvY2tlZA1jYW5Mb2NhbEVqZWN0AXEEY2wwcAdoYml1MmdtBW1odm96CGs1azNqaG9qB2treDQ5eTEBchVhdHRlbXB0UGFzc2VuZ2VyRWplY3QBdwhibndrMnRmZQh3cnExenEwagJqbhJhdHRlbXB0QnV5TWlzc2lsZXMDbmV3HUJ1eSAxMCBFeHBsb3NpdmVzIGZvciAkNSwwMDA/BE1haWQFT25ZZXMHQ29ubmVjdAhHaXZlVGFzaxBwcm9tcHRNaXNzaWxlQnV5B3JlcXVpcmULTG9jYWxQbGF5ZXINUGxheWVyU2NyaXB0cwxXYWl0Rm9yQ2hpbGQMUGxheWVyTW9kdWxlCkdldENhbWVyYXMPTGFzdFZlaGljbGVFeGl0EEdldFZlaGljbGVQYWNrZXQHQ2xhc3Nlcw1jcmVhdGVCaW5kaW5nC3NwZEJhclJhdGlvEXVwZGF0ZVNwZEJhclJhdGlvFF9mb3JjZVVwZGF0ZU5pdHJvQmFyAmVtBUV2ZW50BEluaXQUR2V0TG9jYWxWZWhpY2xlTW9kZWwOR2V0RGVzY2VuZGFudHMIQmFzZVBhcnQDSXNBCVZhbHVlQmFzZQdEZXN0cm95EUNsZWFuVmVoaWNsZU1vZGVsBEJvZHkGaXBhaXJzC0dldENoaWxkcmVuBE5hbWUJSGVhZGxpZ2h0BUxpZ2h0FkZpbmRGaXJzdENoaWxkV2hpY2hJc0EFdGFibGUGaW5zZXJ0DWdldEhlYWRsaWdodHMERW51bQhNYXRlcmlhbAROZW9uBUdsYXNzC1JlZmxlY3RhbmNlBEJlYW0HRW5hYmxlZBBzY2FuTW9kZWxGb3JOYW1lCkhlYWRsaWdodHMGUHJlc2V0FHNldEhlYWRsaWdodHNFbmFibGVkCkJyYWtlbGlnaHQLQnJha2VsaWdodHMFVHJhaWwVc2V0QnJha2VsaWdodHNFbmFibGVkFVRJUkVfSEVBTFRIX0FUVFJfTkFNRQ1nZXRUaXJlSGVhbHRoDFNldEF0dHJpYnV0ZQ1zZXRUaXJlSGVhbHRoGUdldEF0dHJpYnV0ZUNoYW5nZWRTaWduYWwaZ2V0VGlyZUhlYWx0aENoYW5nZWRTaWduYWwZVElSRV9NQVhfSEVBTFRIX0FUVFJfTkFNRRBzZXRUaXJlTWF4SGVhbHRoEGdldFRpcmVNYXhIZWFsdGgdZ2V0VGlyZU1heEhlYWx0aENoYW5nZWRTaWduYWwEdHlwZQZzdHJpbmcMSW52YWxpZCBtYWtlBmFzc2VydBZzZW5kR2FtZUFuYWx5dGljc0Vycm9yJE1pc3NpbmcgY29tYmF0IGNvbmZpZyBkYXRhIGZvciBNYWtlIAhjcml0aWNhbAdEZWZhdWx0FmdldFZlaGljbGVDb21iYXRDb25maWcGUGxheWVyC0Rpc3BsYXlOYW1lBFNlYXQKUGxheWVyTmFtZQVWYWx1ZQRQYXJ0BHNvcnQIZ2V0U2VhdHMPTm9DYW1lcmFTdWJqZWN0D0NhbWVyYVBhc3NlbmdlchpDYW1lcmFQYXNzZW5nZXJWZWhpY2xlU2VhdAZDYW1lcmERQ2FtZXJhVmVoaWNsZVNlYXQLQm91bmRpbmdCb3gWYWN0aXZlQ2FtZXJhQ29udHJvbGxlcgtWZWhpY2xlU2VhdARTaXplCU1hZ25pdHVkZRpTZXRDYW1lcmFUb1N1YmplY3REaXN0YW5jZQZDRnJhbWUGQW5nbGVzFHByZXBhcmVDYW1lcmFTdWJqZWN0B1ZlaGljbGUGSGFzVGFnBlBhcmVudA5nZXRQYXJlbnRNb2RlbBZNb2RlbCBpcyBub3QgYSB2ZWhpY2xlF2dldFZlaGljbGVNYWtlRnJvbU1vZGVsBWVycm9yDkludmFsaWQgbWFrZTogFWdldFZlaGljbGVEYXRhRm9yTWFrZQRnYW1lEUNvbGxlY3Rpb25TZXJ2aWNlCkdldFNlcnZpY2UJd29ya3NwYWNlDUN1cnJlbnRDYW1lcmEHUGxheWVycxFSZXBsaWNhdGVkU3Rv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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("CollectionService")
+local v_u_2 = workspace.CurrentCamera
+local v_u_3 = game:GetService("Players")
+local v_u_4 = game:GetService("ReplicatedStorage")
+local v_u_5 = game:GetService("RunService")
+local v_u_6
+if v_u_5:IsServer() then
+	local v7 = game:GetService("ServerStorage")
+	v_u_6 = require(v7.Logging.ServerLoggingUtils)
+else
+	v_u_6 = nil
+end
+local v_u_8 = require(v_u_4.Game.Garage.VehicleCombatData)
+local v_u_9 = require(v_u_4.Game.Garage.VehicleData)
+local v_u_10 = require(v_u_4.Roact)
+local v11 = require(v_u_4.Std.Signal)
+local v_u_12 = require(v_u_4.Module.Confirmation)
+local v_u_13 = require(v_u_4.Vehicle.VehicleConsts)
+local v_u_14 = nil
+local v_u_91 = {
+	["OnVehicleEntered"] = v11.new(),
+	["OnVehicleExited"] = v11.new(),
+	["OnVehicleJumpExited"] = v11.new(),
+	["GetLocalVehiclePacket"] = function()
+		-- upvalues: (copy) v_u_5, (copy) v_u_4
+		return v_u_5:IsStudio() and (v_u_5:IsServer() and v_u_5:IsClient()) and {
+			["Type"] = "Chassis",
+			["Make"] = "Camaro",
+			["Model"] = v_u_4.Resource.Vehicles:FindFirstChild("Camaro")
+		} or nil
+	end,
+	["Init"] = function(p15)
+		-- upvalues: (copy) v_u_3, (ref) v_u_14, (copy) v_u_91, (copy) v_u_10, (copy) v_u_12
+		v_u_14 = require(v_u_3.LocalPlayer:WaitForChild("PlayerScripts"):WaitForChild("PlayerModule")):GetCameras()
+		v_u_91.LastVehicleExit = 0
+		v_u_91.LastVehicleEject = 0
+		v_u_91.GetLocalVehiclePacket = p15.GetVehiclePacket
+		v_u_91.Classes = {}
+		local v16 = v_u_91
+		local v17 = v_u_91
+		local v18, v19 = v_u_10.createBinding(0)
+		v16.spdBarRatio = v18
+		v17.updateSpdBarRatio = v19
+		v_u_91._forceUpdateNitroBar = false
+		local v20 = p15.em
+		local v_u_21 = p15.Event
+		function v20.s9r8g16g(p22)
+			-- upvalues: (ref) v_u_91
+			v_u_91.LastVehicleEject = p22
+		end
+		function v_u_91.canLocalLock()
+			-- upvalues: (ref) v_u_91
+			local v23 = v_u_91.GetLocalVehiclePacket()
+			return v23 and (not v23.Passenger and v23.Make ~= "BankTruck") and true or false
+		end
+		function v_u_91.toggleLocalLocked()
+			-- upvalues: (ref) v_u_91, (copy) v_u_21
+			local v24 = v_u_91.GetLocalVehiclePacket()
+			v_u_21:FireServer("s" .. ("jsprncw"):sub(4, 6):reverse():reverse():reverse() .. "" .. "" .. ("wipmimyp36b"):sub(5, 7):reverse():reverse():reverse():reverse():reverse() .. "6", v24.Model:GetAttribute("Locked") ~= true)
+		end
+		function v_u_91.canLocalEject()
+			-- upvalues: (ref) v_u_91
+			local v25 = v_u_91.GetLocalVehiclePacket()
+			return v25 and (not v25.Passenger and v25.Make ~= "BankTruck") and true or false
+		end
+		function v_u_91.attemptPassengerEject(p26)
+			-- upvalues: (copy) v_u_21
+			v_u_21:FireServer("q" .. "" .. ("cl0p"):sub(2, 3):reverse():reverse():reverse():reverse():reverse() .. "" .. "" .. ("hbiu2gm"):sub(3, 3):reverse() .. "" .. "" .. ("mhvoz"):sub(2, 2):reverse():reverse():reverse() .. "" .. "" .. ("k5k3jhoj"):sub(4, 4):reverse():reverse():reverse() .. "" .. "" .. ("kkx49y1"):sub(5, 5):reverse() .. "r", p26)
+		end
+		function v_u_91.attemptBuyMissiles()
+			-- upvalues: (copy) v_u_21
+			v_u_21:FireServer("w" .. "" .. ("bnwk2tfe"):sub(3, 5):reverse():reverse():reverse():reverse():reverse() .. "" .. "" .. ("wrq1zq0j"):sub(3, 4):reverse():reverse():reverse() .. "jn")
+		end
+		local v_u_27 = false
+		function v_u_91.promptMissileBuy()
+			-- upvalues: (ref) v_u_27, (ref) v_u_12, (ref) v_u_91
+			if not v_u_27 then
+				v_u_27 = true
+				local v28 = v_u_12.new("Buy 10 Explosives for $5,000?")
+				v28.Maid:GiveTask(v28.OnYes:Connect(function()
+					-- upvalues: (ref) v_u_91
+					v_u_91.attemptBuyMissiles()
+				end))
+				v28.Maid:GiveTask(function()
+					-- upvalues: (ref) v_u_27
+					v_u_27 = false
+				end)
+			end
+		end
+	end,
+	["GetLocalVehicleModel"] = function()
+		-- upvalues: (copy) v_u_91
+		local v29 = v_u_91.GetLocalVehiclePacket()
+		if v29 == nil then
+			return false
+		else
+			return v29.Model
+		end
+	end,
+	["CleanVehicleModel"] = function(p30)
+		local v31 = p30:GetDescendants()
+		for v32 = 1, #v31 do
+			local v33 = v31[v32]
+			if not (v33:IsA("BasePart") or (v33:IsA("Model") or v33:IsA("ValueBase"))) then
+				v33:Destroy()
+			end
+		end
+	end,
+	["getHeadlights"] = function(p34)
+		local v35 = p34.Model.Body
+		local v36 = {}
+		for _, v37 in ipairs(v35:GetChildren()) do
+			if v37.Name == "Headlight" then
+				local v38 = v37:FindFirstChildWhichIsA("Light")
+				table.insert(v36, v38)
+			end
+		end
+		return v36
+	end,
+	["setHeadlightsEnabled"] = function(p39, p_u_40)
+		local v41 = p39:FindFirstChild("Model")
+		if v41 then
+			local v42 = v41:FindFirstChild("Body")
+			if v42 then
+				for _, v43 in ipairs(v42:GetChildren()) do
+					if v43.Name == "Headlight" then
+						local v44 = v43:FindFirstChildWhichIsA("Light")
+						if v44.Enabled ~= p_u_40 then
+							v44.Enabled = p_u_40
+						end
+					end
+				end
+				local function v50(p45, p46)
+					-- upvalues: (copy) p_u_40
+					for _, v47 in ipairs(p45:GetDescendants()) do
+						if v47.Name == p46 then
+							local v48 = p_u_40 and Enum.Material.Neon or Enum.Material.Glass
+							if v47.Material ~= v48 then
+								v47.Material = v48
+							end
+							v47.Reflectance = 0.1
+							for _, v49 in v47:GetDescendants() do
+								if v49:IsA("Beam") then
+									v49.Enabled = p_u_40
+								end
+							end
+						end
+					end
+				end
+				v50(v41, "Headlights")
+				local v51 = p39:FindFirstChild("Preset")
+				if v51 then
+					v50(v51, "Headlights")
+				end
+			end
+		else
+			return
+		end
+	end,
+	["setBrakelightsEnabled"] = function(p52, p53)
+		local v54 = p52:FindFirstChild("Model")
+		if v54 then
+			local v55 = v54:FindFirstChild("Body")
+			if v55 then
+				for _, v56 in ipairs(v55:GetChildren()) do
+					if v56.Name == "Brakelight" then
+						local v57 = v56:FindFirstChildWhichIsA("Light")
+						if v57.Enabled ~= p53 then
+							v57.Enabled = p53
+						end
+					end
+				end
+				for _, v58 in ipairs(v54:GetChildren()) do
+					if v58.Name == "Brakelights" then
+						local v59 = p53 and Enum.Material.Neon or Enum.Material.Glass
+						if v58.Material ~= v59 then
+							v58.Material = v59
+						end
+						v58.Reflectance = 0.1
+						for _, v60 in v58:GetChildren() do
+							if v60:IsA("Trail") then
+								v60.Enabled = p53
+							end
+						end
+					end
+				end
+			end
+		else
+			return
+		end
+	end,
+	["getTireHealth"] = function(p61)
+		-- upvalues: (copy) v_u_13
+		return p61:GetAttribute(v_u_13.TIRE_HEALTH_ATTR_NAME)
+	end,
+	["setTireHealth"] = function(p62, p63)
+		-- upvalues: (copy) v_u_13
+		p62:SetAttribute(v_u_13.TIRE_HEALTH_ATTR_NAME, p63)
+	end,
+	["getTireHealthChangedSignal"] = function(p64)
+		-- upvalues: (copy) v_u_13
+		return p64:GetAttributeChangedSignal(v_u_13.TIRE_HEALTH_ATTR_NAME)
+	end,
+	["setTireMaxHealth"] = function(p65, p66)
+		-- upvalues: (copy) v_u_13
+		p65:SetAttribute(v_u_13.TIRE_MAX_HEALTH_ATTR_NAME, p66)
+	end,
+	["getTireMaxHealth"] = function(p67)
+		-- upvalues: (copy) v_u_13
+		return p67:GetAttribute(v_u_13.TIRE_MAX_HEALTH_ATTR_NAME)
+	end,
+	["getTireMaxHealthChangedSignal"] = function(p68)
+		-- upvalues: (copy) v_u_13
+		return p68:GetAttributeChangedSignal(v_u_13.TIRE_MAX_HEALTH_ATTR_NAME)
+	end,
+	["getVehicleCombatConfig"] = function(p69)
+		-- upvalues: (copy) v_u_8, (copy) v_u_5, (ref) v_u_6
+		local v70 = type(p69) == "string"
+		assert(v70, "Invalid make")
+		local v71 = v_u_8[p69]
+		if not v71 then
+			if v_u_5:IsServer() then
+				v_u_6.sendGameAnalyticsError(nil, "Missing combat config data for Make " .. p69, "critical")
+			end
+			v71 = v_u_8.Default
+		end
+		return v71
+	end,
+	["getSeats"] = function(p72)
+		-- upvalues: (copy) v_u_3
+		local v73 = {}
+		for _, v74 in ipairs(p72:GetChildren()) do
+			if v74.Name == "Seat" or v74.Name == "Passenger" then
+				local v75 = v74:FindFirstChild("Player")
+				local v76 = v74:FindFirstChild("PlayerName")
+				if v75 and (v75.Value and v76) then
+					local v77 = {
+						["Part"] = v74,
+						["Player"] = v_u_3:FindFirstChild(v76.Value)
+					}
+					table.insert(v73, v77)
+				end
+			end
+		end
+		table.sort(v73, function(p78, p79)
+			return p78.Player.DisplayName < p79.Player.DisplayName
+		end)
+		return v73
+	end,
+	["prepareCameraSubject"] = function(p80, p81)
+		-- upvalues: (ref) v_u_14, (copy) v_u_2
+		local v82 = nil
+		if p80.Seat and not p80.Seat:FindFirstChild("NoCameraSubject") then
+			if p80.Passenger then
+				v82 = p80.Model:FindFirstChild(p81 and "CameraPassengerVehicleSeat" or "CameraPassenger", true)
+			end
+			v82 = v82 or p80.Model:FindFirstChild(p81 and "CameraVehicleSeat" or "Camera", true)
+		end
+		local v83 = p80.Model:FindFirstChild("BoundingBox")
+		local v84 = v_u_14.activeCameraController
+		if v84 and (v82 and not v82:IsA("VehicleSeat")) then
+			local v85 = v83.Size.Magnitude
+			v84:SetCameraToSubjectDistance(v85)
+			v_u_2.CFrame = v82.CFrame * CFrame.Angles(-0.3141592653589793, 0, 0) * CFrame.new(0, 0, v85)
+		end
+		return v82
+	end,
+	["getParentModel"] = function(p86)
+		-- upvalues: (copy) v_u_1
+		while not v_u_1:HasTag(p86, "Vehicle") do
+			p86 = p86.Parent
+			if not p86 then
+				return
+			end
+		end
+		return p86
+	end,
+	["getVehicleMakeFromModel"] = function(p87)
+		-- upvalues: (copy) v_u_1
+		local v88 = v_u_1:HasTag(p87, "Vehicle")
+		assert(v88, "Model is not a vehicle")
+		return p87.Name
+	end,
+	["getVehicleDataForMake"] = function(p89)
+		-- upvalues: (copy) v_u_9
+		for _, v90 in ipairs(v_u_9) do
+			if v90.Make == p89 then
+				return v90
+			end
+		end
+		error("Invalid make: " .. p89)
+	end
+}
+return v_u_91

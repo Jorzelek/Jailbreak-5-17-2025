@@ -1,0 +1,60 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v_u_1 = require(script.Parent.EnumSort)
+local v_u_2 = {}
+local v_u_3 = string.char(0)
+function v_u_2.getSortFunc(p4)
+	-- upvalues: (copy) v_u_1, (copy) v_u_3
+	if p4 == v_u_1.Alphabetical then
+		return function(p5, p6)
+			-- upvalues: (ref) v_u_3
+			local v7 = p5.title
+			local v8 = p6.title
+			if p5.isNone then
+				v7 = v_u_3
+			end
+			if p6.isNone then
+				v8 = v_u_3
+			end
+			return v7 < v8
+		end
+	end
+	if p4 == v_u_1.Price then
+		return function(p9, p10)
+			local v11 = p9.priceSortMetric or (p9.price or 0)
+			local v12 = p9.hidden and 0 or v11
+			local v13 = p10.priceSortMetric or (p10.price or 0)
+			local v14 = p10.hidden and 0 or v13
+			return (p9.isNone and (1 / 0) or v12) > (p10.isNone and (1 / 0) or v14)
+		end
+	end
+	if p4 == v_u_1.Newest then
+		return function(p15, p16)
+			local v17 = p15.timeSortMetric or p15.primaryIndex
+			local v18 = p16.timeSortMetric or p16.primaryIndex
+			return (p15.isNone and (-1 / 0) or v17) < (p16.isNone and (-1 / 0) or v18)
+		end
+	end
+	if p4 == v_u_1.Popular then
+		return function(p19, p20)
+			local v21 = p19.salesIndex or p19.primaryIndex + 9999
+			local v22 = p20.salesIndex or p20.primaryIndex + 9999
+			return (p19.isNone and 0 or v21) < (p20.isNone and 0 or v22)
+		end
+	end
+	error("invalid sort enum passed", p4)
+end
+function v_u_2.getTradeSortFunc(p23)
+	-- upvalues: (copy) v_u_1, (copy) v_u_2
+	return p23 == v_u_1.Popular and function(p24, p25)
+		local v26 = p24.tradePopularMetric or 0
+		local v27 = p25.tradePopularMetric or 0
+		return (p24.isNone and (-1 / 0) or v26) > (p25.isNone and (-1 / 0) or v27)
+	end or v_u_2.getSortFunc(p23)
+end
+return v_u_2

@@ -1,0 +1,104 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgNBBGdhbWUGRGVicmlzClRpbWVMZW5ndGgHQWRkSXRlbQhJbnN0YW5jZQNuZXcFU291bmQPcmJ4YXNzZXRpZDovLyVkBmZvcm1hdAdTb3VuZElkBlZvbHVtZQZQYXJlbnQEUGxheQVkZWxheQlQbGF5U291bmQBYwh1c3lxZnFkZQNzdWIHcmV2ZXJzZQAIenlmM2tkajkDMmlrBE5hbWUKRmlyZVNlcnZlcgZBY3Rpb24EUGFydAVUaW1lZAhEdXJhdGlvbgREaXN0CENhbGxiYWNrCkdyYWIgSmV3ZWwDQWRkCkFkZGVkSmV3ZWwEd2FpdAtGYWRlSW5Tb3VuZARTdG9wDEZhZGVPdXRTb3VuZAVzcGF3bgh4YW5yZWJoawhocHZkaXNydAVFdmVudAJlbRdyYnhhc3NldGlkOi8vMTgzNzgyNTI1NwZMb29wZWQMUm9iYmVyeU11c2ljDFNvdW5kU2VydmljZQpHZXRTZXJ2aWNlClNvdW5kR3JvdXAJUGxheWVyR3VpBG5leHQTUm9iYmVyeUpld2VscnlKZXdlbAlHZXRUYWdnZWQWR2V0SW5zdGFuY2VBZGRlZFNpZ25hbAdDb25uZWN0GEdldEluc3RhbmNlUmVtb3ZlZFNpZ25hbAZSZW1vdmUESW5pdAdQbGF5ZXJzC0xvY2FsUGxheWVyEUNvbGxlY3Rpb25TZXJ2aWNlEVJlcGxpY2F0ZWRTdG9yYWdlB3JlcXVpcmUCVUkGTW9kdWxlDENpcmNsZUFjdGlvbgALBQABAAAADKQBAQAAAABATQABnQIAAAD7AgAA+wQAAE0DBNYDAAAAvAAAeAQAAACfAAQBggABAAUDAQQAAABAAwIDAwMEABAAARgAAAAAAAAAAAAAAAERAAAAAAYCAAAABwAAAQMDBgIapAICAAAEAIBvAwMAnwICAm8DBABSBQEAvAMDjQUAAACfAwMCMAMCfAYAAABvAwcAMAMCSwgAAAAwAAIkCQAAALwDAu4KAAAAnwMCAaQDDAAAALBAjAQBANkFAAASAAIAnwMDAYIAAQANAwUDBgQABACAAwcDCAMJAwoCAAAAAAAA6D8DCwMMAw0DDgQAALBAAQAKDwEYAAAAAAEAAAAAAAABAAABAAEAAAEAAAAAAAMLAAAAABACAgAACwAAAgMMBgIDDBICMA4BLQD7AgAA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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("Players").LocalPlayer
+local v_u_2 = game:GetService("CollectionService")
+local v3 = game:GetService("ReplicatedStorage")
+local v_u_4 = require(v3.Module.UI).CircleAction
+local v_u_5 = nil
+local v_u_6 = nil
+local function v_u_10(p7, p8)
+	local v_u_9 = Instance.new("Sound")
+	v_u_9.SoundId = ("rbxassetid://%d"):format(p8)
+	v_u_9.Volume = 0.75
+	v_u_9.Parent = p7
+	v_u_9:Play()
+	delay(1, function()
+		-- upvalues: (copy) v_u_9
+		game.Debris:AddItem(v_u_9, v_u_9.TimeLength)
+	end)
+end
+local function v_u_14(p_u_11)
+	-- upvalues: (ref) v_u_5, (copy) v_u_4
+	local v13 = {
+		["Part"] = p_u_11,
+		["Name"] = "Grab Jewel",
+		["Timed"] = true,
+		["Duration"] = 3,
+		["Dist"] = 8,
+		["Callback"] = function(_, p12)
+			-- upvalues: (ref) v_u_5, (copy) p_u_11
+			if p12 then
+				v_u_5:FireServer("c" .. ("usyqfqde"):sub(4, 4):reverse() .. "" .. "" .. ("zyf3kdj9"):sub(4, 6):reverse():reverse():reverse():reverse():reverse() .. "2ik", p_u_11.Name)
+			end
+			return true
+		end
+	}
+	v_u_4.Add(v13, p_u_11)
+end
+return {
+	["Init"] = function(p15)
+		-- upvalues: (ref) v_u_5, (ref) v_u_6, (copy) v_u_1, (copy) v_u_10, (copy) v_u_2, (copy) v_u_14, (copy) v_u_4
+		local v16 = p15.Event
+		local v17 = p15.em
+		v_u_5 = v16
+		v_u_6 = v17
+		local v_u_18 = Instance.new("Sound")
+		v_u_18.SoundId = "rbxassetid://1837825257"
+		v_u_18.Looped = true
+		v_u_18.Volume = 0
+		v_u_18.SoundGroup = game:GetService("SoundService").RobberyMusic
+		v_u_18.Parent = v_u_1.PlayerGui
+		local v_u_19 = 0
+		local function v_u_22()
+			-- upvalues: (ref) v_u_19, (copy) v_u_18
+			local v20 = v_u_19 + 1
+			v_u_19 = v20
+			v_u_18:Play()
+			for v21 = 0, 1, 0.015 do
+				if v_u_19 ~= v20 then
+					return
+				end
+				v_u_18.Volume = v21
+				wait()
+			end
+		end
+		local function v_u_25()
+			-- upvalues: (ref) v_u_19, (copy) v_u_18
+			local v23 = v_u_19 + 1
+			v_u_19 = v23
+			for v24 = 1, 0, -0.015 do
+				if v_u_19 ~= v23 then
+					return
+				end
+				v_u_18.Volume = v24
+				wait()
+			end
+			v_u_18:Stop()
+		end
+		function v_u_6.xanrebhk()
+			-- upvalues: (ref) v_u_10, (ref) v_u_1, (copy) v_u_22
+			v_u_10(v_u_1, 1837831244)
+			delay(1, function()
+				-- upvalues: (ref) v_u_10, (ref) v_u_1
+				v_u_10(v_u_1, 1843025542)
+			end)
+			spawn(v_u_22)
+		end
+		function v_u_6.hpvdisrt()
+			-- upvalues: (copy) v_u_25
+			spawn(v_u_25)
+		end
+		local v26 = next
+		local v27, v28 = v_u_2:GetTagged("RobberyJewelryJewel")
+		for _, v29 in v26, v27, v28 do
+			v_u_14(v29)
+		end
+		v_u_2:GetInstanceAddedSignal("RobberyJewelryJewel"):Connect(v_u_14)
+		v_u_2:GetInstanceRemovedSignal("RobberyJewelryJewel"):Connect(v_u_4.Remove)
+	end
+}

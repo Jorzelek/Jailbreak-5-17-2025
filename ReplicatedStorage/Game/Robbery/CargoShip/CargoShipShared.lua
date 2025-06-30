@@ -1,0 +1,35 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMdCXdvcmtzcGFjZQ1QYXRoQ2FyZ29TaGlwDFdhaXRGb3JDaGlsZAtHZXRDaGlsZHJlbgZOb2RlJWQGZm9ybWF0DkZpbmRGaXJzdENoaWxkBmFzc2VydApDYW5Db2xsaWRlDFRyYW5zcGFyZW5jeQhQb3NpdGlvbgV0YWJsZQZpbnNlcnQMQ2xvc2VSb2JiZXJ5A25ldwlTZXRQb2ludHMNU2V0Tm9kZU9mZnNldBFBcHByb3hpbWF0ZUxlbmd0aAxBcHByb3hMZW5ndGgUQXBwcm94TGVuZ3RoVHJhdmVsZWQRQ2xvc2VSb2JiZXJ5SW5kZXgHR2V0UGF0aARnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQpCZXppZXJQYXRoBEdhbWUFU3BlZWQAAgwAAQAABwAAAQMJEgJKxgAAAKQBAQAAAABAbwMCALwBAdMDAAAAnwEDAv8CAAAAAAAAjAUBALwGAWgEAAAAnwYCAhwDBgCMBAEAqAMhAG8JBQBSCwUAvAkJjQYAAACfCQMAvAcBAwcAAACfBwAATAEAAqQGCQAAAIBAnwYAAqkHAAAwBwbTCgAAAIwHAQAwBwbZCwAAAE0JBjsMAAAAnjQCBAkAAABSCAIApAcPAAA40ICfBwMBbwkQALwHBgMHAAAAnwcDAg4HAQBSAAUAiwPf//sEAABNAwTvEQAAAJ8DAQJSBgIAvAQD/hIAAACfBAMBjAYAAIwHAQC8BANfEwAAAJ8EBAGMBugDvAQDpBQAAACfBAMCMAQDNRUAAACMBAAAMAQD4RYAAAAwAAMpFwAAAIIDAgAYAwEEAAAAQAMCAwMDBAMFAwYDBwMIBAAAgEADCQMKAwsDDAMNBAA40IADDgMPAxADEQMSAxMDFAMVAAcWARgAAQAAAAAAAQABAAAAAAAAAQAAAAAAAAAAAAAAAQAAAQAAAQAAAAAAAAACAAAAAAH5CgAAAAEAAAABAAAAAAEAAAAAAAEAAAEAAQgAAAAABAAAAQIAGKMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0DAL0HAAAATQIDrwYAAACfAQIC/wICAAAAAACMAzIAMAMCLAgAAADAAwkAEgABADADAoIKAAAAggICAAsDFwQAAABAAxgDGQMaBAAAQEADGwMcAx0GAAMWAQABAAEYAAEAAAAAAAEAAAAAAAACAAEAAAEAAAAWAQAAAAAB/je2+J2MyCrM89xseQ3p+B6beMngzehv9Qte+T1g8wPP1KenFBcnXw==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Game.BezierPath)
+return {
+	["Speed"] = 50,
+	["GetPath"] = function()
+		-- upvalues: (copy) v_u_2
+		local v3 = workspace:WaitForChild("PathCargoShip")
+		local v4 = {}
+		local v5 = nil
+		for v6 = 1, #v3:GetChildren() do
+			local v7 = assert(v3:FindFirstChild(("Node%d"):format(v6)))
+			v7.CanCollide = false
+			v7.Transparency = 1
+			local v8 = v7.Position
+			table.insert(v4, v8)
+			if v7:FindFirstChild("CloseRobbery") then
+				v5 = v6
+			end
+		end
+		local v9 = v_u_2.new()
+		v9:SetPoints(v4)
+		v9:SetNodeOffset(0, 1)
+		v9.ApproxLength = v9:ApproximateLength(1000)
+		v9.ApproxLengthTraveled = 0
+		v9.CloseRobberyIndex = v5
+		return v9
+	end
+}

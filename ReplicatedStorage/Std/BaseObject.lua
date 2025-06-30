@@ -1,0 +1,25 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMNDHNldG1ldGF0YWJsZQNuZXcEbWFpZANvYmoKRG9DbGVhbmluZwdEZXN0cm95B3JlcXVpcmUGc2NyaXB0BlBhcmVudARNYWlkCkJhc2VPYmplY3QJQ2xhc3NOYW1lB19faW5kZXgAAwQBAgAABgMAAAUBBxH/AgIAAAAAAPsDAACePQIDAwAAAKQBAQAAAABAnwEDAvsDAQBNAgPvAgAAAJ8CAQIwAgEWAwAAADAAARMEAAAAggECAAUDAQQAAABAAwIDAwMEAAgCARgAAAAAAAAAAAIAAAAAAAEAAgkAAAAABAEAAAAADU0BABYAAAAAvAEBUQEAAACfAQIBgT0ABQIAAABSAgAAbwMCAKQBBAAAADBAnwEDAYIAAQAFAwMDBQADAQQAADBAABEGARgAAAAAAAEAAAAAAAABEgAAAAAEAAABAgAaowAAAKQAAQAAAABApAMDAAAAIEBNAgMkBAAAAE0BAnYFAAAAnwACAv8BAwAAAAAAbwIGADACAdsHAAAAMAEBbggAAADAAgkAEgABABIAAAAwAgHvCgAAAMACCwAwAgFQDAAAAIIBAgANAwcEAAAAQAMIBAAAIEADCQMKAwsDDAMNBgADAgYBAwYCAAEBAAEYAAEAAAAAAAAAAAIAAQAAAQACAAAAAAkAAAUBAAAAAAKJwWXRvLvqfrsFD0WrTXLKnjr0JzOyhVeLP7Fq3UKmZbsHHg4kt6Ab
+
+-- Decompiled by Krnl
+
+local v_u_1 = require(script.Parent.Maid)
+local v_u_2 = {
+	["ClassName"] = "BaseObject"
+}
+v_u_2.__index = v_u_2
+function v_u_2.new(p3)
+	-- upvalues: (copy) v_u_2, (copy) v_u_1
+	local v4 = v_u_2
+	local v5 = setmetatable({}, v4)
+	v5.maid = v_u_1.new()
+	v5.obj = p3
+	return v5
+end
+function v_u_2.Destroy(p6)
+	p6.maid:DoCleaning()
+	setmetatable(p6, nil)
+end
+return v_u_2

@@ -1,0 +1,45 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMYA25ldwxzZXRtZXRhdGFibGUVRGVmYXVsdERpc2FibGVDYW1Mb2NrEkdldExlZnRBcm1Qb3NpdGlvbgpJbnB1dEJlZ2FuCklucHV0RW5kZWQGc2NyaXB0BlBhcmVudAdyZXF1aXJlBUJhc2ljA0hpcBJSaWdodFdyaXN0Um90YXRpb24RTGVmdFdyaXN0Um90YXRpb24HU3ByaW5ncwpJdGVtT2Zmc2V0DEl0ZW1Sb3RhdGlvbgxOZWNrUm90YXRpb24NV2Fpc3RSb3RhdGlvbgdWZWN0b3IzBkNGcmFtZQZNb3Rpb24NTWFuc2lvbkludml0ZQtfX0NsYXNzTmFtZQdfX2luZGV4AAUIAwMAAAAT+wQAAE0DBO8AAAAAUgQAAFIFAQD7BgEAUgcCAJ8DBQL7BgIAnj0DBAYAAABSBQMApAQCAAAAEECfBAMBvAQDvgMAAACfBAIBggMCAAQDAQMCBAAAEEADAwAYAQEYAAAAAAAAAAABAAAAAAAAAgAAAhkAAAAAAgEAAAAAAsYBAACCAQIAAAAgBAEYAAAhAAAAAAQBAQEAAAijAQAA+wIAAE0BAoIAAAAAUgIAAN0DAACfAQABggABAAEDBQAjBQEYAAEAAAAAAAEjAAAAAAEBAAAAAAGCAAEAAAAmBgEYACYAAAAABwAAAQIAU6MAAACkAQEAAAAAQE0AASQCAAAApAEEAAAAMEBNAgDLBQAAAJ8BAgL/AgEAAAAAAOIDCQDiBAsA4gUQAG8GEQAwBgWADAAAAEw2AAKkBhQAAEwggZ8GAQIwBgXlDQAAAEw2AAKkBhQAAEwggZ8GAQIwBgWNDgAAAEw2AAKkBhQAAEwggZ8GAQIwBgVfDwAAADAFBJgKAAAAMAQDvQYAAACkBBYAAExQgZ8EAQIwBAMOBwAAAKQEFgAATFCBnwQBAjAEA4UIAAAAMAMClxcAAAD/AwQAAAAAAG8EGAAwBAPlGQAAADADA24aAAAAnj0DBQEAAABSBQMAUgYBAKQEHAAAALBBnwQDAcAEHQASAAEAEgACABIAAwAwBAPvEwAAAMAEHgAwBAOTHwAAAMAEIAASAAEAMAQDgiEAAADABCIAMAQDryMAAACCAwIAJAMHBAAAAEADCAMJBAAAMEADCgMLAwwDDQUDBgcIAw4FAQoDDwMQAxEDEgUEDA0ODwcAAIA/mpkZPwAAwL8AAAAAAxMDAQQATCCBAxQEAExQgQMVAxYDFwMYAwIEAACwQQYABgEDBAYCAwUGAwMGBAABAgMBAAEYAAEAAAABAAAAAAIAAQEBAQAAAQAAAAAAAQAAAAAAAQAAAAAA/AD/AAkAAAAAAQAAAAD1AA4AAQAAAQABAAAAAAAAAQAAAAAACAAAAwAAAAMAAAIBAAAAAATaF+wOgaSNJejThpp475jQllLD0cSDXl2a5vmrkGfP8rTeazv8ApgM
+
+-- Decompiled by Krnl
+
+local v1 = script.Parent
+local v_u_2 = require(v1.Basic)
+local v_u_3 = {}
+local v4 = {}
+local v5 = {
+	["Springs"] = {
+		["ItemOffset"] = Vector3.new(1, 0.6, -1.5),
+		["ItemRotation"] = Vector3.new(),
+		["NeckRotation"] = Vector3.new(),
+		["WaistRotation"] = Vector3.new()
+	}
+}
+v4.Hip = v5
+v4.RightWristRotation = CFrame.new()
+v4.LeftWristRotation = CFrame.new()
+v_u_3.Motion = v4
+local v_u_6 = {
+	["__ClassName"] = "MansionInvite"
+}
+v_u_6.__index = v_u_6
+setmetatable(v_u_6, v_u_2)
+function v_u_6.new(p7, p8, p9)
+	-- upvalues: (copy) v_u_2, (copy) v_u_3, (copy) v_u_6
+	local v10 = v_u_2.new(p7, p8, v_u_3, p9)
+	local v11 = v_u_6
+	setmetatable(v10, v11)
+	v10:DefaultDisableCamLock()
+	return v10
+end
+function v_u_6.GetLeftArmPosition(_)
+	return nil
+end
+function v_u_6.InputBegan(p12, ...)
+	-- upvalues: (copy) v_u_2
+	v_u_2.InputBegan(p12, ...)
+end
+function v_u_6.InputEnded(_) end
+return v_u_6

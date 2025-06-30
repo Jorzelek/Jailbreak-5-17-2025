@@ -1,0 +1,60 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Home.HomeItem.HomeItemSystem)
+local v_u_3 = require(v1.Std.Maid)
+local v_u_4 = require(v1.Std.RxInstanceUtils)
+local v_u_5 = require(v1.Module.UI).CircleAction
+local v_u_6 = require(script.VendingMachineConsts)
+local v_u_7 = {}
+v_u_7.__index = v_u_7
+function v_u_7.new(p8, p_u_9)
+	-- upvalues: (copy) v_u_7, (copy) v_u_3, (copy) v_u_6, (copy) v_u_2, (copy) v_u_4, (copy) v_u_5
+	local v_u_10 = {}
+	local v11 = v_u_7
+	setmetatable(v_u_10, v11)
+	v_u_10._obj = p8._obj
+	v_u_10._maid = v_u_3.new()
+	local function v_u_13(_, p12)
+		-- upvalues: (copy) v_u_10, (ref) v_u_6
+		if p12 then
+			v_u_10._obj:FindFirstChild(v_u_6.GRAB_REMOTE_NAME):FireServer()
+			return true
+		end
+	end
+	local function v_u_15(p14)
+		-- upvalues: (ref) v_u_2
+		p14.Enabled = not v_u_2.isCustomizing()
+	end
+	v_u_10._maid:GiveTask(v_u_4.observeOneChildNamed(v_u_10._obj, "Prompt", function(p_u_16, p17)
+		-- upvalues: (copy) p_u_9, (copy) v_u_13, (copy) v_u_15, (ref) v_u_5
+		local v18 = {
+			["Part"] = p_u_16,
+			["Name"] = ("Grab %s"):format(p_u_9),
+			["Timed"] = false,
+			["Dist"] = 10,
+			["Callback"] = v_u_13,
+			["PreUpdateFun"] = v_u_15,
+			["PreUpdatePeriod"] = 0.1
+		}
+		v_u_5.Add(v18, p_u_16)
+		p17:GiveTask(function()
+			-- upvalues: (ref) v_u_5, (copy) p_u_16
+			v_u_5.Remove(p_u_16)
+		end)
+	end))
+	return v_u_10
+end
+function v_u_7.Destroy(p19)
+	local v20 = p19._maid
+	local v21 = v20 ~= nil
+	assert(v21)
+	p19._maid = nil
+	v20:Destroy()
+end
+return v_u_7

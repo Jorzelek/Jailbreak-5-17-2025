@@ -1,0 +1,485 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgNKAWEIc2V0U3RhdGUEaW5pdAp3aWxsVXBkYXRlBXN0YXRlBnJlbmRlcg1Jbml0Q29tcG9uZW50BmV4dGVuZBBtb3VudFZpcnR1YWxUcmVlBmV4cGVjdAJ0bwVlcXVhbA1UZXN0Q29tcG9uZW50BXBjYWxsBW1hdGNoAmJlAm9rDHNob3VsZFVwZGF0ZRF1cGRhdGVWaXJ0dWFsVHJlZQt3aWxsVW5tb3VudBJ1bm1vdW50VmlydHVhbFRyZWUFdmFsdWUQbW91bnRWaXJ0dWFsTm9kZQRUZXN0EnVubW91bnRWaXJ0dWFsTm9kZQVwcm9wcwJpdDZzaG91bGQgbm90IHRyaWdnZXIgYW4gZXh0cmEgdXBkYXRlIHdoZW4gY2FsbGVkIGluIGluaXQic2hvdWxkIHRocm93IHdoZW4gY2FsbGVkIGluIHJlbmRlcihzaG91bGQgdGhyb3cgd2hlbiBjYWxsZWQgaW4gc2hvdWxkVXBkYXRlJnNob3VsZCB0aHJvdyB3aGVuIGNhbGxlZCBpbiB3aWxsVXBkYXRlK3Nob3VsZCBub3QgdGhyb3cgd2hlbiBjYWxsZWQgaW4gd2lsbFVubW91bnQ2c2hvdWxkIHJlbW92ZSB2YWx1ZXMgZnJvbSBzdGF0ZSB3aGVuIHRoZSB2YWx1ZSBpcyBOb25lMnNob3VsZCBpbnZva2UgZnVuY3Rpb25zIHRvIGNvbXB1dGUgYSBwYXJ0aWFsIHN0YXRlM3Nob3VsZCBjYW5jZWwgcmVuZGVyaW5nIGlmIHRoZSBmdW5jdGlvbiByZXR1cm5zIG5pbAhjYWxsYmFjawhkaWRNb3VudANmb28DYmFyBUNoaWxkBlBhcmVudAlkaWRVcGRhdGURdXBkYXRlVmlydHVhbE5vZGUJY2FsbENvdW50Dmhhc1VwZGF0ZWRPbmNlB2NvdW50ZXILTXlDb21wb25lbnQPSW5maW5pdGVVcGRhdGVyBGZpbmQrcmVhY2hlZCB0aGUgc2V0U3RhdGUgdXBkYXRlIHJlY3Vyc2lvbiBsaW1pdAZzdGF0dXMNaW5pdGlhbCBtb3VudAlpc01vdW50ZWQHbW91bnRlZDFzaG91bGQgZGVmZXIgc2V0U3RhdGUgdHJpZ2dlcmVkIHdoaWxlIHJlY29uY2lsaW5nQnNob3VsZCBkZWZlciBzZXRTdGF0ZSB0cmlnZ2VyZWQgd2hpbGUgcmVjb25jaWxpbmcgZHVyaW5nIGFuIHVwZGF0ZS1zaG91bGQgY29tYmluZSBwZW5kaW5nIHN0YXRlIGNoYW5nZXMgcHJvcGVybHlJc2hvdWxkIGFib3J0IHByb3Blcmx5IHdoZW4gZnVuY3Rpb25hbCBzZXRTdGF0ZSByZXR1cm5zIG5pbCB3aGlsZSBkZWZlcnJlZElzaG91bGQgc3RpbGwgYXBwbHkgcGVuZGluZyBzdGF0ZSBpZiBhIHN1YnNlcXVlbnQgc3RhdGUgdXBkYXRlIHdhcyBhYm9ydGVkSnNob3VsZCBub3QgcmUtcHJvY2VzcyBuZXcgc3RhdGUgd2hlbiBwZW5kaW5nIHN0YXRlIGlzIHByZXNlbnQgYWZ0ZXIgdXBkYXRlMXNob3VsZCB0aHJvdyB3aGVuIGFuIGluZmluaXRlIHVwZGF0ZSBpcyB0cmlnZ2VyZWQGaXRTS0lQPXNob3VsZCBwcm9jZXNzIHNpbmdsZSB1cGRhdGVzIHdpdGggYm90aCBuZXcgYW5kIHBlbmRpbmcgc3RhdGVIc2hvdWxkIGNhbGwgdHJpZ2dlciB1cGRhdGUgYWZ0ZXIgZGlkTW91bnQgd2hlbiBzZXR0aW5nIHN0YXRlIGluIGRpZE1vdW50B3JlcXVpcmUGc2NyaXB0DWNyZWF0ZUVsZW1lbnQQY3JlYXRlUmVjb25jaWxlcgljcmVhdGVTcHkETm9uZQxOb29wUmVuZGVyZXIJQ29tcG9uZW50CGRlc2NyaWJlE3NldFN0YXRlIHN1c3BlbnNpb24AWQUBAAAAAAjiAwEAjAQBADAEA4AAAAAAvAEAKgIAAACfAQMBggABAAMDAQUBAAMCABQDARgAAQAA/wAAAxUAAAAAAwEBAAAABPsCAACVAQIA3gEAAIIAAQABAgAAAAAAAPA/ABoEARgAAAABGwAAAAADAQIAAAAI+wIAAJUBAgDeAQAATQEAGAEAAADeAQEAxgEAAIIBAgACAgAAAAAAAPA/AwUAHgYBGAAAAAEAAAEAHwAAAAAJAAMAAAA9jAAAAIwBAADGAgAA+wMAAG8FAAC8AwOcAQAAAJ8DAwLABAIAMAQDEwMAAADZBAEAEgEB/zAEA30EAAAA2QQCABIBAP8SAQL/MAQDgAUAAAD7BAEA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
+
+-- Decompiled by Krnl
+
+return function()
+	local v_u_1 = require(script.Parent.Parent.createElement)
+	local v2 = require(script.Parent.Parent.createReconciler)
+	local v_u_3 = require(script.Parent.Parent.createSpy)
+	local v_u_4 = require(script.Parent.Parent.None)
+	local v5 = require(script.Parent.Parent.NoopRenderer)
+	local v_u_6 = require(script.Parent.Parent.Component)
+	local v_u_7 = v2(v5)
+	describe("setState", function()
+		-- upvalues: (copy) v_u_6, (copy) v_u_1, (copy) v_u_7, (copy) v_u_4
+		it("should not trigger an extra update when called in init", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7
+			local v_u_8 = 0
+			local v_u_9 = 0
+			local v_u_10 = nil
+			local v11 = v_u_6:extend("InitComponent")
+			function v11.init(p12)
+				p12:setState({
+					["a"] = 1
+				})
+			end
+			function v11.willUpdate(_)
+				-- upvalues: (ref) v_u_9
+				v_u_9 = v_u_9 + 1
+			end
+			function v11.render(p13)
+				-- upvalues: (ref) v_u_8, (ref) v_u_10
+				v_u_8 = v_u_8 + 1
+				v_u_10 = p13.state
+				return nil
+			end
+			local v14 = v_u_1(v11)
+			v_u_7.mountVirtualTree(v14)
+			expect(v_u_8).to.equal(1)
+			expect(v_u_9).to.equal(0)
+			expect(v_u_10.a).to.equal(1)
+		end)
+		it("should throw when called in render", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7
+			local v15 = v_u_6:extend("TestComponent")
+			function v15.render(p16)
+				p16:setState({
+					["a"] = 1
+				})
+			end
+			local v17 = v_u_1(v15)
+			local v18, v19 = pcall(v_u_7.mountVirtualTree, v17)
+			expect(v18).to.equal(false)
+			expect(v19:match("render")).to.be.ok()
+			expect(v19:match("TestComponent")).to.be.ok()
+		end)
+		it("should throw when called in shouldUpdate", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7
+			local v20 = v_u_6:extend("TestComponent")
+			function v20.render(_)
+				return nil
+			end
+			function v20.shouldUpdate(p21)
+				p21:setState({
+					["a"] = 1
+				})
+			end
+			local v22 = v_u_1(v20)
+			local v23 = v_u_1(v20)
+			local v24 = v_u_7.mountVirtualTree(v22)
+			local v25, v26 = pcall(v_u_7.updateVirtualTree, v24, v23)
+			expect(v25).to.equal(false)
+			expect(v26:match("shouldUpdate")).to.be.ok()
+			expect(v26:match("TestComponent")).to.be.ok()
+		end)
+		it("should throw when called in willUpdate", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7
+			local v27 = v_u_6:extend("TestComponent")
+			function v27.render(_)
+				return nil
+			end
+			function v27.willUpdate(p28)
+				p28:setState({
+					["a"] = 1
+				})
+			end
+			local v29 = v_u_1(v27)
+			local v30 = v_u_1(v27)
+			local v31 = v_u_7.mountVirtualTree(v29)
+			local v32, v33 = pcall(v_u_7.updateVirtualTree, v31, v30)
+			expect(v32).to.equal(false)
+			expect(v33:match("willUpdate")).to.be.ok()
+			expect(v33:match("TestComponent")).to.be.ok()
+		end)
+		it("should not throw when called in willUnmount", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7
+			local v34 = v_u_6:extend("TestComponent")
+			function v34.render(_)
+				return nil
+			end
+			function v34.willUnmount(p35)
+				p35:setState({
+					["a"] = 1
+				})
+			end
+			local v36 = v_u_1(v34)
+			local v37 = v_u_7.mountVirtualTree(v36)
+			local v38, _ = pcall(v_u_7.unmountVirtualTree, v37)
+			expect(v38).to.equal(true)
+		end)
+		it("should remove values from state when the value is None", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7, (ref) v_u_4
+			local v39 = v_u_6:extend("TestComponent")
+			local v_u_40 = nil
+			local v_u_41 = nil
+			function v39.init(p_u_42)
+				-- upvalues: (ref) v_u_40, (ref) v_u_41
+				v_u_40 = function(p43)
+					-- upvalues: (copy) p_u_42
+					p_u_42:setState(p43)
+				end
+				v_u_41 = function()
+					-- upvalues: (copy) p_u_42
+					return p_u_42.state
+				end
+				p_u_42:setState({
+					["value"] = 0
+				})
+			end
+			function v39.render(_)
+				return nil
+			end
+			local v44 = v_u_1(v39)
+			local v45 = v_u_7.mountVirtualNode(v44, nil, "Test")
+			expect(v_u_41().value).to.equal(0)
+			v_u_40({
+				["value"] = v_u_4
+			})
+			expect(v_u_41().value).to.equal(nil)
+			v_u_7.unmountVirtualNode(v45)
+		end)
+		it("should invoke functions to compute a partial state", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7
+			local v46 = v_u_6:extend("TestComponent")
+			local v_u_47 = nil
+			local v_u_48 = nil
+			local v_u_49 = nil
+			function v46.init(p_u_50)
+				-- upvalues: (ref) v_u_47, (ref) v_u_48, (ref) v_u_49
+				v_u_47 = function(p51)
+					-- upvalues: (copy) p_u_50
+					p_u_50:setState(p51)
+				end
+				v_u_48 = function()
+					-- upvalues: (copy) p_u_50
+					return p_u_50.state
+				end
+				v_u_49 = function()
+					-- upvalues: (copy) p_u_50
+					return p_u_50.props
+				end
+				p_u_50:setState({
+					["value"] = 0
+				})
+			end
+			function v46.render(_)
+				return nil
+			end
+			local v52 = v_u_1(v46)
+			local v53 = v_u_7.mountVirtualNode(v52, nil, "Test")
+			expect(v_u_48().value).to.equal(0)
+			v_u_47(function(p54, p55)
+				-- upvalues: (ref) v_u_48, (ref) v_u_49
+				expect(p54).to.equal(v_u_48())
+				expect(p55).to.equal(v_u_49())
+				return {
+					["value"] = p54.value + 1
+				}
+			end)
+			expect(v_u_48().value).to.equal(1)
+			v_u_7.unmountVirtualNode(v53)
+		end)
+		it("should cancel rendering if the function returns nil", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7
+			local v56 = v_u_6:extend("TestComponent")
+			local v_u_57 = nil
+			local v_u_58 = 0
+			function v56.init(p_u_59)
+				-- upvalues: (ref) v_u_57
+				v_u_57 = function(p60)
+					-- upvalues: (copy) p_u_59
+					p_u_59:setState(p60)
+				end
+				p_u_59:setState({
+					["value"] = 0
+				})
+			end
+			function v56.render(_)
+				-- upvalues: (ref) v_u_58
+				v_u_58 = v_u_58 + 1
+				return nil
+			end
+			local v61 = v_u_1(v56)
+			local v62 = v_u_7.mountVirtualNode(v61, nil, "Test")
+			expect(v_u_58).to.equal(1)
+			v_u_57(function(_, _)
+				return nil
+			end)
+			expect(v_u_58).to.equal(1)
+			v_u_7.unmountVirtualNode(v62)
+		end)
+	end)
+	describe("setState suspension", function()
+		-- upvalues: (copy) v_u_6, (copy) v_u_1, (copy) v_u_7, (copy) v_u_3
+		it("should defer setState triggered while reconciling", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7
+			local v_u_63 = v_u_6:extend("Child")
+			local v_u_64 = nil
+			function v_u_63.render(_)
+				return nil
+			end
+			function v_u_63.didMount(p65)
+				p65.props.callback()
+			end
+			local v66 = v_u_6:extend("Parent")
+			function v66.init(p_u_67)
+				-- upvalues: (ref) v_u_64
+				v_u_64 = function()
+					-- upvalues: (copy) p_u_67
+					return p_u_67.state
+				end
+			end
+			function v66.render(p_u_68)
+				-- upvalues: (ref) v_u_1, (copy) v_u_63
+				return v_u_1(v_u_63, {
+					["callback"] = function()
+						-- upvalues: (copy) p_u_68
+						p_u_68:setState({
+							["foo"] = "bar"
+						})
+					end
+				})
+			end
+			local v69 = v_u_1(v66)
+			local v70 = v_u_7.mountVirtualNode(v69, nil, "Test")
+			expect(v70).to.be.ok()
+			expect(v_u_64().foo).to.equal("bar")
+		end)
+		it("should defer setState triggered while reconciling during an update", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7
+			local v_u_71 = v_u_6:extend("Child")
+			local v_u_72 = nil
+			function v_u_71.render(_)
+				return nil
+			end
+			function v_u_71.didUpdate(p73)
+				p73.props.callback()
+			end
+			local v74 = v_u_6:extend("Parent")
+			function v74.init(p_u_75)
+				-- upvalues: (ref) v_u_72
+				v_u_72 = function()
+					-- upvalues: (copy) p_u_75
+					return p_u_75.state
+				end
+			end
+			function v74.render(p_u_76)
+				-- upvalues: (ref) v_u_1, (copy) v_u_71
+				return v_u_1(v_u_71, {
+					["callback"] = function()
+						-- upvalues: (copy) p_u_76
+						if not p_u_76.state.foo then
+							p_u_76:setState({
+								["foo"] = "bar"
+							})
+						end
+					end
+				})
+			end
+			local v77 = v_u_1(v74)
+			local v78 = v_u_7.mountVirtualNode(v77, nil, "Test")
+			expect(v78).to.be.ok()
+			expect(v_u_72().foo).to.equal(nil)
+			local v79 = v_u_7.updateVirtualNode(v78, v_u_1(v74))
+			expect(v79).to.be.ok()
+			expect(v_u_72().foo).to.equal("bar")
+			v_u_7.unmountVirtualNode(v79)
+		end)
+		it("should combine pending state changes properly", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7
+			local v_u_80 = v_u_6:extend("Child")
+			local v_u_81 = nil
+			function v_u_80.render(_)
+				return nil
+			end
+			function v_u_80.didMount(p82)
+				p82.props.callback("foo", 1)
+				p82.props.callback("bar", 3)
+			end
+			local v83 = v_u_6:extend("Parent")
+			function v83.init(p_u_84)
+				-- upvalues: (ref) v_u_81
+				v_u_81 = function()
+					-- upvalues: (copy) p_u_84
+					return p_u_84.state
+				end
+			end
+			function v83.render(p_u_85)
+				-- upvalues: (ref) v_u_1, (copy) v_u_80
+				return v_u_1(v_u_80, {
+					["callback"] = function(p86, p87)
+						-- upvalues: (copy) p_u_85
+						p_u_85:setState({
+							[p86] = p87
+						})
+					end
+				})
+			end
+			local v88 = v_u_1(v83)
+			local v89 = v_u_7.mountVirtualNode(v88, nil, "Test")
+			expect(v89).to.be.ok()
+			expect(v_u_81().foo).to.equal(1)
+			expect(v_u_81().bar).to.equal(3)
+			v_u_7.unmountVirtualNode(v89)
+		end)
+		it("should abort properly when functional setState returns nil while deferred", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_3, (ref) v_u_1, (ref) v_u_7
+			local v_u_90 = v_u_6:extend("Child")
+			function v_u_90.render(_)
+				return nil
+			end
+			function v_u_90.didMount(p91)
+				p91.props.callback()
+			end
+			local v92 = v_u_6:extend("Parent")
+			local v94 = v_u_3(function(p_u_93)
+				-- upvalues: (ref) v_u_1, (copy) v_u_90
+				return v_u_1(v_u_90, {
+					["callback"] = function()
+						-- upvalues: (copy) p_u_93
+						p_u_93:setState(function()
+							return nil
+						end)
+					end
+				})
+			end)
+			v92.render = v94.value
+			local v95 = v_u_1(v92)
+			local v96 = v_u_7.mountVirtualNode(v95, nil, "Test")
+			expect(v96).to.be.ok()
+			expect(v94.callCount).to.equal(1)
+			v_u_7.unmountVirtualNode(v96)
+		end)
+		it("should still apply pending state if a subsequent state update was aborted", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7
+			local v_u_97 = v_u_6:extend("Child")
+			local v_u_98 = nil
+			function v_u_97.render(_)
+				return nil
+			end
+			function v_u_97.didMount(p99)
+				p99.props.callback(function()
+					return {
+						["foo"] = 1
+					}
+				end)
+				p99.props.callback(function()
+					return nil
+				end)
+			end
+			local v100 = v_u_6:extend("Parent")
+			function v100.init(p_u_101)
+				-- upvalues: (ref) v_u_98
+				v_u_98 = function()
+					-- upvalues: (copy) p_u_101
+					return p_u_101.state
+				end
+			end
+			function v100.render(p_u_102)
+				-- upvalues: (ref) v_u_1, (copy) v_u_97
+				return v_u_1(v_u_97, {
+					["callback"] = function(p103)
+						-- upvalues: (copy) p_u_102
+						p_u_102:setState(p103)
+					end
+				})
+			end
+			local v104 = v_u_1(v100)
+			local v105 = v_u_7.mountVirtualNode(v104, nil, "Test")
+			expect(v105).to.be.ok()
+			expect(v_u_98().foo).to.equal(1)
+			v_u_7.unmountVirtualNode(v105)
+		end)
+		it("should not re-process new state when pending state is present after update", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7
+			local v_u_106 = nil
+			local v_u_107 = nil
+			local v108 = v_u_6:extend("MyComponent")
+			function v108.init(p_u_109)
+				-- upvalues: (ref) v_u_106, (ref) v_u_107
+				p_u_109:setState({
+					["hasUpdatedOnce"] = false,
+					["counter"] = 0
+				})
+				v_u_106 = function(p110)
+					-- upvalues: (copy) p_u_109
+					p_u_109:setState(p110)
+				end
+				v_u_107 = function()
+					-- upvalues: (copy) p_u_109
+					return p_u_109.state
+				end
+			end
+			function v108.render(_)
+				return nil
+			end
+			function v108.didUpdate(p111)
+				if p111.state.hasUpdatedOnce == false then
+					p111:setState({
+						["hasUpdatedOnce"] = true
+					})
+				end
+			end
+			local v112 = v_u_1(v108)
+			v_u_7.mountVirtualNode(v112, nil, "Test")
+			expect(v_u_107().hasUpdatedOnce).to.equal(false)
+			expect(v_u_107().counter).to.equal(0)
+			v_u_106(function(p113)
+				return {
+					["counter"] = p113.counter + 1
+				}
+			end)
+			expect(v_u_107().hasUpdatedOnce).to.equal(true)
+			expect(v_u_107().counter).to.equal(1)
+		end)
+		it("should throw when an infinite update is triggered", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7
+			local v114 = v_u_6:extend("InfiniteUpdater")
+			function v114.render(_)
+				return nil
+			end
+			function v114.didMount(p115)
+				p115:setState({})
+			end
+			function v114.didUpdate(p116)
+				p116:setState({})
+			end
+			local v117 = v_u_1(v114)
+			local v118, v119 = pcall(v_u_7.mountVirtualNode, v117, nil, "Test")
+			expect(v118).to.equal(false)
+			expect(v119:find("InfiniteUpdater")).to.be.ok()
+			expect(v119:find("reached the setState update recursion limit")).to.be.ok()
+		end)
+		itSKIP("should process single updates with both new and pending state", function() end)
+		it("should call trigger update after didMount when setting state in didMount", function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_1, (ref) v_u_7
+			local v120 = v_u_6:extend("MyComponent")
+			function v120.init(p121)
+				p121:setState({
+					["status"] = "initial mount"
+				})
+				p121.isMounted = false
+			end
+			function v120.render(_)
+				return nil
+			end
+			function v120.didMount(p122)
+				p122:setState({
+					["status"] = "mounted"
+				})
+				p122.isMounted = true
+			end
+			function v120.didUpdate(p123, _, p124)
+				expect(p124.status).to.equal("initial mount")
+				expect(p123.state.status).to.equal("mounted")
+				expect(p123.isMounted).to.equal(true)
+			end
+			local v125 = v_u_1(v120)
+			local v126 = v_u_7.mountVirtualNode(v125, nil, "Test")
+			expect(v126).to.be.ok()
+		end)
+	end)
+end

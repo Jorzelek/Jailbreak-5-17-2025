@@ -1,0 +1,308 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgOwAQ9zZWxlY3RJZkdhbWVwYWQPU2VsZWN0SWZHYW1lcGFkDkVhc2VfSW5PdXRRdWFkBEhpZGUIcnFqejh4eXgDbmV3BFRleHQOVGVhbXMuVGVhbUZ1bGwLRm9ybWF0QnlLZXkIbmRtdzhsOWoWaXNUZWFtU3dpdGNoaW5nRW5hYmxlZARTaG93CGZ2OGR2bGZ5BUV2ZW50AmVtBk9uSnVtcA9Db2xvckNvcnJlY3Rpb24ORmluZEZpcnN0Q2hpbGQEVGVzdBNDaG9vc2VUZWFtSW5pdGlhbGx5BEluaXQGQ29sb3IzCVRpbnRDb2xvcghJc1N0dWRpbwRDaXR5Bl9TdGFydAVfU3RvcAZDRnJhbWUHVmVjdG9yMwpMb29rVmVjdG9yAXANU3RhcnRQb3NpdGlvbg5UYXJnZXRQb3NpdGlvbhBUYXJnZXRMb29rVmVjdG9yDVRFQU1fUFJJU09ORVIEWWFyZAhTY2hlZHVsZQVDZWxscwlCcmVha2Zhc3QGRGlubmVyCUZvb2Rjb3VydAlQcmlzb25lcl8IUG9zaXRpb24GQW5nbGVzCmxvb2tWZWN0b3ILVEVBTV9QT0xJQ0ULUG9saWNlQmFzZTIMVXBkYXRlQ2FtZXJhBHRpY2sKQ2FtZXJhVHlwZQRFbnVtClNjcmlwdGFibGUTU3RlcENpbmVtYXRpY0NhbWVyYQ1SZW5kZXJTdGVwcGVkAXoIdWR1YnZodmwDc3ViB3JldmVyc2UABnNkdWUzNAVyamx4bwJvYwpGaXJlU2VydmVyBHBsYXkLTG9jYWxQbGF5ZXIGVXNlcklkHElzVm9pY2VFbmFibGVkRm9yVXNlcklkQXN5bmMJVm9pY2VDaGF0B0RlZmF1bHQFcGNhbGwtRW5hYmxlIHZvaWNlIGNoYXQgdG8gam9pbiB2b2ljZSBjaGF0IHNlcnZlcnMhClRlYW1TZWxlY3QfVEVMRVBPUlRfUExBQ0VfVFlQRV9SRU1PVEVfTkFNRQlvbkNsaWNrZWQNRG9lc1BsYXllck93bgpUcmFkaW5nVklQDEVudW1HYW1lcGFzcw5Qcm9tcHRHYW1lcGFzcydURUxFUE9SVF9UT19XT1JMRF9GUk9NX1RFQU1fU1dJVENIX05BTUUQVFJBREVfV09STERfTkFNRQRIYW5nDm9uVGVhbVNlbGVjdGVkDWlzU21hbGxTY3JlZW4LR2V0Q2hpbGRyZW4ETmFtZQZQb2xpY2UKR2V0UGxheWVycwxnZXRQbGFjZVR5cGUEdGV4dBFWT0lDRUNIQVQgU0VSVkVSUwxNQUlOIFNFUlZFUlMLVFJBREUgV09STEQJd29ya3NwYWNlEEdldFNlcnZlclRpbWVOb3cOT0dfSkJfRU5EX1RJTUUJdGV4dENvbG9yDE9HIEpBSUxCUkVBSwdmcm9tSGV4BmU4ODgzOQV0YWJsZQZpbnNlcnQJU2NyZWVuR3VpDklnbm9yZUd1aUluc2V0BHNpemUJbnVtUG9saWNlDG51bUNyaW1pbmFscxFjcmltaW5hbEJ1dHRvblJlZg1zZXJ2ZXJCdXR0b25zBVVEaW0yCWZyb21TY2FsZQxnZXRDb21wb25lbnQHdW5tb3VudAZ1cGRhdGUGQ3VzdG9tBE1haWQGYXNzZXJ0E01ha2VDaW5lbWF0aWNDYW1lcmEHQ29ubmVjdAhHaXZlVGFzawljcmVhdGVSZWYFbW91bnQJUGxheWVyR3VpDVRlYW1TZWxlY3RHdWkIZ2V0VmFsdWULUGxheWVyQWRkZWQNUGxheWVyUmVtb3ZlZAp1bmVxdWlwQWxsCGY1aXFzbG9mCkRvQ2xlYW5pbmcNQ3VycmVudENhbWVyYQRnYW1lB1BsYXllcnMKR2V0U2VydmljZQhMaWdodGluZwpSdW5TZXJ2aWNlEVJlcGxpY2F0ZWRTdG9yYWdlBVRlYW1zEFZvaWNlQ2hhdFNlcnZpY2UHcmVxdWlyZQNBcHAIUnVuVXRpbHMIaXNTdHVkaW8MTG9jYWxpemF0aW9uBk1vZHVsZQ9DaW5lbWF0aWNDYW1lcmEIR2FtZVV0aWwER2FtZRNJbnZlbnRvcnlJdGVtU3lzdGVtCUludmVudG9yeQpUZWFtU2hhcmVkDVdvcmxkVGVsZXBvcnQTV29ybGRUZWxlcG9ydENvbnN0cwlSdW5Db25zdHMERXpVaQdFelV0aWxzDkdhbWVwYXNzU3lzdGVtCEdhbWVwYXNzDUdhbWVwYXNzVXRpbHMMTm90aWZpY2F0aW9uCFJlc291cmNlCFNldHRpbmdzBVJvYWN0A1N0ZBBUZWFtU2VsZWN0Q29uc3RzAlVJDWNyZWF0ZUVsZW1lbnQLQ2l0eTJfU3RhcnQLUG9saWNlQmFzZTEKQ2l0eTJfU3RvcA5Qcmlzb25lcl9DZWxscw1Qcmlzb25lcl9ZYXJkElByaXNvbmVyX0Zvb2Rjb3VydAtDaXR5MV9TdGFydApDaXR5MV9TdG9wC0NpdHkzX1N0YXJ0CkNpdHkzX1N0b3AAFgMBAQAAAAb7AgAATQECBAAAAABSAgAAnwECAYIAAQABAwEAPQIBGAAAAAAAAT4AAAAABgEAAAAADW8CAABgAAUAAgAAAIwDAgAJAgMACQECACsBBQCMBAIAeAUAAgkDBAUJAgMA9QEBAoIBAgADAgAAAAAAAOA/AgAAAAAAAPC/AgAAAAAAAABAAEEDARgAAAAAAAAAAAAAAAAAQgAAAAACAAEAAAAF+wEAAE0AAc8AAAAAnwABAYIAAQABAwQAVgUBGAAAAAABWQAAAAAFAAIAAAAN+wEAAE0AAe8AAAAA4gECAPsCAQBvBAMAvAICmwQAAACfAgMCMAIB9QEAAACfAAIBggABAAUDBgMHBQEBAwgDCQBbCgEYAAAAAAAAAAAAAAAAAVwAAAAAAgACAAAAC/sBAABNAAFAAAAAAJ8AAQIrAAEAggABAPsBAQBNAAGYAQAAAJ8AAQGCAAEAAgMLAwwAXg0BGAAAAAAAAQIAAAABXwAAAAAFAQoAAAAwTQEANgAAAADeAQAATQEA3wEAAADeAQEATQEAowIAAADeAQIA+wEDAG8DAwC8AQEDBAAAAJ8BAwL7AgQAMAECagMAAADAAgUAEgIEAPsDAQAwAgOXBgAAAMACBwASAgUAEgIGAPsDAQAwAgNxCAAAAMACCQASAgcAEgIEAPsDAQAwAgP0CgAAAPsCCAAOAgcA+wQJAE0DBHwLAAAATQIDWQwAAAArAgEAggABAPsDAQBNAgP0CgAAAJ8CAQGCAAEADQMOAw8DEAMRAxIGAgMFBgMDCgYEAw0DEwMUAwIDBE0VARgAAAABAAABAAACAAAAAAEAAAMAAAAABQAAAAAAAwAAAAAACAAAAAAAAAAAAgAAAAJOAAAAAAwACAAADQAAAggIgwEBCAe/AQHbAfsAAACkAQIAAAQAgIwCAQCMAwEAjAQBAJ8BBAIwAQAsAwAAAPsBAQC8AQEKBAAAAJ8BAgIOAQIA+wACAGUAAQD7AAMA+wEEAEcBOwAAAACA+wMFACECAwaVAQIF3gEFAG8DBwD7BAUAbwUIAHMCAwWHAQACbwQHAPsFBQBvBgkAcwMEBocCAAOkBAsAAASggEw2AAKkBQ0AAATAgJ8FAQJNBgFoDgAAAJ8EAwJNBQGRDwAAAEMDBAWkBQsAAASggEw2AAKkBg0AAATAgJ8GAQJNBwJoDgAAAJ8FAwJNBgKRDwAAAEMEBQb7BQYATQYDkQ8AAAAwBgUzEAAAAPsFBgBNBgSRDwAAADAGBakRAAAA+wUGAE0GA2gOAAAAMAYFaA4AAAD7BQYAxgYAADAGBXASAAAAggABAPsBBACkAhQAAAAwQZoBTQACAAAAbwEVAPsDBwBNAgOgFgAAAPACAwAXAACAbwEXAGUACwD7AwcATQIDoBYAAADwAgYAGAAAAPsDBwBNAgOgFgAAAPACAgAZAACAbwEaAG8EGwBSBQEAcwMEBYcCAAOkBAsAAASggEw2AAKkBQ0AAATAgJ8FAQJNBgJoDgAAAJ8EAwJNBQKRDwAAAEMDBAX7BAYAxgUAADAFBDMQAAAA+wQGAKQICwAABKCAjAkAAIwKAACMC/b/nwgEAgkHAwhvCBwAQwYHCE0FBpEPAAAAMAUEOx0AAAD7BAYATQUDkQ8AAAAwBQSpEQAAAPsEBgCkBx8AAHiggG8IIACMCQAAjAoAAJ8HBAIJBgMHTQUGSCEAAAAwBQRoDgAAAPsEBgBNBQNoDgAAADAFBHASAAAAggABAPsBBACkAiMAAAAgQpoBNwACAAAATQEATCQAAACkAwsAAASggEw2AAKkBA0AAATAgJ8EAQJNBQFoDgAAAJ8DAwJNBAGRDwAAAEMCAwT7AwYAxgQAADAEAzMQAAAA+wMGAKQHCwAABKCAjAgAAIwJAACMCvb/nwcEAgkGAgdvBxwAQwUGB00EBZEPAAAAMAQDOx0AAAD7AwYATQQCkQ8AAAAwBAOpEQAAAPsDBgCkBh8AAHiggG8HIACMCAAAjAkAAJ8GBAIJBQIGTQQFSCEAAAAwBANoDgAAAPsDBgBNBAJoDgAAADAEA3ASAAAAggABACUDFgMGBAAEAIADFwMYAgAAAAAAAPA/AgAAAAAAAAhAAxkDGgMbAxwEAASggAMdBAAEwIADHgMfAyADIQMiAyMEAAAwQQMkAyUDJgMnAygDKQMqBwAAAAAAAKDAAAAAAAAAAAADKwMsBAB4oIAC4PCcdi8b1L8DLQMuBAAAIEIDLwB2MAEYAAAAAAAAAAAAAgAAAAAAAAACAAABAAAAAQAAAAABAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAQAAAAABAAAAAAEAAAAAAQAAAAABAQAAAAABAAEAAAAAAAAAAAABAgAAAAEAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAQAAAAABAAEAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAQAAAAACdwAAAAAKAQcAAABkpAEBAAAAAECfAQEC+wMAACYCAQP7BAEATQMEKgIAAACkBAUABAgwwPEDBgAEAAAA+wMBAKQEBQAECDDAMAQDKgIAAAD7AwIARwNIAAAAAICMAxgAfQMEAAIAAAD7AwMAnwMBAd4BAAA+AwIGbwQHAH0DGQAEAAAAPgQDB1IFBABvBggAYAUFAAYAAACMBwIACQYHBQkEBgUrBAUAjAgCAHgJBQoJBwgJCQYHBfUECQb7BQQApAYNAAAwsIBSBwQAUggEAFIJBACfBgQCMAYFLA4AAABlABwAbwQPAH0EGgADAAAAeAYDDz4FBgf1BBAFUgUEAG8GCABgBQUABgAAAIwHAgAJBgcFCQQGBSsEBQCMCAIAeAkFCgkHCAkJBgcF9QQJBvsFBACkBg0AADCwgFIHBABSCAQAUgkEAJ8GBAIwBgUsDgAAAPsFBQBNBAU3EQAAAFIFAAD7BgYAbwcHAFIIAwCfBAUBggABAPsEBQBNAwQ3EQAAAFIEAAD7BQYAjAYCAIwHAQCfAwUBggABABIDMQQAAABAAzIDMwM0BAQIMMACAAAAAAAAOEACmpmZmZmZuT8CAAAAAAAA4D8CAAAAAAAA8L8CAAAAAAAAAEADFgMGBAAwsIADFwLNzMzMzMzsPwIAAAAAAADwPwM1AKIBNgEYYQAAAQABAAAAAAAAAQAAAAADAAABAAABAAECAQAAAQGRAAAAAAAAAAAAAABwAAAAAAAAAAAAAQAAAQAAAY0AAAAAAAAAAAAAAHQAAAAAAAAAAAIAAAAAAAAAAAIAAAAAAAAAAkIAAAAAEQACAAAPAAADAw0FAgMNHQIDDS8CRPsAAABvAwAAbw0BAIwPBACMEAUAvA0N8AIAAACfDQQCvA0NmwMAAACfDQICvA0NmwMAAACfDQICvA0NmwMAAACfDQICvA0NmwMAAACfDQICvA0NmwMAAACfDQICUgQNAG8FBABvBgQAbw0FAIwPAgCMEAMAvA0N8AIAAACfDQQCvA0NmwMAAACfDQICvA0NmwMAAACfDQICvA0NmwMAAACfDQICUgcNAG8IBABvCQQAbw0GAIwPAwCMEAMAvA0N8AIAAACfDQQCvA0NmwMAAACfDQICvA0NmwMAAACfDQICvA0NmwMAAACfDQICUgoNAG8LBABvDAcAcwIDDPsDAQC8AABrCAAAAJ8ABAGCAAEACQM3AzgDOQM6AzsDPAM9Az4DPwDBAUABGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwgAAAAAFAAIAAAAK+wAAAPsEAQBNAwQxAAAAAE0CA+YBAAAAvAAA+gIAAACfAAMCggACAAMDQQNCA0MA1QEAARgAAAAAAAAAAAAB1gAAAAAIAAYAAAAm+wEAAA4BAgBvAAAAZQABAG8AAQCkAQMAAAAgQMACBAASAgEAEgICAJ8BAgPnAwEC+wQAAA4ECgArAwkA+wUDAE0EBe8FAAAA4gUHAG8GCAAwBgX1BgAAAJ8EAgGCAAEA+wUEAE0EBa0JAAAA+wcFAE0GB8EKAAAAvAQEAwsAAACfBAMCUgYAALwEBGsMAAAAnwQDAYIAAQANA0QDRQNGBAAAIEAGCQMGAwcFAQYDRwNIA0kDEgM/AQnTAUoBGAAAAAAAAQAAAAAABAEAAAEAAAAAAAAAAQIAAAEAAAAAAAEAAAAB1AAAAAAGAAUAAAAi+wEAAE0AARsAAAAA+wMBAE0CA40CAAAATQECPAEAAACfAAICKwAKAPsCAQBNAQLwAwAAAPsEAQBNAwSNAgAAAE0CAzwBAAAAnwECAYIAAQD7AQIA+wQDAE0DBPYEAAAAvAEBAwUAAACfAQMC+wUEAE0EBa8GAAAAvAIBawcAAACfAgMBggABAAgDSwNMA00DTgNPAxIDUAM/AOUBSgEYAAAAAAAAAAAAAQEAAAAAAAAAAAEDAAAAAAAAAQAAAAAAAeYAAAAABAACAAAADvsBAABNAAGtAAAAAPsDAQBNAgPBAQAAALwAAAMCAAAAnwADAm8CAwC8AABrBAAAAJ8AAwGCAAEABQNIA0kDEgNRAz8A9AFKARgAAAABAAAAAAABAAAAAfUAAAAAAgEDAAAABt4AAAD7AQEAnwEBAfsBAgCfAQEBggABAAAAhQJSARgAAQABAAEGAQAAAA8AEgAAAI0B+wIAAE0BAnkAAAAAnwEBAg4BAgCMAAEAZQABAIwAAQCMAQAAjAIAAPsDAQC8AwNoAQAAAJ8DAgRkAw8ATQgHugIAAADwCAcAAwAAgLwJB6sEAAAAnwkCAhwICQBDAQEIZQAFALwJB6sEAAAAnwkCAhwICQBDAgIIbgPw/wIAAAD7BQIATQQFQAUAAACfBAEC8AQCAAYAAACpAwABqQMBAP8EAAACAAAA4gUJANkGAAASAAMAEgIDABICBAASAgUAEgIGABICBwAwBgUiBwAAAA4DAgBvBgoAZQABAG8GCwAwBgXVCAAAAOIGCQDABwwAEgIIABICCQASAgYAEgIKABICCwAwBwYiBwAAAG8HDQAwBwbVCAAAAMUEBQMBAAAApAUPAAAA4EC8BQW3EAAAAJ8FAgL7BwcATQYHChEAAABgBRcABgAAAIwHAQDiCBMAwAkUABICBgASAgcAMAkIIgcAAABvCRUAMAkI1QgAAACkCRgAAFxggW8KGQCfCQICMAkIvxIAAAA0NAQEBwgAAFIGBACkBRwAAGyggZ8FBAH7BQwAbwYdAOIHHwCpCAEAMAgHBR4AAADiCCEA+wkMAPsKDQDiCygApAwrAACokIJSDQAAjA4BAJ8MAwIwDAsPIgAAADABC+MjAAAAMAILEyQAAAD7DA4AMAwL6yUAAADZDAMAEgIPABICEAASAhEAMAwLQSYAAAAwBAveJwAAAJ8JAwIwCQitIAAAAJ8FBACCBQAALANTA1QDVQNWA1cDWANFA0oDWQUCBwgDWgNbBgsDXANdBAAA4EADXgNfA2AFAwcIEgYMA2EDFgNiBABcYIEDYwNkA2UEAGyggQNmA2cFAR4DSAUBIANoA2kDagNrA1IDbAUGIiMkJSYnA20DbgQAqJCCBAoLDA3GAW8BGAAAAAAAAAAAAQABAAAAAAEAAAABAAAAAAACAAAAAPwABwAAAAAAAAABAAEBAAAAAAAAAAAPAAAAAAACAQAAAAAAAAAKAAAAAAMAAAAAAAAAAAABAAEAAAAABQAAAQAAAAAAAAAA+QAACgAAAQAAAQEAAAEAAAAAAAABAAEAAQAAAQAAAAAABQD2AAD9AMcAAAAAAgACAAAABvsBAABNAAESAAAAAPsBAQCfAAIBggABAAEDcACTAgABGAAAAAAAARQBAAAAAwADAAAACPsBAABNAAHGAAAAAPsBAQD7AgIAnwIBAJ8AAAGCAAEAAQNxAJcCcQEYAAAAAAAAAAEYAQAAAAIAAQAAAAb7AAAApAEDAAIEAMAwAQAqAQAAAIIAAQAEAzMDMgNyBAIEAMAAoAIAARgAAAAAAAEhAQAAAAUAAQAAAAr7AAAApAECAAAEAICMAgEAjAMBAIwEAQCfAQQCMAEALAMAAACCAAEABAMWAwYEAAQAgAMXAKgCAAEYAAAAAAAAAAAAASkBAAAAFwAaAAAAnQH7AQAATQABdgAAAAD7AgAATQECagEAAAC7AQEDUgMBAKQCAwAAACBAnwICAcYCAACMAwAA+wUBAE0EBUMEAAAAnwQBAtkFAAASAAEAEgICABICAwASAgQAEgEC/xIBA/8SAAQAEgIFAKQGBgAAAFBAnwYBAtkHAQASAQb/EgIGABIBAv8SAAUAEgABABICAQASAAQA+wsCAE0KC88HAAAAUgwHALwKCscIAAAAnwoDALwIAP0JAAAAnwgAAVIIBQCfCAEB2QgCABICBwASAQL/+woIAE0JCtAKAAAAnwkBAtkKAwASAgkAEgIKABICCwASAgwAEgINABICDgASAg8AEgIQABICEQASAhIAEgITABICFAASAhUAEgIWABIACQASAQL/EgAFABIACAD7DAgATQsM5AsAAABSDAoAnwwBAvsPDQBNDg8xDAAAAE0NDpkNAAAAbw4OAJ8LBAK8DAnTDwAAAJ8MAgIODAgAvAwJ0w8AAACfDAIC+w4JAE0NDgQQAAAAUg4MAJ8NAgHZDgQAEgIIABIACwC8DAD9CQAAAJ8MAwHZDAUAEgIIABIACwASAAoA+w0KALwNDWgRAAAAnw0CBGQNEgBNFBEoEgAAAFIWDAC8FBTHCAAAAJ8UAwC8EgD9CQAAAJ8SAAFNFBFCEwAAAFIWDAC8FBTHCAAAAJ8UAwC8EgD9CQAAAJ8SAAFuDe3/AgAAAMAPFAASAgYAvA0A/QkAAACfDQMB+w4XAE0NDsQVAAAAnw0BAfsNGACfDQEB+w4ZAE0NDlYWAAAAqQ4BAJ8NAgHZDwcAEgABALwNAP0JAAAAnw0DAcECAACCAAEAFwNzAxEDdAQAACBAA3UDMQQAAFBAAzYDdgN3A3gDeQNBA3oDewN8AwEDVAN9A34GEQN/A4ABCAYHCA4PEBESawwBGC4AAAEAAAEAAAAAAgMBAAAAAgAAAAAAAAAAKgAAAgAAAAAAAAAbAAAAAAAAAAAAAwABAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAAEAAAABAAAtAAAAANUAAAAAAAQAAAAEAAAAAAEAAAAAAAAAAAEAAAAAAAAAAP4ABQAAAAAEAAAAAQABAAAAAAIAAAAABgA+AAAAAAIAAQAAAAf7AQAATQABdgAAAAC8AABRAQAAAJ8AAgGCAAEAAgNzA4EBAK8CBAEYAAAAAAAAATABAAAAIwAAAQAA3gKjAAAApAEBAAAAAEBNAAFIAgAAAKQBBAAAADBAbwMFALwBARYGAAAAnwEDAqQCBAAAADBAbwQHALwCAhYGAAAAnwIDAqQDBAAAADBAbwUIALwDAxYGAAAAnwMDAqQEBAAAADBAbwYJALwEBBYGAAAAnwQDAqQFBAAAADBAbwcKALwFBRYGAAAAnwUDAqQGBAAAADBAbwgLALwGBhYGAAAAnwYDAqQHDQAAAMBATQkEwQ4AAABNCAlCDwAAAJ8HAgJNCAfqEAAAAJ8IAQKkCQ0AAADAQE0LBEASAAAATQoLfBEAAACfCQICpAoNAAAAwEBNDARAEgAAAE0LDA0TAAAAnwoCAqQLDQAAAMBATQ0EvRUAAABNDA09FAAAAJ8LAgKkDA0AAADAQE0OBGAXAAAATQ0OLRYAAACfDAICpA0NAAAAwEBNDwTBDgAAAE0OD5QYAAAAnw0CAqQODQAAAMBATRAEhhkAAABNDxCPGgAAAJ8OAgKkDw0AAADAQE0RBMEOAAAATRARbxsAAACfDwICpBANAAAAwEBNEgQtHAAAAE0REsIdAAAAnxACAqQRDQAAAMBATRQEvRUAAABNExS9HwAAAE0SE44eAAAAnxECAqQSDQAAAMBATRUEvRUAAABNFBW9HwAAAE0TFD4gAAAAnxICAqQTDQAAAMBATRUEvRUAAABNFBVJIQAAAJ8TAgKkFA0AAADAQE0WBGIiAAAATRUWyiMAAACfFAICpBUNAAAAwEBNFgQhJAAAAJ8VAgKkFg0AAADAQE0YBKElAAAATRcYdiYAAACfFgICpBcNAAAAwEBNGQStJwAAAE0YGSMoAAAAnxcCAqQYDQAAAMBATRsErScAAABNGhtcKQAAAE0ZGq0nAAAAnxgCAk0ZFcoqAAAA/xoFAAAAAADiGy0AbxwuADAcG5ErAAAAbxwvADAcG2gsAAAAMBsaXDAAAADiGy0AbxwxADAcG5ErAAAAbxwyADAcG2gsAAAAMBsaSDMAAADiGy0Abxw0ADAcG5ErAAAAbxwvADAcG2gsAAAAMBsaHjUAAADiGy0Abxw2ADAcG5ErAAAAbxw3ADAcG2gsAAAAMBsafzgAAADiGy0Abxw5ADAcG5ErAAAAbxw6ADAcG2gsAAAAMBsa0TsAAADiGy0Abxw8ADAcG5ErAAAAbxw9ADAcG2gsAAAAMBsajD4AAADiGy0Abxw/ADAcG5ErAAAAbxxAADAcG2gsAAAAMBsatkEAAADiGy0AbxxCADAcG5ErAAAAbxxDADAcG2gsAAAAMBsawkQAAADiGy0AbxxFADAcG5ErAAAAbxxGADAcG2gsAAAAMBsaP0cAAADiGy0AbxxIADAcG5ErAAAAbxxJADAcG2gsAAAAMBsaxUoAAADiGy0AbxxLADAcG5ErAAAAbxxMADAcG2gsAAAAMBsaTE0AAAD/GwAAAAAAAFIcGgDGHQAAxh4AAGQcCADiIS0AbyJOADAiIZErAAAAbyJPADAiIWgsAAAAaiEbH24c9/8CAAAAwBxQABIAEADAHVEAxh4AAMYfAADGIAAA/yEEAAAAAADGIgAAMCIhalIAAABNIhbvUwAAAJ8iAQIwIiF2JgAAANkiAgASAR7/EgEf/xIBIP8SAAIAEgAhABIAEwASAAkAEgANABIACAASABQAMCIhc1QAAADZIgMAEgAhABIACgASAAMAEgAbABIAGgASAAsAEgAAABIBHv8SABUAEgAQABIABQASAAcAEgAGABIAAQASABMAEgAEABIAFwASABEAEgASABIADgASAA8AEgAZABIAGAASAAwAEgEg/xIBH/8wIiGYVQAAAMAiVgASACEAMCIhz1cAAADBHgAAgiECAFgDXQQAAABAA4IBA4MBBAAAMEADhAEDhQEDhgEDhwEDiAEDiQEDigEDiwEEAADAQAOMAQONAQOOAQOPAQOQAQORAQOSAQOTAQOUAQOVAQOWAQOXAQOYAQOZAQOaAQObAQOcAQOdAQOeAQOfAQOgAQOhAQOiAQOjAQNzA0gDpAEDpQEDpgEDHwMeBQIrLAc9irrCFK54QsOV10MAAAAAB3sULj64HoW+MzNzPwAAAAADpwEHH6WSxGZmLUIKr8TEAAAAAAcK16M8CtejvAAAgL8AAAAAA6gBB7geHEIUrnhCrmeTRAAAAAADqQEH1/OtxDMzg0ApZPXEAAAAAAcUrke/mpmZvs3MDL8AAAAAA6oBB/Ywj8TNzJZB9kDoxAAAAAAHj8I1vwAAAICPwjU/AAAAAAOrAQe4DrLEw/U1QmZu3MQAAAAABwrXI7xI4fq+UrhevwAAAAADrAEHmhmIxHE96kLDnfzEAAAAAAcAAAC/CtejvPYoXD8AAAAAA60BBxSuosT2qIhCFKbFxAAAAAAHH4XrvgrXo7wK12M/AAAAAAOuAQdc7yNE1yOPQvaYg8QAAAAAB4XrEb+PwvU8hetRvwAAAAADrwEHFK5mQ6RwZ0Izw8DEAAAAAAfNzAy/j8L1POF6VL8AAAAAA7ABB1LIOETXoxtCCr+MRAAAAAAHKVxPv+xRuD2F6xG/AAAAAAMvBwAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAIC/AAAAAAYABgEDEQMGAxUDDAYUAwQFAAEFExQBAAEIAAEAAAABAAAAAAABAAAAAAABAAAAAAABAAAAAAABAAAAAAABAAAAAAABAAAAAAAAAQAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAABAAAAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAAABAAwAAQAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAQEAAAEAAP4ABAAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAQAAAM0AAAAAAQAAAAAAAAAAAwABAAAAAQAAAAAAAAD/AAQABAQAAQIAAgAAAQAAAAACAAAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADEAAAABAABAAAAMwAAAAAV/Nlo1RxFZnzOHQJB37oEJLxQIe16HpLDSYvqosf0Y/TlslFjm+kjHw==
+
+-- Decompiled by Krnl
+
+local v_u_1 = workspace.CurrentCamera
+local v_u_2 = game:GetService("Players")
+local v_u_3 = game:GetService("Lighting")
+local v_u_4 = game:GetService("RunService")
+local v_u_5 = game:GetService("ReplicatedStorage")
+local v_u_6 = game:GetService("Teams")
+local v_u_7 = game:GetService("VoiceChatService")
+local v_u_8 = require(v_u_5.App.RunUtils)
+local v_u_9 = v_u_8.isStudio()
+local v_u_10 = require(v_u_5.Module.Localization)
+local v_u_11 = require(v_u_5.Module.CinematicCamera)
+local v_u_12 = require(v_u_5.Game.GameUtil)
+local v_u_13 = require(v_u_5.Inventory.InventoryItemSystem)
+local v_u_14 = require(v_u_5.App.TeamShared)
+local v_u_15 = require(v_u_5.WorldTeleport.WorldTeleportConsts)
+local v_u_16 = require(v_u_5.App.RunConsts)
+local v_u_17 = require(v_u_5.EzUi.EzUtils)
+local v_u_18 = require(v_u_5.Game.Gamepass.GamepassSystem)
+local v_u_19 = require(v_u_5.Game.Gamepass.GamepassUtils)
+local v_u_20 = require(v_u_5.Game.Notification)
+local v_u_21 = require(v_u_5.Resource.Settings)
+local v_u_22 = require(v_u_5.Roact)
+local v23 = require(v_u_5.Std.Maid)
+local v_u_24 = require(v_u_5.TeamSelect.TeamSelectConsts)
+local v_u_25 = require(v_u_5.TeamSelect.UI.TeamSelect)
+local v_u_26 = v_u_22.createElement
+local v_u_27 = {
+	["City2_Start"] = {
+		["p"] = Vector3.new(-93.27, 62.17, 431.17),
+		["LookVector"] = Vector3.new(0.17, -0.26, 0.95)
+	},
+	["PoliceBase1"] = {
+		["p"] = Vector3.new(-1173.16, 43.35, -1573.47),
+		["LookVector"] = Vector3.new(0.02, -0.02, -1)
+	},
+	["City2_Stop"] = {
+		["p"] = Vector3.new(39.03, 62.17, 1179.24),
+		["LookVector"] = Vector3.new(0.17, -0.26, 0.95)
+	},
+	["Prisoner_Cells"] = {
+		["p"] = Vector3.new(-1391.62, 4.1, -1963.13),
+		["LookVector"] = Vector3.new(-0.78, -0.3, -0.55)
+	},
+	["Prisoner_Yard"] = {
+		["p"] = Vector3.new(-1145.53, 18.85, -1858.03),
+		["LookVector"] = Vector3.new(-0.71, -0, 0.71)
+	},
+	["Prisoner_Foodcourt"] = {
+		["p"] = Vector3.new(-1424.46, 45.49, -1763.45),
+		["LookVector"] = Vector3.new(-0.01, -0.49, -0.87)
+	},
+	["City1_Start"] = {
+		["p"] = Vector3.new(-1088.8, 117.12, -2020.93),
+		["LookVector"] = Vector3.new(-0.5, -0.02, 0.86)
+	},
+	["City1_Stop"] = {
+		["p"] = Vector3.new(-1301.44, 68.33, -1581.19),
+		["LookVector"] = Vector3.new(-0.46, -0.02, 0.89)
+	},
+	["City3_Start"] = {
+		["p"] = Vector3.new(655.74, 71.57, -1052.78),
+		["LookVector"] = Vector3.new(-0.57, 0.03, -0.82)
+	},
+	["City3_Stop"] = {
+		["p"] = Vector3.new(230.68, 57.86, -1542.1),
+		["LookVector"] = Vector3.new(-0.55, 0.03, -0.83)
+	},
+	["PoliceBase2"] = {
+		["p"] = Vector3.new(739.13, 38.91, 1125.97),
+		["LookVector"] = Vector3.new(-0.81, 0.09, -0.57)
+	}
+}
+local v_u_28 = {}
+for v29, _ in v_u_27 do
+	v_u_28[v29] = {
+		["p"] = Vector3.new(0, 0, 0),
+		["LookVector"] = Vector3.new(0, 0, -1)
+	}
+end
+local v_u_30 = nil
+local v_u_31 = nil
+local v_u_32 = nil
+local v_u_77 = {
+	["ColorCorrection"] = nil,
+	["Maid"] = v23.new(),
+	["Init"] = function(p33)
+		-- upvalues: (ref) v_u_30, (ref) v_u_31, (ref) v_u_32, (copy) v_u_3, (copy) v_u_77, (copy) v_u_20, (copy) v_u_10, (copy) v_u_14, (copy) v_u_9, (copy) v_u_21
+		v_u_30 = p33.Event
+		v_u_31 = p33.em
+		v_u_32 = p33.OnJump
+		v_u_77.ColorCorrection = v_u_3:FindFirstChild("ColorCorrection")
+		function v_u_31.rqjz8xyx()
+			-- upvalues: (ref) v_u_77
+			v_u_77.Hide()
+		end
+		function v_u_31.ndmw8l9j()
+			-- upvalues: (ref) v_u_20, (ref) v_u_10
+			v_u_20.new({
+				["Text"] = v_u_10:FormatByKey("Teams.TeamFull")
+			})
+		end
+		function v_u_31.fv8dvlfy()
+			-- upvalues: (ref) v_u_14, (ref) v_u_77
+			if v_u_14.isTeamSwitchingEnabled() then
+				v_u_77.Show()
+			end
+		end
+		if not v_u_9 or v_u_21.Test.ChooseTeamInitially then
+			v_u_31.fv8dvlfy()
+		end
+	end,
+	["Show"] = function()
+		-- upvalues: (copy) v_u_77, (copy) v_u_11, (copy) v_u_4, (copy) v_u_28, (copy) v_u_27, (copy) v_u_12, (copy) v_u_1, (ref) v_u_30, (copy) v_u_22, (copy) v_u_17, (copy) v_u_6, (copy) v_u_8, (copy) v_u_7, (copy) v_u_2, (copy) v_u_20, (copy) v_u_5, (copy) v_u_24, (copy) v_u_18, (copy) v_u_19, (copy) v_u_15, (copy) v_u_16, (copy) v_u_26, (copy) v_u_25, (copy) v_u_13, (ref) v_u_32, (ref) v_u_31
+		local v34 = v_u_77.Maid
+		local v_u_35 = v_u_77.ColorCorrection
+		assert(v_u_35)
+		local v_u_36 = nil
+		local v_u_37 = 0
+		local v_u_38 = v_u_11.MakeCinematicCamera()
+		local function v_u_48()
+			-- upvalues: (copy) v_u_35, (ref) v_u_4, (ref) v_u_28, (ref) v_u_27, (ref) v_u_36, (ref) v_u_37, (copy) v_u_38, (ref) v_u_12
+			v_u_35.TintColor = Color3.new(1, 1, 1)
+			local v39
+			if v_u_4:IsStudio() then
+				v39 = v_u_28
+			else
+				v39 = v_u_27
+			end
+			if v_u_36 == nil then
+				v_u_37 = v_u_37 % 3 + 1
+				local v40 = v39["City" .. v_u_37 .. "_Start"]
+				local v41 = v39["City" .. v_u_37 .. "_Stop"]
+				local v42 = CFrame.new(Vector3.new(), v40.LookVector) + v40.p
+				local v43 = CFrame.new(Vector3.new(), v41.LookVector) + v41.p
+				v_u_38.StartPosition = v42.p
+				v_u_38.TargetPosition = v43.p
+				v_u_38.LookVector = v42.LookVector
+				v_u_38.TargetLookVector = nil
+				return
+			elseif v_u_36 == TEAM_PRISONER then
+				local v44 = v39["Prisoner_" .. (v_u_12.Schedule == "Cells" and "Cells" or ((v_u_12.Schedule == "Breakfast" or v_u_12.Schedule == "Dinner") and "Foodcourt" or "Yard"))]
+				local v45 = CFrame.new(Vector3.new(), v44.LookVector) + v44.p
+				v_u_38.StartPosition = nil
+				v_u_38.Position = (v45 * CFrame.new(0, 0, -10) + Vector3.new(0, -5, 0)).p
+				v_u_38.TargetPosition = v45.p
+				v_u_38.LookVector = (v45 * CFrame.Angles(-0.3141592653589793, 0, 0)).lookVector
+				v_u_38.TargetLookVector = v45.LookVector
+			elseif v_u_36 == TEAM_POLICE then
+				local v46 = v39.PoliceBase2
+				local v47 = CFrame.new(Vector3.new(), v46.LookVector) + v46.p
+				v_u_38.StartPosition = nil
+				v_u_38.Position = (v47 * CFrame.new(0, 0, -10) + Vector3.new(0, -5, 0)).p
+				v_u_38.TargetPosition = v47.p
+				v_u_38.LookVector = (v47 * CFrame.Angles(-0.3141592653589793, 0, 0)).lookVector
+				v_u_38.TargetLookVector = v47.LookVector
+			end
+		end
+		local v_u_49 = tick()
+		local function v58(p50)
+			-- upvalues: (ref) v_u_49, (ref) v_u_1, (ref) v_u_36, (copy) v_u_48, (copy) v_u_35, (ref) v_u_11, (copy) v_u_38
+			local v51 = tick()
+			local v52 = v51 - v_u_49
+			if v_u_1.CameraType ~= Enum.CameraType.Scriptable then
+				v_u_1.CameraType = Enum.CameraType.Scriptable
+			end
+			if v_u_36 == nil then
+				if v52 >= 24 then
+					v_u_48()
+					v_u_49 = v51
+				end
+				local v53 = v52 / 24
+				if v53 <= 0.1 then
+					local v54 = v53 / 0.1
+					local v55 = v54 < 0.5 and 2 * v54 * v54 or -1 - 2 * (v54 - 2) * v54
+					v_u_35.TintColor = Color3.new(v55, v55, v55)
+				elseif v53 >= 0.9 then
+					local v56 = 1 - (v53 - 0.9) / 0.1
+					local v57 = v56 < 0.5 and 2 * v56 * v56 or -1 - 2 * (v56 - 2) * v56
+					v_u_35.TintColor = Color3.new(v57, v57, v57)
+				end
+				v_u_11.StepCinematicCamera(p50, v_u_38, 0.1, v53)
+			else
+				v_u_11.StepCinematicCamera(p50, v_u_38, 2, 1)
+			end
+		end
+		v34:GiveTask(v_u_4.RenderStepped:Connect(v58))
+		v_u_48()
+		local function v_u_59()
+			-- upvalues: (ref) v_u_30, (ref) v_u_36
+			v_u_30:FireServer("z" .. ("udubvhvl"):sub(4, 5):reverse():reverse():reverse():reverse():reverse() .. "" .. "" .. ("sdue34"):sub(2, 3):reverse():reverse():reverse() .. "" .. "" .. ("rjlxo"):sub(3, 3):reverse():reverse():reverse() .. "oc", v_u_36)
+		end
+		local v_u_60 = v_u_22.createRef()
+		local function v_u_72()
+			-- upvalues: (ref) v_u_17, (ref) v_u_6, (ref) v_u_8, (ref) v_u_7, (ref) v_u_2, (ref) v_u_20, (ref) v_u_5, (ref) v_u_24, (ref) v_u_18, (ref) v_u_19, (ref) v_u_15, (ref) v_u_16, (ref) v_u_26, (ref) v_u_25, (copy) v_u_60, (ref) v_u_36, (copy) v_u_48, (copy) v_u_59
+			v_u_17.isSmallScreen()
+			local v61 = 1
+			local v62 = 0
+			local v63 = 0
+			for _, v64 in v_u_6:GetChildren() do
+				if v64.Name == "Police" then
+					v63 = v63 + #v64:GetPlayers()
+				else
+					v62 = v62 + #v64:GetPlayers()
+				end
+			end
+			local v_u_65 = v_u_8.getPlaceType() == "Default"
+			local v69 = {
+				{
+					["onClicked"] = function()
+						-- upvalues: (copy) v_u_65, (ref) v_u_7, (ref) v_u_2, (ref) v_u_20, (ref) v_u_5, (ref) v_u_24
+						local v66 = v_u_65 and "VoiceChat" or "Default"
+						local v67, v68 = pcall(function()
+							-- upvalues: (ref) v_u_7, (ref) v_u_2
+							return v_u_7:IsVoiceEnabledForUserIdAsync(v_u_2.LocalPlayer.UserId)
+						end)
+						if v_u_65 and not (v67 and v68) then
+							v_u_20.new({
+								["Text"] = "Enable voice chat to join voice chat servers!"
+							})
+						else
+							v_u_5.TeamSelect:FindFirstChild(v_u_24.TELEPORT_PLACE_TYPE_REMOTE_NAME):FireServer(v66)
+						end
+					end,
+					["text"] = v_u_65 and "VOICECHAT SERVERS" or "MAIN SERVERS"
+				},
+				{
+					["onClicked"] = function()
+						-- upvalues: (ref) v_u_18, (ref) v_u_19, (ref) v_u_5, (ref) v_u_15, (ref) v_u_16
+						if v_u_18.DoesPlayerOwn(v_u_19.EnumGamepass.TradingVIP) then
+							v_u_5:FindFirstChild(v_u_15.TELEPORT_TO_WORLD_FROM_TEAM_SWITCH_NAME):FireServer(v_u_16.TRADE_WORLD_NAME)
+						else
+							v_u_19.PromptGamepass(v_u_19.EnumGamepass.TradingVIP)
+						end
+					end,
+					["text"] = "TRADE WORLD"
+				}
+			}
+			if workspace:GetServerTimeNow() < v_u_24.OG_JB_END_TIME then
+				local v70 = {
+					["onClicked"] = function()
+						-- upvalues: (ref) v_u_5, (ref) v_u_24
+						v_u_5.TeamSelect:FindFirstChild(v_u_24.TELEPORT_PLACE_TYPE_REMOTE_NAME):FireServer("Hang")
+					end,
+					["text"] = "OG JAILBREAK",
+					["textColor"] = Color3.fromHex("e88839")
+				}
+				table.insert(v69, 1, v70)
+			end
+			return v_u_26("ScreenGui", {
+				["IgnoreGuiInset"] = true
+			}, {
+				["TeamSelect"] = v_u_26(v_u_25, {
+					["size"] = UDim2.fromScale(v61, 1),
+					["numPolice"] = v63,
+					["numCriminals"] = v62,
+					["criminalButtonRef"] = v_u_60,
+					["onTeamSelected"] = function(p71)
+						-- upvalues: (ref) v_u_36, (ref) v_u_48, (ref) v_u_59
+						v_u_36 = p71
+						v_u_48()
+						v_u_59()
+					end,
+					["serverButtons"] = v69
+				})
+			})
+		end
+		local v_u_73 = v_u_22.mount(v_u_72(), v_u_2.LocalPlayer.PlayerGui, "TeamSelectGui")
+		if v_u_60:getValue() then
+			local v74 = v_u_60:getValue()
+			v_u_17.selectIfGamepad(v74)
+		end
+		v34:GiveTask(function()
+			-- upvalues: (ref) v_u_22, (copy) v_u_73
+			v_u_22.unmount(v_u_73)
+		end)
+		local function v75()
+			-- upvalues: (ref) v_u_22, (copy) v_u_73, (copy) v_u_72
+			v_u_22.update(v_u_73, v_u_72())
+		end
+		for _, v76 in v_u_6:GetChildren() do
+			v34:GiveTask(v76.PlayerAdded:Connect(v75))
+			v34:GiveTask(v76.PlayerRemoved:Connect(v75))
+		end
+		v34:GiveTask(function()
+			-- upvalues: (ref) v_u_1
+			v_u_1.CameraType = Enum.CameraType.Custom
+		end)
+		v_u_13.unequipAll()
+		v_u_32()
+		v_u_31.f5iqslof(true)
+		v34:GiveTask(function()
+			-- upvalues: (copy) v_u_35
+			v_u_35.TintColor = Color3.new(1, 1, 1)
+		end)
+	end,
+	["Hide"] = function()
+		-- upvalues: (copy) v_u_77
+		v_u_77.Maid:DoCleaning()
+	end
+}
+return v_u_77

@@ -1,0 +1,9 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMHBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlDE5ldHdvcmtPd25lZBJOZXR3b3JrT3duZWRCaW5kZXIFU3RhcnQAAQQAAAECABKjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAwDVBgAAAE0CA7IHAAAAnwECArwCARwIAAAAnwICAYIAAQAJAwEEAAAAQAMCAwMDBAQAAEBAAwUDBgMHAAEAARgAAAAAAAAAAQAAAAAAAAIAAAEBAAAAAABnvkVCbLVvCVV6L9ZJntU7L4UEWxzDDuQGeOpW0cWRg+WKmBjpmjjt
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+require(v1.NetworkOwned.NetworkOwnedBinder):Start()

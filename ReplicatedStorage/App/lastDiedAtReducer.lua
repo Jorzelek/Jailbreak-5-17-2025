@@ -1,0 +1,15 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMKCmxhc3REaWVkQXQSbWlzc2luZyBsYXN0RGllZEF0BmFzc2VydA1zZXRMYXN0RGllZEF0BGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlBVJvZHV4DWNyZWF0ZVJlZHVjZXIAAgUCAAAAAAtNAwG+AAAAAIEBAwQBAAAAbwQBAKQCAwAAACBAnwIDAU0CAb4AAAAAggICAAQDAQMCAwMEAAAgQAAGBAEYAAAAAAAAAAABAAAHAAAAAAYAAAECABWjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAgCnBgAAAJ8BAgJNAgHWBwAAAIwDAADiBAkAwAUKADAFBIYIAAAAnwIDAIICAAALAwUEAAAAQAMGAwcDCAQAAEBAAwkDCgMEBQEIBgABAAEAARgAAQAAAAAAAQAAAAACAAAAAQAA/wABAAAAAAFJ5QNFD7OmZ3shadFaAsCY+/Fz7BCuahcAIWrc7whgdF+g0xTe7XeX
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Rodux).createReducer(0, {
+	["setLastDiedAt"] = function(_, p2)
+		local v3 = p2.lastDiedAt
+		assert(v3, "missing lastDiedAt")
+		return p2.lastDiedAt
+	end
+})

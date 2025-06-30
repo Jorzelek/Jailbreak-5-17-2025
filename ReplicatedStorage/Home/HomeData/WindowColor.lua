@@ -1,0 +1,42 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMjB1dpbmRvd3MORmluZEZpcnN0Q2hpbGQEd2FybhBNaXNzaW5nIHN1Yk1vZGVsC0dldENoaWxkcmVuCEJhc2VQYXJ0A0lzQQROb25lDU9yaWdpbmFsQ29sb3IMR2V0QXR0cmlidXRlBUNvbG9yCE1hdGVyaWFsD0RlZmF1bHRNYXRlcmlhbARQYXJ0BE5hbWUUTm8gcGFydHMgdG8gYXBwbHkgdG8GYXNzZXJ0BWFwcGx5BGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlBnNjcmlwdAZQYXJlbnQJV2FsbENvbG9yBEdhbWUGR2FyYWdlBVBhaW50EkRlZmF1bHRSZWZsZWN0YW5jZRJEaXNhYmxlUmVmbGVjdGFuY2UERW51bQ1TbW9vdGhQbGFzdGljC2dldEluc3RhbmNlDHVwZGF0ZUNhbWVyYQhnZXRJdGVtcwACDQICAAAHBAAABQIPBztvBAAAvAIBAwEAAACfAgMCKwIFAKQDAwAAACBAbwQEAJ8DAgGCAAEAjAMAALwEAmgFAAAAnwQCBGQEHgBvCwYAvAkI/gcAAACfCQMCDgkZAJUDAwgOAAMATQkAPwkAAAAOCQcAbwsKALwJCBILAAAAnwkDAjAJCKQMAAAAZQANAPsJAABNCggtDQAAADAKCcAOAAAA+woBAE0JCkQPAAAAUgoIAE0LALoQAAAA+wwAAJ8JBAFuBOH/AgAAAIwGAAC3BgIAAwAAAKkFAAGpBQEAgQEFBBEAAABvBhEApAQTAAAAIEGfBAMBggABABQDAQMCAwMEAAAgQAMEAwUDBgMHAgAAAAAAAPA/AwgDCQMKAwsDDAMNAw4DDwMQAxEEAAAgQQAQEgEYAAAAAAEBAAAAAQIBAAAAAQAAAAADAQAAAAEAAAAAAAACAAAAAAEAAAAAAAAA9wAMAAAAAAAAAAAAAAERAAAAAAYAAAECADijAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQECkBAcAAABgQE0DBCQIAAAATQIDpQkAAACfAQICpAIFAAAAQEBNBQC9CgAAAE0EBSgLAAAATQMEUQwAAACfAgIC/wMDAAAAAADiBBAAjAUAADAFBMANAAAApAUUABNIEMEwBQTADgAAAKkFAQAwBQQZDwAAAE0FATEVAAAAMAUDMRUAAABNBQERFgAAADAFAxEWAAAATQUBhhcAAAAwBQOGFwAAAMAFGAASAAQAEgACADAFA88ZAAAAggMCABoDEwQAAABAAxQDFQMWBAAAQEADFwQAAGBAAxgDGQMaAxsDHAMdAw0DHgUDDQ4PAx8DDAMgBBNIEMEDIQMiAyMGAAMSAQABAAEYAAEAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAEAAgEAAAEAAAABAAADAAAAAQAAAAEAAAABAAAAABUBAAAAAAFa3HHqZdE+E2gYG34sBGXRIkPhLL4/Rx6UbaDsQhhd08q7EDeEiWYo
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v2 = require(script.Parent.WallColor)
+local v_u_3 = require(v1.Game.Garage.Paint)
+local v4 = {}
+local v_u_5 = {
+	["DefaultReflectance"] = 0,
+	["DefaultMaterial"] = Enum.Material.SmoothPlastic,
+	["DisableReflectance"] = true
+}
+v4.getInstance = v2.getInstance
+v4.updateCamera = v2.updateCamera
+v4.getItems = v2.getItems
+function v4.apply(p6, p7)
+	-- upvalues: (copy) v_u_5, (copy) v_u_3
+	local v8 = p7:FindFirstChild("Windows")
+	if v8 then
+		local v9 = 0
+		for _, v10 in v8:GetChildren() do
+			if v10:IsA("BasePart") then
+				v9 = v9 + 1
+				if p6 and not p6.None then
+					v_u_5.DefaultMaterial = v10.Material
+					v_u_3.Part(v10, p6.Name, v_u_5)
+				else
+					v10.Color = v10:GetAttribute("OriginalColor")
+				end
+			end
+		end
+		local v11 = v9 > 0
+		assert(v11, "No parts to apply to")
+	else
+		warn("Missing subModel")
+	end
+end
+return v4

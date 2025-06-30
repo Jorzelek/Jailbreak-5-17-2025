@@ -1,0 +1,125 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v_u_1.App.RunUtils)
+local v3 = require(v_u_1.App.RunConsts)
+local v4 = {
+	174178041,
+	137380135,
+	820499,
+	75308445,
+	55124844,
+	2235908458,
+	391034465
+}
+local v_u_5 = {
+	["Help"] = true,
+	["UserAlias"] = true
+}
+local v6 = {
+	["groupId"] = 3059674,
+	["minRank"] = 253
+}
+local v7 = {
+	["groupId"] = 5770760,
+	["minRank"] = 100
+}
+if v_u_2.getEnv() == v3.QA_NAME or (v_u_2.getEnv() == v3.DEV_NAME or v_u_2.getEnv() == v3.STUDIO_NAME) then
+	v_u_5.DefaultAdmin = v7
+	v_u_5.Op = {
+		["vipOwner"] = true,
+		["op"] = true,
+		["groupId"] = v7.groupId,
+		["minRank"] = v7.minRank,
+		["userIds"] = v4
+	}
+	v_u_5.DefaultDebug = v7
+	v_u_5.DefaultUtil = v7
+	v_u_5.VipOwner = {
+		["vipOwner"] = true,
+		["groupId"] = v7.groupId,
+		["minRank"] = v7.minRank
+	}
+	v_u_5.Moderator = {
+		["groupId"] = v7.groupId,
+		["minRank"] = v7.minRank,
+		["userIds"] = v4
+	}
+else
+	v_u_5.DefaultAdmin = v6
+	v_u_5.Op = {
+		["vipOwner"] = true,
+		["op"] = true,
+		["groupId"] = v6.groupId,
+		["minRank"] = v6.minRank,
+		["userIds"] = v4
+	}
+	v_u_5.DefaultDebug = v6
+	v_u_5.DefaultUtil = v6
+	v_u_5.VipOwner = {
+		["vipOwner"] = true,
+		["groupId"] = v6.groupId,
+		["minRank"] = v6.minRank
+	}
+	v_u_5.Moderator = {
+		["groupId"] = v6.groupId,
+		["minRank"] = v6.minRank,
+		["userIds"] = v4
+	}
+end
+function v_u_5.isOp(p8)
+	-- upvalues: (copy) v_u_1
+	return v_u_1:FindFirstChild("OpList"):FindFirstChild(p8.UserId) ~= nil
+end
+function v_u_5.groupAllowed(p9, p10)
+	-- upvalues: (copy) v_u_2, (copy) v_u_5, (copy) v_u_1
+	local v11 = p9 ~= nil
+	assert(v11, "player missing")
+	local v12 = p9.Parent == game:GetService("Players")
+	assert(v12, "player is not a Player")
+	local v13 = p10 ~= nil
+	assert(v13, "group missing")
+	local v14 = typeof(p10) == "string"
+	assert(v14, "group must be a string")
+	if v_u_2.isStudio() then
+		return true
+	end
+	local v15 = v_u_5[p10]
+	if v15 then
+		if typeof(v15) == "boolean" then
+			return true
+		end
+		if typeof(v15) == "table" then
+			local v16 = v15.vipOwner and v_u_1:FindFirstChild("VipOwnerId")
+			if v16 then
+				local v17 = v16.Value > 0
+				assert(v17, "vipOwnerId not > 0")
+				if p9.UserId == v16.Value then
+					return true
+				end
+			end
+			if v15.op and v_u_5.isOp(p9) then
+				return true
+			end
+			if v15.userIds and table.find(v15.userIds, p9.UserId) then
+				return true
+			end
+			if v15.groupId then
+				if v15.minRank then
+					if p9:GetRankInGroup(v15.groupId) >= v15.minRank then
+						return true
+					end
+				elseif p9:IsInGroup(v15.groupId) then
+					return true
+				end
+			end
+		end
+	end
+	return false
+end
+return v_u_5

@@ -1,0 +1,11 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMJBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlA1N0ZApUYWJsZVV0aWxzGnJlcXVpcmVWYWxpZEluZGV4QW5kRnJlZXplCFRBR19OQU1FB1N1cmZhY2UAAQUAAAECABajAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAwChBgAAAE0CAxgHAAAAnwECAk0CAQAIAAAA4gMKAG8ECwAwBAO0CQAAAJ8CAgCCAgAADAMBBAAAAEADAgMDAwQEAABAQAMFAwYDBwMIBQEJAwkAAQABGAABAAAAAAABAAAAAAAAAQAAAQAA/wABAAAAAADo57Zo1+NK2toj3PzCHgN59p399MCNtJ4/UkB63QIwEyc00vAsmzmu
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Std.TableUtils).requireValidIndexAndFreeze({
+	["TAG_NAME"] = "Surface"
+})

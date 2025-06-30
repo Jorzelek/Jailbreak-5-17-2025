@@ -1,0 +1,16 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMPIVN1cnZpdmUgJWQgbWludXRlcyB3aXRob3V0IGR5aW5nLgdHZXRHb2FsBmZvcm1hdARnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQhTZXR0aW5ncwhSZXNvdXJjZQhFbnVtVGVhbQZQb2xpY2UGdGVhbUlkB21lc3NhZ2UEZ29hbAlyZXdhcmRFeHAAAgUBAAAABwAAAQMBBAIIbwEAALwDABUBAAAAnwMCALwBAY0CAAAAnwEAAIIBAAADAwEDAgMDAAcAARgAAAAAAAAAAAgAAAAABQAAAQIAIKMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0DAGIHAAAATQIDygYAAACfAQIC/wIDAAAAAABNBAFMCAAAAE0DBLIJAAAAMAMCbwoAAADAAwsAMAMCmAwAAACMAwcAMAMCCg0AAACMAxkAMAMCAw4AAACCAgIADwMEBAAAAEADBQMGAwcEAABAQAMIAwkDCgMLAwwGAAMNAw4DDwEAAQABGAABAAAAAAABAAAAAAAAAgABAAAAAAABAAADAAABAAABAQAAAAABqlZzyuSmnOyYkhlefK/ISR91iEujIP4jy8PKQKGgZ0zHP2PmeENfSA==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return {
+	["teamId"] = require(v1.Resource.Settings).EnumTeam.Police,
+	["message"] = function(p2)
+		return ("Survive %d minutes without dying."):format(p2:GetGoal())
+	end,
+	["goal"] = 7,
+	["rewardExp"] = 25
+}

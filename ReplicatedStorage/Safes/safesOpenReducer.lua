@@ -1,0 +1,18 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMLBXZhbHVlDW1pc3NpbmcgdmFsdWUGYXNzZXJ0DHNldFNhZmVzT3Blbg90b2dnbGVTYWZlc09wZW4EZ2FtZRFSZXBsaWNhdGVkU3RvcmFnZQpHZXRTZXJ2aWNlB3JlcXVpcmUFUm9kdXgNY3JlYXRlUmVkdWNlcgADBQIAAAAAD00EAcwAAAAARwQCAAAAAICpAwABqQMBAIEBAwQBAAAAbwQBAKQCAwAAACBAnwIDAU0CAcwAAAAAggICAAQDAQMCAwMEAAAgQAAGBAEYAAAAAAAAAAAAAAAAAQAABwAAAAACAQAAAAACVgEAAIIBAgAAAAoFARgAAAsAAAAABgAAAQIAGKMAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0CAKcGAAAAnwECAk0CAdYHAAAAqQMAAOIECgDABQsAMAUEywgAAADABQwAMAUEDgkAAACfAgMAggIAAA0DBgQAAABAAwcDCAMJBAAAQEADCgMLAwQDBQUCCAkGAAYBAgABAQABGAABAAAAAAABAAAAAAIAAAABAAAEAAD7AAEAAAAAAvluBwN60B9Fy6ptl/l2UwQzOn7E5u5IAiThh98jUxkkzN6oqNWWDE0=
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Rodux).createReducer(false, {
+	["setSafesOpen"] = function(_, p2)
+		local v3 = p2.value ~= nil
+		assert(v3, "missing value")
+		return p2.value
+	end,
+	["toggleSafesOpen"] = function(p4)
+		return not p4
+	end
+})

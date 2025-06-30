@@ -1,0 +1,15 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMKBXZhbHVlDW1pc3NpbmcgdmFsdWUGYXNzZXJ0G3NldENyZXdzSW5TZXJ2ZXJEaXNwbGF5SW5mbwRnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UHcmVxdWlyZQVSb2R1eA1jcmVhdGVSZWR1Y2VyAAIFAgAAAAAPTQQBzAAAAABHBAIAAAAAgKkDAAGpAwEAgQEDBAEAAABvBAEApAIDAAAAIECfAgMBTQIBzAAAAACCAgIABAMBAwIDAwQAACBAAAYEARgAAAAAAAAAAAAAAAABAAAHAAAAAAYAAAECABajAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAgCnBgAAAJ8BAgJNAgHWBwAAAP8DAAAAAAAA4gQJAMAFCgAwBQQJCAAAAJ8CAwCCAgAACwMFBAAAAEADBgMHAwgEAABAQAMJAwoDBAUBCAYAAQABAAEYAAEAAAAAAAEAAAAAAgAAAAABAAD/AAEAAAAAAfS1Rul8SYtOxnEsfYuzpGyButFuQDZrvJNV3hurPWqhiA6OTbXZhDs=
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+return require(v1.Rodux).createReducer({}, {
+	["setCrewsInServerDisplayInfo"] = function(_, p2)
+		local v3 = p2.value ~= nil
+		assert(v3, "missing value")
+		return p2.value
+	end
+})

@@ -1,0 +1,49 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMWDlByb21wdFB1cmNoYXNlBmFzc2VydARJbml0BmlwYWlycwVUaXRsZQxFbnVtR2FtZXBhc3MTR2V0R2FtZXBhc3NGcm9tRW51bQ5Qcm9tcHRHYW1lcGFzcwZQYXNzSWQVR2V0R2FtZXBhc3NGcm9tUGFzc0lkBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlA1N0ZAZFbnVtZXIMR2FtZXBhc3NEYXRhBEdhbWUIR2FtZXBhc3MFdGFibGUGaW5zZXJ0EUxpc3RHYW1lcGFzc1RpdGxlAAUEAQEAAAAK+wEAAE0DAGEAAAAAuwEDAqQCAgAAABBAnwICAjACAWEAAAAAggABAAMDAQMCBAAAEEAADgMBGAAAAAAAAAAAAAEPAAAAAAoBAgAAABGkAQEAAAAAQPsCAACfAQIEUQEJAE0GBboCAAAA+wkBAE0ICY0DAAAAhwcIBpoHAgAAAAAAggUCAG4B9v8CAACAggABAAQDBAQAAABAAwUDBgARBwEYAAAAAAABAAEAAAAAAAH9AAYSAAAAAAQBAQAAABD7AgAATQECrgAAAABSAgAAnwECArsBAQNSAwEApAICAAAAEECfAgIB+wMAAE0CA2EDAAAAUgMBAJ8CAgGCAAEABAMHAwIEAAAQQAMBABkIARgAAAAAAAEAAAAAAQAAAAABGgAAAAAHAQEAAAANpAEBAAAAAED7AgAAnwECBFEBBQBNBgWQAgAAAJoGAgAAAAAAggUCAG4B+v8CAACAggABAAMDBAQAAABAAwkAHgoBGAAAAAAAAQAAAAH+AAUfAAAAAAwAAAEAAEOjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAwChBgAAAE0CA1cHAAAAnwECAqQCBQAAAEBATQUAvQkAAABNBAW9CgAAAE0DBIUIAAAAnwICAv8DAAAAAAAApAQMAAAAsEBSBQIAnwQCBFEECABNCwi6DQAAAJ40AwQLAAAAUgoDAKQJEAAAPOCAnwkDAW4E9/8CAACA/wQEAAAAAAAwAwR4EQAAAFIFAQBSBgMAnwUCAjAFBI0SAAAAwAUTABIABAAwBQRzFAAAAMAFFQASAAIAEgAEADAFBK4WAAAAwAUXABIABAAwBQTwGAAAAMAFGQASAAIAMAUEHhoAAACCBAIAGwMLBAAAAEADDAMNAw4EAABAQAMPAxADEQMSAxMDBAQAALBAAwUDFAMVBAA84IADFgMGBgADAwYBAwcGAgMIBgMDCgQAAQIDAQABGAABAAAAAAABAAAAAAAAAQAAAAAAAAAAAgABAAAAAAEAAAAAAAAA/wAEAAEAAQAAAAABAAAAAwAAAAAIAAAABQAAAAcBAAAAAAQ5/FYX/P/pCgs4PINP+/mXRFPXYRvtCoxE4kBkXkQcrwNNXLCcW9EH
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v2 = require(v1.Std.Enumer)
+local v_u_3 = require(v1.Game.Gamepass.GamepassData)
+local v4 = {}
+for _, v5 in ipairs(v_u_3) do
+	local v6 = v5.Title
+	table.insert(v4, v6)
+end
+local v_u_17 = {
+	["ListGamepassTitle"] = v4,
+	["EnumGamepass"] = v2(v4),
+	["Init"] = function(p7)
+		-- upvalues: (copy) v_u_17
+		local v8 = v_u_17
+		local v9 = p7.PromptPurchase
+		v8.PromptPurchase = assert(v9)
+	end,
+	["GetGamepassFromEnum"] = function(p10)
+		-- upvalues: (copy) v_u_3, (copy) v_u_17
+		for _, v11 in ipairs(v_u_3) do
+			local v12 = v11.Title
+			if v_u_17.EnumGamepass[v12] == p10 then
+				return v11
+			end
+		end
+	end,
+	["PromptGamepass"] = function(p13)
+		-- upvalues: (copy) v_u_17
+		local v14 = v_u_17.GetGamepassFromEnum(p13)
+		assert(v14)
+		v_u_17.PromptPurchase(v14)
+	end,
+	["GetGamepassFromPassId"] = function(p15)
+		-- upvalues: (copy) v_u_3
+		for _, v16 in ipairs(v_u_3) do
+			if v16.PassId == p15 then
+				return v16
+			end
+		end
+	end
+}
+return v_u_17

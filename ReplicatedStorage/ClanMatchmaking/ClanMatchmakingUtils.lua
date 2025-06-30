@@ -1,0 +1,44 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMYBnR5cGVvZgZzdHJpbmcVSW52YWxpZCBjbGFuSWQgcGFzc2VkBmFzc2VydB1DTEFOX0lTX1JFQURJRURfVVBfTU9ERUxfTkFNRQ5GaW5kRmlyc3RDaGlsZAhJbnN0YW5jZQNuZXcJQm9vbFZhbHVlBE5hbWUGUGFyZW50B0Rlc3Ryb3kSc2V0SXNDbGFuUmVhZGllZFVwEmdldElzQ2xhblJlYWRpZWRVcBRvYnNlcnZlQ2hpbGRyZW5OYW1lZBZvYnNlcnZlSXNDbGFuUmVhZGllZFVwBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlD0NsYW5NYXRjaG1ha2luZxVDbGFuTWF0Y2htYWtpbmdDb25zdHMDU3RkD1J4SW5zdGFuY2VVdGlscwAEBgICAAAAK7ssAANSBQAApAQBAAAAAECfBAIC8AQCAAIAAACpAwABqQMBAIEBAwQDAAAAbwQDAKQCBQAAAEBAnwIDAfsCAAD7BQEATQQFtwYAAAC8AgIDBwAAAJ8CAwJSBQAAvAMCAwcAAACfAwMCDgELACsDCQCkBAoAACSAgG8FCwCfBAICUgMEADAAA7oMAAAAMAIDJA0AAACCAAEADgMDALwEA1AOAAAAnwQCAYIAAQAPAwEEAAAAQAMCAwMDBAQAAEBAAwUDBgMHAwgEACSAgAMJAwoDCwMMAAgNARgAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAEBAQAAAAABAAEAAgIBAAACCQAAAAAFAQIAAAAiuywAA1IEAACkAwEAAAAAQJ8DAgLwAwIAAgAAAKkCAAGpAgEAgQECBAMAAABvAwMApAEFAAAAQECfAQMB+wEAAPsEAQBNAwS3BgAAALwBAQMHAAAAnwEDAlIEAAC8AgEDBwAAAJ8CAwIrAgIAqQMAAIIDAgBHAgIAAAAAgKkDAAGpAwEAggMCAAgDAQQAAABAAwIDAwMEBAAAQEADBQMGABoOARgAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAEBAAIAAAAAGwAAAAAHAgMAAAAP+wIAAPsFAQBNBAW3AAAAALwCAgMBAAAAnwIDAvsEAgBNAwStAgAAAFIEAgBSBQAAUgYBAJ8DBACCAwAAAwMFAwYDDwAjEAEYAAAAAAAAAAEAAAAAAAAAJAAAAAAFAAABAgAoowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBBQAAAEBATQMA3gYAAABNAgP3BwAAAJ8BAgKkAgUAAABAQE0EAKEIAAAATQMEUgkAAACfAgIC/wMDAAAAAADABAoAEgAAABIAAQAwBANSCwAAAMAEDAASAAAAEgABADAEA0YNAAAAwAQOABIAAAASAAEAEgACADAEAyEPAAAAggMCABADEQQAAABAAxIDEwMUBAAAQEADFQMWAxcDGAYAAw0GAQMOBgIDEAMAAQIBAAEYAAEAAAAAAAEAAAAAAAABAAAAAAAAAgACAAAAABIAAAAACQAAAAAABAEAAAAAAxghLpHpkuhOKuVEBXagslMQV13nLi9APDWUvOVZioDZ7hoHY0GAAl4=
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v_u_1.ClanMatchmaking.ClanMatchmakingConsts)
+local v_u_3 = require(v_u_1.Std.RxInstanceUtils)
+return {
+	["setIsClanReadiedUp"] = function(p4, p5)
+		-- upvalues: (copy) v_u_1, (copy) v_u_2
+		local v6 = typeof(p4) == "string"
+		assert(v6, "Invalid clanId passed")
+		local v7 = v_u_1:FindFirstChild(v_u_2.CLAN_IS_READIED_UP_MODEL_NAME)
+		local v8 = v7:FindFirstChild(p4)
+		if p5 then
+			if not v8 then
+				local v9 = Instance.new("BoolValue")
+				v9.Name = p4
+				v9.Parent = v7
+			end
+		elseif v8 then
+			v8:Destroy()
+		end
+	end,
+	["getIsClanReadiedUp"] = function(p10)
+		-- upvalues: (copy) v_u_1, (copy) v_u_2
+		local v11 = typeof(p10) == "string"
+		assert(v11, "Invalid clanId passed")
+		local v12 = v_u_1:FindFirstChild(v_u_2.CLAN_IS_READIED_UP_MODEL_NAME):FindFirstChild(p10)
+		if v12 then
+			return v12 ~= nil
+		else
+			return false
+		end
+	end,
+	["observeIsClanReadiedUp"] = function(p13, p14)
+		-- upvalues: (copy) v_u_1, (copy) v_u_2, (copy) v_u_3
+		local v15 = v_u_1:FindFirstChild(v_u_2.CLAN_IS_READIED_UP_MODEL_NAME)
+		return v_u_3.observeChildrenNamed(v15, p13, p14)
+	end
+}

@@ -1,0 +1,9 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMHBGdhbWURUmVwbGljYXRlZFN0b3JhZ2UKR2V0U2VydmljZQdyZXF1aXJlBVRyYWRlHE90aGVyVHJhZGVTZXJ2ZXJSZWdpb25CaW5kZXIFU3RhcnQAAQQAAAECABKjAAAApAABAAAAAEBvAgIAvAAAFgMAAACfAAMCpAEFAAAAQEBNAwC7BgAAAE0CA0sHAAAAnwECArwCARwIAAAAnwICAYIAAQAJAwEEAAAAQAMCAwMDBAQAAEBAAwUDBgMHAAEAARgAAQAAAAAAAQAAAAAAAAEAAAEBAAAAAABBNZK3oL1tp3Px+CP8Q9weQITtvDs5EmHlKTNyizc+iY0LeN15mLzX
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+require(v1.Trade.OtherTradeServerRegionBinder):Start()

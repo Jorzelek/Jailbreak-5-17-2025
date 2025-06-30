@@ -1,0 +1,48 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMcBGluaXQFcHJpbnQRY2xpY2tlZCBjb250cmFjdHMHb25DbGljawRuYW1lB2ltYWdlSWQKVGVhbVN3aXRjaAVjb3VudAlDb250cmFjdHMGR2FyYWdlBlNlYXNvbg1jcmVhdGVFbGVtZW50B2J1dHRvbnMGcmVuZGVyC3dpbGxVbm1vdW50B3VubW91bnQJQ29tcG9uZW50A0FwcAZleHRlbmQHcmVxdWlyZQxUb3BiYXJIb2xkZXIGc2NyaXB0BlBhcmVudAVtb3VudARnYW1lEVJlcGxpY2F0ZWRTdG9yYWdlCkdldFNlcnZpY2UFUm9hY3QABwEBAAAAAAGCAAEAAAAIAQEYAAgAAAAABAEAAAAABqQBAQAAAABAbwICAFIDAACfAQMBggABAAMDAgQAAABAAwMAEwQBGAAAAAAAARQAAAAABwECAAAAL/8BAAAEAAAA4gICAG8DAwAwAwJaAAAAAG8DBAAwAwK2AQAAAOIDBwBvBAgAMAQDWgAAAABvBAkAMAQDtgEAAACMBAMAMAQDGgUAAADABAoAMAQDbgYAAADiBAIAbwULADAFBFoAAAAAbwUMADAFBLYBAAAA4gUCAG8GDQAwBgVaAAAAAG8GCQAwBgW2AQAAAMUBAgUBAAAA+wMAAE0CA8oOAAAA+wMBAOIEEAAwAQTzDwAAAJ8CAwCCAgAAEQMFAwYFAgABAwcCAACwUKtM8kEDCAMEBQQAAQUGAwkCAADQvtzY9kEGAQMKAgAA4CarTPJBAwsDDAMNBQEPAQEJDgEYAAABAQAAAQAAAgEAAAEAAAEAAAEAAAQBAAABAAACAQAAAQAAAAADAAAAAAEA/wAKAAAAAAEBAAAAAAGCAAEAAAAkDwEYACQAAAAAAgACAAAABvsBAABNAAESAAAAAPsBAQCfAAIBggABAAEDEAAnAAEYAAAAAAABKAAAAAAGAQEAAAAp+wIAAE0BAogAAAAAbwMBALwBAZwCAAAAnwEDAqQCBAAAADBApAUHAAAAYEBNBAUkCAAAAE0DBGMFAAAAnwICAsADCQAwAwETCgAAANkDAQASAgAAEgACADADAYALAAAAwAMMADADATQNAAAA+wQAAE0DBOQOAAAA+wUAAE0EBcoPAAAAUgUBAJ8EAgJSBQAAnwMDAtkEAwASAgAAEgADAIIEAgAQAxEDEgMTAxQEAAAwQAMVAxYEAABgQAMXBgADAQMOBgMDDwMYAwwEAAIDBAUAARgAAAAAAAAAAQAAAAAAAAAAAQAAAQAAAAAbAAACAAAAAAAAAAAAAQAAAAYAAAAAAwAAAQIAD6MAAACkAAEAAAAAQG8CAgC8AAAWAwAAAJ8AAwKkAQUAAABAQE0CACEGAAAAnwECAsACBwASAAEAggICAAgDGQQAAABAAxoDGwMUBAAAQEADHAYFAQUBAAEYAAEAAAAAAAEAAAAAAgAAAQAAAAAGbB1qQScl/Wpe2QDVjJO6VAkUuzAUr/q2P+658QV3KjvdWSoFvBDHPg==
+
+-- Decompiled by Krnl
+
+local v1 = game:GetService("ReplicatedStorage")
+local v_u_2 = require(v1.Roact)
+return function(p3)
+	-- upvalues: (copy) v_u_2
+	local v4 = v_u_2.Component:extend("App")
+	local v_u_5 = require(script.Parent.TopbarHolder)
+	function v4.init(_) end
+	function v4.render(_)
+		-- upvalues: (ref) v_u_2, (copy) v_u_5
+		return v_u_2.createElement(v_u_5, {
+			["buttons"] = {
+				{
+					["name"] = "TeamSwitch",
+					["imageId"] = 4912231691
+				},
+				{
+					["name"] = "Contracts",
+					["imageId"] = 6132976621,
+					["count"] = 3,
+					["onClick"] = function(p6)
+						print("clicked contracts", p6)
+					end
+				},
+				{
+					["name"] = "Garage",
+					["imageId"] = 4912231022
+				},
+				{
+					["name"] = "Season",
+					["imageId"] = 6132976621
+				}
+			}
+		})
+	end
+	function v4.willUnmount(_) end
+	local v_u_7 = v_u_2.mount(v_u_2.createElement(v4), p3)
+	return function()
+		-- upvalues: (ref) v_u_2, (copy) v_u_7
+		v_u_2.unmount(v_u_7)
+	end
+end

@@ -1,0 +1,138 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgNIBmFzc2VydAxzZXRtZXRhdGFibGUDR3VpA25ldwRNYWlkEk9uUmVmcmVzaFJlcXVlc3RlZAhHaXZlVGFzawhMaXN0SXRlbQxVSUxpc3RMYXlvdXQTQWJzb2x1dGVDb250ZW50U2l6ZQVVRGltMgFZCkNhbnZhc1NpemUHQXNzZXRJZA5HZXRQcm9kdWN0SW5mbwROYW1lCHRvc3RyaW5nBVRpdGxlBFRleHQGY2FuY2VsFUdldExvY2FsVmVoaWNsZVBhY2tldAZQbGF5SWQUSXNQbGF5aW5nVGhpcmRQZXJzb24JUGFzc2VuZ2VyBXRhYmxlBnJlbW92ZQVTb25ncwRGaXJlEU9uUGxheWxpc3RVcGRhdGVkDEN1cnJlbnRTb3VuZAVlcnJvci5BdHRlbXB0ZWQgdG8gYWRkIHNvbmcgd2hlbiBubyBzb25nIGlzIHBsYXlpbmchDkN1cnJlbnRTb3VuZElkBmlwYWlycylBdHRlbXB0ZWQgdG8gYWRkIHJlcGVhdCBzb25nIHRvIHBsYXlsaXN0LhtDaGVja09yUHJvbXB0U3RlcmVvR2FtZXBhc3MGaW5zZXJ0CUNvbnRhaW5lcgdTaWRlYmFyDlNjcm9sbGluZ0ZyYW1lGEdldFByb3BlcnR5Q2hhbmdlZFNpZ25hbAdDb25uZWN0Ckl0ZW1QcmVzZXQFQ2xvbmUHcmVzb2x2ZQdhbmRUaGVuB2ZpbmFsbHkHVmlzaWJsZQZQYXJlbnQLTGF5b3V0T3JkZXIEUGxheRBNb3VzZUJ1dHRvbjFEb3duBkRlbGV0ZQhFZGl0YWJsZQdOZXdTb25nA0FkZAhQb3B1bGF0ZQdEZXN0cm95BGdhbWUSTWFya2V0cGxhY2VTZXJ2aWNlCkdldFNlcnZpY2URUmVwbGljYXRlZFN0b3JhZ2UHcmVxdWlyZQNTdGQGU2lnbmFsB1Byb21pc2UHVmVoaWNsZQxWZWhpY2xlVXRpbHMLUmFkaW9QbGF5ZXIGc2NyaXB0ClJhZGlvVXRpbHMHX19pbmRleAAMBQEDAAAAKLsBAANSAgAApAEBAAAAAECfAQIB/wEDAAAAAAD7BAAAnj0BBAQAAABSAwEApAIDAAAAIECfAgMBMAABHwQAAAD7AwEATQID7wUAAACfAgECMAIBdgYAAAD7AwIATQID7wUAAACfAgEC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
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("MarketplaceService")
+local v2 = game:GetService("ReplicatedStorage")
+local v_u_3 = require(v2.Std.Maid)
+local v_u_4 = require(v2.Std.Signal)
+local v_u_5 = require(v2.Std.Promise)
+local v_u_6 = require(v2.Vehicle.VehicleUtils)
+local v_u_7 = require(script.Parent.RadioPlayer)
+local v_u_8 = require(script.Parent.RadioUtils)
+local v_u_9 = {}
+v_u_9.__index = v_u_9
+function v_u_9.new(p10)
+	-- upvalues: (copy) v_u_9, (copy) v_u_3, (copy) v_u_4
+	assert(p10)
+	local v11 = {}
+	local v12 = v_u_9
+	setmetatable(v11, v12)
+	v11.Gui = p10
+	v11.Maid = v_u_3.new()
+	v11.OnRefreshRequested = v_u_4.new()
+	v11.Maid:GiveTask(v11.OnRefreshRequested)
+	v11.ListItem = {}
+	return v11
+end
+function v_u_9.Populate(p_u_13, p_u_14)
+	-- upvalues: (copy) v_u_5, (copy) v_u_1, (copy) v_u_6, (copy) v_u_7, (copy) v_u_8
+	assert(p_u_14)
+	local v_u_15 = p_u_13.Gui.Container.Sidebar.ScrollingFrame
+	p_u_13.Maid:GiveTask(v_u_15.UIListLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
+		-- upvalues: (copy) v_u_15
+		local v16 = v_u_15.UIListLayout.AbsoluteContentSize
+		v_u_15.CanvasSize = UDim2.new(0, 0, 0, v16.Y)
+	end))
+	for v_u_17, v_u_18 in ipairs(p_u_14.Songs) do
+		local v_u_19 = v_u_15.ItemPreset:Clone()
+		v_u_19.Name = v_u_18.AssetId
+		local v20 = v_u_19.Title
+		local v21 = v_u_18.Name
+		if not v21 then
+			local v22 = v_u_18.AssetId
+			v21 = tostring(v22)
+		end
+		v20.Text = v21
+		if v_u_18.Name == nil then
+			local v_u_23 = nil
+			v_u_23 = v_u_5.resolve():andThen(function()
+				-- upvalues: (ref) v_u_1, (copy) v_u_18
+				return v_u_1:GetProductInfo(v_u_18.AssetId)
+			end):andThen(function(p24)
+				-- upvalues: (copy) v_u_18, (copy) v_u_19
+				local v25 = v_u_18
+				local v26 = p24.Name
+				v25.Name = tostring(v26)
+				v_u_19.Title.Text = v_u_18.Name
+			end):finally(function()
+				-- upvalues: (ref) v_u_23
+				if v_u_23 then
+					v_u_23:cancel()
+				end
+			end)
+			p_u_13.Maid:GiveTask(function()
+				-- upvalues: (ref) v_u_23
+				if v_u_23 then
+					v_u_23:cancel()
+				end
+			end)
+		end
+		v_u_19.Visible = true
+		v_u_19.Parent = v_u_15
+		v_u_19.LayoutOrder = v_u_17
+		p_u_13.Maid:GiveTask(v_u_19.Play.MouseButton1Down:Connect(function()
+			-- upvalues: (ref) v_u_6, (ref) v_u_7, (copy) v_u_18
+			local v27 = v_u_6.GetLocalVehiclePacket()
+			local v28 = v_u_7.PlayId
+			local v29 = v_u_18.AssetId
+			local v30 = nil
+			local v31 = v_u_7.IsPlayingThirdPerson()
+			if not v31 then
+				if v27 == nil then
+					v31 = false
+				else
+					v31 = not v27.Passenger
+				end
+			end
+			v28(v29, v30, v31)
+		end))
+		v_u_19.Delete.Visible = p_u_14.Editable
+		if p_u_14.Editable then
+			p_u_13.Maid:GiveTask(v_u_19.Delete.MouseButton1Down:Connect(function()
+				-- upvalues: (copy) p_u_14, (copy) v_u_17, (copy) p_u_13, (ref) v_u_7
+				table.remove(p_u_14.Songs, v_u_17)
+				p_u_13.OnRefreshRequested:Fire()
+				v_u_7.OnPlaylistUpdated:Fire(p_u_14)
+			end))
+		end
+		p_u_13.Maid:GiveTask(v_u_19)
+		local v32 = #p_u_13.ListItem == v_u_17 - 1
+		assert(v32)
+		local v33 = p_u_13.ListItem
+		table.insert(v33, v_u_19)
+	end
+	if p_u_14.Editable then
+		v_u_15.NewSong.LayoutOrder = #p_u_14.Songs + 1
+		p_u_13.Maid:GiveTask(v_u_15.NewSong.Add.MouseButton1Down:Connect(function()
+			-- upvalues: (ref) v_u_7, (copy) p_u_14, (ref) v_u_8, (copy) p_u_13
+			if v_u_7.CurrentSound == nil then
+				error("Attempted to add song when no song is playing!")
+			end
+			local v34 = v_u_7.CurrentSoundId
+			for _, v35 in ipairs(p_u_14.Songs) do
+				if v35.AssetId == v34 then
+					error("Attempted to add repeat song to playlist.")
+				end
+			end
+			if not v_u_8.CheckOrPromptStereoGamepass() then
+				return false
+			end
+			local v36 = p_u_14.Songs
+			table.insert(v36, {
+				["AssetId"] = v34
+			})
+			p_u_13.OnRefreshRequested:Fire()
+			v_u_7.OnPlaylistUpdated:Fire(p_u_14)
+		end))
+	end
+	v_u_15.NewSong.Visible = p_u_14.Editable
+end
+function v_u_9.Destroy(p37)
+	p37.Maid:Destroy()
+	p37.Maid = nil
+end
+return v_u_9
